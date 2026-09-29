@@ -5,7 +5,7 @@
    "nome": "Amadeu Russo – Método Completo de Saxofone",
    "instrumento": "saxalto",
    "ordem": 1,
-   "total": 42,
+   "total": 44,
    "secoes": [
     {
      "titulo": "Primeiros estudos",
@@ -286,6 +286,18 @@
        "titulo": "Estudo melódico 12 · Allegretto",
        "tipo": "estudo",
        "pagina": "16"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p017-01.txt",
+       "titulo": "Intervalos de 7ª · nº 1",
+       "tipo": "exercicio",
+       "pagina": "17"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p017-02.txt",
+       "titulo": "Intervalos de 7ª · nº 2",
+       "tipo": "exercicio",
+       "pagina": "17"
       }
      ]
     }
