@@ -2,7 +2,8 @@ const {chromium}=require(process.env.PLAYWRIGHT_PATH || 'playwright');const asse
 (async()=>{const browser=await chromium.launch({channel:'chrome',headless:true,args:['--no-proxy-server']});try{
 const page=await browser.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));
 await page.route('http://localhost:8765/**',r=>r.fulfill({path:path.join(__dirname,'../site',new URL(r.request().url()).pathname==='/'?'index.html':new URL(r.request().url()).pathname)}));
-await page.goto('http://localhost:8765/',{waitUntil:'domcontentloaded'});await page.locator('#login-user').fill('admin');await page.locator('#login-password').fill('ccb123');await page.locator('#login-form button').click();
+await require('./account-fixture.cjs')(page);
+await page.goto('http://localhost:8765/',{waitUntil:'domcontentloaded'});await page.locator('#login-user').fill('test@example.com');await page.locator('#login-password').fill('test-password');await page.locator('#login-submit').click();
 await page.locator('#practice-open').click();await page.locator('#practice-score-details > summary').click();
 for(const width of [1440,768,390,320]){
  await page.setViewportSize({width,height:844});await page.waitForTimeout(350);

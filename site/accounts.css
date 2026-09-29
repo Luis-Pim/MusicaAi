@@ -1,0 +1,25 @@
+.management { width: min(980px, calc(100% - 24px)); }
+.management h3 { margin-top: 24px; }
+.management h4 { margin: 0; }
+.management label { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.management input, .management select, .management textarea { width: 100%; min-width: 0; border: 1px solid var(--line); border-radius: 8px; padding: 10px; background: var(--surface-2); color: var(--ink); font: inherit; }
+.management details { margin-block: 12px; padding: 12px; border: 1px solid var(--line); border-radius: 10px; }
+.management summary { cursor: pointer; font-weight: 600; overflow-wrap: anywhere; }
+.management-form { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 14px; margin-top: 16px; }
+.management-form .hint { grid-column: 1 / -1; }
+.management-cards { display: flex; gap: 12px; flex-wrap: wrap; }
+.management-cards > div { flex: 1; padding: 16px; background: var(--accent-soft); border-radius: 12px; }
+.management-cards strong, .management-cards span { display: block; }
+.management-cards strong { font-size: 28px; }
+.management-list { padding: 0; list-style: none; display: grid; gap: 12px; }
+.management-list li, .management-person { border: 1px solid var(--line); padding: 14px; border-radius: 10px; overflow-wrap: anywhere; }
+.management-person p { margin-block: 8px; }
+.management-person .btn, .management-list li .btn { margin: 4px 8px 4px 0; }
+.management-assignment { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+.management-assignment select { flex: 1 1 150px; }
+#management-status { color: var(--accent); overflow-wrap: anywhere; }
+#management-feedback { padding-left: 22px; }
+#management-feedback li { white-space: pre-wrap; overflow-wrap: anywhere; margin-bottom: 12px; }
+#management-feedback-form .btn { margin-top: 10px; }
+#account-label { overflow-wrap: anywhere; }
+@media(max-width:600px) { .management-form { grid-template-columns: minmax(0,1fr); } .management-cards > div { min-width: 75px; padding: 10px; } }

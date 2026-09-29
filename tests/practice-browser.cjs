@@ -38,8 +38,9 @@ const path = require('node:path');
         }
       };
     });
-    await page.goto('http://localhost:8765/', { waitUntil: 'domcontentloaded' });
-    await page.locator('#login-user').fill('admin'); await page.locator('#login-password').fill('ccb123'); await page.locator('#login-form button').click();
+    await require('./account-fixture.cjs')(page);
+await page.goto('http://localhost:8765/', { waitUntil: 'domcontentloaded' });
+    await page.locator('#login-user').fill('test@example.com'); await page.locator('#login-password').fill('test-password'); await page.locator('#login-submit').click();
     const text = 'titulo: Teste de avaliação\ncompasso: 4/4\ninstrumento: piano\nandamento: 120 seminima\nA4/4 B4/4 C5/4 D5/4 |';
     await page.evaluate(text => { const src = document.getElementById('src'); src.value = text; src.dispatchEvent(new Event('input')); }, text);
     await page.waitForFunction(() => window.PracticeBridge.current().title === 'Teste de avaliação');
@@ -51,8 +52,8 @@ const path = require('node:path');
     await page.locator('#practice-bpm').fill('120');
     await page.locator('#practice-record').click();
     await page.waitForFunction(() => !document.getElementById('practice-report').hidden, null, { timeout: 15000 });
-    await page.waitForFunction(() => JSON.parse(localStorage.getItem('pv:practice:v1') || '[]').length === 1);
-    const first = await page.evaluate(() => JSON.parse(localStorage.getItem('pv:practice:v1'))[0]);
+    await page.waitForFunction(() => JSON.parse(localStorage.getItem('pv:test-attempts') || '[]').length === 1);
+    const first = await page.evaluate(() => JSON.parse(localStorage.getItem('pv:test-attempts'))[0]);
     assert.equal(first.result.pitchScore, 100); assert.equal(first.result.rhythmScore, 100); assert.equal(first.result.coverage, 100);
     assert(first.result.rows.every(row => row.kind === 'good'), JSON.stringify(first.result.rows));
     assert(await page.evaluate(() => window.testTracks.every(t => t.stopped)));
@@ -62,12 +63,12 @@ const path = require('node:path');
     await page.locator('.practice-review-button').first().click(); assert.equal(await page.locator('#practice-bpm').inputValue(), '90');
     // Cancelamento não gera uma tentativa no diário.
     await page.locator('#practice-record').click(); await page.locator('#practice-stop').click();
-    assert.equal(await page.evaluate(() => JSON.parse(localStorage.getItem('pv:practice:v1')).length), 1);
+    assert.equal(await page.evaluate(() => JSON.parse(localStorage.getItem('pv:test-attempts')).length), 1);
     await page.locator('#practice-bpm').fill('120');
     await page.evaluate(() => { window.testSilent = true; });
     await page.locator('#practice-record').click();
-    await page.waitForFunction(() => JSON.parse(localStorage.getItem('pv:practice:v1')).length === 2, null, { timeout: 15000 });
-    assert.equal(await page.evaluate(() => JSON.parse(localStorage.getItem('pv:practice:v1'))[0].result.pitchScore), null);
+    await page.waitForFunction(() => JSON.parse(localStorage.getItem('pv:test-attempts')).length === 2, null, { timeout: 15000 });
+    assert.equal(await page.evaluate(() => JSON.parse(localStorage.getItem('pv:test-attempts'))[0].result.pitchScore), null);
     // Toque comigo e aumento progressivo terminam sem ativar o microfone.
     const tracks = await page.evaluate(() => window.testTracks.length);
     await page.locator('.practice-advanced > summary').click();

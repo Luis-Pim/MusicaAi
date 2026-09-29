@@ -51,15 +51,9 @@
     const option = document.createElement('option'); option.value = instrument.id; option.textContent = instrument.name;
     $('instrument-select').append(option);
   });
-  // Interface assíncrona substituível por um repositório Firestore autenticado.
   const repository = {
-    async list() {
-      const raw = localStorage.getItem('pv:practice:v1');
-      const list = raw ? JSON.parse(raw) : [];
-      if (!Array.isArray(list)) throw new Error('Histórico inválido');
-      return list.filter(x => x?.version === 1 && typeof x.title === 'string' && x.result && Array.isArray(x.result.rows)).slice(0, 50);
-    },
-    async save(attempt) { const list = await this.list(); localStorage.setItem('pv:practice:v1', JSON.stringify([attempt, ...list].slice(0, 50))); }
+    list: () => window.PVAccount.listAttempts(),
+    save: attempt => window.PVAccount.saveAttempt(attempt)
   };
   let token = 0, timer, stream, context, source, countdownNodes = [], lesson, plan, settings, frames = [], busy = false, currentIndex = -1;
   function message(text) { if ($('status').textContent !== text) $('status').textContent = text; }
@@ -187,8 +181,9 @@
     $('current').textContent = 'Tentativa concluída';
     renderReport(attempt);
     $('report-title').scrollIntoView({ block: 'center' });
-    try { await repository.save(attempt); $('storage').textContent = 'Tentativa salva neste navegador.'; }
-    catch (_) { $('storage').textContent = 'Não foi possível salvar no navegador. O resultado desta tentativa continua disponível abaixo.'; }
+    const owner = window.PVAccount.profile?.uid;
+    try { await repository.save(attempt); if (window.PVAccount.profile?.uid !== owner) return; $('storage').textContent = 'Tentativa salva no seu acompanhamento.'; }
+    catch (_) { if (window.PVAccount.profile?.uid !== owner) return; $('storage').textContent = 'Não foi possível sincronizar a tentativa. Confira a conexão. O resultado continua disponível abaixo.'; }
     await renderHistory();
   }
   async function listen(increasing = false) {
@@ -258,9 +253,11 @@
     }
   }
   async function renderHistory() {
+    const owner = window.PVAccount.profile?.uid;
     let list;
     try { list = await repository.list(); }
-    catch (_) { $('storage').textContent = 'Histórico local indisponível neste navegador.'; $('history').replaceChildren(); $('chart').replaceChildren(); return; }
+    catch (_) { $('storage').textContent = 'Não foi possível carregar seu histórico. Confira a conexão.'; $('history').replaceChildren(); $('chart').replaceChildren(); return; }
+    if (window.PVAccount.profile?.uid !== owner) return;
     const matching = list.filter(x => x.lessonText === lesson.text && (x.instrumentId ? x.instrumentId === lesson.instrumentId : x.instrument === lesson.instrument) && x.transpose === lesson.transpose && x.unit === lesson.unit);
     $('history').replaceChildren(); $('chart').replaceChildren(); $('comparison').textContent = '';
     if (!matching.length) { const item = document.createElement('li'); item.textContent = 'Ainda não há tentativas desta lição.'; $('history').append(item); return; }
@@ -280,6 +277,9 @@
       $('comparison').textContent = `Comparado à tentativa anterior no mesmo trecho e andamento: ${delta > 0 ? '+' : ''}${delta} pontos percentuais em notas corretas. Confira a cobertura das duas tentativas no diário.`;
     }
   }
+  window.addEventListener('pv-account-changed', () => {
+    release(); dialog.close(); $('report').hidden = true; $('results').replaceChildren(); $('history').replaceChildren(); $('chart').replaceChildren();
+  });
   document.getElementById('practice-open').addEventListener('click', () => {
     bridge.stop(); lesson = bridge.current();
     $('lesson').textContent = lesson.title;
