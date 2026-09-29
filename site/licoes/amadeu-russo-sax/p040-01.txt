@@ -1,0 +1,19 @@
+# id: AR-MELODICOS_TONALIDADES-P040-EM-001
+titulo: Estudo melódico 16 · Mi menor
+secao: Estudos melódicos por tonalidade
+tipo: estudo
+pagina: 40
+instrumento: saxalto
+compasso: 12/8
+tonalidade: Em
+clave: sol
+andamento: 54 seminima pontuada
+# indicação escrita: Largo (semínima pontuada = 54), p espressivo; compasso 10 "a piacere" (livre).
+
+!p B4/4. B4/8. A#4/16 B4/16 C5/16 B4/4. B4/16 A4/16 B4/16 C5/16 B4/16 C5/16 | A4/8. G#4/16 A4/16 B4/16 G4/8. F#4/16 G4/16 A4/16 F#4/4.~ F#4/8 R/8 R/8 |
+< B4/4. B4/16 B4/16 A#4/16 B4/16 C5/16 B4/16 G5/4. G5/16' F#5/16' E5/16' F#5/16' G5/16' E5/16' = |
+!f F#5/8. E#5/16 F#5/16 G5/16 F#5/8. E#5/16 F#5/16 G5/16 F#5/4. > F#5/16 D#5/16 B4/16 C5/16 B4/16 A#4/16 = | !p B4/4. B4/8. E5/16 B4/16 E5/16 D#5/4 C5/8 B4/4. |
+F#5/4. B4/8. F#5/16 G5/16 F#5/16 F#5/4 D#5/8 E5/4. | !sfz G5/4. > C5/16 G5/16 F#5/16 A5/16 G5/16 F#5/16 = G5/32 F#5/8.. E5/8 B4/16 B4/16 A#4/16 B4/16 D5/16 C5/16 |
+!p B4/4. < B4/16 B4/16 A#4/16 B4/16 D#5/16 C5/16 = B4/4.~ B4/4 !f B5/8 | A5/4. A5/16' G5/16' F#5/16' A5/16' G5/16' F#5/16' G5/4. G5/16' F#5/16' E5/16' G5/16' F#5/16' D#5/16' |
+F#5/4. B4/8.@ A#4/16 B4/16 C5/16 B4/16 D#5/16 F#5/16 E5/16 D#5/16 F#5/16 A5/16 F#5/16 D#5/16 B4/16 G5/16. F#5/32@ |
+atempo !p < E5/4. > E5/4 B4/8 = !p < C5/4. > C5/4 A4/8 = | !p < E5/4. > E5/4 B4/8 = < C#5/4. C#5/8. D#5/16 E5/16 F#5/16 = | !pp G#5/2.~ G#5/8 R/8 R/8 R/4. |.
