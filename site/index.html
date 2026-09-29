@@ -1242,12 +1242,18 @@ async function addFiles(files) {
   for (const f of files) {
     try {
       if (f.type === "application/pdf" || /\.pdf$/i.test(f.name)) await addPdf(f);
-      else if (f.type.startsWith("image/")) await addImage(f);
+      else if (f.type.startsWith("image/") || /\.(jpe?g|png|webp|gif|heic|heif|bmp)$/i.test(f.name)) await addImage(f);
+      else setStatus(`"${f.name}" não é imagem nem PDF.`, "bad");
     } catch (e) {
-      setStatus(`Não consegui abrir "${f.name}". Tente outra foto ou exporte o PDF de novo.`, "bad");
+      const heic = /\.(heic|heif)$/i.test(f.name) || /heic|heif/i.test(f.type);
+      setStatus(heic ? `"${f.name}" está em HEIC, formato do iPhone que este navegador não abre. No iPhone, ajuste Câmera › Formatos › Mais Compatível, ou envie um print da foto.`
+        : `Não consegui abrir "${f.name}". Tente outra foto (JPG ou PNG) ou exporte o PDF de novo.`, "bad");
     }
   }
-  if (pages.length > before) { pages.forEach((p, k) => p.use = k === before); renderThumbs(); selectPage(before); }
+  if (pages.length > before) {
+    pages.forEach((p, k) => p.use = k === before); renderThumbs(); selectPage(before);
+    if (!/PDF tem/.test(document.getElementById("rec-status").textContent)) setStatus("Página pronta. Se a página tiver várias lições, arraste sobre a imagem para marcar só a que você quer. Depois toque em Reconhecer lição.");
+  }
   refreshRecognizeBtn();
 }
 async function addImage(file) {
@@ -1363,7 +1369,7 @@ function pageBlob(p, enhance) {
 /* ============================================================
    Reconhecimento com o Claude
    ============================================================ */
-let sampleFn = null, imageLimits = null, recCtl = null;
+let sampleFn = null, imageLimits = null, recCtl = null, sampleState = "loading";
 const recBtn = document.getElementById("recognize"), cancelBtn = document.getElementById("cancel");
 function setStatus(msg, kind, live) {
   const el = document.getElementById("rec-status");
@@ -1373,7 +1379,7 @@ function setStatus(msg, kind, live) {
 }
 function refreshRecognizeBtn() {
   const any = pages.some(p => p.use);
-  recBtn.disabled = !any || !sampleFn || !imageLimits || !!recCtl;
+  recBtn.disabled = !any || !!recCtl;
 }
 const ERR_COPY = {
   not_granted: "O uso do Claude não foi autorizado nesta página. Você ainda pode digitar a lição no editor.",
@@ -1384,7 +1390,7 @@ const ERR_COPY = {
   refused: "O Claude não quis processar essa imagem. Tente recortar só a partitura.",
   empty_completion: "A leitura voltou vazia. Recorte só a lição e tente de novo.",
   invalid_json: "A resposta veio num formato inesperado. Toque em Reconhecer de novo.",
-  images_unavailable: "Esta visualização não consegue enviar imagens ao Claude.",
+  images_unavailable: "Este app ou navegador não consegue enviar imagens ao Claude. Abra a página pelo claude.ai no Chrome, Edge ou Safari.",
   upstream_error: "Falha de conexão durante a leitura. Tente de novo."
 };
 
@@ -1447,10 +1453,15 @@ function lessonFromJson(j) {
 }
 
 recBtn.addEventListener("click", async () => {
-  if (!sampleFn) return;
+  if (!sampleFn) {
+    setStatus(sampleState === "loading"
+      ? "Ainda conectando ao Claude. Espere alguns segundos e toque de novo."
+      : "A leitura automática não está disponível aqui. Abra a página pelo claude.ai num navegador (Chrome, Edge ou Safari) e toque em Reconhecer de novo. Enquanto isso, dá para digitar a lição no editor.", "warn");
+    return;
+  }
   const chosen = pages.filter(p => p.use);
   if (!chosen.length) return;
-  const max = imageLimits?.maxCount || 1;
+  const max = imageLimits?.maxCount || 3;
   const use = chosen.slice(0, max);
   recCtl = new AbortController();
   refreshRecognizeBtn(); cancelBtn.hidden = false;
@@ -1535,14 +1546,13 @@ Responda só com o texto corrigido completo (cabeçalho e corpo), sem explicaç�
 
   if (window.claude && typeof window.claude.use === "function") {
     window.claude.use("sample").then(async s => {
-      if (!s) { setStatus("Nesta visualização a leitura automática está indisponível. Você pode digitar a lição no editor ao lado.", "warn"); return; }
-      sampleFn = s;
-      imageLimits = (await s.limits().catch(() => null))?.images || null;
-      if (!imageLimits) setStatus("Esta visualização não envia imagens ao Claude. Digite a lição no editor.", "warn");
-      if (imageLimits) fileIn.accept = ["application/pdf", ...imageLimits.mediaTypes, "image/*"].join(",");
+      if (!s) { sampleState = "none"; if (!pages.length) setStatus("Nesta visualização a leitura automática está indisponível. Você pode digitar a lição no editor ao lado.", "warn"); return; }
+      sampleFn = s; sampleState = "ready";
+      try { imageLimits = (await s.limits())?.images || null; } catch (e) { imageLimits = null; }
       refreshRecognizeBtn(); renderIssues(state.model);
-    }).catch(() => {});
+    }).catch(() => { sampleState = "none"; });
   } else {
+    sampleState = "none";
     setStatus("A leitura automática funciona quando esta página é aberta no claude.ai. Aqui você pode tocar o exemplo e digitar lições no editor.", "warn");
   }
 })();
