@@ -1,0 +1,15 @@
+# id: AR-ARPEJOS_MI_MENOR-P039-AR-005
+titulo: Arpejos sobre os acordes de 9ª · nº 5
+secao: Arpejos sobre os acordes de 9ª
+tipo: exercicio
+pagina: 39
+instrumento: saxalto
+compasso: 4/4
+tonalidade: Em
+clave: sol
+andamento: 60 seminima
+# arpejos na menor harmônica (Ré♯)
+
+E4/16 G4/16 B4/16 D#5/16 F#5/16 D#5/16 B4/16 G4/16 F#4/16 A4/16 C5/16 E5/16 G5/16 E5/16 C5/16 A4/16 | G4/16 B4/16 D#5/16 F#5/16 A5/16 F#5/16 D#5/16 B4/16 A4/16 C5/16 E5/16 G5/16 B5/16 G5/16 E5/16 C5/16 | B4/16 D#5/16 F#5/16 A5/16 C6/16 A5/16 F#5/16 D#5/16 C5/16 E5/16 G5/16 B5/16 D#6/16 B5/16 G5/16 E5/16 |
+B4/16 D#5/16 F#5/16 A5/16 C6/16 A5/16 F#5/16 D#5/16 A4/16 C5/16 E5/16 G5/16 B5/16 G5/16 E5/16 C5/16 | G4/16 B4/16 D#5/16 F#5/16 A5/16 F#5/16 D#5/16 B4/16 F#4/16 A4/16 C5/16 E5/16 G5/16 E5/16 C5/16 A4/16 | E4/16 G4/16 B4/16 D#5/16 F#5/16 D#5/16 B4/16 G4/16 D#4/16 F#4/16 A4/16 C5/16 E5/16 C5/16 A4/16 F#4/16 |
+C4/16 E4/16 G4/16 B4/16 D#5/16 B4/16 G4/16 E4/16 B3/16 D#4/16 F#4/16 A4/16 C5/16 A4/16 F#4/16 D#4/16 | E4/2 R/2 |.

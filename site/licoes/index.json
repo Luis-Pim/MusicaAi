@@ -5,7 +5,7 @@
    "nome": "Amadeu Russo – Método Completo de Saxofone",
    "instrumento": "saxalto",
    "ordem": 1,
-   "total": 105,
+   "total": 110,
    "secoes": [
     {
      "titulo": "Primeiros estudos",
@@ -655,6 +655,51 @@
        "titulo": "Escala em Mi menor · nº 3",
        "tipo": "exercicio",
        "pagina": "38"
+      }
+     ]
+    },
+    {
+     "titulo": "Arpejos em Mi menor",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p039-01.txt",
+       "titulo": "Arpejos em Mi menor · nº 1",
+       "tipo": "exercicio",
+       "pagina": "39"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p039-02.txt",
+       "titulo": "Arpejos em Mi menor · nº 2",
+       "tipo": "exercicio",
+       "pagina": "39"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p039-03.txt",
+       "titulo": "Arpejos em Mi menor · nº 3",
+       "tipo": "exercicio",
+       "pagina": "39"
+      }
+     ]
+    },
+    {
+     "titulo": "Arpejos sobre os acordes de 7ª",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p039-04.txt",
+       "titulo": "Arpejos sobre os acordes de 7ª · nº 4",
+       "tipo": "exercicio",
+       "pagina": "39"
+      }
+     ]
+    },
+    {
+     "titulo": "Arpejos sobre os acordes de 9ª",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p039-05.txt",
+       "titulo": "Arpejos sobre os acordes de 9ª · nº 5",
+       "tipo": "exercicio",
+       "pagina": "39"
       }
      ]
     },
