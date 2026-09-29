@@ -5,7 +5,7 @@
    "nome": "Amadeu Russo – Método Completo de Saxofone",
    "instrumento": "saxalto",
    "ordem": 1,
-   "total": 94,
+   "total": 102,
    "secoes": [
     {
      "titulo": "Primeiros estudos",
@@ -678,6 +678,74 @@
        "titulo": "Arpejos em Fá maior · nº 3",
        "tipo": "exercicio",
        "pagina": "41"
+      }
+     ]
+    },
+    {
+     "titulo": "Escala em Ré maior",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p047-01.txt",
+       "titulo": "Escala em Ré maior · nº 1",
+       "tipo": "exercicio",
+       "pagina": "47"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p047-02.txt",
+       "titulo": "Escala em Ré maior · nº 2",
+       "tipo": "exercicio",
+       "pagina": "47"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p047-03.txt",
+       "titulo": "Escala em Ré maior · nº 3",
+       "tipo": "exercicio",
+       "pagina": "47"
+      }
+     ]
+    },
+    {
+     "titulo": "Arpejos em Ré maior",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p048-01.txt",
+       "titulo": "Arpejos em Ré maior · nº 1",
+       "tipo": "exercicio",
+       "pagina": "48"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p048-02.txt",
+       "titulo": "Arpejos em Ré maior · nº 2",
+       "tipo": "exercicio",
+       "pagina": "48"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p048-03.txt",
+       "titulo": "Arpejos em Ré maior · nº 3",
+       "tipo": "exercicio",
+       "pagina": "48"
+      }
+     ]
+    },
+    {
+     "titulo": "Arpejos sobre os acordes de 7ª",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p048-04.txt",
+       "titulo": "Arpejos sobre os acordes de 7ª · nº 4",
+       "tipo": "exercicio",
+       "pagina": "48"
+      }
+     ]
+    },
+    {
+     "titulo": "Arpejos sobre os acordes de 9ª",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p048-05.txt",
+       "titulo": "Arpejos sobre os acordes de 9ª · nº 5",
+       "tipo": "exercicio",
+       "pagina": "48"
       }
      ]
     }

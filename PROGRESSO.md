@@ -28,6 +28,9 @@ Nos arquivos de lição, `pagina:` é a página **impressa no livro**; o nome do
 | 32 | 24 | cromática (exercícios); progressivos nº 15 | nº 15 em RASCUNHO |
 | 32–33 | 24–25 | exercícios cromáticos (completos) e escala cromática | no repositório |
 | 36–37 | 30–31 | escalas em Dó maior nº 1–3; arpejos em Dó maior nº 1–5 | no repositório |
+| 42 | 36 | escalas em Sol maior nº 2–3; arpejos em Sol maior nº 1–5 | no repositório |
+| 47 | 41 | escalas e arpejos nº 1–3 em Fá maior | no repositório (7ª/9ª na p. 42 pendentes) |
+| 53–54 | 47–48 | escalas nº 1–3 e arpejos nº 1–5 em Ré maior | no repositório |
 | 39–40 | 33–34 | escalas em Lá menor nº 1–3; arpejos em Lá menor nº 1–2 | no repositório (arpejos nº 3–5 pendentes: leitura incerta) |
 
 ## Catálogo de referência
@@ -70,3 +73,4 @@ Detalhes:
 - Escala em Dó maior nº 3 (livro p. 30), compasso 5: a mínima após a subida foi lida como Dó5 (sem linhas suplementares visíveis); conferir se não é Dó6.
 - Arpejos em Lá menor nº 2, último grupo: lido como Dó5–Sol♯4–Mi4–Dó4; conferir a última nota.
 - Arpejos em Fá maior nº 3 e Sol maior nº 3/5: compassos finais gerados pelo padrão; conferir os graus graves.
+- O catálogo não lista as escalas em Sol maior (livro p. 35–36); receberam ids próprios `AR-ESCALAS_SOL_MAIOR-P036-SC-00x`. A escala nº 1 fica no PDF 41 (não transcrita ainda).
