@@ -25,6 +25,7 @@ Nos arquivos de lição, `pagina:` é a página **impressa no livro**; o nome do
 | 28–29 | 20–21 | intervalos mistos; progressivos nº 1–2 | no repositório |
 | 30 | 22 | progressivos nº 3–9 | revisado com ampliação 3x (18 notas corrigidas) |
 | 31 | 23 | progressivos nº 10–14 | no repositório |
+| 32 | 24 | cromática (exercícios); progressivos nº 15 | nº 15 em RASCUNHO |
 
 ## Catálogo de referência
 
@@ -34,7 +35,7 @@ A numeração dos estudos melódicos segue `indice_melodico` do catálogo.
 
 ## Próximo passo
 
-- Seguir em ordem a partir do PDF 32 (livro 24): escala cromática e progressivos nº 15 até o PDF 59 (livro 55).
+- Seguir em ordem a partir do PDF 33 (livro 25). Revisar o rascunho do progressivos nº 15 (PDF 32, linhas 3–6) até o PDF 59 (livro 55).
 - Páginas de escalas, intervalos e arpejos: gerar as notas pelo padrão com `scripts/omr/gen.py` e conferir com a imagem e com `heads.mjs`.
 - Leitura de melodias: `bash q.sh <pdf> <pauta>` gera 4 recortes ampliados 3x por pauta (usar sempre em trechos sem padrão).
 - Atenção: as linhas rotuladas de `staves.mjs` às vezes se desviam perto da barra final; nesses trechos, ler pelas linhas reais da pauta.
@@ -46,6 +47,7 @@ A numeração dos estudos melódicos segue `indice_melodico` do catálogo.
 | 05:01 | 05:12 | 18–21 (11 lições) |
 | 05:19 | 05:31 | 22–30 (25 lições, 7 em rascunho) |
 | 13:32 | 13:40 | revisão dos 7 rascunhos da p. 22 |
+| 13:40 | 13:55 | 31–32 (7 lições, 1 em rascunho) |
 
 ## Para o professor conferir
 - Livro p. 16: exercício de 6ª em 3/4 sem número (o catálogo não o lista separado; recebeu id próprio `AR-INTERVALOS_6-P016-EX-003`).
@@ -54,3 +56,4 @@ A numeração dos estudos melódicos segue `indice_melodico` do catálogo.
 - Intervalos mistos (livro p. 20–21): o exercício longo da p. 21 foi lido numa imagem pequena; conferir nota a nota.
 - Progressivos nº 12, compasso 8: última semicolcheia lida como Mi4 (o padrão sugeriria Fá4).
 - Progressivos nº 14, compassos 4 e 9: a 4ª nota (Dó5 / Fá5) salta uma terça; conferir se não é grau conjunto.
+- `staves.mjs` não detecta algumas pautas de páginas mais claras (ex.: PDF 32 detectou 7 de 13); usar `crop.mjs` direto nesses casos.
