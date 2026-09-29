@@ -5,7 +5,7 @@
    "nome": "Amadeu Russo – Método Completo de Saxofone",
    "instrumento": "saxalto",
    "ordem": 1,
-   "total": 71,
+   "total": 76,
    "secoes": [
     {
      "titulo": "Primeiros estudos",
@@ -485,6 +485,51 @@
        "titulo": "Escala em Dó maior · nº 3",
        "tipo": "exercicio",
        "pagina": "30"
+      }
+     ]
+    },
+    {
+     "titulo": "Arpejos em Dó maior",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p031-01.txt",
+       "titulo": "Arpejos em Dó maior · nº 1",
+       "tipo": "exercicio",
+       "pagina": "31"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p031-02.txt",
+       "titulo": "Arpejos em Dó maior · nº 2",
+       "tipo": "exercicio",
+       "pagina": "31"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p031-03.txt",
+       "titulo": "Arpejos em Dó maior · nº 3",
+       "tipo": "exercicio",
+       "pagina": "31"
+      }
+     ]
+    },
+    {
+     "titulo": "Arpejos sobre os acordes de 7ª",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p031-04.txt",
+       "titulo": "Arpejos sobre os acordes de 7ª · nº 4",
+       "tipo": "exercicio",
+       "pagina": "31"
+      }
+     ]
+    },
+    {
+     "titulo": "Arpejos sobre os acordes de 9ª",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p031-05.txt",
+       "titulo": "Arpejos sobre os acordes de 9ª · nº 5",
+       "tipo": "exercicio",
+       "pagina": "31"
       }
      ]
     }
