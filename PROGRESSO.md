@@ -21,6 +21,7 @@ Nos arquivos de lição, `pagina:` é a página **impressa no livro**; o nome do
 | 21 | 13 | 4ª nº 2–3; estudo melódico 10 (Andante) | no repositório |
 | 22–24 | 14–16 | 5ª nº 1–3; estudo melódico 11; 6ª nº 1–2; 6ª em 3/4 (sem número); estudo melódico 12 | no repositório |
 | 25–26 | 17–18 | 7ª nº 1–4; 8ª nº 1 | no repositório |
+| 27–28 | 19–20 | 8ª nº 2–4 | no repositório |
 
 ## Catálogo de referência
 
@@ -30,7 +31,7 @@ A numeração dos estudos melódicos segue `indice_melodico` do catálogo.
 
 ## Próximo passo
 
-- Seguir em ordem a partir do PDF 27 (livro 19) até o PDF 59 (livro 55).
+- Seguir em ordem a partir do PDF 28 (livro 20): intervalos mistos até o PDF 59 (livro 55).
 - Páginas de escalas, intervalos e arpejos: gerar as notas pelo padrão com `scripts/omr/gen.py` e conferir com a imagem e com `heads.mjs`.
 - Atenção: as linhas rotuladas de `staves.mjs` às vezes se desviam perto da barra final; nesses trechos, ler pelas linhas reais da pauta.
 
