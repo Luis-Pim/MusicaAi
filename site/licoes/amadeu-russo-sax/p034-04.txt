@@ -1,0 +1,13 @@
+# id: AR-ARPEJOS_L_MENOR-P034-AR-002
+titulo: Arpejos em Lá menor · nº 2
+secao: Arpejos em Lá menor
+tipo: exercicio
+pagina: 34
+instrumento: saxalto
+compasso: 4/4
+tonalidade: Am
+clave: sol
+andamento: 60 seminima
+
+A4/16 C5/16 E5/16 A5/16 B4/16 D5/16 F5/16 B5/16 C5/16 E5/16 G#5/16 C6/16 D5/16 F5/16 A5/16 D6/16 | C6/16 G#5/16 E5/16 C5/16 B5/16 F5/16 D5/16 B4/16 A5/16 E5/16 C5/16 A4/16 G#5/16 D5/16 B4/16 G#4/16 |
+F5/16 C5/16 A4/16 F4/16 E5/16 B4/16 G#4/16 E4/16 D5/16 A4/16 F4/16 D4/16 C5/16 G#4/16 E4/16 C4/16 | A4/2 R/2 |.

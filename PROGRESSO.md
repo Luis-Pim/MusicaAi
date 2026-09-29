@@ -26,6 +26,9 @@ Nos arquivos de lição, `pagina:` é a página **impressa no livro**; o nome do
 | 30 | 22 | progressivos nº 3–9 | revisado com ampliação 3x (18 notas corrigidas) |
 | 31 | 23 | progressivos nº 10–14 | no repositório |
 | 32 | 24 | cromática (exercícios); progressivos nº 15 | nº 15 em RASCUNHO |
+| 32–33 | 24–25 | exercícios cromáticos (completos) e escala cromática | no repositório |
+| 36–37 | 30–31 | escalas em Dó maior nº 1–3; arpejos em Dó maior nº 1–5 | no repositório |
+| 39–40 | 33–34 | escalas em Lá menor nº 1–3; arpejos em Lá menor nº 1–2 | no repositório (arpejos nº 3–5 pendentes: leitura incerta) |
 
 ## Catálogo de referência
 
@@ -65,3 +68,4 @@ Detalhes:
 - Progressivos nº 14, compassos 4 e 9: a 4ª nota (Dó5 / Fá5) salta uma terça; conferir se não é grau conjunto.
 - `staves.mjs` não detecta algumas pautas de páginas mais claras (ex.: PDF 32 detectou 7 de 13); usar `crop.mjs` direto nesses casos.
 - Escala em Dó maior nº 3 (livro p. 30), compasso 5: a mínima após a subida foi lida como Dó5 (sem linhas suplementares visíveis); conferir se não é Dó6.
+- Arpejos em Lá menor nº 2, último grupo: lido como Dó5–Sol♯4–Mi4–Dó4; conferir a última nota.
