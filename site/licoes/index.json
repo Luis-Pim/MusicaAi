@@ -5,7 +5,7 @@
    "nome": "Amadeu Russo – Método Completo de Saxofone",
    "instrumento": "saxalto",
    "ordem": 1,
-   "total": 68,
+   "total": 71,
    "secoes": [
     {
      "titulo": "Primeiros estudos",
@@ -462,6 +462,29 @@
        "titulo": "Escala cromática",
        "tipo": "exercicio",
        "pagina": "25"
+      }
+     ]
+    },
+    {
+     "titulo": "Escala em Dó maior",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p030-01.txt",
+       "titulo": "Escala em Dó maior · nº 1",
+       "tipo": "exercicio",
+       "pagina": "30"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p030-02.txt",
+       "titulo": "Escala em Dó maior · nº 2",
+       "tipo": "exercicio",
+       "pagina": "30"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p030-03.txt",
+       "titulo": "Escala em Dó maior · nº 3",
+       "tipo": "exercicio",
+       "pagina": "30"
       }
      ]
     }

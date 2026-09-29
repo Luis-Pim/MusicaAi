@@ -64,3 +64,4 @@ Detalhes:
 - Progressivos nº 12, compasso 8: última semicolcheia lida como Mi4 (o padrão sugeriria Fá4).
 - Progressivos nº 14, compassos 4 e 9: a 4ª nota (Dó5 / Fá5) salta uma terça; conferir se não é grau conjunto.
 - `staves.mjs` não detecta algumas pautas de páginas mais claras (ex.: PDF 32 detectou 7 de 13); usar `crop.mjs` direto nesses casos.
+- Escala em Dó maior nº 3 (livro p. 30), compasso 5: a mínima após a subida foi lida como Dó5 (sem linhas suplementares visíveis); conferir se não é Dó6.
