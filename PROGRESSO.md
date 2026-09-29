@@ -41,7 +41,7 @@ Nos arquivos de lição, `pagina:` é a página **impressa no livro**; o nome do
 | 40–41 | 34–35 | estudo melódico 14 (Lá menor, p034-08); estudo em Lá menor (p035-01) | no repositório |
 | 41 | 35 | estudo em Sol maior = escala nº 1 (p035-02) | no repositório |
 | 43–44 | 37–38 | estudo melódico 15 (Sol maior, p037-01); estudo em Sol maior — segundo estudo (p037-02) | no repositório |
-| 46 | 40 | estudo melódico 16 (Mi menor, p040-01) | no repositório (estudo em Mi menor da mesma página ainda pendente) |
+| 46 | 40 | estudo melódico 16 (Mi menor, p040-01); estudo em Mi menor (p040-02) | no repositório |
 | 39–40 | 33–34 | escalas em Lá menor nº 1–3; arpejos em Lá menor nº 1–2 | no repositório (arpejos nº 3–5 pendentes: leitura incerta) |
 
 ## Catálogo de referência
