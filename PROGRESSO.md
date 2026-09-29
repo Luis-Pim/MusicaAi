@@ -19,6 +19,7 @@ Nos arquivos de lição, `pagina:` é a página **impressa no livro**; o nome do
 | 17–18 | 9–10 | nº 24–25 | no repositório |
 | 19–20 | 11–12 | Intervalos de 2ª; 3ª nº 1–3; estudo melódico 9; 4ª nº 1 | no repositório |
 | 21 | 13 | 4ª nº 2–3; estudo melódico 10 (Andante) | no repositório |
+| 22–24 | 14–16 | 5ª nº 1–3; estudo melódico 11; 6ª nº 1–2; 6ª em 3/4 (sem número); estudo melódico 12 | no repositório |
 
 ## Catálogo de referência
 
@@ -28,7 +29,7 @@ A numeração dos estudos melódicos segue `indice_melodico` do catálogo.
 
 ## Próximo passo
 
-- Seguir em ordem a partir do PDF 22 (livro 14) até o PDF 59 (livro 55).
+- Seguir em ordem a partir do PDF 25 (livro 17) até o PDF 59 (livro 55).
 - Páginas de escalas, intervalos e arpejos: gerar as notas pelo padrão com `scripts/omr/gen.py` e conferir com a imagem e com `heads.mjs`.
 - Atenção: as linhas rotuladas de `staves.mjs` às vezes se desviam perto da barra final; nesses trechos, ler pelas linhas reais da pauta.
 
@@ -39,4 +40,5 @@ A numeração dos estudos melódicos segue `indice_melodico` do catálogo.
 | 05:01 | 05:12 | 18–21 (11 lições) |
 
 ## Para o professor conferir
-
+- Livro p. 16: exercício de 6ª em 3/4 sem número (o catálogo não o lista separado; recebeu id próprio `AR-INTERVALOS_6-P016-EX-003`).
+- Estudo melódico 12 (Allegretto), compasso 15: conferir as três colcheias (lidas Si–Lá–Ré).

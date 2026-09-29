@@ -5,7 +5,7 @@
    "nome": "Amadeu Russo – Método Completo de Saxofone",
    "instrumento": "saxalto",
    "ordem": 1,
-   "total": 40,
+   "total": 42,
    "secoes": [
     {
      "titulo": "Primeiros estudos",
@@ -274,6 +274,18 @@
        "titulo": "Intervalos de 6ª · nº 2",
        "tipo": "exercicio",
        "pagina": "15"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p016-01.txt",
+       "titulo": "Intervalos de 6ª · exercício em 3/4 (sem número)",
+       "tipo": "exercicio",
+       "pagina": "16"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p016-02.txt",
+       "titulo": "Estudo melódico 12 · Allegretto",
+       "tipo": "estudo",
+       "pagina": "16"
       }
      ]
     }
