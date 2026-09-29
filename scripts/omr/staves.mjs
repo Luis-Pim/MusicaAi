@@ -44,21 +44,23 @@ const outs = await p.evaluate(async (src) => {
     const pts = [];
     for (let f = 0.025; f < 1; f += 0.05) {
       const a = Math.round((f - 0.025) * W), bb = Math.round((f + 0.025) * W);
-      const dens = y => { if (y < 0 || y >= H) return 0; let n = 0; for (let x = a; x < bb; x++) if (d[(y * W + x) * 4] < 150) n++; return n / (bb - a); };
+      const dk = (x, y) => y >= 0 && y < H && d[(y * W + x) * 4] < 150;
+      const dens = y => { if (y < 4 || y >= H - 4) return 0; let n = 0; for (let x = a; x < bb; x++) if (dk(x, y) && !dk(x, y - 4) && !dk(x, y + 4)) n++; return n / (bb - a); };
       let best = null, bs = -1;
       for (let o = -Math.round(st.sp * 0.8); o <= Math.round(st.sp * 0.8); o++) {
         let sc = 0; for (let k = 0; k < 5; k++) sc += Math.max(dens(Math.round(st.top + o + k * st.sp)), dens(Math.round(st.top + o + k * st.sp) + 1));
         if (sc > bs) { bs = sc; best = o; }
       }
-      pts.push({ x: f * W, o: bs > 2.5 ? best : null });
+      pts.push({ x: f * W, o: bs > 2.0 ? best : null });
     }
     // preenche faixas sem linhas visíveis com o vizinho
     for (let i = 0; i < pts.length; i++) if (pts[i].o == null) { const n = pts.find((p, j) => j > i && p.o != null) || [...pts].reverse().find(p => p.o != null); pts[i].o = n ? n.o : 0; }
+    for (let i = 1; i < pts.length; i++) { const dlt = pts[i].o - pts[i-1].o; if (Math.abs(dlt) > 3) pts[i].o = pts[i-1].o + Math.sign(dlt) * 3; }
     const yAt = (y, x) => { let i = pts.findIndex(p => p.x >= x); if (i <= 0) return y + pts[Math.max(0, i)].o; const p = pts[i - 1], q = pts[i]; return y + p.o + (q.o - p.o) * (x - p.x) / (q.x - p.x); };
     const lab = (n, y, col, dash) => {
       g.setLineDash(dash ? [6, 6] : []); g.strokeStyle = col; g.globalAlpha = 0.5; g.beginPath();
       for (let x = 0; x <= W; x += 20) { const yy = yAt(y, x); x ? g.lineTo(x, yy) : g.moveTo(x, yy); }
-      g.stroke(); g.setLineDash([]); g.globalAlpha = 1; g.fillStyle = col; [2, W * 0.34, W * 0.67, W - 34].forEach(x => g.fillText(n, x, yAt(y, x) - 2));
+      g.stroke(); g.setLineDash([]); g.globalAlpha = 1; g.fillStyle = col; [2, W - 34].forEach(x => g.fillText(n, x, yAt(y, x) - 2));
     };
     names.forEach((n, k) => lab(n, st.top - y0 + k * st.sp, colors[k]));
     [['A5', -1], ['C6', -2], ['E6', -3], ['C4', 5], ['A3', 6]].forEach(([n, k]) => lab(n, st.top - y0 + k * st.sp, '#666', true));

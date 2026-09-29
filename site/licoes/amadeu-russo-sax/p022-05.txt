@@ -1,5 +1,5 @@
 # id: AR-PROGRESSIVOS-P022-EX-005
-titulo: Exercícios progressivos · nº 5 (rascunho)
+titulo: Exercícios progressivos · nº 5
 secao: Exercícios progressivos
 tipo: exercicio
 pagina: 22
@@ -10,5 +10,5 @@ clave: sol
 andamento: 80 seminima
 # rascunho: lido de imagem reduzida; conferir alturas com o livro
 
-G4/8 C5/8 B4/8 C5/8 B4/8 C5/8 | G4/8. E5/16 C5/8. E5/16 A5/8. G5/16 | A4/8 B4/8 A4/8 C5/8 B4/8 C5/8 | A4/8. B4/16 C5/8. F5/16 B5/8. A5/16 | G5/8 C6/8 G5/8 C6/8 G5/8 F5/8 |
+G4/8 C5/8 B4/8 C5/8 B4/8 C5/8 | G4/8. E5/16 C5/8. E5/16 A5/8. G5/16 | A4/8 B4/8 A4/8 C5/8 B4/8 D5/8 | A4/8. B4/16 C5/8. F5/16 B5/8. A5/16 | G5/8 C6/8 G5/8 C6/8 G5/8 F5/8 |
 E5/8. G5/16 C5/8. D5/16 E5/8. F5/16 | G5/8. E5/16 A5/8. G5/16 F5/8. E5/16 | D5/2 G5/4 | A5/8 G5/8 A5/8 C6/8 A5/8 F5/8 | G5/8. E5/16 C5/8. D5/16 E5/8. C5/16 | G5/8. F5/16 D5/8. B4/16 C5/8. D5/16 | C5/2 R/4 |.
