@@ -5,7 +5,7 @@
    "nome": "Amadeu Russo – Método Completo de Saxofone",
    "instrumento": "saxalto",
    "ordem": 1,
-   "total": 135,
+   "total": 137,
    "secoes": [
     {
      "titulo": "Primeiros estudos",
@@ -664,6 +664,28 @@
        "titulo": "Arpejos sobre os acordes de 9ª · nº 5",
        "tipo": "exercicio",
        "pagina": "34"
+      }
+     ]
+    },
+    {
+     "titulo": "Estudos melódicos por tonalidade",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p034-08.txt",
+       "titulo": "Estudo melódico 14 · Lá menor",
+       "tipo": "estudo",
+       "pagina": "34"
+      }
+     ]
+    },
+    {
+     "titulo": "Estudos por tonalidade",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p035-01.txt",
+       "titulo": "Estudo em Lá menor",
+       "tipo": "estudo",
+       "pagina": "35"
       }
      ]
     },

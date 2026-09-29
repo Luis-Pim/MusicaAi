@@ -38,6 +38,7 @@ Nos arquivos de lição, `pagina:` é a página **impressa no livro**; o nome do
 | 35 | 27 | estudo sobre a apogiatura dupla | no repositório |
 | 38–39 | 32–33 | exercício misto; estudo melódico 13 (Dó maior) | no repositório |
 | 39 | 33 | estudo em Dó maior (p033-02) | no repositório |
+| 40–41 | 34–35 | estudo melódico 14 (Lá menor, p034-08); estudo em Lá menor (p035-01) | no repositório |
 | 39–40 | 33–34 | escalas em Lá menor nº 1–3; arpejos em Lá menor nº 1–2 | no repositório (arpejos nº 3–5 pendentes: leitura incerta) |
 
 ## Catálogo de referência
@@ -72,6 +73,8 @@ Detalhes:
 | 13:40 | 13:55 | 31–32 (7 lições, 1 em rascunho) |
 
 ## Para o professor conferir
+- Estudo melódico 14 (Lá menor), compasso 15: as três colcheias depois do Mi pontuado foram lidas Fá–Sol♯–Fá (a última ficou entre Fá e Sol♯ na imagem). Compasso 12: apogiatura dupla lida Mi–Fá.
+- Mordentes (estudos em Lá menor): escritos como nota–vizinha em fusas antes da nota; o site não tem sinal de mordente.
 - Estudos sobre a apogiatura (livro p. 26): as apogiaturas foram escritas como fusa antes da nota (a nota principal perde uma fusa). No nº 1, o último compasso tem colcheia, colcheia, semínima e pausa de colcheia (sobra 1/8); a pausa foi omitida. No nº 2, compassos 12 e 15: o Fá depois do Fá♯ no mesmo compasso foi lido como Fá♯ (sem bequadro no livro).
 - Livro p. 16: exercício de 6ª em 3/4 sem número (o catálogo não o lista separado; recebeu id próprio `AR-INTERVALOS_6-P016-EX-003`).
 - Estudo melódico 12 (Allegretto), compasso 15: conferir as três colcheias (lidas Si–Lá–Ré).

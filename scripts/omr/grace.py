@@ -26,7 +26,7 @@ def conv(src, base='8'):
             rest = val(d) - F(len(gs), 32); figs = split(rest)
             out += [f"{g}/32" for g in gs]
             out += [f"{n}/{f}{(a or ACC) if i == 0 else ''}{'~' if i < len(figs) - 1 else ''}" for i, f in enumerate(figs)]
-        elif tok.startswith(('|', '!', '<', '>', '=')) or '/' in tok or tok in ('{3', '}') or tok.startswith('R'):
+        elif tok.startswith(('|', '!', '<', '>', '=')) or '/' in tok or tok in ('{3', '}', 'rit', 'rall', 'accel', 'atempo') or tok.startswith('R'):
             out.append(tok)
         else:
             m = re.match(r"^(\S+?)([>'^_@~]*)$", tok); out.append(f"{m.group(1)}/{base}{m.group(2)}")
