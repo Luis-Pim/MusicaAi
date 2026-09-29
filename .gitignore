@@ -1,0 +1,4 @@
+__pycache__/
+*.tgz
+package/
+.DS_Store
