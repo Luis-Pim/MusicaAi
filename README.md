@@ -43,6 +43,18 @@ andamento: 96 seminima
 - **Homologação**: publicado como Artifact privado no claude.ai. É lá que o reconhecimento por foto funciona, porque usa a conta do Claude de quem abre a página.
 - **Local**: `cd site && python3 -m http.server 8000` e abra `http://localhost:8000`. Partitura, editor e reprodução funcionam; o reconhecimento automático aparece como indisponível.
 
+## Publicar na AWS (MVP para professores)
+
+Site estático em S3 + CloudFront (HTTPS), custo praticamente zero no nível gratuito da AWS:
+
+```
+aws configure            # chave de um usuário IAM com permissão de S3 e CloudFront
+./scripts/deploy_aws.sh partitura-viva-mvp us-east-1
+```
+
+O script imprime o endereço `https://xxxx.cloudfront.net` para enviar aos professores. Para atualizar depois, rode de novo.
+Fora do claude.ai funcionam a biblioteca, a partitura, o player e o editor; a leitura automática de fotos não (use a "Leitura pelo chat do Claude").
+
 ## Amostras de instrumento
 
 `site/samples/` guarda uma nota a cada terça menor da extensão de cada instrumento (319 arquivos, ~8 MB). Para regenerar depois de mudar a lista de instrumentos (bloco `#instrument-data` no `index.html`):
