@@ -35,6 +35,7 @@ Nos arquivos de lição, `pagina:` é a página **impressa no livro**; o nome do
 | 49–51 | 43–45 | escalas e arpejos em Ré menor (nº 1–3, 1–5) | no repositório |
 | 56–57 | 50–51 | escalas e arpejos em Si menor (nº 1–3, 1–3) | no repositório |
 | 34 | 26 | estudos sobre a apogiatura nº 1–2 | no repositório (lidos com detector de cabeças `nh.mjs`) |
+| 35 | 27 | estudo sobre a apogiatura dupla | no repositório |
 | 39–40 | 33–34 | escalas em Lá menor nº 1–3; arpejos em Lá menor nº 1–2 | no repositório (arpejos nº 3–5 pendentes: leitura incerta) |
 
 ## Catálogo de referência
@@ -55,7 +56,7 @@ Detalhes:
 - Seguir em ordem a partir do PDF 33 (livro 25). Revisar o rascunho do progressivos nº 15 (PDF 32, linhas 3–6) até o PDF 59 (livro 55).
 - Páginas de escalas, intervalos e arpejos: gerar as notas pelo padrão com `scripts/omr/gen.py` e conferir com a imagem e com `heads.mjs`.
 - Leitura de melodias (novo, mais preciso): renderizar a página em escala 8 (`node render.mjs N N 8`), depois `bash staff.sh <pdf> <y-centro> <nome>` recorta a pauta e lista as cabeças de nota com a altura calculada pelas linhas reais (`nh.mjs`); cabeças marcadas com `~` são apogiaturas/ruído e devem ser conferidas na imagem (`stack2.mjs` junta os 4 quartos).
-- Apogiaturas: o site não tem sintaxe própria; escrever `[G4]A4` no rascunho e converter com `python3 grace.py` (vira `G4/32 A4/16.>`, somando a colcheia).
+- Apogiaturas: o site não tem sintaxe própria; escrever `[G4]A4` (dupla: `[B4,D5]C5/4`) no rascunho e converter com `python3 grace.py` (vira `G4/32 A4/16.>`, somando a colcheia).
 - Leitura antiga: `bash q.sh <pdf> <pauta>` gera 4 recortes ampliados 3x por pauta (usar sempre em trechos sem padrão).
 - Atenção: as linhas rotuladas de `staves.mjs` às vezes se desviam perto da barra final; nesses trechos, ler pelas linhas reais da pauta.
 

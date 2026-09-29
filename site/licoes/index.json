@@ -5,7 +5,7 @@
    "nome": "Amadeu Russo – Método Completo de Saxofone",
    "instrumento": "saxalto",
    "ordem": 1,
-   "total": 131,
+   "total": 132,
    "secoes": [
     {
      "titulo": "Primeiros estudos",
@@ -479,6 +479,17 @@
        "titulo": "Estudo sobre a apogiatura · nº 2",
        "tipo": "estudo",
        "pagina": "26"
+      }
+     ]
+    },
+    {
+     "titulo": "Ornamentos — apogiatura dupla",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p027-01.txt",
+       "titulo": "Estudo sobre a apogiatura dupla",
+       "tipo": "estudo",
+       "pagina": "27"
       }
      ]
     },
