@@ -1,3 +1,4 @@
+# id: AR-PRIMEIROS_ESTUDOS-P007-EX-015
 titulo: Nº 15
 secao: Exercícios para a emissão da segunda série de cinco notas
 tipo: exercicio

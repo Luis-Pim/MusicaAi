@@ -1,0 +1,425 @@
+[
+  {
+    "id": "AR-PRIMEIROS_ESTUDOS-P006-EM-005",
+    "titulo": "Nº 5",
+    "secao": "Pequenos estudos melódicos sobre a primeira série de notas",
+    "tipo": "estudo_melodico",
+    "numero_original": 5,
+    "pagina": 6,
+    "paginas_pdf": [
+      14
+    ],
+    "instrumento": "saxofone",
+    "clave": "sol",
+    "tonalidade": null,
+    "compasso": null,
+    "andamento": null,
+    "notas": null,
+    "status": "pendente_transcricao",
+    "catalogo": "primeiros_estudos",
+    "indice_melodico": 1
+  },
+  {
+    "id": "AR-PRIMEIROS_ESTUDOS-P006-EM-006",
+    "titulo": "Nº 6",
+    "secao": "Pequenos estudos melódicos sobre a primeira série de notas",
+    "tipo": "estudo_melodico",
+    "numero_original": 6,
+    "pagina": 6,
+    "paginas_pdf": [
+      14
+    ],
+    "instrumento": "saxofone",
+    "clave": "sol",
+    "tonalidade": null,
+    "compasso": null,
+    "andamento": null,
+    "notas": null,
+    "status": "pendente_transcricao",
+    "catalogo": "primeiros_estudos",
+    "indice_melodico": 2
+  },
+  {
+    "id": "AR-PRIMEIROS_ESTUDOS-P006-EM-007",
+    "titulo": "Nº 7",
+    "secao": "Pequenos estudos melódicos sobre a primeira série de notas",
+    "tipo": "estudo_melodico",
+    "numero_original": 7,
+    "pagina": 6,
+    "paginas_pdf": [
+      14
+    ],
+    "instrumento": "saxofone",
+    "clave": "sol",
+    "tonalidade": null,
+    "compasso": null,
+    "andamento": null,
+    "notas": null,
+    "status": "pendente_transcricao",
+    "catalogo": "primeiros_estudos",
+    "indice_melodico": 3
+  },
+  {
+    "id": "AR-PRIMEIROS_ESTUDOS-P006-EM-008",
+    "titulo": "Nº 8",
+    "secao": "Pequenos estudos melódicos sobre a primeira série de notas",
+    "tipo": "estudo_melodico",
+    "numero_original": 8,
+    "pagina": 6,
+    "paginas_pdf": [
+      14
+    ],
+    "instrumento": "saxofone",
+    "clave": "sol",
+    "tonalidade": null,
+    "compasso": null,
+    "andamento": null,
+    "notas": null,
+    "status": "pendente_transcricao",
+    "catalogo": "primeiros_estudos",
+    "indice_melodico": 4
+  },
+  {
+    "id": "AR-PRIMEIROS_ESTUDOS-P006-EM-009",
+    "titulo": "Nº 9",
+    "secao": "Pequenos estudos melódicos sobre a primeira série de notas",
+    "tipo": "estudo_melodico",
+    "numero_original": 9,
+    "pagina": 6,
+    "paginas_pdf": [
+      14
+    ],
+    "instrumento": "saxofone",
+    "clave": "sol",
+    "tonalidade": null,
+    "compasso": null,
+    "andamento": null,
+    "notas": null,
+    "status": "pendente_transcricao",
+    "catalogo": "primeiros_estudos",
+    "indice_melodico": 5
+  },
+  {
+    "id": "AR-PRIMEIROS_ESTUDOS-P009-EM-021",
+    "titulo": "Nº 21",
+    "secao": "Pequenos estudos melódicos",
+    "tipo": "estudo_melodico",
+    "numero_original": 21,
+    "pagina": 9,
+    "paginas_pdf": [
+      17
+    ],
+    "instrumento": "saxofone",
+    "clave": "sol",
+    "tonalidade": null,
+    "compasso": null,
+    "andamento": null,
+    "notas": null,
+    "status": "pendente_transcricao",
+    "catalogo": "primeiros_estudos",
+    "indice_melodico": 6
+  },
+  {
+    "id": "AR-PRIMEIROS_ESTUDOS-P009-EM-022",
+    "titulo": "Nº 22",
+    "secao": "Pequenos estudos melódicos",
+    "tipo": "estudo_melodico",
+    "numero_original": 22,
+    "pagina": 9,
+    "paginas_pdf": [
+      17
+    ],
+    "instrumento": "saxofone",
+    "clave": "sol",
+    "tonalidade": null,
+    "compasso": null,
+    "andamento": null,
+    "notas": null,
+    "status": "pendente_transcricao",
+    "catalogo": "primeiros_estudos",
+    "indice_melodico": 7
+  },
+  {
+    "id": "AR-PRIMEIROS_ESTUDOS-P009-EM-023",
+    "titulo": "Nº 23",
+    "secao": "Pequenos estudos melódicos",
+    "tipo": "estudo_melodico",
+    "numero_original": 23,
+    "pagina": 9,
+    "paginas_pdf": [
+      17
+    ],
+    "instrumento": "saxofone",
+    "clave": "sol",
+    "tonalidade": null,
+    "compasso": null,
+    "andamento": null,
+    "notas": null,
+    "status": "pendente_transcricao",
+    "catalogo": "primeiros_estudos",
+    "indice_melodico": 8
+  },
+  {
+    "id": "AR-INTERVALOS_3-P012-EM-004",
+    "titulo": "Estudo melódico",
+    "secao": "Intervalos de 3ª",
+    "tipo": "estudo_melodico",
+    "numero_original": 4,
+    "pagina": 12,
+    "paginas_pdf": [
+      20
+    ],
+    "instrumento": "saxofone",
+    "clave": "sol",
+    "tonalidade": null,
+    "compasso": null,
+    "andamento": null,
+    "notas": null,
+    "status": "pendente_transcricao",
+    "catalogo": "intervalos_3",
+    "indice_melodico": 9
+  },
+  {
+    "id": "AR-INTERVALOS_4-P013-EM-004",
+    "titulo": "Estudo melódico",
+    "secao": "Intervalos de 4ª",
+    "tipo": "estudo_melodico",
+    "numero_original": 4,
+    "pagina": 13,
+    "paginas_pdf": [
+      21
+    ],
+    "instrumento": "saxofone",
+    "clave": "sol",
+    "tonalidade": null,
+    "compasso": null,
+    "andamento": null,
+    "notas": null,
+    "status": "pendente_transcricao",
+    "catalogo": "intervalos_4",
+    "indice_melodico": 10
+  },
+  {
+    "id": "AR-INTERVALOS_5-P015-EM-004",
+    "titulo": "Estudo melódico",
+    "secao": "Intervalos de 5ª",
+    "tipo": "estudo_melodico",
+    "numero_original": 4,
+    "pagina": 15,
+    "paginas_pdf": [
+      23
+    ],
+    "instrumento": "saxofone",
+    "clave": "sol",
+    "tonalidade": null,
+    "compasso": null,
+    "andamento": null,
+    "notas": null,
+    "status": "pendente_transcricao",
+    "catalogo": "intervalos_5",
+    "indice_melodico": 11
+  },
+  {
+    "id": "AR-INTERVALOS_6-P016-EM-001",
+    "titulo": "Estudo melódico — Allegretto",
+    "secao": "Intervalos de 6ª",
+    "tipo": "estudo_melodico",
+    "numero_original": null,
+    "pagina": 16,
+    "paginas_pdf": [
+      24
+    ],
+    "instrumento": "saxofone",
+    "clave": "sol",
+    "tonalidade": null,
+    "compasso": null,
+    "andamento": null,
+    "notas": null,
+    "status": "pendente_transcricao",
+    "catalogo": "intervalos_6",
+    "indice_melodico": 12
+  },
+  {
+    "id": "AR-MELODICOS_TONALIDADES-P032-EM-001",
+    "titulo": "Estudo melódico em Dó maior",
+    "secao": "Estudos melódicos por tonalidade",
+    "tipo": "estudo_melodico",
+    "numero_original": null,
+    "pagina": 32,
+    "paginas_pdf": [
+      38,
+      39
+    ],
+    "instrumento": "saxofone",
+    "clave": "sol",
+    "tonalidade": null,
+    "compasso": null,
+    "andamento": null,
+    "notas": null,
+    "status": "pendente_transcricao",
+    "catalogo": "melodicos_tonalidades",
+    "indice_melodico": 13
+  },
+  {
+    "id": "AR-MELODICOS_TONALIDADES-P034-EM-001",
+    "titulo": "Estudo melódico em Lá menor",
+    "secao": "Estudos melódicos por tonalidade",
+    "tipo": "estudo_melodico",
+    "numero_original": null,
+    "pagina": 34,
+    "paginas_pdf": [
+      40,
+      41
+    ],
+    "instrumento": "saxofone",
+    "clave": "sol",
+    "tonalidade": null,
+    "compasso": null,
+    "andamento": null,
+    "notas": null,
+    "status": "pendente_transcricao",
+    "catalogo": "melodicos_tonalidades",
+    "indice_melodico": 14
+  },
+  {
+    "id": "AR-MELODICOS_TONALIDADES-P037-EM-001",
+    "titulo": "Estudo melódico em Sol maior",
+    "secao": "Estudos melódicos por tonalidade",
+    "tipo": "estudo_melodico",
+    "numero_original": null,
+    "pagina": 37,
+    "paginas_pdf": [
+      43
+    ],
+    "instrumento": "saxofone",
+    "clave": "sol",
+    "tonalidade": null,
+    "compasso": null,
+    "andamento": null,
+    "notas": null,
+    "status": "pendente_transcricao",
+    "catalogo": "melodicos_tonalidades",
+    "indice_melodico": 15
+  },
+  {
+    "id": "AR-MELODICOS_TONALIDADES-P040-EM-001",
+    "titulo": "Estudo melódico em Mi menor",
+    "secao": "Estudos melódicos por tonalidade",
+    "tipo": "estudo_melodico",
+    "numero_original": null,
+    "pagina": 40,
+    "paginas_pdf": [
+      46
+    ],
+    "instrumento": "saxofone",
+    "clave": "sol",
+    "tonalidade": null,
+    "compasso": null,
+    "andamento": null,
+    "notas": null,
+    "status": "pendente_transcricao",
+    "catalogo": "melodicos_tonalidades",
+    "indice_melodico": 16
+  },
+  {
+    "id": "AR-MELODICOS_TONALIDADES-P042-EM-001",
+    "titulo": "Estudo melódico em Fá maior",
+    "secao": "Estudos melódicos por tonalidade",
+    "tipo": "estudo_melodico",
+    "numero_original": null,
+    "pagina": 42,
+    "paginas_pdf": [
+      48
+    ],
+    "instrumento": "saxofone",
+    "clave": "sol",
+    "tonalidade": null,
+    "compasso": null,
+    "andamento": null,
+    "notas": null,
+    "status": "pendente_transcricao",
+    "catalogo": "melodicos_tonalidades",
+    "indice_melodico": 17
+  },
+  {
+    "id": "AR-MELODICOS_TONALIDADES-P045-EM-001",
+    "titulo": "Estudo melódico em Ré menor",
+    "secao": "Estudos melódicos por tonalidade",
+    "tipo": "estudo_melodico",
+    "numero_original": null,
+    "pagina": 45,
+    "paginas_pdf": [
+      51,
+      52
+    ],
+    "instrumento": "saxofone",
+    "clave": "sol",
+    "tonalidade": null,
+    "compasso": null,
+    "andamento": null,
+    "notas": null,
+    "status": "pendente_transcricao",
+    "catalogo": "melodicos_tonalidades",
+    "indice_melodico": 18
+  },
+  {
+    "id": "AR-MELODICOS_TONALIDADES-P049-EM-001",
+    "titulo": "Estudo melódico em Ré maior",
+    "secao": "Estudos melódicos por tonalidade",
+    "tipo": "estudo_melodico",
+    "numero_original": null,
+    "pagina": 49,
+    "paginas_pdf": [
+      55
+    ],
+    "instrumento": "saxofone",
+    "clave": "sol",
+    "tonalidade": null,
+    "compasso": null,
+    "andamento": null,
+    "notas": null,
+    "status": "pendente_transcricao",
+    "catalogo": "melodicos_tonalidades",
+    "indice_melodico": 19
+  },
+  {
+    "id": "AR-ANEXO_ESTUDOS_MELODICOS-PDF069-EM-001",
+    "titulo": "Nº 1 — E menor",
+    "secao": "2 estudos melódicos — suplemento",
+    "tipo": "estudo_melodico",
+    "numero_original": 1,
+    "pagina": null,
+    "paginas_pdf": [
+      69
+    ],
+    "instrumento": "saxofone",
+    "clave": "sol",
+    "tonalidade": null,
+    "compasso": null,
+    "andamento": null,
+    "notas": null,
+    "status": "pendente_transcricao",
+    "catalogo": "anexo_estudos_melodicos",
+    "indice_melodico": 20
+  },
+  {
+    "id": "AR-ANEXO_ESTUDOS_MELODICOS-PDF070-EM-002",
+    "titulo": "Nº 2 — B menor",
+    "secao": "2 estudos melódicos — suplemento",
+    "tipo": "estudo_melodico",
+    "numero_original": 2,
+    "pagina": null,
+    "paginas_pdf": [
+      70
+    ],
+    "instrumento": "saxofone",
+    "clave": "sol",
+    "tonalidade": null,
+    "compasso": null,
+    "andamento": null,
+    "notas": null,
+    "status": "pendente_transcricao",
+    "catalogo": "anexo_estudos_melodicos",
+    "indice_melodico": 21
+  }
+]

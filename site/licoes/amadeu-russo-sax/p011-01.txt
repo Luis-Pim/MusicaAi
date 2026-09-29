@@ -1,3 +1,4 @@
+# id: AR-INTERVALOS_2-P011-EX-001
 titulo: Intervalos de 2ª
 secao: Intervalos e exercícios relativos
 tipo: exercicio

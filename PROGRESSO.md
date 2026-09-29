@@ -20,6 +20,12 @@ Nos arquivos de lição, `pagina:` é a página **impressa no livro**; o nome do
 | 19–20 | 11–12 | Intervalos de 2ª; 3ª nº 1–3; estudo melódico 9; 4ª nº 1 | no repositório |
 | 21 | 13 | 4ª nº 2–3; estudo melódico 10 (Andante) | no repositório |
 
+## Catálogo de referência
+
+`referencia/catalogo_completo.json` (164 registros) e `referencia/indice_estudos_melodicos.json` (21 estudos melódicos) listam todas as lições do método com seção, número e páginas.
+Cada lição transcrita tem `# id: <id do catálogo>` na primeira linha. Para ver o andamento: `python3 scripts/status_catalogo.py`.
+A numeração dos estudos melódicos segue `indice_melodico` do catálogo.
+
 ## Próximo passo
 
 - Seguir em ordem a partir do PDF 22 (livro 14) até o PDF 59 (livro 55).
@@ -30,8 +36,7 @@ Nos arquivos de lição, `pagina:` é a página **impressa no livro**; o nome do
 
 | Início (UTC) | Fim (UTC) | Páginas do PDF |
 |---|---|---|
-| 05:01 | | 18– |
+| 05:01 | 05:12 | 18–21 (11 lições) |
 
 ## Para o professor conferir
 
-- Nº 24: o título da seção foi deduzido ("Exercícios para as notas agudas"); conferir o texto do livro.

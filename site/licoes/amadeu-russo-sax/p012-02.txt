@@ -1,3 +1,4 @@
+# id: AR-INTERVALOS_3-P012-EM-004
 titulo: Estudo melódico 9 · intervalos de 3ª, nº 4
 secao: Intervalos e exercícios relativos
 tipo: estudo

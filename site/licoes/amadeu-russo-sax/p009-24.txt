@@ -1,5 +1,6 @@
+# id: AR-PRIMEIROS_ESTUDOS-P009-EX-024
 titulo: Nº 24
-secao: Exercícios para as notas agudas
+secao: Exercícios para a emissão dos sons do registro agudo
 tipo: exercicio
 pagina: 9
 instrumento: saxalto

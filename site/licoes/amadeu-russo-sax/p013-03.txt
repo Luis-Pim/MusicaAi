@@ -1,3 +1,4 @@
+# id: AR-INTERVALOS_4-P013-EM-004
 titulo: Estudo melódico 10 · intervalos de 4ª, nº 4
 secao: Intervalos e exercícios relativos
 tipo: estudo

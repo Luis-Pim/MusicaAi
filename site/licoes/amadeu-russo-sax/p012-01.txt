@@ -1,3 +1,4 @@
+# id: AR-INTERVALOS_3-P012-EX-003
 titulo: Intervalos de 3ª · nº 3
 secao: Intervalos e exercícios relativos
 tipo: exercicio

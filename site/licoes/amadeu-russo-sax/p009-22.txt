@@ -1,3 +1,4 @@
+# id: AR-PRIMEIROS_ESTUDOS-P009-EM-022
 titulo: Estudo melódico 7 · nº 22
 secao: Pequenos estudos melódicos
 tipo: estudo
