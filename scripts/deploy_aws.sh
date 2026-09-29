@@ -13,6 +13,14 @@ REGION="${2:-us-east-1}"
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 SITE="$ROOT/site"
 
+# Falhar antes de criar recursos caso a sessão AWS não esteja disponível.
+export AWS_PAGER=""
+export AWS_EC2_METADATA_DISABLED=true
+export AWS_REGION="$REGION"
+export AWS_DEFAULT_REGION="$REGION"
+ACCOUNT=$(aws sts get-caller-identity --query Account --output text)
+echo "Conta AWS: $ACCOUNT | Região: $REGION"
+
 echo "== 1/4 Bucket s3://$BUCKET ($REGION)"
 if ! aws s3api head-bucket --bucket "$BUCKET" 2>/dev/null; then
   if [ "$REGION" = "us-east-1" ]; then
@@ -26,7 +34,9 @@ if ! aws s3api head-bucket --bucket "$BUCKET" 2>/dev/null; then
 fi
 
 echo "== 2/4 Enviando arquivos"
-aws s3 sync "$SITE" "s3://$BUCKET" --delete --exclude "*.DS_Store"
+aws s3 sync "$SITE" "s3://$BUCKET" --delete \
+  --exclude "*.DS_Store" --exclude "*.whl" --exclude "*.zip" \
+  --exclude "*.pyc" --exclude "__pycache__/*" --exclude ".env*"
 aws s3 cp "s3://$BUCKET/licoes/" "s3://$BUCKET/licoes/" --recursive --exclude "*" --include "*.txt" \
   --content-type "text/plain; charset=utf-8" --metadata-directive REPLACE >/dev/null
 aws s3 cp "$SITE/index.html" "s3://$BUCKET/index.html" --content-type "text/html; charset=utf-8" \
@@ -57,7 +67,6 @@ if [ -z "$DIST_ID" ] || [ "$DIST_ID" = "None" ]; then
 }
 JSON
   DIST_ID=$(aws cloudfront create-distribution --distribution-config "file://$CFG" --query Distribution.Id --output text)
-  ACCOUNT=$(aws sts get-caller-identity --query Account --output text)
   aws s3api put-bucket-policy --bucket "$BUCKET" --policy "{
     \"Version\": \"2012-10-17\",
     \"Statement\": [{\"Effect\": \"Allow\", \"Principal\": {\"Service\": \"cloudfront.amazonaws.com\"},

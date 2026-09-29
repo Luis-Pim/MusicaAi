@@ -1,5 +1,10 @@
+<!doctype html>
+<html lang="pt-BR">
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Partitura Viva</title>
+<link rel="stylesheet" href="practice.css">
+<link rel="stylesheet" href="scales.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;600&display=swap">
@@ -47,7 +52,7 @@
 }
 * { box-sizing: border-box; }
 [hidden] { display: none !important; }
-body { background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 15px; line-height: 1.5; }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 15px; line-height: 1.5; }
 h1, h2, h3 { font-family: var(--font-display); text-wrap: balance; margin: 0; }
 button, input, select, textarea { font: inherit; color: inherit; }
 :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
@@ -183,6 +188,78 @@ input[type="number"] { width: 72px; font-variant-numeric: tabular-nums; }
   .tempo-read { display: none; }
 }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
+/* Entrada de demonstração */
+.login-screen { min-height: 95svh; display: grid; place-items: center; padding: 32px 16px; }
+.login-card { width: min(920px, 100%); display: grid; grid-template-columns: 1fr 1fr; background: var(--surface); border: 1px solid var(--line); border-radius: 24px; overflow: hidden; box-shadow: 0 24px 70px #10204012; }
+.login-story { background: #173e86; color: #fff; padding: 48px 36px; display: flex; flex-direction: column; justify-content: space-between; gap: 40px; }
+.login-story h1 { font-size: clamp(32px, 5vw, 44px); line-height: 1.12; margin: 18px 0; }
+.login-story p { color: #dbe7ff; }
+.login-notes { font-size: 64px; letter-spacing: 12px; color: #b7d1ff; border-block: 1px solid #ffffff30; padding: 12px 0; }
+.login-form { padding: 48px 36px; display: flex; flex-direction: column; justify-content: center; gap: 18px; }
+.login-form h2 { font-size: 28px; }
+.login-field { display: flex; flex-direction: column; gap: 6px; font-weight: 700; }
+.login-field input { width: 100%; min-height: 46px; background: var(--surface-2); border: 1px solid var(--line); border-radius: 9px; padding: 10px 12px; }
+.login-form .btn { min-height: 46px; justify-content: center; }
+.login-error { color: var(--bad); margin: 0; }
+.user-menu { margin-left: auto; display: flex; align-items: center; gap: 12px; font-size: 13px; color: var(--muted); }
+@media (max-width: 650px) { .login-card { grid-template-columns: 1fr; } .login-story, .login-form { padding: 28px; } .login-story { gap: 12px; } .login-notes { display: none; } }
+dialog.tuner { width: min(520px, calc(100% - 24px)); max-height: 90svh; overflow: auto; border: 1px solid var(--line); border-radius: 20px; background: var(--surface); color: var(--ink); padding: 26px; }
+dialog.tuner::backdrop { background: #081323aa; }
+.tuner-head { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+.tuner-readout { text-align: center; padding: 24px 0 16px; }
+#tuner-note { font-family: var(--font-display); font-size: clamp(38px, 9vw, 58px); font-weight: 700; }
+.tuner-meter { position: relative; height: 26px; margin: 16px 8px 6px; border-radius: 20px; background: linear-gradient(to right, var(--accent-soft) 45%, #75c995 45%, #75c995 55%, var(--accent-soft) 55%); }
+.tuner-meter::after { content: ''; position: absolute; left: 50%; top: 0; height: 100%; width: 1px; background: var(--ink); }
+#tuner-needle { position: absolute; top: -5px; height: 36px; width: 4px; border-radius: 4px; background: var(--ink); transform: translateX(-50%); transition: left .1s; z-index: 1; }
+.tuner-scale { display: flex; justify-content: space-between; font-size: 13px; color: var(--muted); }
+#tuner-status { min-height: 3em; text-align: center; font-weight: 700; margin: 18px 0; }
+.tuner[data-tuning="good"] #tuner-status { color: var(--good); }
+.tuner[data-tuning="adjust"] #tuner-status { color: var(--warn); }
+.tuner-controls { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin: 16px 0; }
+
+/* Celular: navegação compacta e transporte em duas linhas previsíveis. */
+@media (max-width: 640px) {
+  .wrap { padding-inline: 12px; }
+  .top { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 10px 8px; padding-block: 16px; }
+  .top > .brand { grid-column: 1 / -1; grid-row: 1; font-size: 25px; }
+  .user-menu { grid-column: 1 / -1; grid-row: 2; margin: 0; gap: 8px; }
+  .user-menu > span { margin-left: auto; font-size: 12px; }
+  .tagline { grid-column: 1 / -1; font-size: 14px; line-height: 1.4; }
+  .panel { padding: 14px; gap: 12px; }
+  .bench { gap: 12px; padding-bottom: 16px; }
+  #study-app { padding-bottom: calc(var(--mobile-transport-height, 144px) + 12px); }
+  .lib-list { max-height: 230px; }
+  .lib-item { min-height: 44px; align-items: center; padding-block: 9px; }
+  .tab { min-height: 44px; }
+  .btn, .btn.small { min-height: 44px; padding: 9px 12px; }
+  input:not([type="checkbox"]), select, textarea, #src, #lib-search { font-size: 16px; }
+  select, input[type="number"], #lib-search { min-height: 44px; }
+  .reading { grid-template-columns: minmax(0, 1fr); }
+  .syntax { grid-template-columns: minmax(0, 1fr); }
+  .score-head { gap: 12px; }
+  .score-title { font-size: 21px; }
+  .transport { position: fixed; left: 0; right: 0; bottom: 0; max-height: 50svh; overflow-y: auto; }
+  .transport .wrap { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 8px; padding-block: 8px; }
+  .transport .wrap > .tgroup:first-child { grid-column: 1; grid-row: 1; flex-wrap: nowrap; }
+  .transport .wrap > .tgroup:nth-child(2) { grid-column: 1 / -1; grid-row: 2; display: grid; grid-template-columns: auto 64px minmax(0, 1fr); gap: 8px; }
+  .transport .wrap > .tgroup:nth-child(2) .label { font-size: 10px; }
+  #unit, #bpm { width: 100%; min-width: 0; }
+  .transport .more-toggle { grid-column: 2; grid-row: 1; margin: 0; }
+  .transport .more { grid-column: 1 / -1; grid-row: 3; gap: 12px; padding-top: 8px; border-top: 1px solid var(--line); }
+  .transport .more .tgroup { width: 100%; }
+  #inst { flex: 1; min-width: 0; }
+  .stop { width: 44px; height: 44px; }
+  .login-screen { min-height: 100svh; padding: 16px; }
+  .login-story, .login-form { padding: 24px; }
+  .login-story h1 { font-size: 30px; margin-block: 12px; }
+  .login-story > span { display: none; }
+  .login-story p { margin-bottom: 0; }
+  .login-form { gap: 16px; }
+  dialog.tuner { padding: 20px; max-height: calc(100svh - 24px); }
+  .tuner-head { gap: 8px; }
+  .tuner-head h2 { font-size: 21px; }
+  .tuner-controls > button { flex: 1 1 120px; }
+}
 </style>
 
 <script type="application/json" id="instrument-data">
@@ -195,14 +272,28 @@ input[type="number"] { width: 72px; font-variant-numeric: tabular-nums; }
   {"id":"flauta","nome":"Flauta transversal","dir":"flute","lo":60,"hi":98,"transp":0,"sustain":true,"synth":"flute"},
   {"id":"flautim","nome":"Flautim (8va)","dir":"piccolo","lo":74,"hi":108,"transp":12,"sustain":true,"synth":"flute"},
   {"id":"oboe","nome":"Oboé","dir":"oboe","lo":58,"hi":93,"transp":0,"sustain":true,"synth":"reed"},
+  {"id":"oboedamore","nome":"Oboé d’amore em Lá","dir":"oboe","lo":55,"hi":90,"transp":-3,"sustain":true,"synth":"reed","sampleNote":"Exemplo sonoro com timbre aproximado de oboé."},
   {"id":"clarinete","nome":"Clarinete em Si♭","dir":"clarinet","lo":50,"hi":94,"transp":-2,"sustain":true,"synth":"reed"},
+  {"id":"clarinetealto","nome":"Clarinete alto em Mi♭","dir":"clarinet","lo":41,"hi":82,"transp":-9,"sustain":true,"synth":"reed","sampleNote":"Exemplo sonoro com timbre aproximado de clarinete."},
+  {"id":"clarinetebaixo","nome":"Clarinete baixo em Si♭","dir":"clarinet","lo":34,"hi":82,"transp":-14,"sustain":true,"synth":"reed","sampleNote":"Exemplo sonoro com timbre aproximado de clarinete."},
+  {"id":"corneingles","nome":"Corne inglês em Fá","dir":"english_horn","lo":52,"hi":82,"transp":-7,"sustain":true,"synth":"reed"},
   {"id":"fagote","nome":"Fagote","dir":"bassoon","lo":34,"hi":76,"transp":0,"sustain":true,"synth":"reed"},
+  {"id":"saxsoprano","nome":"Sax soprano em Si♭","dir":"soprano_sax","lo":56,"hi":88,"transp":-2,"sustain":true,"synth":"reed"},
   {"id":"saxalto","nome":"Sax alto em Mi♭","dir":"alto_sax","lo":49,"hi":81,"transp":-9,"sustain":true,"synth":"reed"},
   {"id":"saxtenor","nome":"Sax tenor em Si♭","dir":"tenor_sax","lo":44,"hi":76,"transp":-14,"sustain":true,"synth":"reed"},
+  {"id":"saxbaritono","nome":"Sax barítono em Mi♭","dir":"baritone_sax","lo":36,"hi":69,"transp":-21,"sustain":true,"synth":"reed"},
   {"id":"trompete","nome":"Trompete em Si♭","dir":"trumpet","lo":52,"hi":84,"transp":-2,"sustain":true,"synth":"brass"},
-  {"id":"trompa","nome":"Trompa em Fá","dir":"french_horn","lo":35,"hi":77,"transp":-7,"sustain":true,"synth":"brass"},
-  {"id":"trombone","nome":"Trombone","dir":"trombone","lo":40,"hi":77,"transp":0,"sustain":true,"synth":"brass"},
-  {"id":"tuba","nome":"Tuba","dir":"tuba","lo":26,"hi":65,"transp":0,"sustain":true,"synth":"brass"},
+  {"id":"trompetedo","nome":"Trompete em Dó","dir":"trumpet","lo":54,"hi":86,"transp":0,"sustain":true,"synth":"brass"},
+  {"id":"cornet","nome":"Cornet em Si♭","dir":"trumpet","lo":52,"hi":84,"transp":-2,"sustain":true,"synth":"brass","sampleNote":"Exemplo sonoro com timbre aproximado de trompete."},
+  {"id":"flugelhorn","nome":"Flugelhorn em Si♭","dir":"trumpet","lo":52,"hi":84,"transp":-2,"sustain":true,"synth":"brass","sampleNote":"Exemplo sonoro com timbre aproximado de trompete."},
+  {"id":"trompa","nome":"Trompa em Fá","dir":"french_horn","lo":35,"hi":77,"transp":-7,"sustain":true,"synth":"brass","notationNote":"Na trompa dupla Fá/Si♭, mantenha Trompa em Fá quando a parte estiver escrita em Fá; a válvula não muda a notação."},
+  {"id":"trompasib","nome":"Trompa em Si♭ (parte em Si♭)","dir":"french_horn","lo":40,"hi":82,"transp":-2,"sustain":true,"synth":"brass","notationNote":"Use esta opção apenas para uma parte escrita em Si♭. Para parte em Fá, escolha Trompa em Fá."},
+  {"id":"trombone","nome":"Trombone em Si♭","dir":"trombone","lo":40,"hi":77,"transp":0,"sustain":true,"synth":"brass","alternateTransp":-14,"alternateLabel":"Clave de sol transposta em Si♭","notationNote":"Na notação usual em clave de fá, o trombone lê em som real. Para parte em clave de sol transposta em Si♭, escolha essa opção acima."},
+  {"id":"eufonio","nome":"Eufônio em Si♭","dir":"trombone","lo":34,"hi":77,"transp":0,"sustain":true,"synth":"brass","alternateTransp":-14,"alternateLabel":"Clave de sol transposta em Si♭","notationNote":"Na clave de fá, use som real. Para clave de sol transposta em Si♭, escolha essa opção acima.","sampleNote":"Exemplo sonoro com timbre aproximado de trombone."},
+  {"id":"tuba","nome":"Tuba em Si♭","dir":"tuba","lo":26,"hi":65,"transp":0,"sustain":true,"synth":"brass","alternateTransp":-26,"alternateLabel":"Clave de sol transposta em Si♭","notationNote":"A afinação do tubo não muda as notas de uma parte em som real. Para clave de sol transposta em Si♭, escolha essa opção acima."},
+  {"id":"tubado","nome":"Tuba em Dó","dir":"tuba","lo":24,"hi":65,"transp":0,"sustain":true,"synth":"brass","alternateTransp":null,"alternateLabel":null,"notationNote":"A notação usual em clave de fá é em som real, sem transposição."},
+  {"id":"tubamib","nome":"Tuba em Mi♭","dir":"tuba","lo":27,"hi":70,"transp":0,"sustain":true,"synth":"brass","alternateTransp":-21,"alternateLabel":"Clave de sol transposta em Mi♭","notationNote":"A notação usual em clave de fá é em som real. Para clave de sol transposta em Mi♭, escolha essa opção acima."},
+  {"id":"tubafa","nome":"Tuba em Fá","dir":"tuba","lo":29,"hi":72,"transp":0,"sustain":true,"synth":"brass","alternateTransp":null,"alternateLabel":null,"notationNote":"A notação usual em clave de fá é em som real, sem transposição."},
   {"id":"violao","nome":"Violão (8vb)","dir":"acoustic_guitar_nylon","lo":40,"hi":83,"transp":-12,"sustain":false,"synth":"pluck"},
   {"id":"acordeao","nome":"Acordeão","dir":"accordion","lo":41,"hi":89,"transp":0,"sustain":true,"synth":"reed"},
   {"id":"marimba","nome":"Marimba","dir":"marimba","lo":36,"hi":96,"transp":0,"sustain":false,"synth":"mallet"},
@@ -211,8 +302,38 @@ input[type="number"] { width: 72px; font-variant-numeric: tabular-nums; }
 ]
 </script>
 
+<section class="login-screen" id="login-screen" aria-label="Entrar no Partitura Viva">
+  <div class="login-card">
+    <div class="login-story">
+      <div><div class="brand">♫ Partitura Viva</div><h1>Seu estudo ganha vida.</h1><p>Explore suas lições, acompanhe a partitura e encontre o seu ritmo.</p></div>
+      <div class="login-notes" aria-hidden="true">♩ ♪ ♫</div>
+      <span>Um espaço para ouvir, praticar e evoluir.</span>
+    </div>
+    <form class="login-form" id="login-form">
+      <div><span class="step">Bem-vindo de volta</span><h2>Vamos praticar?</h2><p class="hint">Entre para abrir sua biblioteca de lições.</p></div>
+      <label class="login-field" for="login-user">Usuário<input id="login-user" name="username" autocomplete="username" autocapitalize="none" spellcheck="false" placeholder="Seu usuário" required></label>
+      <label class="login-field" for="login-password">Senha<input id="login-password" name="password" type="password" autocomplete="current-password" placeholder="Sua senha" required></label>
+      <p class="login-error" id="login-error" role="alert" hidden>Usuário ou senha incorretos. Tente novamente.</p>
+      <button class="btn primary" type="submit">Entrar na biblioteca <span aria-hidden="true">→</span></button>
+    </form>
+  </div>
+</section>
+<dialog class="tuner" id="tuner-dialog" aria-labelledby="tuner-title">
+  <div class="tuner-head"><h2 id="tuner-title">Afinador cromático</h2><button class="btn" id="tuner-close" type="button" aria-label="Fechar afinador">Fechar</button></div>
+  <p class="hint">Toque uma nota por vez. A nota exibida é o som real, inclusive em instrumentos transpositores.</p>
+  <div class="tuner-readout"><div id="tuner-note">—</div><p class="hint" id="tuner-detail">Toque uma nota longa e estável.</p></div>
+  <div class="tuner-meter" aria-hidden="true"><span id="tuner-needle" hidden></span></div>
+  <div class="tuner-scale" aria-hidden="true"><span>−50 · Abaixo</span><span>Afinado</span><span>Acima · +50</span></div>
+  <p id="tuner-status" role="status" aria-live="polite">Microfone desligado.</p>
+  <label for="tuner-reference">Referência do Lá</label>
+  <select id="tuner-reference"><option value="440">440 Hz</option><option value="441">441 Hz</option><option value="442">442 Hz</option><option value="443">443 Hz</option><option value="444">444 Hz</option></select>
+  <div class="tuner-controls"><button class="btn primary" id="tuner-start" type="button">Ativar microfone</button><button class="btn" id="tuner-stop" type="button" disabled>Desligar microfone</button></div>
+  <p class="hint">A faixa verde indica até ±5 cents da nota mais próxima. Afinação se refere à altura da nota, não ao volume. O áudio é analisado no aparelho, sem gravação ou envio.</p>
+</dialog>
+<div id="study-app" hidden>
 <div class="wrap">
   <header class="top">
+    <div class="user-menu"><button class="btn" id="tuner-open" type="button">♫ Afinador</button><span>Administrador · Demo</span><button class="btn small" id="logout" type="button">Sair</button></div>
     <div class="brand">
       <svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1.4"><path d="M2 7h26M2 12h26M2 17h26M2 22h26"/></g><ellipse cx="11" cy="19.5" rx="4" ry="2.9" transform="rotate(-20 11 19.5)" fill="var(--accent)"/><path d="M14.6 18.6V4.5c3 1.2 6 3.2 6.6 6.4" fill="none" stroke="var(--accent)" stroke-width="2.2" stroke-linecap="round"/></svg>
       Partitura Viva
@@ -220,6 +341,7 @@ input[type="number"] { width: 72px; font-variant-numeric: tabular-nums; }
     <p class="tagline">Envie a foto ou o PDF da lição do seu método e ouça como ela soa, no seu instrumento e no seu andamento.</p>
   </header>
 
+  <div class="row study-tools"><button class="btn primary" type="button" id="scales-open">Escalas · Círculo das quintas</button></div>
   <main class="bench">
     <section class="panel library" aria-labelledby="h-lib" id="library" hidden>
       <h2 id="h-lib">Biblioteca de lições</h2>
@@ -294,6 +416,7 @@ input[type="number"] { width: 72px; font-variant-numeric: tabular-nums; }
       </div>
 
       <div class="paper" id="score" aria-label="Partitura. Toque numa nota para começar dali."></div>
+      <div class="row"><button class="btn primary" id="practice-open" type="button">Professor virtual · Avaliar minha execução</button></div>
       <div class="score-foot">
         <p class="hint">Toque numa nota para tocar a partir daquele compasso. A nota que soa fica destacada.</p>
         <p class="hint" id="measure-count"></p>
@@ -393,6 +516,47 @@ input[type="number"] { width: 72px; font-variant-numeric: tabular-nums; }
   </div>
 </div>
 
+</div>
+<script>
+// Login visual de demonstração: não restringe o acesso aos arquivos públicos.
+(function () {
+  const screen = document.getElementById('login-screen');
+  const app = document.getElementById('study-app');
+  const form = document.getElementById('login-form');
+  const error = document.getElementById('login-error');
+  const user = document.getElementById('login-user');
+  const password = document.getElementById('login-password');
+  function showStudy(active) {
+    screen.hidden = active;
+    app.hidden = !active;
+    if (active) { window.dispatchEvent(new Event('resize')); document.getElementById('logout').focus(); }
+    else user.focus();
+  }
+  let active = false;
+  try { active = sessionStorage.getItem('pv-demo-session') === 'admin'; } catch (_) {}
+  showStudy(active);
+  form.addEventListener('input', () => { error.hidden = true; });
+  form.addEventListener('submit', event => {
+    event.preventDefault();
+    if (user.value.trim() !== 'admin' || password.value !== 'ccb123') {
+      error.hidden = false;
+      password.focus();
+      return;
+    }
+    try { sessionStorage.setItem('pv-demo-session', 'admin'); } catch (_) {}
+    form.reset();
+    error.hidden = true;
+    showStudy(true);
+  });
+  document.getElementById('logout').addEventListener('click', () => {
+    document.getElementById('stop').click();
+    try { sessionStorage.removeItem('pv-demo-session'); } catch (_) {}
+    form.reset();
+    error.hidden = true;
+    showStudy(false);
+  });
+})();
+</script>
 <script src="https://cdn.jsdelivr.net/npm/vexflow@4.2.5/build/cjs/vexflow.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.worker.min.js"></script>
@@ -402,6 +566,7 @@ input[type="number"] { width: 72px; font-variant-numeric: tabular-nums; }
    Dados musicais
    ============================================================ */
 const INSTRUMENTS = JSON.parse(document.getElementById("instrument-data").textContent);
+let alternateNotation = false;
 const LEVELS = ["ppp", "pp", "p", "mp", "mf", "f", "ff", "fff"];
 const LEVEL_GAIN = [0.14, 0.22, 0.32, 0.43, 0.55, 0.7, 0.85, 1];
 const DYN_NAMES = {
@@ -742,15 +907,16 @@ function computeShownAccidentals(model) {
   });
 }
 
-function renderScore(model) {
-  noteEls = new Map();
-  scoreEl.innerHTML = "";
+function renderScore(model, target = scoreEl) {
+  const renderedNotes = new Map();
+  if (target === scoreEl) noteEls = renderedNotes;
+  target.innerHTML = "";
   if (!window.Vex || !Vex.Flow) {
-    scoreEl.innerHTML = '<p class="hint" style="padding:16px">Não foi possível carregar o desenho de partituras. A reprodução continua funcionando.</p>';
+    target.innerHTML = '<p class="hint" style="padding:16px">Não foi possível carregar o desenho de partituras. A reprodução continua funcionando.</p>';
     return;
   }
   if (!model.measures.length) {
-    scoreEl.innerHTML = '<p class="hint" style="padding:16px;color:#555">Nenhum compasso para desenhar ainda.</p>';
+    target.innerHTML = '<p class="hint" style="padding:16px;color:#555">Nenhum compasso para desenhar ainda.</p>';
     return;
   }
   const VF = Vex.Flow;
@@ -760,7 +926,8 @@ function renderScore(model) {
   const clef = meta.clave;
   const tsStr = `${meta.compasso[0]}/${meta.compasso[1]}`;
   const fifths = Math.abs(KEY_FIFTHS[meta.tonalidade] || 0);
-  const totalW = Math.max(300, scoreEl.clientWidth - 10);
+  const minMeasure = target === scoreEl ? 300 : Math.max(240, ...model.measures.map((ms, i) => measureMinWidth(ms) + 38 + fifths * 10 + (i === 0 ? 28 : 0) + 20));
+  const totalW = Math.max(minMeasure, target.clientWidth - 10);
   const availW = totalW - 10;
   const LH = 132, TOP = 34;
 
@@ -776,9 +943,15 @@ function renderScore(model) {
   });
   if (line.length) lines.push({ ms: line, used });
 
-  const host = document.createElement("div"); scoreEl.append(host);
+  const host = document.createElement("div"); target.append(host);
   const renderer = new Renderer(host, Renderer.Backends.SVG);
   renderer.resize(totalW, TOP + lines.length * LH + 10);
+  if (target !== scoreEl) {
+    const svg = host.querySelector('svg');
+    svg.setAttribute('viewBox', `0 0 ${totalW} ${TOP + lines.length * LH + 10}`);
+    svg.style.removeProperty('width'); svg.style.removeProperty('height');
+    svg.style.setProperty('--score-natural-width', `${totalW}px`);
+  }
   const ctx = renderer.getContext();
   ctx.setFillStyle("#121212"); ctx.setStrokeStyle("#121212");
 
@@ -800,7 +973,7 @@ function renderScore(model) {
         const notes = ms.events.map(ev => {
           const keys = ev.kind === "rest" ? [REST_KEY[clef]] : ev.keys.map(k => `${k.step.toLowerCase()}${k.alter === 1 ? "#" : k.alter === -1 ? "b" : k.alter === 2 ? "##" : k.alter === -2 ? "bb" : ""}/${k.oct}`);
           const n = new StaveNote({ keys, duration: vfDuration(ev), dots: ev.dots, clef, auto_stem: true, align_center: !!ev.measureRest });
-          n.setAttribute("id", "e" + ev.id);
+          n.setAttribute("id", (target === scoreEl ? "e" : target.id + "-e") + ev.id);
           if (ev.kind === "note") ev.keys.forEach((k, i) => { if (k.showAcc) n.addModifier(new Accidental(k.showAcc), i); });
           if (ev.dots) Dot.buildAndAttach([n], { all: true });
           const stemUp = ev.kind === "note" && n.getStemDirection() === 1;
@@ -872,8 +1045,8 @@ function renderScore(model) {
   });
 
   model.events.forEach(ev => {
-    const el = document.getElementById("vf-e" + ev.id) || vfById.get(ev.id)?.getSVGElement?.();
-    if (el) { noteEls.set(ev.id, el); el.dataset.ev = ev.id; }
+    const el = target.querySelector("#vf-" + (target === scoreEl ? "e" : target.id + "-e") + ev.id) || vfById.get(ev.id)?.getSVGElement?.();
+    if (el) { renderedNotes.set(ev.id, el); el.dataset.ev = ev.id; }
   });
 }
 
@@ -997,7 +1170,7 @@ function sampleMidis(inst) {
 function sampleUrl(inst, m) { return `samples/${inst.dir}/${NOTE_FILE[m % 12]}${Math.floor(m / 12) - 1}.mp3`; }
 
 async function loadInstrument(inst) {
-  if (audio.buffers.has(inst.id)) return audio.buffers.get(inst.id);
+  if (audio.buffers.has(inst.id)) { setInstState(inst.sampleNote || ""); return audio.buffers.get(inst.id); }
   if (audio.loading.has(inst.id)) return audio.loading.get(inst.id);
   const ctx = ensureAudio();
   const midis = sampleMidis(inst);
@@ -1015,7 +1188,7 @@ async function loadInstrument(inst) {
       done++; setInstState(`carregando amostras ${done}/${midis.length}`);
     }));
     audio.buffers.set(inst.id, map);
-    setInstState(map.size ? "" : "som sintetizado");
+    setInstState(map.size ? inst.sampleNote || "" : "som sintetizado");
     return map;
   })();
   audio.loading.set(inst.id, p);
@@ -1116,7 +1289,7 @@ function buildTimeline(model, opt) {
           if (cont && Math.abs(cont.end - t) < 1e-6) {
             cont.full += hold; cont.gap = gap; cont.v1 = ev.v1; cont.end = t + hold;
           } else {
-            const n = { t, full: hold, gap, midi, v0: ev.v0, v1: ev.v1, end: t + hold };
+            const n = { t, measure: mi + 1, event: ev.id, full: hold, gap, midi, v0: ev.v0, v1: ev.v1, end: t + hold };
             notes.push(n);
             if (ev.tie) open.set(k.midi, n);
           }
@@ -1141,17 +1314,21 @@ function buildTimeline(model, opt) {
 
 const player = {
   playing: false, t0: 0, tl: null, ni: 0, ci: 0, timer: null, raf: 0, cur: -1, inst: null, bufs: null,
+  startToken: 0,
   async play() {
+    this.stop();
+    const request = ++this.startToken;
     if (!state.model || !state.model.events.length) return;
     ensureAudio();
     const inst = currentInstrument();
     this.inst = inst;
     this.bufs = await loadInstrument(inst);
+    if (request !== this.startToken) return;
     const unit = +unitSel.value;
     this.tl = buildTimeline(state.model, {
       bpm: Math.max(10, +bpmIn.value || 60), unit,
       from: Math.max(1, +fromIn.value || 1), to: Math.max(1, +toIn.value || state.model.measures.length),
-      transp: transpChk.checked ? inst.transp : 0, countIn: countChk.checked
+      transp: currentTranspose(), countIn: countChk.checked
     });
     if (!this.tl.marks.length) return;
     this.t0 = audio.ctx.currentTime + 0.12; this.ni = 0; this.ci = 0; this.cur = -1;
@@ -1188,6 +1365,7 @@ const player = {
     this.raf = requestAnimationFrame(() => this.draw());
   },
   stop() {
+    this.startToken++;
     this.playing = false; clearInterval(this.timer); cancelAnimationFrame(this.raf);
     if (audio.master && audio.ctx) {
       const g = audio.master.gain, now = audio.ctx.currentTime;
@@ -1211,7 +1389,7 @@ function highlight(mark) {
   if (el) {
     el.classList.add("is-playing"); lastHl = el;
     const r = el.getBoundingClientRect(), sr = scoreEl.getBoundingClientRect();
-    if (r.bottom > window.innerHeight - 110 || r.top < 0) el.scrollIntoView({ block: "center", behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
+    if (!document.querySelector("dialog[open]") && (r.bottom > window.innerHeight - 110 || r.top < 0)) el.scrollIntoView({ block: "center", behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
     if (r.left < sr.left || r.right > sr.right) scoreEl.scrollLeft += r.left - sr.left - 40;
   }
   posEl.textContent = `comp. ${mark.measure + 1} de ${state.model.measures.length}`;
@@ -1233,9 +1411,13 @@ const fromIn = document.getElementById("from"), toIn = document.getElementById("
 
 INSTRUMENTS.forEach(i => { const o = document.createElement("option"); o.value = i.id; o.textContent = i.nome; instSel.append(o); });
 function currentInstrument() { return INSTRUMENTS.find(i => i.id === instSel.value) || INSTRUMENTS[0]; }
+function currentTranspose() {
+  const inst = currentInstrument();
+  return transpChk.checked ? (alternateNotation && inst.alternateTransp != null ? inst.alternateTransp : inst.transp) : 0;
+}
 function updateTranspUi() {
   const inst = currentInstrument();
-  document.getElementById("transp-wrap").hidden = !inst.transp;
+  document.getElementById("transp-wrap").hidden = !(inst.transp || alternateNotation && inst.alternateTransp);
 }
 function updateTempoRead() {
   const bpm = +bpmIn.value || 0;
@@ -1249,12 +1431,23 @@ const store = {
 
 function applyText(text, { fromEditor = false, keepTempo = false } = {}) {
   const model = parseLesson(text);
+  alternateNotation = false;
   computeExpression(model);
   const wasPlaying = player.playing; if (wasPlaying) player.stop();
   state.model = model;
+  updateTranspUi();
   document.getElementById("title-text").textContent = model.meta.titulo || "Lição sem título";
   if (model.meta.instrumento && !fromEditor && INSTRUMENTS.some(i => i.id === model.meta.instrumento) && instSel.value !== model.meta.instrumento) {
     instSel.value = model.meta.instrumento; updateTranspUi(); store.set("inst", instSel.value);
+  }
+  const scaleMatch = text.match(/^# scale-config: (.+)$/m);
+  if (scaleMatch) {
+    try {
+      const config = JSON.parse(scaleMatch[1]);
+      transpChk.checked = config.notation !== 'concert';
+      alternateNotation = config.notation === 'alternate' && currentInstrument().alternateTransp != null;
+      updateTranspUi();
+    } catch (_) { /* Comentário inválido não altera a leitura da lição. */ }
   }
   document.getElementById("example-badge").hidden = !state.isExample;
   renderScore(model);
@@ -1298,12 +1491,22 @@ document.getElementById("more-toggle").addEventListener("click", e => {
 });
 document.getElementById("play").addEventListener("click", () => { player.playing ? player.stop() : player.play(); });
 document.getElementById("stop").addEventListener("click", () => { player.stop(); fromIn.value = 1; });
-instSel.addEventListener("change", () => { store.set("inst", instSel.value); updateTranspUi(); ensureAudio(); loadInstrument(currentInstrument()); if (player.playing) { player.stop(); player.play(); } });
+instSel.addEventListener("change", () => { if (/^# scale-config: /m.test(srcEl.value) && window.PracticeBridge) {
+  try { window.PracticeBridge.selectInstrument(instSel.value, transpChk.checked); }
+  catch (e) { instSel.value = state.model.meta.instrumento; setStatus(e.message, "warn"); }
+  return;
+} alternateNotation = false; store.set("inst", instSel.value); updateTranspUi(); ensureAudio(); loadInstrument(currentInstrument()); if (player.playing) { player.stop(); player.play(); } });
 [bpmIn, unitSel].forEach(el => el.addEventListener("change", () => { updateTempoRead(); store.set("tempo", { bpm: bpmIn.value, unit: unitSel.value }); if (player.playing) { player.stop(); player.play(); } }));
 bpmIn.addEventListener("input", updateTempoRead);
+transpChk.addEventListener("change", () => {
+  if (/^# scale-config: /m.test(srcEl.value) && window.PracticeBridge) {
+    try { window.PracticeBridge.selectInstrument(instSel.value, transpChk.checked, alternateNotation); }
+    catch (e) { setStatus(e.message, "warn"); }
+  }
+});
 [metroChk, countChk, loopChk, transpChk].forEach(el => el.addEventListener("change", () => store.set(el.id, el.checked)));
 document.addEventListener("keydown", e => {
-  if (e.code === "Space" && !/INPUT|TEXTAREA|SELECT|BUTTON/.test(document.activeElement.tagName)) { e.preventDefault(); player.playing ? player.stop() : player.play(); }
+  if (!document.querySelector("dialog[open]") && !document.getElementById("study-app").hidden && e.code === "Space" && !/INPUT|TEXTAREA|SELECT|BUTTON/.test(document.activeElement.tagName)) { e.preventDefault(); player.playing ? player.stop() : player.play(); }
 });
 let resizeTimer = 0, lastW = 0;
 new ResizeObserver(() => {
@@ -1746,6 +1949,11 @@ document.getElementById("lib-search").addEventListener("input", () => lib.data &
   updateTempoRead();
   lib.current = store.get("lib-current", null);
   loadLibrary();
+  if (matchMedia("(max-width: 640px)").matches) document.getElementById("editor").open = false;
+  const transport = document.querySelector(".transport");
+  new ResizeObserver(() => {
+    document.documentElement.style.setProperty("--mobile-transport-height", `${transport.getBoundingClientRect().height}px`);
+  }).observe(transport);
 
   if (window.claude && typeof window.claude.use === "function") {
     window.claude.use("sample").then(async s => {
@@ -1760,3 +1968,58 @@ document.getElementById("lib-search").addEventListener("input", () => lib.data &
   }
 })();
 </script>
+
+<script>
+// Contrato entre o editor/player e os módulos de prática.
+window.PracticeBridge = {
+  current() { return { title: state.model?.meta.titulo || 'Lição', text: srcEl.value,
+    measures: state.model?.measures.length || 0, bpm: +bpmIn.value || 60, unit: +unitSel.value,
+    instrumentId: currentInstrument().id, instrument: currentInstrument().nome, transpose: currentTranspose(), notation: !transpChk.checked ? "concert" : alternateNotation ? "alternate" : "written", sampleNote: currentInstrument().sampleNote || "", notationNote: currentInstrument().notationNote || "" }; },
+  instruments() { return INSTRUMENTS.filter(inst => !inst.fixed).map(inst => ({ id: inst.id, name: inst.nome, transpose: inst.transp, alternateLabel: inst.alternateLabel })); },
+  selectInstrument(id, written = true, alternate = false) {
+    const inst = INSTRUMENTS.find(item => item.id === id && !item.fixed);
+    if (!inst) throw new Error('Escolha um instrumento melódico.');
+    const scaleMatch = srcEl.value.match(/^# scale-config: (.+)$/m);
+    if (scaleMatch && window.ScalesCore) {
+      const notation = !written ? 'concert' : alternate && inst.alternateTransp != null ? 'alternate' : 'written';
+      const generated = window.ScalesCore.generate({ ...JSON.parse(scaleMatch[1]), instrument: inst, notation });
+      if (generated.text !== srcEl.value) { srcEl.value = generated.text; state.extra = null; state.isExample = false; applyText(generated.text); }
+    }
+    player.stop(); instSel.value = id; transpChk.checked = written; alternateNotation = alternate && inst.alternateTransp != null;
+    store.set('inst', id); store.set('transp', written); updateTranspUi();
+    return this.current();
+  },
+  previewExercise(text, target) {
+    const model = parseLesson(text); computeExpression(model);
+    if (model.errors.length) throw new Error('Não foi possível desenhar a escala.');
+    renderScore(model, target);
+  },
+  loadExercise(text, instrumentId, notation = 'written') {
+    player.stop(); srcEl.value = text; state.extra = null; state.isExample = false;
+    applyText(text); this.selectInstrument(instrumentId, notation !== 'concert', notation === 'alternate');
+    lib.current = null; store.set('lib-current', null); if (lib.data) renderLibrary();
+  },
+  renderScore(target) { if (state.model) renderScore(state.model, target); },
+  plan(options) {
+    if (!state.model || state.model.errors.length) throw new Error('Corrija os erros do texto da lição antes de avaliar.');
+    const selected = state.model.measures.slice(options.from - 1, options.to);
+    if (selected.some(m => m.events.some(e => e.kind === 'note' && e.keys.length !== 1))) throw new Error('Nesta versão, escolha uma lição com uma nota por vez, sem acordes.');
+    if (currentInstrument().fixed) throw new Error('Selecione um instrumento melódico para avaliar as notas.');
+    return buildTimeline(state.model, { ...options, unit: +unitSel.value, transp: currentTranspose(), countIn: false });
+  },
+  async listen(options) {
+    fromIn.value = options.from; toIn.value = options.to; bpmIn.value = options.bpm;
+    loopChk.checked = false; countChk.checked = true; updateTempoRead();
+    await player.play();
+    return { get time() { return audio.ctx ? audio.ctx.currentTime - player.t0 : 0; }, get playing() { return player.playing; }, get timeline() { return player.tl; } };
+  },
+  stop() { player.stop(); },
+  mark(mark) { highlight(mark); }
+};
+</script>
+<script src="tuner.js"></script>
+<script src="practice-core.js"></script>
+<script src="practice.js"></script>
+<script src="scales-core.js"></script>
+<script src="scales.js"></script>
+</html>

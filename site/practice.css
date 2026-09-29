@@ -1,0 +1,56 @@
+.practice { width: min(880px, calc(100% - 24px)); max-height: calc(100svh - 24px); overflow: auto; padding: 24px; background: var(--surface); color: var(--ink); border: 1px solid var(--line); border-radius: 18px; }
+.practice::backdrop { background: #081323b0; }
+.practice header { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.practice header { position: sticky; top: -24px; background: var(--surface); padding-block: 8px; z-index: 2; }
+.practice-advanced { width: 100%; grid-column: 1 / -1; }
+.practice-advanced summary { cursor: pointer; font-size: 13px; }
+.practice-advanced > div { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 10px; }
+.practice h2 { font-size: 25px; }
+.practice h3 { font-size: 18px; }
+.practice p { margin-block: 10px; }
+.practice-settings { border: 0; padding: 0; margin: 16px 0; display: flex; flex-wrap: wrap; gap: 12px; }
+.practice-settings label { display: flex; flex-direction: column; gap: 5px; font-size: 13px; }
+.practice-settings input { min-height: 44px; }
+.practice-actions { display: flex; flex-wrap: wrap; gap: 8px; margin: 14px 0; }
+.practice-actions .btn { min-height: 44px; }
+.practice-monitor { padding: 16px; background: var(--accent-soft); border-radius: 12px; margin-block: 16px; }
+#practice-status { font-weight: 700; }
+#practice-current { font-family: var(--font-display); font-size: 26px; }
+#practice-progress { width: 100%; accent-color: var(--accent); }
+.practice-notes { display: flex; gap: 6px; overflow-x: auto; padding-block: 10px; }
+.practice-note { flex: none; padding: 6px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); font-size: 13px; }
+.practice-note.active { background: var(--accent); color: var(--accent-ink); }
+.practice-scores { display: flex; flex-wrap: wrap; gap: 12px; margin-block: 12px; }
+.practice-scores > div { flex: 1; min-width: 130px; border: 1px solid var(--line); border-radius: 10px; padding: 12px; }
+.practice-scores strong { display: block; font-size: 25px; font-family: var(--font-display); }
+.practice-results { display: grid; gap: 10px; }
+.practice-measure { border: 1px solid var(--line); border-radius: 10px; padding: 12px; }
+.practice-measure summary { cursor: pointer; font-weight: 700; }
+.practice-measure ul { padding-left: 20px; }
+.practice-measure li { margin-bottom: 8px; overflow-wrap: anywhere; }
+.practice-measure li[data-kind="review"], .practice-measure li[data-kind="extra"] { color: var(--warn); }
+.practice-measure li[data-kind="unknown"] { color: var(--muted); }
+.practice-history { margin-top: 20px; padding-top: 16px; border-top: 1px solid var(--line); }
+.practice-history ol { padding-left: 20px; }
+.practice-history li { margin-block: 12px; }
+.practice-chart { display: flex; align-items: end; gap: 8px; height: 90px; padding: 8px; background: var(--surface-2); border-radius: 8px; margin-block: 12px; }
+.practice-chart span { flex: 1; min-width: 8px; background: var(--accent); border-radius: 4px 4px 0 0; }
+#practice-error { color: var(--bad); }
+.practice-score-preview { max-height: none; overflow-x: auto; margin-top: 12px; min-width: 0; }
+.practice-score-preview svg { width: 100%; height: auto; max-width: none; }
+.practice-score-preview.is-zoomed svg { width: var(--score-natural-width); }
+.practice-instrument-field { flex: 1 1 250px; min-width: 0; }
+.practice-instrument-field select { width: 100%; min-width: 0; min-height: 44px; }
+@media (max-width: 640px) {
+ .practice { padding: 16px; }
+ .practice h2 { font-size: 21px; }
+ .practice-settings { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+ .practice .practice-settings input, .practice .practice-settings select { width: 100%; min-width: 0; font-size: 16px; }
+ .practice-settings label { min-width: 0; }
+ .practice-instrument-field { grid-column: 1 / -1; }
+ .practice header { top: -16px; }
+ .practice-actions .btn { flex: 1 1 130px; justify-content: center; }
+ #practice-open { width: 100%; justify-content: center; text-align: center; }
+ .practice-scores { gap: 8px; }
+ .practice-scores > div { min-width: 105px; padding: 10px; }
+}
