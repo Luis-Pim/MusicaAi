@@ -35,6 +35,13 @@ A numeração dos estudos melódicos segue `indice_melodico` do catálogo.
 
 ## Próximo passo
 
+Estratégia combinada (priorizar técnica):
+1. **Escalas e arpejos até o livro p. 55** (PDF ~36–59): Dó maior, Lá menor, Sol maior, Mi menor, Fá maior, Ré menor, Ré maior, Si menor e escala cromática. Gerar pelo padrão com `scripts/omr/gen.py` e conferir com a imagem.
+2. Depois, **estudos e estudos melódicos** em ordem a partir do livro p. 25, sempre com leitura ampliada (`q.sh`).
+3. Revisar o rascunho do progressivos nº 15 (PDF 32, linhas 3–6).
+
+Detalhes:
+
 - Seguir em ordem a partir do PDF 33 (livro 25). Revisar o rascunho do progressivos nº 15 (PDF 32, linhas 3–6) até o PDF 59 (livro 55).
 - Páginas de escalas, intervalos e arpejos: gerar as notas pelo padrão com `scripts/omr/gen.py` e conferir com a imagem e com `heads.mjs`.
 - Leitura de melodias: `bash q.sh <pdf> <pauta>` gera 4 recortes ampliados 3x por pauta (usar sempre em trechos sem padrão).
