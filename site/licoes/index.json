@@ -5,7 +5,7 @@
    "nome": "Amadeu Russo – Método Completo de Saxofone",
    "instrumento": "saxalto",
    "ordem": 1,
-   "total": 67,
+   "total": 129,
    "secoes": [
     {
      "titulo": "Primeiros estudos",
@@ -451,6 +451,533 @@
        "titulo": "Exercícios para aprender a escala cromática",
        "tipo": "exercicio",
        "pagina": "24"
+      }
+     ]
+    },
+    {
+     "titulo": "Escala cromática",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p025-01.txt",
+       "titulo": "Escala cromática",
+       "tipo": "exercicio",
+       "pagina": "25"
+      }
+     ]
+    },
+    {
+     "titulo": "Escala em Dó maior",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p030-01.txt",
+       "titulo": "Escala em Dó maior · nº 1",
+       "tipo": "exercicio",
+       "pagina": "30"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p030-02.txt",
+       "titulo": "Escala em Dó maior · nº 2",
+       "tipo": "exercicio",
+       "pagina": "30"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p030-03.txt",
+       "titulo": "Escala em Dó maior · nº 3",
+       "tipo": "exercicio",
+       "pagina": "30"
+      }
+     ]
+    },
+    {
+     "titulo": "Arpejos em Dó maior",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p031-01.txt",
+       "titulo": "Arpejos em Dó maior · nº 1",
+       "tipo": "exercicio",
+       "pagina": "31"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p031-02.txt",
+       "titulo": "Arpejos em Dó maior · nº 2",
+       "tipo": "exercicio",
+       "pagina": "31"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p031-03.txt",
+       "titulo": "Arpejos em Dó maior · nº 3",
+       "tipo": "exercicio",
+       "pagina": "31"
+      }
+     ]
+    },
+    {
+     "titulo": "Arpejos sobre os acordes de 7ª",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p031-04.txt",
+       "titulo": "Arpejos sobre os acordes de 7ª · nº 4",
+       "tipo": "exercicio",
+       "pagina": "31"
+      }
+     ]
+    },
+    {
+     "titulo": "Arpejos sobre os acordes de 9ª",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p031-05.txt",
+       "titulo": "Arpejos sobre os acordes de 9ª · nº 5",
+       "tipo": "exercicio",
+       "pagina": "31"
+      }
+     ]
+    },
+    {
+     "titulo": "Escala em Lá menor",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p033-01.txt",
+       "titulo": "Escala em Lá menor · nº 1",
+       "tipo": "exercicio",
+       "pagina": "33"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p034-01.txt",
+       "titulo": "Escala em Lá menor · nº 2",
+       "tipo": "exercicio",
+       "pagina": "34"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p034-02.txt",
+       "titulo": "Escala em Lá menor · nº 3",
+       "tipo": "exercicio",
+       "pagina": "34"
+      }
+     ]
+    },
+    {
+     "titulo": "Arpejos em Lá menor",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p034-03.txt",
+       "titulo": "Arpejos em Lá menor · nº 1",
+       "tipo": "exercicio",
+       "pagina": "34"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p034-04.txt",
+       "titulo": "Arpejos em Lá menor · nº 2",
+       "tipo": "exercicio",
+       "pagina": "34"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p034-05.txt",
+       "titulo": "Arpejos em Lá menor · nº 3",
+       "tipo": "exercicio",
+       "pagina": "34"
+      }
+     ]
+    },
+    {
+     "titulo": "Arpejos sobre os acordes de 7ª",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p034-06.txt",
+       "titulo": "Arpejos sobre os acordes de 7ª · nº 4",
+       "tipo": "exercicio",
+       "pagina": "34"
+      }
+     ]
+    },
+    {
+     "titulo": "Arpejos sobre os acordes de 9ª",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p034-07.txt",
+       "titulo": "Arpejos sobre os acordes de 9ª · nº 5",
+       "tipo": "exercicio",
+       "pagina": "34"
+      }
+     ]
+    },
+    {
+     "titulo": "Escala em Sol maior",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p036-01.txt",
+       "titulo": "Escala em Sol maior · nº 2",
+       "tipo": "exercicio",
+       "pagina": "36"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p036-02.txt",
+       "titulo": "Escala em Sol maior · nº 3",
+       "tipo": "exercicio",
+       "pagina": "36"
+      }
+     ]
+    },
+    {
+     "titulo": "Arpejos em Sol maior",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p036-03.txt",
+       "titulo": "Arpejos em Sol maior · nº 1",
+       "tipo": "exercicio",
+       "pagina": "36"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p036-04.txt",
+       "titulo": "Arpejos em Sol maior · nº 2",
+       "tipo": "exercicio",
+       "pagina": "36"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p036-05.txt",
+       "titulo": "Arpejos em Sol maior · nº 3",
+       "tipo": "exercicio",
+       "pagina": "36"
+      }
+     ]
+    },
+    {
+     "titulo": "Arpejos sobre os acordes de 7ª",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p036-06.txt",
+       "titulo": "Arpejos sobre os acordes de 7ª · nº 4",
+       "tipo": "exercicio",
+       "pagina": "36"
+      }
+     ]
+    },
+    {
+     "titulo": "Arpejos sobre os acordes de 9ª",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p036-07.txt",
+       "titulo": "Arpejos sobre os acordes de 9ª · nº 5",
+       "tipo": "exercicio",
+       "pagina": "36"
+      }
+     ]
+    },
+    {
+     "titulo": "Escala em Mi menor",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p038-01.txt",
+       "titulo": "Escala em Mi menor · nº 1",
+       "tipo": "exercicio",
+       "pagina": "38"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p038-02.txt",
+       "titulo": "Escala em Mi menor · nº 2",
+       "tipo": "exercicio",
+       "pagina": "38"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p038-03.txt",
+       "titulo": "Escala em Mi menor · nº 3",
+       "tipo": "exercicio",
+       "pagina": "38"
+      }
+     ]
+    },
+    {
+     "titulo": "Arpejos em Mi menor",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p039-01.txt",
+       "titulo": "Arpejos em Mi menor · nº 1",
+       "tipo": "exercicio",
+       "pagina": "39"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p039-02.txt",
+       "titulo": "Arpejos em Mi menor · nº 2",
+       "tipo": "exercicio",
+       "pagina": "39"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p039-03.txt",
+       "titulo": "Arpejos em Mi menor · nº 3",
+       "tipo": "exercicio",
+       "pagina": "39"
+      }
+     ]
+    },
+    {
+     "titulo": "Arpejos sobre os acordes de 7ª",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p039-04.txt",
+       "titulo": "Arpejos sobre os acordes de 7ª · nº 4",
+       "tipo": "exercicio",
+       "pagina": "39"
+      }
+     ]
+    },
+    {
+     "titulo": "Arpejos sobre os acordes de 9ª",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p039-05.txt",
+       "titulo": "Arpejos sobre os acordes de 9ª · nº 5",
+       "tipo": "exercicio",
+       "pagina": "39"
+      }
+     ]
+    },
+    {
+     "titulo": "Escala em Fá maior",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p041-01.txt",
+       "titulo": "Escala em Fá maior · nº 1",
+       "tipo": "exercicio",
+       "pagina": "41"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p041-02.txt",
+       "titulo": "Escala em Fá maior · nº 2",
+       "tipo": "exercicio",
+       "pagina": "41"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p041-03.txt",
+       "titulo": "Escala em Fá maior · nº 3",
+       "tipo": "exercicio",
+       "pagina": "41"
+      }
+     ]
+    },
+    {
+     "titulo": "Arpejos em Fá maior",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p041-04.txt",
+       "titulo": "Arpejos em Fá maior · nº 1",
+       "tipo": "exercicio",
+       "pagina": "41"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p041-05.txt",
+       "titulo": "Arpejos em Fá maior · nº 2",
+       "tipo": "exercicio",
+       "pagina": "41"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p041-06.txt",
+       "titulo": "Arpejos em Fá maior · nº 3",
+       "tipo": "exercicio",
+       "pagina": "41"
+      }
+     ]
+    },
+    {
+     "titulo": "Arpejos sobre os acordes de 7ª",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p042-01.txt",
+       "titulo": "Arpejos sobre os acordes de 7ª · nº 4",
+       "tipo": "exercicio",
+       "pagina": "42"
+      }
+     ]
+    },
+    {
+     "titulo": "Arpejos sobre os acordes de 9ª",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p042-02.txt",
+       "titulo": "Arpejos sobre os acordes de 9ª · nº 5",
+       "tipo": "exercicio",
+       "pagina": "42"
+      }
+     ]
+    },
+    {
+     "titulo": "Escala em Ré menor",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p043-01.txt",
+       "titulo": "Escala em Ré menor · nº 1",
+       "tipo": "exercicio",
+       "pagina": "43"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p044-01.txt",
+       "titulo": "Escala em Ré menor · nº 2",
+       "tipo": "exercicio",
+       "pagina": "44"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p044-02.txt",
+       "titulo": "Escala em Ré menor · nº 3",
+       "tipo": "exercicio",
+       "pagina": "44"
+      }
+     ]
+    },
+    {
+     "titulo": "Arpejos em Ré menor",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p044-03.txt",
+       "titulo": "Arpejos em Ré menor · nº 1",
+       "tipo": "exercicio",
+       "pagina": "44"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p045-01.txt",
+       "titulo": "Arpejos em Ré menor · nº 2",
+       "tipo": "exercicio",
+       "pagina": "45"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p045-02.txt",
+       "titulo": "Arpejos em Ré menor · nº 3",
+       "tipo": "exercicio",
+       "pagina": "45"
+      }
+     ]
+    },
+    {
+     "titulo": "Arpejos sobre os acordes de 7ª",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p045-03.txt",
+       "titulo": "Arpejos sobre os acordes de 7ª · nº 4",
+       "tipo": "exercicio",
+       "pagina": "45"
+      }
+     ]
+    },
+    {
+     "titulo": "Arpejos sobre os acordes de 9ª",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p045-04.txt",
+       "titulo": "Arpejos sobre os acordes de 9ª · nº 5",
+       "tipo": "exercicio",
+       "pagina": "45"
+      }
+     ]
+    },
+    {
+     "titulo": "Escala em Ré maior",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p047-01.txt",
+       "titulo": "Escala em Ré maior · nº 1",
+       "tipo": "exercicio",
+       "pagina": "47"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p047-02.txt",
+       "titulo": "Escala em Ré maior · nº 2",
+       "tipo": "exercicio",
+       "pagina": "47"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p047-03.txt",
+       "titulo": "Escala em Ré maior · nº 3",
+       "tipo": "exercicio",
+       "pagina": "47"
+      }
+     ]
+    },
+    {
+     "titulo": "Arpejos em Ré maior",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p048-01.txt",
+       "titulo": "Arpejos em Ré maior · nº 1",
+       "tipo": "exercicio",
+       "pagina": "48"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p048-02.txt",
+       "titulo": "Arpejos em Ré maior · nº 2",
+       "tipo": "exercicio",
+       "pagina": "48"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p048-03.txt",
+       "titulo": "Arpejos em Ré maior · nº 3",
+       "tipo": "exercicio",
+       "pagina": "48"
+      }
+     ]
+    },
+    {
+     "titulo": "Arpejos sobre os acordes de 7ª",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p048-04.txt",
+       "titulo": "Arpejos sobre os acordes de 7ª · nº 4",
+       "tipo": "exercicio",
+       "pagina": "48"
+      }
+     ]
+    },
+    {
+     "titulo": "Arpejos sobre os acordes de 9ª",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p048-05.txt",
+       "titulo": "Arpejos sobre os acordes de 9ª · nº 5",
+       "tipo": "exercicio",
+       "pagina": "48"
+      }
+     ]
+    },
+    {
+     "titulo": "Escala em Si menor",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p050-01.txt",
+       "titulo": "Escala em Si menor · nº 1",
+       "tipo": "exercicio",
+       "pagina": "50"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p051-01.txt",
+       "titulo": "Escala em Si menor · nº 2",
+       "tipo": "exercicio",
+       "pagina": "51"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p051-02.txt",
+       "titulo": "Escala em Si menor · nº 3",
+       "tipo": "exercicio",
+       "pagina": "51"
+      }
+     ]
+    },
+    {
+     "titulo": "Arpejos em Si menor",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p051-03.txt",
+       "titulo": "Arpejos em Si menor · nº 1",
+       "tipo": "exercicio",
+       "pagina": "51"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p051-04.txt",
+       "titulo": "Arpejos em Si menor · nº 2",
+       "tipo": "exercicio",
+       "pagina": "51"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p051-05.txt",
+       "titulo": "Arpejos em Si menor · nº 3",
+       "tipo": "exercicio",
+       "pagina": "51"
       }
      ]
     }

@@ -1,0 +1,15 @@
+# id: AR-ARPEJOS_R_MAIOR-P048-AR-003
+titulo: Arpejos em Ré maior · nº 3
+secao: Arpejos em Ré maior
+tipo: exercicio
+pagina: 48
+instrumento: saxalto
+compasso: 4/4
+tonalidade: D
+clave: sol
+andamento: 60 seminima
+
+D4/16 F#4/16 A4/16 D5/16 F#5/16 D5/16 A4/16 F#4/16 E4/16 G4/16 B4/16 E5/16 G5/16 E5/16 B4/16 G4/16 | F#4/16 A4/16 C#5/16 F#5/16 A5/16 F#5/16 C#5/16 A4/16 G4/16 B4/16 D5/16 G5/16 B5/16 G5/16 D5/16 B4/16 |
+A4/16 C#5/16 E5/16 A5/16 C#6/16 A5/16 E5/16 C#5/16 B4/16 D5/16 F#5/16 B5/16 D6/16 B5/16 F#5/16 D5/16 | A4/16 C#5/16 E5/16 A5/16 C#6/16 A5/16 E5/16 C#5/16 G4/16 B4/16 D5/16 G5/16 B5/16 G5/16 D5/16 B4/16 |
+F#4/16 A4/16 C#5/16 F#5/16 A5/16 F#5/16 C#5/16 A4/16 E4/16 G4/16 B4/16 E5/16 G5/16 E5/16 B4/16 G4/16 | D4/16 F#4/16 A4/16 D5/16 F#5/16 D5/16 A4/16 F#4/16 C#4/16 E4/16 G4/16 C#5/16 E5/16 C#5/16 G4/16 E4/16 |
+D4/2 R/2 |.

@@ -26,6 +26,15 @@ Nos arquivos de lição, `pagina:` é a página **impressa no livro**; o nome do
 | 30 | 22 | progressivos nº 3–9 | revisado com ampliação 3x (18 notas corrigidas) |
 | 31 | 23 | progressivos nº 10–14 | no repositório |
 | 32 | 24 | cromática (exercícios); progressivos nº 15 | nº 15 em RASCUNHO |
+| 32–33 | 24–25 | exercícios cromáticos (completos) e escala cromática | no repositório |
+| 36–37 | 30–31 | escalas em Dó maior nº 1–3; arpejos em Dó maior nº 1–5 | no repositório |
+| 42 | 36 | escalas em Sol maior nº 2–3; arpejos em Sol maior nº 1–5 | no repositório |
+| 47 | 41 | escalas e arpejos nº 1–3 em Fá maior | no repositório (7ª/9ª na p. 42 pendentes) |
+| 53–54 | 47–48 | escalas nº 1–3 e arpejos nº 1–5 em Ré maior | no repositório |
+| 44–45 | 38–39 | escalas e arpejos em Mi menor (nº 1–3, 1–5) | no repositório |
+| 49–51 | 43–45 | escalas e arpejos em Ré menor (nº 1–3, 1–5) | no repositório |
+| 56–57 | 50–51 | escalas e arpejos em Si menor (nº 1–3, 1–3) | no repositório |
+| 39–40 | 33–34 | escalas em Lá menor nº 1–3; arpejos em Lá menor nº 1–2 | no repositório (arpejos nº 3–5 pendentes: leitura incerta) |
 
 ## Catálogo de referência
 
@@ -34,6 +43,13 @@ Cada lição transcrita tem `# id: <id do catálogo>` na primeira linha. Para ve
 A numeração dos estudos melódicos segue `indice_melodico` do catálogo.
 
 ## Próximo passo
+
+Estratégia combinada (priorizar técnica):
+1. ~~Escalas e arpejos até o livro p. 55~~ — concluído (exceto a "Escala cromática" longa da p. 54, que é um estudo variado de 2 páginas, e a escala em Sol maior nº 1, fora do catálogo).
+2. Agora: **estudos e estudos melódicos** a partir do livro p. 26 (apogiaturas), sempre com leitura ampliada (`q.sh`). Lista: `python3 scripts/status_catalogo.py`.
+3. Revisar o rascunho do progressivos nº 15 (PDF 32, linhas 3–6).
+
+Detalhes:
 
 - Seguir em ordem a partir do PDF 33 (livro 25). Revisar o rascunho do progressivos nº 15 (PDF 32, linhas 3–6) até o PDF 59 (livro 55).
 - Páginas de escalas, intervalos e arpejos: gerar as notas pelo padrão com `scripts/omr/gen.py` e conferir com a imagem e com `heads.mjs`.
@@ -57,3 +73,10 @@ A numeração dos estudos melódicos segue `indice_melodico` do catálogo.
 - Progressivos nº 12, compasso 8: última semicolcheia lida como Mi4 (o padrão sugeriria Fá4).
 - Progressivos nº 14, compassos 4 e 9: a 4ª nota (Dó5 / Fá5) salta uma terça; conferir se não é grau conjunto.
 - `staves.mjs` não detecta algumas pautas de páginas mais claras (ex.: PDF 32 detectou 7 de 13); usar `crop.mjs` direto nesses casos.
+- Escala em Dó maior nº 3 (livro p. 30), compasso 5: a mínima após a subida foi lida como Dó5 (sem linhas suplementares visíveis); conferir se não é Dó6.
+- Arpejos em Lá menor nº 2, último grupo: lido como Dó5–Sol♯4–Mi4–Dó4; conferir a última nota.
+- Arpejos em Fá maior nº 3 e Sol maior nº 3/5: compassos finais gerados pelo padrão; conferir os graus graves.
+- O catálogo não lista as escalas em Sol maior (livro p. 35–36); receberam ids próprios `AR-ESCALAS_SOL_MAIOR-P036-SC-00x`. A escala nº 1 fica no PDF 41 (não transcrita ainda).
+- Escalas em Mi menor nº 1–3 (livro p. 38): geradas como menor melódica (sobe Dó♯/Ré♯, desce natural); conferir o fim das descidas (Ré♯ final) no livro.
+- Escalas em Ré menor nº 1–3 (livro p. 43–44): menor melódica gerada pelo padrão; na nº 3 a descida foi montada como Si♭5→Dó♯4 contínua; conferir as quebras de compasso.
+- Escalas menores (Mi, Ré, Si): geradas como menor melódica; arpejos com a sensível (menor harmônica). Conferir os finais das descidas e as quebras de compasso no livro.

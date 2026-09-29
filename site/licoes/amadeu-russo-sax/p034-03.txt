@@ -1,0 +1,13 @@
+# id: AR-ARPEJOS_L_MENOR-P034-AR-001
+titulo: Arpejos em Lá menor · nº 1
+secao: Arpejos em Lá menor
+tipo: exercicio
+pagina: 34
+instrumento: saxalto
+compasso: 6/8
+tonalidade: Am
+clave: sol
+andamento: 60 seminima pontuada
+
+A4/8 C5/8 E5/8 A5/8 E5/8 C5/8 | B4/8 D5/8 F5/8 B5/8 F5/8 D5/8 | C5/8 E5/8 G#5/8 C6/8 G#5/8 E5/8 | D5/8 F5/8 A5/8 D6/8 A5/8 F5/8 | C5/8 E5/8 G#5/8 C6/8 G#5/8 E5/8 | B4/8 D5/8 F5/8 B5/8 F5/8 D5/8 |
+A4/8 C5/8 E5/8 A5/8 E5/8 C5/8 | G#4/8 B4/8 D5/8 G#5/8 D5/8 B4/8 | F4/8 A4/8 C5/8 F5/8 C5/8 A4/8 | E4/8 G#4/8 B4/8 E5/8 B4/8 G#4/8 | D4/8 F4/8 A4/8 D5/8 A4/8 F4/8 | C4/8 E4/8 G#4/8 C5/8 G#4/8 E4/8 | A4/2. |.

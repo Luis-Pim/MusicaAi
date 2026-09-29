@@ -1,0 +1,15 @@
+# id: AR-ESCALAS_L_MENOR-P033-SC-001
+titulo: Escala em Lá menor · nº 1
+secao: Escala em Lá menor
+tipo: exercicio
+pagina: 33
+instrumento: saxalto
+compasso: 4/4
+tonalidade: Am
+clave: sol
+andamento: 60 seminima
+# escala menor melódica: sobe com Fá♯ e Sol♯, desce natural
+
+A4/8 B4/16 C5/16 D5/16 E5/16 F#5/16 G#5/16 A5/16 G5/16 F5/16 E5/16 D5/16 C5/16 B4/16 A4/16 | B4/8 C5/16 D5/16 E5/16 F#5/16 G#5/16 A5/16 B5/16 A5/16 G5/16 F5/16 E5/16 D5/16 C5/16 B4/16 |
+C5/8 D5/16 E5/16 F#5/16 G#5/16 A5/16 B5/16 C6/16 B5/16 A5/16 G5/16 F5/16 E5/16 D5/16 C5/16 | B4/8 C5/16 D5/16 E5/16 F#5/16 G#5/16 A5/16 B5/16 A5/16 G5/16 F5/16 E5/16 D5/16 C5/16 B4/16 |
+A4/8 B4/16 C5/16 D5/16 E5/16 F#5/16 G#5/16 A5/16 G5/16 F5/16 E5/16 D5/16 C5/16 B4/16 A4/16 | G#4/8 A4/16 B4/16 C5/16 D5/16 E5/16 F#5/16 G5/16 F5/16 E5/16 D5/16 C5/16 B4/16 A4/16 G#4/16 | A4/2 R/2 |.

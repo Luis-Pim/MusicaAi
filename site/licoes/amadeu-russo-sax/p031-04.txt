@@ -1,0 +1,13 @@
+# id: AR-ARPEJOS_D_MAIOR-P031-AR-004
+titulo: Arpejos sobre os acordes de 7ª · nº 4
+secao: Arpejos sobre os acordes de 7ª
+tipo: exercicio
+pagina: 31
+instrumento: saxalto
+compasso: 4/4
+tonalidade: C
+clave: sol
+andamento: 60 seminima
+
+C4/16 E4/16 G4/16 B4/16 D4/16 F4/16 A4/16 C5/16 E4/16 G4/16 B4/16 D5/16 F4/16 A4/16 C5/16 E5/16 | G4/16 B4/16 D5/16 F5/16 A4/16 C5/16 E5/16 G5/16 B4/16 D5/16 F5/16 A5/16 C5/16 E5/16 G5/16 B5/16 | D5/16 F5/16 A5/16 C6/16 D6/16 B5/16 G5/16 E5/16 C6/16 A5/16 F5/16 D5/16 B5/16 G5/16 E5/16 C5/16 |
+A5/16 F5/16 D5/16 B4/16 G5/16 E5/16 C5/16 A4/16 F5/16 D5/16 B4/16 G4/16 E5/16 C5/16 A4/16 F4/16 | D5/16 B4/16 G4/16 E4/16 C5/16 A4/16 F4/16 D4/16 B4/16 G4/16 E4/16 C4/16 A4/16 F4/16 D4/16 B3/16 | C4/2 R/2 |.
