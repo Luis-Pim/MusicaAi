@@ -5,7 +5,7 @@
    "nome": "Amadeu Russo – Método Completo de Saxofone",
    "instrumento": "saxalto",
    "ordem": 1,
-   "total": 23,
+   "total": 25,
    "secoes": [
     {
      "titulo": "Primeiros estudos",
@@ -162,6 +162,23 @@
        "titulo": "Estudo melódico 8 · nº 23",
        "tipo": "estudo",
        "pagina": "9"
+      }
+     ]
+    },
+    {
+     "titulo": "Exercícios para as notas agudas",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p009-24.txt",
+       "titulo": "Nº 24",
+       "tipo": "exercicio",
+       "pagina": "9"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p010-25.txt",
+       "titulo": "Nº 25",
+       "tipo": "exercicio",
+       "pagina": "10"
       }
      ]
     }

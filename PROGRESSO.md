@@ -16,11 +16,11 @@ Nos arquivos de lição, `pagina:` é a página **impressa no livro**; o nome do
 | PDF | Livro | Lições | Situação |
 |---|---|---|---|
 | 13–17 | 5–9 | nº 1–23 (estudos melódicos 1–8) | publicado |
+| 17–18 | 9–10 | nº 24–25 | no repositório |
 
 ## Próximo passo
 
-- Terminar o **nº 24** (começa no PDF 17, livro 9, e continua no PDF 18, livro 10).
-- Seguir em ordem a partir do PDF 18 (livro 10) até o PDF 59 (livro 55).
+- Seguir em ordem a partir do PDF 19 (livro 11) até o PDF 59 (livro 55).
 - Páginas de escalas e arpejos: gerar as notas pelo padrão e conferir com a imagem.
 
 ## Registro de tempo
@@ -28,3 +28,7 @@ Nos arquivos de lição, `pagina:` é a página **impressa no livro**; o nome do
 | Início (UTC) | Fim (UTC) | Páginas do PDF |
 |---|---|---|
 | 05:01 | | 18– |
+
+## Para o professor conferir
+
+- Nº 24: o título da seção foi deduzido ("Exercícios para as notas agudas"); conferir o texto do livro.
