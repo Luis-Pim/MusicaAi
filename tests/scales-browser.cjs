@@ -3,8 +3,9 @@ const assert=require('node:assert/strict'),path=require('node:path');
 (async()=>{const browser=await chromium.launch({channel:'chrome',headless:true,args:['--no-proxy-server']});try{
  const page=await browser.newPage(),errors=[];page.on('pageerror',e=>errors.push(e.message));
  await page.route('http://localhost:8765/**',r=>r.fulfill({path:path.join(__dirname,'../site',new URL(r.request().url()).pathname==='/'?'index.html':new URL(r.request().url()).pathname)}));
- await page.goto('http://localhost:8765/',{waitUntil:'domcontentloaded'});
- await page.locator('#login-user').fill('admin');await page.locator('#login-password').fill('ccb123');await page.locator('#login-form button').click();
+ await require('./account-fixture.cjs')(page);
+await page.goto('http://localhost:8765/',{waitUntil:'domcontentloaded'});
+ await page.locator('#login-user').fill('test@example.com');await page.locator('#login-password').fill('test-password');await page.locator('#login-submit').click();
  const original=await page.evaluate(()=>PracticeBridge.current().text);
  await page.locator('#scales-open').click();
  for(const [id,key] of [['clarinete','Ré maior'],['saxalto','Lá maior'],['trompa','Sol maior'],['oboedamore','Mi♭ maior']]){

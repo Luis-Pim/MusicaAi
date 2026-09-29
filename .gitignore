@@ -2,3 +2,8 @@ __pycache__/
 *.tgz
 package/
 .DS_Store
+node_modules/
+.firebase/
+*-debug.log
+.env*
+*service-account*.json

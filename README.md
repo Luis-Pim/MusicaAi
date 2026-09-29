@@ -18,7 +18,7 @@ Também dá para tocar só um trecho (compasso X a Y), repetir em loop e tocar a
 
 ## Como funciona
 
-Tudo roda no navegador: `site/index.html`, com o afinador em `site/tuner.js` e a prática guiada em `site/practice.js`, `site/practice-core.js` e `site/practice.css`.
+A análise musical roda no navegador; contas e acompanhamento usam Firebase Authentication e Firestore: `site/index.html`, com o afinador em `site/tuner.js` e a prática guiada em `site/practice.js`, `site/practice-core.js` e `site/practice.css`.
 
 ### Professor virtual e diário de evolução (beta)
 
@@ -31,13 +31,13 @@ Modos disponíveis:
 - **Avaliar minha execução**: solicita o microfone, conta quatro pulsos e escuta sem reproduzir a lição. Ao terminar, compara notas, entradas e duração e apresenta os pontos para conferir por compasso. A altura comparada respeita o instrumento e a opção Som real do player.
 - **Toque comigo / ouvir**: toca o trecho com contagem e acompanhamento visual, sem usar o microfone ou gerar avaliação.
 - **Treinar com +5 BPM**: toca o trecho repetidamente, aumentando 5 BPM por passagem até a meta. No relatório, **Preparar treino deste compasso** seleciona o compasso e reduz o andamento para 75% do anterior.
-- **Diário de evolução**: guarda as últimas 50 tentativas no navegador, com data, andamento, intervalo de compassos, métricas e resultados. Não são contas por aluno nem sincronização na nuvem. Falhas de armazenamento são mostradas; cancelar uma execução não salva resultados parciais.
+- **Diário de evolução**: guarda as tentativas no Firestore por usuário e exibe as 50 mais recentes, com data, andamento, intervalo de compassos, métricas e resultados. O histórico acompanha a conta entre aparelhos. Falhas de armazenamento são mostradas; cancelar uma execução não salva resultados parciais.
 
 A avaliação é experimental e monofônica: não avalia acordes, dinâmica ou interpretação. Usa Lá = 440 Hz, faixa Fá♯1–Sol6, até 3 minutos e 600 notas por tentativa. Ritornelos, ligaduras e articulações usam a linha temporal do player. Eventos com menos de 180 ms são marcados como incertos; reduza o andamento. Repetições da mesma nota sem separação, ruído e latência do aparelho podem afetar o resultado. O ajuste manual de atraso compensa entradas sistematicamente atrasadas; prefira microfone local a Bluetooth.
 
 O detector YIN é compartilhado com o afinador; a segmentação e o alinhamento por edição de sequência ficam em `practice-core.js`. A tolerância de entrada é o maior valor entre 160 ms e 22% do pulso; duração: 220 ms ou 35%; afinação: ±25 cents. Notas não detectadas ficam como incertas. As porcentagens de notas e entradas consideram apenas os pares avaliáveis; a **cobertura** mostra a fração das notas esperadas que foi avaliada. Captação insuficiente não recebe porcentagens de acerto.
 
-O áudio não é gravado ou enviado. Fechar, cancelar, ocultar a aba ou perder o microfone interrompe a sessão. O repositório local tem interface assíncrona `list/save`, separada da análise, para futura troca por Firestore. Firebase ainda não está conectado: a sincronização exigirá um projeto, Authentication, configuração Web e regras de acesso por usuário; o login demonstrativo atual não identifica alunos.
+O áudio não é gravado ou enviado. Fechar, cancelar, ocultar a aba ou perder o microfone interrompe a sessão. O histórico usa Firebase Authentication e Firestore com regras por perfil e vínculo de instrutor. Veja [configuração e permissões](docs/FIREBASE.md).
 
 Validação:
 
@@ -107,7 +107,7 @@ aws configure            # chave de um usuário IAM com permissão de S3 e Cloud
 ```
 
 O script imprime o endereço `https://xxxx.cloudfront.net` para enviar aos professores. Para atualizar depois, rode de novo.
-O endereço é público. A tela de entrada é uma demonstração visual: usuário `admin`, senha `ccb123`, com sessão por aba e botão Sair. Não oferece autenticação real nem protege os arquivos; as credenciais estão no código público.
+O endereço e os arquivos estáticos das lições são públicos. O acesso às contas e aos dados privados usa Firebase Authentication e regras Firestore. A senha demo foi removida. O primeiro acesso acontece por convite, senha própria e confirmação do e-mail.
 Use um bucket exclusivo deste projeto: a sincronização remove arquivos remotos que não existem mais em `site/`.
 Instaladores Python (`.whl`), arquivos ZIP e arquivos `.env` não são enviados.
 
@@ -155,3 +155,11 @@ O círculo oferece as 12 tonalidades maiores e suas menores naturais relativas, 
 **Praticar com professor** carrega a escala diretamente para avaliação. Trocar o instrumento de uma escala gerada recalcula a escrita conservando a tonalidade em som real. A lição anterior pode ser restaurada enquanto a página permanece aberta. A escala atual e sua notação são conservadas ao recarregar a página.
 
 Validação: `node --test tests/*.test.cjs`. Os testes de navegador `tests/practice-browser.cjs`, `tests/practice-layout.cjs` e `tests/scales-browser.cjs` usam Playwright com Chrome instalado (`PLAYWRIGHT_PATH` pode apontar para o módulo Playwright).
+
+## Pessoas, grupos e acompanhamento
+
+O painel **Pessoas e grupos** permite convidar usuários e organizar alunos, conforme o perfil: Admin, Encarregado, Instrutor e Aluno. Cada instrutor acompanha somente seus próprios alunos; alunos veem suas tentativas e as orientações recebidas. O projeto `partitura-viva` usa Firestore Standard em `southamerica-east1`, no plano Spark, sem Cloud Functions.
+
+O responsável cria o convite e compartilha o endereço do site. A pessoa ativa a conta usando o e-mail convidado. “Remover acesso” bloqueia o perfil e preserva o histórico; a exclusão definitiva da identidade é feita no console Firebase.
+
+Configuração, bootstrap do Admin, limites do plano gratuito e matriz de permissões: [docs/FIREBASE.md](docs/FIREBASE.md).

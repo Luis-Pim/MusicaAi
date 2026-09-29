@@ -311,10 +311,13 @@ dialog.tuner::backdrop { background: #081323aa; }
     </div>
     <form class="login-form" id="login-form">
       <div><span class="step">Bem-vindo de volta</span><h2>Vamos praticar?</h2><p class="hint">Entre para abrir sua biblioteca de lições.</p></div>
-      <label class="login-field" for="login-user">Usuário<input id="login-user" name="username" autocomplete="username" autocapitalize="none" spellcheck="false" placeholder="Seu usuário" required></label>
+      <label class="login-field" for="login-user">E-mail<input type="email" id="login-user" name="username" autocomplete="username" autocapitalize="none" spellcheck="false" placeholder="voce@exemplo.com" required></label>
       <label class="login-field" for="login-password">Senha<input id="login-password" name="password" type="password" autocomplete="current-password" placeholder="Sua senha" required></label>
       <p class="login-error" id="login-error" role="alert" hidden>Usuário ou senha incorretos. Tente novamente.</p>
-      <button class="btn primary" type="submit">Entrar na biblioteca <span aria-hidden="true">→</span></button>
+      <button class="btn primary" id="login-submit" type="submit" disabled>Entrar</button>
+      <button class="btn" id="login-mode" type="button">Recebi um convite · Ativar conta</button>
+      <button class="btn" id="login-reset" type="button">Esqueci minha senha</button>
+      <button class="btn" id="login-resend" type="button" hidden>Reenviar confirmação de e-mail</button>
     </form>
   </div>
 </section>
@@ -333,7 +336,7 @@ dialog.tuner::backdrop { background: #081323aa; }
 <div id="study-app" hidden>
 <div class="wrap">
   <header class="top">
-    <div class="user-menu"><button class="btn" id="tuner-open" type="button">♫ Afinador</button><span>Administrador · Demo</span><button class="btn small" id="logout" type="button">Sair</button></div>
+    <div class="user-menu"><button class="btn" id="tuner-open" type="button">♫ Afinador</button><button class="btn" id="manage-open" type="button" hidden>Meu acompanhamento</button><span id="account-label"></span><button class="btn small" id="logout" type="button">Sair</button></div>
     <div class="brand">
       <svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1.4"><path d="M2 7h26M2 12h26M2 17h26M2 22h26"/></g><ellipse cx="11" cy="19.5" rx="4" ry="2.9" transform="rotate(-20 11 19.5)" fill="var(--accent)"/><path d="M14.6 18.6V4.5c3 1.2 6 3.2 6.6 6.4" fill="none" stroke="var(--accent)" stroke-width="2.2" stroke-linecap="round"/></svg>
       Partitura Viva
@@ -517,46 +520,6 @@ dialog.tuner::backdrop { background: #081323aa; }
 </div>
 
 </div>
-<script>
-// Login visual de demonstração: não restringe o acesso aos arquivos públicos.
-(function () {
-  const screen = document.getElementById('login-screen');
-  const app = document.getElementById('study-app');
-  const form = document.getElementById('login-form');
-  const error = document.getElementById('login-error');
-  const user = document.getElementById('login-user');
-  const password = document.getElementById('login-password');
-  function showStudy(active) {
-    screen.hidden = active;
-    app.hidden = !active;
-    if (active) { window.dispatchEvent(new Event('resize')); document.getElementById('logout').focus(); }
-    else user.focus();
-  }
-  let active = false;
-  try { active = sessionStorage.getItem('pv-demo-session') === 'admin'; } catch (_) {}
-  showStudy(active);
-  form.addEventListener('input', () => { error.hidden = true; });
-  form.addEventListener('submit', event => {
-    event.preventDefault();
-    if (user.value.trim() !== 'admin' || password.value !== 'ccb123') {
-      error.hidden = false;
-      password.focus();
-      return;
-    }
-    try { sessionStorage.setItem('pv-demo-session', 'admin'); } catch (_) {}
-    form.reset();
-    error.hidden = true;
-    showStudy(true);
-  });
-  document.getElementById('logout').addEventListener('click', () => {
-    document.getElementById('stop').click();
-    try { sessionStorage.removeItem('pv-demo-session'); } catch (_) {}
-    form.reset();
-    error.hidden = true;
-    showStudy(false);
-  });
-})();
-</script>
 <script src="https://cdn.jsdelivr.net/npm/vexflow@4.2.5/build/cjs/vexflow.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.worker.min.js"></script>
@@ -2019,6 +1982,10 @@ window.PracticeBridge = {
 </script>
 <script src="tuner.js"></script>
 <script src="practice-core.js"></script>
+<script src="firebase-config.js"></script>
+<script src="access-policy.js"></script>
+<script src="account.js"></script>
+<script src="management.js"></script>
 <script src="practice.js"></script>
 <script src="scales-core.js"></script>
 <script src="scales.js"></script>
