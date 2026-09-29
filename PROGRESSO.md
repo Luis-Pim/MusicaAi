@@ -22,6 +22,7 @@ Nos arquivos de lição, `pagina:` é a página **impressa no livro**; o nome do
 | 22–24 | 14–16 | 5ª nº 1–3; estudo melódico 11; 6ª nº 1–2; 6ª em 3/4 (sem número); estudo melódico 12 | no repositório |
 | 25–26 | 17–18 | 7ª nº 1–4; 8ª nº 1 | no repositório |
 | 27–28 | 19–20 | 8ª nº 2–4 | no repositório |
+| 28–29 | 20–21 | intervalos mistos; progressivos nº 1–2 | no repositório |
 
 ## Catálogo de referência
 
@@ -31,7 +32,7 @@ A numeração dos estudos melódicos segue `indice_melodico` do catálogo.
 
 ## Próximo passo
 
-- Seguir em ordem a partir do PDF 28 (livro 20): intervalos mistos até o PDF 59 (livro 55).
+- Seguir em ordem a partir do PDF 30 (livro 22): exercícios progressivos nº 3 até o PDF 59 (livro 55).
 - Páginas de escalas, intervalos e arpejos: gerar as notas pelo padrão com `scripts/omr/gen.py` e conferir com a imagem e com `heads.mjs`.
 - Atenção: as linhas rotuladas de `staves.mjs` às vezes se desviam perto da barra final; nesses trechos, ler pelas linhas reais da pauta.
 
@@ -45,3 +46,4 @@ A numeração dos estudos melódicos segue `indice_melodico` do catálogo.
 - Livro p. 16: exercício de 6ª em 3/4 sem número (o catálogo não o lista separado; recebeu id próprio `AR-INTERVALOS_6-P016-EX-003`).
 - Estudo melódico 12 (Allegretto), compasso 15: conferir as três colcheias (lidas Si–Lá–Ré).
 - Intervalos de 8ª nº 2, compasso 10 (antes do Dó6 longo): a leitura dava 7/8; usei Ré6 semínima pontuada. Conferir no livro.
+- Intervalos mistos (livro p. 20–21): o exercício longo da p. 21 foi lido numa imagem pequena; conferir nota a nota.

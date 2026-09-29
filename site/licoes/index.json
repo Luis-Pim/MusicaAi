@@ -5,7 +5,7 @@
    "nome": "Amadeu Russo – Método Completo de Saxofone",
    "instrumento": "saxalto",
    "ordem": 1,
-   "total": 50,
+   "total": 53,
    "secoes": [
     {
      "titulo": "Primeiros estudos",
@@ -334,6 +334,34 @@
        "titulo": "Intervalos de 8ª · nº 4",
        "tipo": "exercicio",
        "pagina": "20"
+      }
+     ]
+    },
+    {
+     "titulo": "Exercícios sobre os intervalos mistos",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p020-02.txt",
+       "titulo": "Exercícios sobre os intervalos mistos",
+       "tipo": "exercicio",
+       "pagina": "20"
+      }
+     ]
+    },
+    {
+     "titulo": "Exercícios progressivos",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p021-01.txt",
+       "titulo": "Exercícios progressivos · nº 1",
+       "tipo": "exercicio",
+       "pagina": "21"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p021-02.txt",
+       "titulo": "Exercícios progressivos · nº 2",
+       "tipo": "exercicio",
+       "pagina": "21"
       }
      ]
     }
