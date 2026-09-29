@@ -5,7 +5,7 @@
    "nome": "Amadeu Russo – Método Completo de Saxofone",
    "instrumento": "saxalto",
    "ordem": 1,
-   "total": 110,
+   "total": 114,
    "secoes": [
     {
      "titulo": "Primeiros estudos",
@@ -746,6 +746,40 @@
        "titulo": "Arpejos em Fá maior · nº 3",
        "tipo": "exercicio",
        "pagina": "41"
+      }
+     ]
+    },
+    {
+     "titulo": "Escala em Ré menor",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p043-01.txt",
+       "titulo": "Escala em Ré menor · nº 1",
+       "tipo": "exercicio",
+       "pagina": "43"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p044-01.txt",
+       "titulo": "Escala em Ré menor · nº 2",
+       "tipo": "exercicio",
+       "pagina": "44"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p044-02.txt",
+       "titulo": "Escala em Ré menor · nº 3",
+       "tipo": "exercicio",
+       "pagina": "44"
+      }
+     ]
+    },
+    {
+     "titulo": "Arpejos em Ré menor",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p044-03.txt",
+       "titulo": "Arpejos em Ré menor · nº 1",
+       "tipo": "exercicio",
+       "pagina": "44"
       }
      ]
     },

@@ -1,0 +1,15 @@
+# id: AR-ARPEJOS_R_MENOR-P044-AR-001
+titulo: Arpejos em Ré menor · nº 1
+secao: Arpejos em Ré menor
+tipo: exercicio
+pagina: 44
+instrumento: saxalto
+compasso: 6/8
+tonalidade: Dm
+clave: sol
+andamento: 60 seminima pontuada
+# arpejos na menor harmônica (Dó♯)
+
+D4/8 F4/8 A4/8 D5/8 A4/8 F4/8 | E4/8 G4/8 Bb4/8 E5/8 Bb4/8 G4/8 | F4/8 A4/8 C#5/8 F5/8 C#5/8 A4/8 | G4/8 Bb4/8 D5/8 G5/8 D5/8 Bb4/8 | A4/8 C#5/8 E5/8 A5/8 E5/8 C#5/8 | Bb4/8 D5/8 F5/8 Bb5/8 F5/8 D5/8 |
+C#5/8 E5/8 G5/8 C#6/8 G5/8 E5/8 | D5/8 F5/8 A5/8 D6/8 A5/8 F5/8 | C#5/8 E5/8 G5/8 C#6/8 G5/8 E5/8 | Bb4/8 D5/8 F5/8 Bb5/8 F5/8 D5/8 | A4/8 C#5/8 E5/8 A5/8 E5/8 C#5/8 | G4/8 Bb4/8 D5/8 G5/8 D5/8 Bb4/8 |
+F4/8 A4/8 C#5/8 F5/8 C#5/8 A4/8 | E4/8 G4/8 Bb4/8 E5/8 Bb4/8 G4/8 | D4/8 F4/8 A4/8 D5/8 A4/8 F4/8 | C#4/8 E4/8 G4/8 C#5/8 G4/8 E4/8 | D4/2. |.
