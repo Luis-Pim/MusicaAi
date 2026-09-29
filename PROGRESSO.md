@@ -51,3 +51,4 @@ A numeração dos estudos melódicos segue `indice_melodico` do catálogo.
 - Estudo melódico 12 (Allegretto), compasso 15: conferir as três colcheias (lidas Si–Lá–Ré).
 - Intervalos de 8ª nº 2, compasso 10 (antes do Dó6 longo): a leitura dava 7/8; usei Ré6 semínima pontuada. Conferir no livro.
 - Intervalos mistos (livro p. 20–21): o exercício longo da p. 21 foi lido numa imagem pequena; conferir nota a nota.
+- Progressivos nº 12, compasso 8: última semicolcheia lida como Mi4 (o padrão sugeriria Fá4).
