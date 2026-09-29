@@ -1,0 +1,17 @@
+# id: AR-ESTUDOS_TONALIDADES-P035-ES-002
+titulo: Estudo em Sol maior (escala nº 1)
+secao: Estudos por tonalidade
+tipo: estudo
+pagina: 35
+instrumento: saxalto
+compasso: 4/4
+tonalidade: G
+clave: sol
+andamento: 60 seminima
+# no livro, "Estudo em Sol maior" nº 1 é a primeira das escalas em Sol maior (as nº 2 e 3 estão na p. 36).
+# padrão: colcheia + 2 semicolcheias, sobe até a oitava e desce, começando um grau acima (e depois abaixo) a cada compasso.
+
+G4/8 A4/16 B4/16 C5/16 D5/16 E5/16 F#5/16 G5/16 F#5/16 E5/16 D5/16 C5/16 B4/16 A4/16 G4/16 | A4/8 B4/16 C5/16 D5/16 E5/16 F#5/16 G5/16 A5/16 G5/16 F#5/16 E5/16 D5/16 C5/16 B4/16 A4/16 | B4/8 C5/16 D5/16 E5/16 F#5/16 G5/16 A5/16 B5/16 A5/16 G5/16 F#5/16 E5/16 D5/16 C5/16 B4/16 |
+C5/8 D5/16 E5/16 F#5/16 G5/16 A5/16 B5/16 C6/16 B5/16 A5/16 G5/16 F#5/16 E5/16 D5/16 C5/16 | D5/8 E5/16 F#5/16 G5/16 A5/16 B5/16 C6/16 D6/16 C6/16 B5/16 A5/16 G5/16 F#5/16 E5/16 D5/16 | C5/8 D5/16 E5/16 F#5/16 G5/16 A5/16 B5/16 C6/16 B5/16 A5/16 G5/16 F#5/16 E5/16 D5/16 C5/16 |
+B4/8 C5/16 D5/16 E5/16 F#5/16 G5/16 A5/16 B5/16 A5/16 G5/16 F#5/16 E5/16 D5/16 C5/16 B4/16 | A4/8 B4/16 C5/16 D5/16 E5/16 F#5/16 G5/16 A5/16 G5/16 F#5/16 E5/16 D5/16 C5/16 B4/16 A4/16 | G4/8 A4/16 B4/16 C5/16 D5/16 E5/16 F#5/16 G5/16 F#5/16 E5/16 D5/16 C5/16 B4/16 A4/16 G4/16 |
+F#4/8 G4/16 A4/16 B4/16 C5/16 D5/16 E5/16 F#5/16 E5/16 D5/16 C5/16 B4/16 A4/16 G4/16 F#4/16 | G4/2 R/2 |.
