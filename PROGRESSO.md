@@ -69,3 +69,4 @@ Detalhes:
 - `staves.mjs` não detecta algumas pautas de páginas mais claras (ex.: PDF 32 detectou 7 de 13); usar `crop.mjs` direto nesses casos.
 - Escala em Dó maior nº 3 (livro p. 30), compasso 5: a mínima após a subida foi lida como Dó5 (sem linhas suplementares visíveis); conferir se não é Dó6.
 - Arpejos em Lá menor nº 2, último grupo: lido como Dó5–Sol♯4–Mi4–Dó4; conferir a última nota.
+- Arpejos em Fá maior nº 3 e Sol maior nº 3/5: compassos finais gerados pelo padrão; conferir os graus graves.

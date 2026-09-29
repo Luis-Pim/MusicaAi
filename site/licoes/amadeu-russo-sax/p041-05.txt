@@ -1,0 +1,13 @@
+# id: AR-ARPEJOS_F_MAIOR-P041-AR-002
+titulo: Arpejos em Fá maior · nº 2
+secao: Arpejos em Fá maior
+tipo: exercicio
+pagina: 41
+instrumento: saxalto
+compasso: 4/4
+tonalidade: F
+clave: sol
+andamento: 60 seminima
+
+F4/16 A4/16 C5/16 F5/16 G4/16 Bb4/16 D5/16 G5/16 A4/16 C5/16 E5/16 A5/16 Bb4/16 D5/16 F5/16 Bb5/16 | C5/16 E5/16 G5/16 C6/16 D5/16 F5/16 A5/16 D6/16 C6/16 G5/16 E5/16 C5/16 Bb5/16 F5/16 D5/16 Bb4/16 | A5/16 E5/16 C5/16 A4/16 G5/16 D5/16 Bb4/16 G4/16 F5/16 C5/16 A4/16 F4/16 E5/16 Bb4/16 G4/16 E4/16 |
+F4/2 R/2 |.
