@@ -34,6 +34,7 @@ Nos arquivos de lição, `pagina:` é a página **impressa no livro**; o nome do
 | 44–45 | 38–39 | escalas e arpejos em Mi menor (nº 1–3, 1–5) | no repositório |
 | 49–51 | 43–45 | escalas e arpejos em Ré menor (nº 1–3, 1–5) | no repositório |
 | 56–57 | 50–51 | escalas e arpejos em Si menor (nº 1–3, 1–3) | no repositório |
+| 34 | 26 | estudos sobre a apogiatura nº 1–2 | no repositório (lidos com detector de cabeças `nh.mjs`) |
 | 39–40 | 33–34 | escalas em Lá menor nº 1–3; arpejos em Lá menor nº 1–2 | no repositório (arpejos nº 3–5 pendentes: leitura incerta) |
 
 ## Catálogo de referência
@@ -53,7 +54,9 @@ Detalhes:
 
 - Seguir em ordem a partir do PDF 33 (livro 25). Revisar o rascunho do progressivos nº 15 (PDF 32, linhas 3–6) até o PDF 59 (livro 55).
 - Páginas de escalas, intervalos e arpejos: gerar as notas pelo padrão com `scripts/omr/gen.py` e conferir com a imagem e com `heads.mjs`.
-- Leitura de melodias: `bash q.sh <pdf> <pauta>` gera 4 recortes ampliados 3x por pauta (usar sempre em trechos sem padrão).
+- Leitura de melodias (novo, mais preciso): renderizar a página em escala 8 (`node render.mjs N N 8`), depois `bash staff.sh <pdf> <y-centro> <nome>` recorta a pauta e lista as cabeças de nota com a altura calculada pelas linhas reais (`nh.mjs`); cabeças marcadas com `~` são apogiaturas/ruído e devem ser conferidas na imagem (`stack2.mjs` junta os 4 quartos).
+- Apogiaturas: o site não tem sintaxe própria; escrever `[G4]A4` no rascunho e converter com `python3 grace.py` (vira `G4/32 A4/16.>`, somando a colcheia).
+- Leitura antiga: `bash q.sh <pdf> <pauta>` gera 4 recortes ampliados 3x por pauta (usar sempre em trechos sem padrão).
 - Atenção: as linhas rotuladas de `staves.mjs` às vezes se desviam perto da barra final; nesses trechos, ler pelas linhas reais da pauta.
 
 ## Registro de tempo
@@ -66,6 +69,7 @@ Detalhes:
 | 13:40 | 13:55 | 31–32 (7 lições, 1 em rascunho) |
 
 ## Para o professor conferir
+- Estudos sobre a apogiatura (livro p. 26): as apogiaturas foram escritas como fusa antes da nota (a nota principal perde uma fusa). No nº 1, o último compasso tem colcheia, colcheia, semínima e pausa de colcheia (sobra 1/8); a pausa foi omitida. No nº 2, compassos 12 e 15: o Fá depois do Fá♯ no mesmo compasso foi lido como Fá♯ (sem bequadro no livro).
 - Livro p. 16: exercício de 6ª em 3/4 sem número (o catálogo não o lista separado; recebeu id próprio `AR-INTERVALOS_6-P016-EX-003`).
 - Estudo melódico 12 (Allegretto), compasso 15: conferir as três colcheias (lidas Si–Lá–Ré).
 - Intervalos de 8ª nº 2, compasso 10 (antes do Dó6 longo): a leitura dava 7/8; usei Ré6 semínima pontuada. Conferir no livro.

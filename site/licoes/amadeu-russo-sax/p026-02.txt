@@ -1,0 +1,21 @@
+# id: AR-ORNAMENTOS-P026-ES-002
+titulo: Estudo sobre a apogiatura · nº 2
+secao: Ornamentos — apogiatura
+tipo: estudo
+pagina: 26
+instrumento: saxalto
+compasso: 2/4
+tonalidade: C
+clave: sol
+andamento: 72 seminima
+# sem indicação de andamento no livro (segue o Allegretto do nº 1)
+# apogiatura (nota pequena cortada): escrita como fusa + semicolcheia pontuada, somando a colcheia da nota principal.
+# no livro todas as notas com apogiatura têm acento; as demais colcheias, ponto de staccato.
+
+D5/32 C5/16.> B4/8' C5/8' D5/8' | D#5/32 E5/16.> D5/8' E5/8' C5/8' | E5/32 D5/16.> C#5/8' D5/8' E5/8' | G5/32 F5/16.> E5/8' F5/8' D5/8' | F5/32 E5/16.> C5/8' F#5/32 G5/16.> E5/8' |
+C5/32 D5/16.> B4/8' E5/32 F5/16.> D5/8' | B4/32 C5/16.> A4/8' D#5/32 E5/16.> C5/8' | A4/32 B4/16.> G4/8' C#5/32 D5/16.> B4/8' | G#4/32 A4/16.> F#4/8' B4/32 C5/16.> A4/8' | F#4/32 G4/16.> D4/8' E4/8' F4/8' |
+A4/32 G4/16.> D4/8' A#4/32 B4/16.> G4/8' | G4/32 F#4/16.> D4/8' G#4/32 A4/16.> F#4/8' | F#4/32 E4/16.> C4/8' F#4/32 G4/16.> E4/8' | C#4/32 D4/16.> B3/8' D4/32 E4/16.> G4/8' | G4/32 F#4/16.> D4/8' E4/32 F#4/16.> C5/8' |
+A#4/32 B4/16.> G4/8' C5/32 B4/16.> F5/8' | E5/32 D5/16.> B4/8' F#4/32 G4/16.> B4/8' | C5/4. R/8 | B4/32 C5/16.> G4/8' A4/32 G4/16.> E4/8' | D#4/32 E4/16.> G4/8' A4/32 G4/16.> C5/8' |
+B4/32 C5/16.> A4/8' B4/32 A4/16.> F4/8' | E4/32 F4/16.> A4/8' G#4/32 A4/16.> D5/8' | E5/32 D5/16.> B4/8' C5/32 B4/16.> G4/8' | F#4/32 G4/16.> B4/8' A#4/32 B4/16.> F5/8' | D#5/32 E5/16.> C5/8' D5/32 C5/16.> E5/8' |
+C#5/32 D5/16.> B4/8' C5/32 B4/16.> D5/8' | D5/32 C5/16.> A4/8' B4/32 A4/16.> C5/8' | A#4/32 B4/16.> G4/8' G#4/32 A4/16.> B4/8' | B4/32 C5/16.> B4/8' D5/32 C5/16.> D5/8' | F5/32 E5/16.> D5/8' F5/32 E5/16.> C5/8' |
+E5/32 D5/16.> C#5/8' E5/32 D5/16.> E5/8' | G5/32 F5/16.> E5/8' G5/32 F5/16.> D5/8' | D#5/32 E5/16.> G5/8' D#5/32 E5/16.> C5/8' | C#5/32 D5/16.> F5/8' C#5/32 D5/16.> B4/8' | D5/32 C5/16.>~ C5/4 R/8 |.
