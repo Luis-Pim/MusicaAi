@@ -5,7 +5,7 @@
    "nome": "Amadeu Russo – Método Completo de Saxofone",
    "instrumento": "saxalto",
    "ordem": 1,
-   "total": 67,
+   "total": 68,
    "secoes": [
     {
      "titulo": "Primeiros estudos",
@@ -451,6 +451,17 @@
        "titulo": "Exercícios para aprender a escala cromática",
        "tipo": "exercicio",
        "pagina": "24"
+      }
+     ]
+    },
+    {
+     "titulo": "Escala cromática",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p025-01.txt",
+       "titulo": "Escala cromática",
+       "tipo": "exercicio",
+       "pagina": "25"
       }
      ]
     }
