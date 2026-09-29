@@ -5,7 +5,7 @@
    "nome": "Amadeu Russo – Método Completo de Saxofone",
    "instrumento": "saxalto",
    "ordem": 1,
-   "total": 62,
+   "total": 63,
    "secoes": [
     {
      "titulo": "Primeiros estudos",
@@ -414,6 +414,12 @@
       {
        "arquivo": "amadeu-russo-sax/p023-11.txt",
        "titulo": "Exercícios progressivos · nº 11",
+       "tipo": "exercicio",
+       "pagina": "23"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p023-12.txt",
+       "titulo": "Exercícios progressivos · nº 12",
        "tipo": "exercicio",
        "pagina": "23"
       }
