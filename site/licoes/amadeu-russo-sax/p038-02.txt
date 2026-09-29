@@ -1,0 +1,14 @@
+# id: AR-ESCALAS_MI_MENOR-P038-SC-002
+titulo: Escala em Mi menor · nº 2
+secao: Escala em Mi menor
+tipo: exercicio
+pagina: 38
+instrumento: saxalto
+compasso: 4/4
+tonalidade: Em
+clave: sol
+andamento: 60 seminima
+# escala menor melódica: sobe com Dó♯ e Ré♯, desce natural
+
+E4/16 F#4/16 G4/16 A4/16 F#4/16 G4/16 A4/16 B4/16 G4/16 A4/16 B4/16 C#5/16 A4/16 B4/16 C#5/16 D#5/16 | B4/16 C#5/16 D#5/16 E5/16 C#5/16 D#5/16 E5/16 F#5/16 D#5/16 E5/16 F#5/16 G5/16 E5/16 F#5/16 G5/16 A5/16 | F#5/16 G5/16 A5/16 B5/16 G5/16 A5/16 B5/16 C#6/16 B5/16 A5/16 G5/16 F#5/16 A5/16 G5/16 F#5/16 E5/16 |
+G5/16 F#5/16 E5/16 D5/16 F#5/16 E5/16 D5/16 C5/16 E5/16 D5/16 C5/16 B4/16 D5/16 C5/16 B4/16 A4/16 | C5/16 B4/16 A4/16 G4/16 B4/16 A4/16 G4/16 F#4/16 A4/16 G4/16 F#4/16 E4/16 G4/16 F#4/16 E4/16 D#4/16 | E4/2 R/2 |.

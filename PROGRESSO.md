@@ -74,3 +74,4 @@ Detalhes:
 - Arpejos em Lá menor nº 2, último grupo: lido como Dó5–Sol♯4–Mi4–Dó4; conferir a última nota.
 - Arpejos em Fá maior nº 3 e Sol maior nº 3/5: compassos finais gerados pelo padrão; conferir os graus graves.
 - O catálogo não lista as escalas em Sol maior (livro p. 35–36); receberam ids próprios `AR-ESCALAS_SOL_MAIOR-P036-SC-00x`. A escala nº 1 fica no PDF 41 (não transcrita ainda).
+- Escalas em Mi menor nº 1–3 (livro p. 38): geradas como menor melódica (sobe Dó♯/Ré♯, desce natural); conferir o fim das descidas (Ré♯ final) no livro.
