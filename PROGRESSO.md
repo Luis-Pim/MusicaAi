@@ -42,6 +42,7 @@ Nos arquivos de lição, `pagina:` é a página **impressa no livro**; o nome do
 | 41 | 35 | estudo em Sol maior = escala nº 1 (p035-02) | no repositório |
 | 43–44 | 37–38 | estudo melódico 15 (Sol maior, p037-01); estudo em Sol maior — segundo estudo (p037-02) | no repositório |
 | 46 | 40 | estudo melódico 16 (Mi menor, p040-01); estudo em Mi menor (p040-02) | no repositório |
+| 48 | 42 | estudo melódico 17 (Fá maior, p042-03; D.C. al Fine escrito por extenso) | no repositório |
 | 39–40 | 33–34 | escalas em Lá menor nº 1–3; arpejos em Lá menor nº 1–2 | no repositório (arpejos nº 3–5 pendentes: leitura incerta) |
 
 ## Catálogo de referência
@@ -77,6 +78,7 @@ Detalhes:
 | 13:40 | 13:55 | 31–32 (7 lições, 1 em rascunho) |
 
 ## Para o professor conferir
+- Estudo melódico 17 (Fá maior): o "D.C. al Fine" foi escrito por extenso (a peça toca de novo do início até o Fine). Compasso 28, ritmo lido como Si colcheia pontuada + Sol semicolcheia; último compasso antes do D.C. lido Dó–Dó♭–Si♭ (tenutos).
 - Estudo melódico 15 (Sol maior), compassos 7 e 45: as duas últimas semicolcheias foram lidas Fá♯–Mi (a imagem cortava o fim da pauta).
 - Estudo melódico 14 (Lá menor), compasso 15: as três colcheias depois do Mi pontuado foram lidas Fá–Sol♯–Fá (a última ficou entre Fá e Sol♯ na imagem). Compasso 12: apogiatura dupla lida Mi–Fá.
 - Mordentes (estudos em Lá menor): escritos como nota–vizinha em fusas antes da nota; o site não tem sinal de mordente.
