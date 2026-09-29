@@ -5,7 +5,7 @@
    "nome": "Amadeu Russo – Método Completo de Saxofone",
    "instrumento": "saxalto",
    "ordem": 1,
-   "total": 53,
+   "total": 60,
    "secoes": [
     {
      "titulo": "Primeiros estudos",
@@ -362,6 +362,48 @@
        "titulo": "Exercícios progressivos · nº 2",
        "tipo": "exercicio",
        "pagina": "21"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p022-03.txt",
+       "titulo": "Exercícios progressivos · nº 3 (rascunho)",
+       "tipo": "exercicio",
+       "pagina": "22"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p022-04.txt",
+       "titulo": "Exercícios progressivos · nº 4 (rascunho)",
+       "tipo": "exercicio",
+       "pagina": "22"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p022-05.txt",
+       "titulo": "Exercícios progressivos · nº 5 (rascunho)",
+       "tipo": "exercicio",
+       "pagina": "22"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p022-06.txt",
+       "titulo": "Exercícios progressivos · nº 6 (rascunho)",
+       "tipo": "exercicio",
+       "pagina": "22"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p022-07.txt",
+       "titulo": "Exercícios progressivos · nº 7 (rascunho)",
+       "tipo": "exercicio",
+       "pagina": "22"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p022-08.txt",
+       "titulo": "Exercícios progressivos · nº 8 (rascunho)",
+       "tipo": "exercicio",
+       "pagina": "22"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p022-09.txt",
+       "titulo": "Exercícios progressivos · nº 9 (rascunho)",
+       "tipo": "exercicio",
+       "pagina": "22"
       }
      ]
     }
