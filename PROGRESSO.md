@@ -39,6 +39,7 @@ Nos arquivos de lição, `pagina:` é a página **impressa no livro**; o nome do
 | 38–39 | 32–33 | exercício misto; estudo melódico 13 (Dó maior) | no repositório |
 | 39 | 33 | estudo em Dó maior (p033-02) | no repositório |
 | 40–41 | 34–35 | estudo melódico 14 (Lá menor, p034-08); estudo em Lá menor (p035-01) | no repositório |
+| 41 | 35 | estudo em Sol maior = escala nº 1 (p035-02) | no repositório |
 | 39–40 | 33–34 | escalas em Lá menor nº 1–3; arpejos em Lá menor nº 1–2 | no repositório (arpejos nº 3–5 pendentes: leitura incerta) |
 
 ## Catálogo de referência
@@ -86,7 +87,7 @@ Detalhes:
 - Escala em Dó maior nº 3 (livro p. 30), compasso 5: a mínima após a subida foi lida como Dó5 (sem linhas suplementares visíveis); conferir se não é Dó6.
 - Arpejos em Lá menor nº 2, último grupo: lido como Dó5–Sol♯4–Mi4–Dó4; conferir a última nota.
 - Arpejos em Fá maior nº 3 e Sol maior nº 3/5: compassos finais gerados pelo padrão; conferir os graus graves.
-- O catálogo não lista as escalas em Sol maior (livro p. 35–36); receberam ids próprios `AR-ESCALAS_SOL_MAIOR-P036-SC-00x`. A escala nº 1 fica no PDF 41 (não transcrita ainda).
+- O catálogo não lista as escalas em Sol maior (livro p. 35–36); receberam ids próprios `AR-ESCALAS_SOL_MAIOR-P036-SC-00x`. A escala nº 1 (PDF 41) é o "Estudo em Sol maior" do catálogo (p035-02).
 - Escalas em Mi menor nº 1–3 (livro p. 38): geradas como menor melódica (sobe Dó♯/Ré♯, desce natural); conferir o fim das descidas (Ré♯ final) no livro.
 - Escalas em Ré menor nº 1–3 (livro p. 43–44): menor melódica gerada pelo padrão; na nº 3 a descida foi montada como Si♭5→Dó♯4 contínua; conferir as quebras de compasso.
 - Escalas menores (Mi, Ré, Si): geradas como menor melódica; arpejos com a sensível (menor harmônica). Conferir os finais das descidas e as quebras de compasso no livro.
