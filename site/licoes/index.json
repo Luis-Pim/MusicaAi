@@ -5,7 +5,7 @@
    "nome": "Amadeu Russo – Método Completo de Saxofone",
    "instrumento": "saxalto",
    "ordem": 1,
-   "total": 81,
+   "total": 88,
    "secoes": [
     {
      "titulo": "Primeiros estudos",
@@ -570,6 +570,68 @@
        "titulo": "Arpejos em Lá menor · nº 2",
        "tipo": "exercicio",
        "pagina": "34"
+      }
+     ]
+    },
+    {
+     "titulo": "Escala em Sol maior",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p036-01.txt",
+       "titulo": "Escala em Sol maior · nº 2",
+       "tipo": "exercicio",
+       "pagina": "36"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p036-02.txt",
+       "titulo": "Escala em Sol maior · nº 3",
+       "tipo": "exercicio",
+       "pagina": "36"
+      }
+     ]
+    },
+    {
+     "titulo": "Arpejos em Sol maior",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p036-03.txt",
+       "titulo": "Arpejos em Sol maior · nº 1",
+       "tipo": "exercicio",
+       "pagina": "36"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p036-04.txt",
+       "titulo": "Arpejos em Sol maior · nº 2",
+       "tipo": "exercicio",
+       "pagina": "36"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p036-05.txt",
+       "titulo": "Arpejos em Sol maior · nº 3",
+       "tipo": "exercicio",
+       "pagina": "36"
+      }
+     ]
+    },
+    {
+     "titulo": "Arpejos sobre os acordes de 7ª",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p036-06.txt",
+       "titulo": "Arpejos sobre os acordes de 7ª · nº 4",
+       "tipo": "exercicio",
+       "pagina": "36"
+      }
+     ]
+    },
+    {
+     "titulo": "Arpejos sobre os acordes de 9ª",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p036-07.txt",
+       "titulo": "Arpejos sobre os acordes de 9ª · nº 5",
+       "tipo": "exercicio",
+       "pagina": "36"
       }
      ]
     }

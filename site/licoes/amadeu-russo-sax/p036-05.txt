@@ -1,0 +1,14 @@
+# id: AR-ARPEJOS_SOL_MAIOR-P036-AR-003
+titulo: Arpejos em Sol maior · nº 3
+secao: Arpejos em Sol maior
+tipo: exercicio
+pagina: 36
+instrumento: saxalto
+compasso: 4/4
+tonalidade: G
+clave: sol
+andamento: 60 seminima
+
+G4/16 B4/16 D5/16 G5/16 B5/16 G5/16 D5/16 B4/16 A4/16 C5/16 E5/16 A5/16 C6/16 A5/16 E5/16 C5/16 | B4/16 D5/16 F#5/16 B5/16 D6/16 B5/16 F#5/16 D5/16 A4/16 C5/16 E5/16 A5/16 C6/16 A5/16 E5/16 C5/16 |
+G4/16 B4/16 D5/16 G5/16 B5/16 G5/16 D5/16 B4/16 F#4/16 A4/16 C5/16 F#5/16 A5/16 F#5/16 C5/16 A4/16 | E4/16 G4/16 B4/16 E5/16 G5/16 E5/16 B4/16 G4/16 D4/16 F#4/16 A4/16 D5/16 F#5/16 D5/16 A4/16 F#4/16 |
+G4/2 R/2 |.
