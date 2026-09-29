@@ -1,0 +1,171 @@
+{
+ "metodos": [
+  {
+   "id": "amadeu-russo-sax",
+   "nome": "Amadeu Russo – Método Completo de Saxofone",
+   "instrumento": "saxalto",
+   "ordem": 1,
+   "total": 23,
+   "secoes": [
+    {
+     "titulo": "Primeiros estudos",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p005-01.txt",
+       "titulo": "Nº 1",
+       "tipo": "exercicio",
+       "pagina": "5"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p005-02.txt",
+       "titulo": "Nº 2",
+       "tipo": "exercicio",
+       "pagina": "5"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p005-03.txt",
+       "titulo": "Nº 3",
+       "tipo": "exercicio",
+       "pagina": "5"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p005-04.txt",
+       "titulo": "Nº 4",
+       "tipo": "exercicio",
+       "pagina": "5"
+      }
+     ]
+    },
+    {
+     "titulo": "Pequenos estudos melódicos sobre a primeira série de notas",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p006-05.txt",
+       "titulo": "Estudo melódico 1 · nº 5",
+       "tipo": "estudo",
+       "pagina": "6"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p006-06.txt",
+       "titulo": "Estudo melódico 2 · nº 6",
+       "tipo": "estudo",
+       "pagina": "6"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p006-07.txt",
+       "titulo": "Estudo melódico 3 · nº 7",
+       "tipo": "estudo",
+       "pagina": "6"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p006-08.txt",
+       "titulo": "Estudo melódico 4 · nº 8",
+       "tipo": "estudo",
+       "pagina": "6"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p006-09.txt",
+       "titulo": "Estudo melódico 5 · nº 9",
+       "tipo": "estudo",
+       "pagina": "6"
+      }
+     ]
+    },
+    {
+     "titulo": "Exercícios para a emissão da segunda série de cinco notas",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p006-10.txt",
+       "titulo": "Nº 10",
+       "tipo": "exercicio",
+       "pagina": "6"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p007-11.txt",
+       "titulo": "Nº 11",
+       "tipo": "exercicio",
+       "pagina": "7"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p007-12.txt",
+       "titulo": "Nº 12",
+       "tipo": "exercicio",
+       "pagina": "7"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p007-13.txt",
+       "titulo": "Nº 13",
+       "tipo": "exercicio",
+       "pagina": "7"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p007-14.txt",
+       "titulo": "Nº 14",
+       "tipo": "exercicio",
+       "pagina": "7"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p007-15.txt",
+       "titulo": "Nº 15",
+       "tipo": "exercicio",
+       "pagina": "7"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p007-16.txt",
+       "titulo": "Nº 16",
+       "tipo": "exercicio",
+       "pagina": "7"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p008-17.txt",
+       "titulo": "Nº 17",
+       "tipo": "exercicio",
+       "pagina": "8"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p008-18.txt",
+       "titulo": "Nº 18",
+       "tipo": "exercicio",
+       "pagina": "8"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p008-19.txt",
+       "titulo": "Nº 19",
+       "tipo": "exercicio",
+       "pagina": "8"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p008-20.txt",
+       "titulo": "Nº 20",
+       "tipo": "exercicio",
+       "pagina": "8"
+      }
+     ]
+    },
+    {
+     "titulo": "Pequenos estudos melódicos",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p009-21.txt",
+       "titulo": "Estudo melódico 6 · nº 21",
+       "tipo": "estudo",
+       "pagina": "9"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p009-22.txt",
+       "titulo": "Estudo melódico 7 · nº 22",
+       "tipo": "estudo",
+       "pagina": "9"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p009-23.txt",
+       "titulo": "Estudo melódico 8 · nº 23",
+       "tipo": "estudo",
+       "pagina": "9"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

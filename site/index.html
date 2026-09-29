@@ -59,13 +59,33 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .tagline { color: var(--muted); margin: 0; }
 
 .bench { display: grid; grid-template-columns: minmax(300px, 380px) minmax(0, 1fr); gap: 16px; align-items: start; padding-bottom: 24px; }
-@media (max-width: 900px) { .bench { grid-template-columns: minmax(0, 1fr); } }
+.bench > .score-panel { grid-column: 2; grid-row: 1 / span 2; }
+.bench > .library, .bench > .source-panel { grid-column: 1; }
+@media (max-width: 900px) {
+  .bench { grid-template-columns: minmax(0, 1fr); }
+  .bench > .score-panel, .bench > .library, .bench > .source-panel { grid-column: 1; grid-row: auto; }
+  .bench > .library { order: 1; } .bench > .score-panel { order: 2; } .bench > .source-panel { order: 3; }
+}
 .panel { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 16px; min-width: 0; display: flex; flex-direction: column; gap: 14px; }
 .panel h2 { font-size: 18px; font-weight: 700; display: flex; align-items: center; gap: 8px; }
 .step { font-family: var(--font-mono); font-size: 12px; color: var(--muted); font-weight: 400; letter-spacing: 0.04em; text-transform: uppercase; }
 .hint { color: var(--muted); font-size: 13px; margin: 0; }
 .label { font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); font-weight: 700; }
 
+.library .lib-controls { display: flex; flex-direction: column; gap: 8px; }
+#lib-method { width: 100%; max-width: 100%; min-width: 0; text-overflow: ellipsis; }
+select { max-width: 100%; }
+.tabs { display: flex; gap: 4px; background: var(--surface-2); border: 1px solid var(--line); border-radius: 8px; padding: 3px; }
+.tab { flex: 1; border: 0; background: transparent; border-radius: 6px; padding: 6px 8px; cursor: pointer; font-size: 14px; }
+.tab[aria-selected="true"] { background: var(--surface); box-shadow: 0 0 0 1px var(--line); font-weight: 700; }
+#lib-search { border: 1px solid var(--line); background: var(--surface-2); border-radius: 8px; padding: 6px 10px; }
+.lib-list { max-height: 420px; overflow-y: auto; display: flex; flex-direction: column; gap: 10px; }
+.lib-sec h3 { font-size: 13px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); margin-bottom: 4px; }
+.lib-sec ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; }
+.lib-item { width: 100%; text-align: left; border: 0; background: transparent; padding: 6px 8px; border-radius: 6px; cursor: pointer; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 8px; }
+.lib-item:hover { background: var(--accent-soft); }
+.lib-item.current { background: var(--accent-soft); font-weight: 700; }
+.lib-item .pg { font-family: var(--font-mono); font-size: 12px; color: var(--muted); }
 .drop { border: 1.5px dashed var(--line); border-radius: var(--r); padding: 18px 14px; text-align: center; background: var(--surface-2); cursor: pointer; display: flex; flex-direction: column; gap: 6px; align-items: center; transition: border-color .15s, background .15s; }
 .drop:hover, .drop.over { border-color: var(--accent); background: var(--accent-soft); }
 .drop strong { font-size: 15px; }
@@ -201,7 +221,21 @@ input[type="number"] { width: 72px; font-variant-numeric: tabular-nums; }
   </header>
 
   <main class="bench">
-    <section class="panel" aria-labelledby="h-src">
+    <section class="panel library" aria-labelledby="h-lib" id="library" hidden>
+      <h2 id="h-lib">Biblioteca de lições</h2>
+      <div class="lib-controls">
+        <label class="label" for="lib-method">Método</label>
+        <select id="lib-method"></select>
+        <div class="tabs" role="tablist" aria-label="Tipo de lição">
+          <button class="tab" role="tab" type="button" data-tipo="exercicio" aria-selected="true">Exercícios</button>
+          <button class="tab" role="tab" type="button" data-tipo="estudo" aria-selected="false">Estudos melódicos</button>
+        </div>
+        <input type="search" id="lib-search" placeholder="Buscar: página, número ou nome" aria-label="Buscar lição">
+      </div>
+      <div class="lib-list" id="lib-list"></div>
+    </section>
+
+    <section class="panel source-panel" aria-labelledby="h-src">
       <h2 id="h-src"><span class="step">1</span> Lição do método</h2>
 
       <label class="drop" id="drop" for="file">
@@ -250,7 +284,7 @@ input[type="number"] { width: 72px; font-variant-numeric: tabular-nums; }
       </details>
     </section>
 
-    <section class="panel" aria-labelledby="h-score">
+    <section class="panel score-panel" aria-labelledby="h-score">
       <div class="score-head">
         <div style="min-width:0">
           <div class="step">2 · Partitura reconhecida</div>
@@ -447,7 +481,7 @@ andamento: 96 seminima
 > D5/4' C5/4' B4/4' | A4/8 G4/8 F#4/4 A4/4 | !p G4/4 {3 B4/8 C5/8 D5/8} G4/4 | rit G4/2.@ |.
 `;
 
-const HEADER_KEYS = new Set(["titulo", "compasso", "formula", "tonalidade", "armadura", "clave", "andamento"]);
+const HEADER_KEYS = new Set(["titulo", "compasso", "formula", "tonalidade", "armadura", "clave", "andamento", "metodo", "secao", "tipo", "pagina", "instrumento", "numero", "observacao"]);
 function stripAccents(t) { return t.normalize("NFD").replace(/[\u0300-\u036f]/g, ""); }
 function parseLesson(text) {
   const meta = { titulo: "", compasso: [4, 4], tonalidade: "C", clave: "treble", andamento: null };
@@ -490,6 +524,7 @@ function parseLesson(text) {
       const k = hk;
       const v = hm[2].trim();
       if (k === "titulo") meta.titulo = v;
+      else if (["metodo", "secao", "tipo", "pagina", "instrumento", "numero", "observacao"].includes(k)) meta[k] = v;
       else if (k === "compasso" || k === "formula") {
         const mm = /^(\d+)\s*\/\s*(\d+)$/.exec(v) || (/^c$/i.test(v) ? [0, 4, 4] : /^c\|$/i.test(v) ? [0, 2, 2] : null);
         if (mm && [1, 2, 4, 8, 16].includes(+mm[2])) meta.compasso = [+mm[1], +mm[2]];
@@ -1218,6 +1253,9 @@ function applyText(text, { fromEditor = false, keepTempo = false } = {}) {
   const wasPlaying = player.playing; if (wasPlaying) player.stop();
   state.model = model;
   document.getElementById("title-text").textContent = model.meta.titulo || "Lição sem título";
+  if (model.meta.instrumento && !fromEditor && INSTRUMENTS.some(i => i.id === model.meta.instrumento) && instSel.value !== model.meta.instrumento) {
+    instSel.value = model.meta.instrumento; updateTranspUi(); store.set("inst", instSel.value);
+  }
   document.getElementById("example-badge").hidden = !state.isExample;
   renderScore(model);
   renderReading(model, state.extra);
@@ -1624,6 +1662,71 @@ Responda só com o texto corrigido completo (cabeçalho e corpo), sem explicaç�
 });
 
 /* ============================================================
+   Biblioteca de lições (site/licoes/index.json)
+   ============================================================ */
+const lib = { data: null, method: null, tipo: "exercicio", current: null };
+async function loadLibrary() {
+  try {
+    const r = await fetch("licoes/index.json", { cache: "no-cache" });
+    if (!r.ok) return;
+    lib.data = await r.json();
+  } catch (e) { return; }
+  if (!lib.data?.metodos?.length) return;
+  const sel = document.getElementById("lib-method");
+  sel.innerHTML = "";
+  lib.data.metodos.forEach(m => { const o = document.createElement("option"); o.value = m.id; o.textContent = m.nome; sel.append(o); });
+  lib.method = store.get("lib-method", lib.data.metodos[0].id);
+  if (!lib.data.metodos.some(m => m.id === lib.method)) lib.method = lib.data.metodos[0].id;
+  sel.value = lib.method;
+  lib.tipo = store.get("lib-tipo", "exercicio");
+  document.getElementById("library").hidden = false;
+  renderLibrary();
+}
+function renderLibrary() {
+  const m = lib.data.metodos.find(x => x.id === lib.method);
+  document.querySelectorAll(".tab").forEach(t => t.setAttribute("aria-selected", String(t.dataset.tipo === lib.tipo)));
+  const q = stripAccents(document.getElementById("lib-search").value.trim().toLowerCase());
+  const box = document.getElementById("lib-list");
+  box.innerHTML = "";
+  let count = 0;
+  m.secoes.forEach(sec => {
+    const items = sec.licoes.filter(l => l.tipo === lib.tipo && (!q || stripAccents(`${l.titulo} ${sec.titulo} p ${l.pagina} pag ${l.pagina}`.toLowerCase()).includes(q)));
+    if (!items.length) return;
+    const d = document.createElement("div"); d.className = "lib-sec";
+    const h = document.createElement("h3"); h.textContent = sec.titulo; d.append(h);
+    const ul = document.createElement("ul");
+    items.forEach(l => {
+      const li = document.createElement("li");
+      const b = document.createElement("button"); b.type = "button"; b.className = "lib-item" + (lib.current === l.arquivo ? " current" : "");
+      const t = document.createElement("span"); t.textContent = l.titulo;
+      const pg = document.createElement("span"); pg.className = "pg"; pg.textContent = l.pagina ? `p. ${l.pagina}` : "";
+      b.append(t, pg);
+      b.addEventListener("click", () => openLesson(l));
+      li.append(b); ul.append(li); count++;
+    });
+    d.append(ul); box.append(d);
+  });
+  if (!count) box.innerHTML = `<p class="hint">${q ? "Nenhuma lição encontrada." : lib.tipo === "estudo" ? "Nenhum estudo melódico cadastrado ainda neste método." : "Nenhum exercício cadastrado ainda neste método."}</p>`;
+}
+async function openLesson(l) {
+  try {
+    const r = await fetch("licoes/" + l.arquivo, { cache: "no-cache" });
+    if (!r.ok) throw new Error(r.status);
+    const text = await r.text();
+    lib.current = l.arquivo; store.set("lib-current", l.arquivo);
+    state.isExample = false; state.extra = null;
+    srcEl.value = text; applyText(text);
+    renderLibrary();
+    if (matchMedia("(max-width: 900px)").matches) document.getElementById("score").scrollIntoView({ block: "start", behavior: "smooth" });
+  } catch (e) {
+    setStatus(`Não consegui abrir a lição "${l.titulo}". Recarregue a página e tente de novo.`, "bad");
+  }
+}
+document.getElementById("lib-method").addEventListener("change", e => { lib.method = e.target.value; store.set("lib-method", lib.method); renderLibrary(); });
+document.querySelectorAll(".tab").forEach(t => t.addEventListener("click", () => { lib.tipo = t.dataset.tipo; store.set("lib-tipo", lib.tipo); renderLibrary(); }));
+document.getElementById("lib-search").addEventListener("input", () => lib.data && renderLibrary());
+
+/* ============================================================
    Início
    ============================================================ */
 (function init() {
@@ -1641,6 +1744,8 @@ Responda só com o texto corrigido completo (cabeçalho e corpo), sem explicaç�
   applyText(text);
   if (t && saved) { bpmIn.value = t.bpm; unitSel.value = t.unit; }
   updateTempoRead();
+  lib.current = store.get("lib-current", null);
+  loadLibrary();
 
   if (window.claude && typeof window.claude.use === "function") {
     window.claude.use("sample").then(async s => {

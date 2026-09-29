@@ -1,0 +1,12 @@
+titulo: Estudo melódico 2 · nº 6
+secao: Pequenos estudos melódicos sobre a primeira série de notas
+tipo: estudo
+pagina: 6
+instrumento: saxalto
+compasso: 3/4
+tonalidade: C
+clave: sol
+andamento: 80 seminima
+
+G4/4 A4/4 B4/4 | C5/2. | B4/4 A4/4 G4/4 | A4/2. | A4/4 B4/4 C5/4 | B4/2. | A4/4 G4/4 A4/4 | G4/2. |
+G4/4 A4/4 B4/4 | C5/2. | B4/4 A4/4 G4/4 | A4/2. | A4/4 B4/4 A4/4 | G4/2 A4/4 | B4/4 A4/4 G4/4 | C5/2. |.

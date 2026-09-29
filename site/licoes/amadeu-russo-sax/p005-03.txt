@@ -1,0 +1,12 @@
+titulo: Nº 3
+secao: Primeiros estudos
+tipo: exercicio
+pagina: 5
+instrumento: saxalto
+compasso: 4/4
+tonalidade: C
+clave: sol
+andamento: 72 seminima
+
+G4/4 A4/4 G4/4 A4/4 | G4/4 A4/4 G4/2 | A4/4 B4/4 A4/4 B4/4 | A4/4 B4/4 A4/2 | B4/4 C5/4 B4/4 C5/4 | B4/4 C5/4 B4/2 |
+C5/4 B4/4 C5/4 B4/4 | C5/4 B4/4 C5/2 | B4/4 A4/4 B4/4 A4/4 | B4/4 A4/4 B4/2 | A4/4 G4/4 A4/4 G4/4 | A4/4 B4/4 C5/2 |.
