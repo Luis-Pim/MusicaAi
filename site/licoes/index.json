@@ -5,7 +5,7 @@
    "nome": "Amadeu Russo – Método Completo de Saxofone",
    "instrumento": "saxalto",
    "ordem": 1,
-   "total": 34,
+   "total": 39,
    "secoes": [
     {
      "titulo": "Primeiros estudos",
@@ -238,6 +238,36 @@
        "titulo": "Estudo melódico 10 · intervalos de 4ª, nº 4",
        "tipo": "estudo",
        "pagina": "13"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p014-01.txt",
+       "titulo": "Intervalos de 5ª · nº 1",
+       "tipo": "exercicio",
+       "pagina": "14"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p014-02.txt",
+       "titulo": "Intervalos de 5ª · nº 2",
+       "tipo": "exercicio",
+       "pagina": "14"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p014-03.txt",
+       "titulo": "Intervalos de 5ª · nº 3",
+       "tipo": "exercicio",
+       "pagina": "14"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p015-01.txt",
+       "titulo": "Estudo melódico 11 · intervalos de 5ª, nº 4",
+       "tipo": "estudo",
+       "pagina": "15"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p015-02.txt",
+       "titulo": "Intervalos de 6ª · nº 1",
+       "tipo": "exercicio",
+       "pagina": "15"
       }
      ]
     }
