@@ -1,0 +1,15 @@
+# id: AR-INTERVALOS_4-P013-EM-004
+titulo: Estudo melódico 10 · intervalos de 4ª, nº 4
+secao: Intervalos e exercícios relativos
+tipo: estudo
+pagina: 13
+instrumento: saxalto
+compasso: 4/4
+tonalidade: C
+clave: sol
+andamento: 76 seminima
+# indicação escrita: Andante
+
+!f G4/4 C5/4 D5/8 E5/8 D5/8 C5/8 | D5/4 A4/4 D5/4. C5/8 | B4/8 D5/8 C5/8 B4/8 A4/4 D5/4 | G4/2. R/4 | G4/4 C5/4 D5/8 E5/8 D5/8 C5/8 |
+D5/4 A4/4 D5/4. C5/8 | B4/8 D5/8 C5/8 B4/8 A4/4 B4/4 | C5/2. C5/4 | F5/4 E5/8 D5/8 C5/4 A4/4 | D5/8 C5/8 B4/8 A4/8 G4/4 B4/4 |
+G5/4 F5/8 E5/8 D5/4 B4/4 | E5/2. E5/4 | D5/4 E5/4 F5/4 A5/4 | G5/4 E5/8 D5/8 C5/8 D5/8 E5/8 C5/8 | D5/4. E5/8 D5/4 B4/4 | C5/2. R/4 |.

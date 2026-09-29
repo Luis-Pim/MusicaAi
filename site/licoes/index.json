@@ -1,0 +1,460 @@
+{
+ "metodos": [
+  {
+   "id": "amadeu-russo-sax",
+   "nome": "Amadeu Russo – Método Completo de Saxofone",
+   "instrumento": "saxalto",
+   "ordem": 1,
+   "total": 67,
+   "secoes": [
+    {
+     "titulo": "Primeiros estudos",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p005-01.txt",
+       "titulo": "Nº 1",
+       "tipo": "exercicio",
+       "pagina": "5"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p005-02.txt",
+       "titulo": "Nº 2",
+       "tipo": "exercicio",
+       "pagina": "5"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p005-03.txt",
+       "titulo": "Nº 3",
+       "tipo": "exercicio",
+       "pagina": "5"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p005-04.txt",
+       "titulo": "Nº 4",
+       "tipo": "exercicio",
+       "pagina": "5"
+      }
+     ]
+    },
+    {
+     "titulo": "Pequenos estudos melódicos sobre a primeira série de notas",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p006-05.txt",
+       "titulo": "Estudo melódico 1 · nº 5",
+       "tipo": "estudo",
+       "pagina": "6"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p006-06.txt",
+       "titulo": "Estudo melódico 2 · nº 6",
+       "tipo": "estudo",
+       "pagina": "6"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p006-07.txt",
+       "titulo": "Estudo melódico 3 · nº 7",
+       "tipo": "estudo",
+       "pagina": "6"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p006-08.txt",
+       "titulo": "Estudo melódico 4 · nº 8",
+       "tipo": "estudo",
+       "pagina": "6"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p006-09.txt",
+       "titulo": "Estudo melódico 5 · nº 9",
+       "tipo": "estudo",
+       "pagina": "6"
+      }
+     ]
+    },
+    {
+     "titulo": "Exercícios para a emissão da segunda série de cinco notas",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p006-10.txt",
+       "titulo": "Nº 10",
+       "tipo": "exercicio",
+       "pagina": "6"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p007-11.txt",
+       "titulo": "Nº 11",
+       "tipo": "exercicio",
+       "pagina": "7"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p007-12.txt",
+       "titulo": "Nº 12",
+       "tipo": "exercicio",
+       "pagina": "7"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p007-13.txt",
+       "titulo": "Nº 13",
+       "tipo": "exercicio",
+       "pagina": "7"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p007-14.txt",
+       "titulo": "Nº 14",
+       "tipo": "exercicio",
+       "pagina": "7"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p007-15.txt",
+       "titulo": "Nº 15",
+       "tipo": "exercicio",
+       "pagina": "7"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p007-16.txt",
+       "titulo": "Nº 16",
+       "tipo": "exercicio",
+       "pagina": "7"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p008-17.txt",
+       "titulo": "Nº 17",
+       "tipo": "exercicio",
+       "pagina": "8"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p008-18.txt",
+       "titulo": "Nº 18",
+       "tipo": "exercicio",
+       "pagina": "8"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p008-19.txt",
+       "titulo": "Nº 19",
+       "tipo": "exercicio",
+       "pagina": "8"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p008-20.txt",
+       "titulo": "Nº 20",
+       "tipo": "exercicio",
+       "pagina": "8"
+      }
+     ]
+    },
+    {
+     "titulo": "Pequenos estudos melódicos",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p009-21.txt",
+       "titulo": "Estudo melódico 6 · nº 21",
+       "tipo": "estudo",
+       "pagina": "9"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p009-22.txt",
+       "titulo": "Estudo melódico 7 · nº 22",
+       "tipo": "estudo",
+       "pagina": "9"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p009-23.txt",
+       "titulo": "Estudo melódico 8 · nº 23",
+       "tipo": "estudo",
+       "pagina": "9"
+      }
+     ]
+    },
+    {
+     "titulo": "Exercícios para a emissão dos sons do registro agudo",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p009-24.txt",
+       "titulo": "Nº 24",
+       "tipo": "exercicio",
+       "pagina": "9"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p010-25.txt",
+       "titulo": "Nº 25",
+       "tipo": "exercicio",
+       "pagina": "10"
+      }
+     ]
+    },
+    {
+     "titulo": "Intervalos e exercícios relativos",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p011-01.txt",
+       "titulo": "Intervalos de 2ª",
+       "tipo": "exercicio",
+       "pagina": "11"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p011-02.txt",
+       "titulo": "Intervalos de 3ª · nº 1",
+       "tipo": "exercicio",
+       "pagina": "11"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p011-03.txt",
+       "titulo": "Intervalos de 3ª · nº 2",
+       "tipo": "exercicio",
+       "pagina": "11"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p012-01.txt",
+       "titulo": "Intervalos de 3ª · nº 3",
+       "tipo": "exercicio",
+       "pagina": "12"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p012-02.txt",
+       "titulo": "Estudo melódico 9 · intervalos de 3ª, nº 4",
+       "tipo": "estudo",
+       "pagina": "12"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p012-03.txt",
+       "titulo": "Intervalos de 4ª · nº 1",
+       "tipo": "exercicio",
+       "pagina": "12"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p013-01.txt",
+       "titulo": "Intervalos de 4ª · nº 2",
+       "tipo": "exercicio",
+       "pagina": "13"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p013-02.txt",
+       "titulo": "Intervalos de 4ª · nº 3",
+       "tipo": "exercicio",
+       "pagina": "13"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p013-03.txt",
+       "titulo": "Estudo melódico 10 · intervalos de 4ª, nº 4",
+       "tipo": "estudo",
+       "pagina": "13"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p014-01.txt",
+       "titulo": "Intervalos de 5ª · nº 1",
+       "tipo": "exercicio",
+       "pagina": "14"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p014-02.txt",
+       "titulo": "Intervalos de 5ª · nº 2",
+       "tipo": "exercicio",
+       "pagina": "14"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p014-03.txt",
+       "titulo": "Intervalos de 5ª · nº 3",
+       "tipo": "exercicio",
+       "pagina": "14"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p015-01.txt",
+       "titulo": "Estudo melódico 11 · intervalos de 5ª, nº 4",
+       "tipo": "estudo",
+       "pagina": "15"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p015-02.txt",
+       "titulo": "Intervalos de 6ª · nº 1",
+       "tipo": "exercicio",
+       "pagina": "15"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p015-03.txt",
+       "titulo": "Intervalos de 6ª · nº 2",
+       "tipo": "exercicio",
+       "pagina": "15"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p016-01.txt",
+       "titulo": "Intervalos de 6ª · exercício em 3/4 (sem número)",
+       "tipo": "exercicio",
+       "pagina": "16"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p016-02.txt",
+       "titulo": "Estudo melódico 12 · Allegretto",
+       "tipo": "estudo",
+       "pagina": "16"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p017-01.txt",
+       "titulo": "Intervalos de 7ª · nº 1",
+       "tipo": "exercicio",
+       "pagina": "17"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p017-02.txt",
+       "titulo": "Intervalos de 7ª · nº 2",
+       "tipo": "exercicio",
+       "pagina": "17"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p017-03.txt",
+       "titulo": "Intervalos de 7ª · nº 3",
+       "tipo": "exercicio",
+       "pagina": "17"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p018-01.txt",
+       "titulo": "Intervalos de 7ª · nº 4",
+       "tipo": "exercicio",
+       "pagina": "18"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p018-02.txt",
+       "titulo": "Intervalos de 8ª · nº 1",
+       "tipo": "exercicio",
+       "pagina": "18"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p019-01.txt",
+       "titulo": "Intervalos de 8ª · nº 2",
+       "tipo": "exercicio",
+       "pagina": "19"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p019-02.txt",
+       "titulo": "Intervalos de 8ª · nº 3",
+       "tipo": "exercicio",
+       "pagina": "19"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p020-01.txt",
+       "titulo": "Intervalos de 8ª · nº 4",
+       "tipo": "exercicio",
+       "pagina": "20"
+      }
+     ]
+    },
+    {
+     "titulo": "Exercícios sobre os intervalos mistos",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p020-02.txt",
+       "titulo": "Exercícios sobre os intervalos mistos",
+       "tipo": "exercicio",
+       "pagina": "20"
+      }
+     ]
+    },
+    {
+     "titulo": "Exercícios progressivos",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p021-01.txt",
+       "titulo": "Exercícios progressivos · nº 1",
+       "tipo": "exercicio",
+       "pagina": "21"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p021-02.txt",
+       "titulo": "Exercícios progressivos · nº 2",
+       "tipo": "exercicio",
+       "pagina": "21"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p022-03.txt",
+       "titulo": "Exercícios progressivos · nº 3",
+       "tipo": "exercicio",
+       "pagina": "22"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p022-04.txt",
+       "titulo": "Exercícios progressivos · nº 4",
+       "tipo": "exercicio",
+       "pagina": "22"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p022-05.txt",
+       "titulo": "Exercícios progressivos · nº 5",
+       "tipo": "exercicio",
+       "pagina": "22"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p022-06.txt",
+       "titulo": "Exercícios progressivos · nº 6",
+       "tipo": "exercicio",
+       "pagina": "22"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p022-07.txt",
+       "titulo": "Exercícios progressivos · nº 7",
+       "tipo": "exercicio",
+       "pagina": "22"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p022-08.txt",
+       "titulo": "Exercícios progressivos · nº 8",
+       "tipo": "exercicio",
+       "pagina": "22"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p022-09.txt",
+       "titulo": "Exercícios progressivos · nº 9",
+       "tipo": "exercicio",
+       "pagina": "22"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p023-10.txt",
+       "titulo": "Exercícios progressivos · nº 10",
+       "tipo": "exercicio",
+       "pagina": "23"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p023-11.txt",
+       "titulo": "Exercícios progressivos · nº 11",
+       "tipo": "exercicio",
+       "pagina": "23"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p023-12.txt",
+       "titulo": "Exercícios progressivos · nº 12",
+       "tipo": "exercicio",
+       "pagina": "23"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p023-13.txt",
+       "titulo": "Exercícios progressivos · nº 13",
+       "tipo": "exercicio",
+       "pagina": "23"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p023-14.txt",
+       "titulo": "Exercícios progressivos · nº 14",
+       "tipo": "exercicio",
+       "pagina": "23"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p024-01.txt",
+       "titulo": "Exercícios progressivos · nº 15 (rascunho)",
+       "tipo": "exercicio",
+       "pagina": "24"
+      }
+     ]
+    },
+    {
+     "titulo": "Exercícios para aprender a escala cromática",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p024-02.txt",
+       "titulo": "Exercícios para aprender a escala cromática",
+       "tipo": "exercicio",
+       "pagina": "24"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

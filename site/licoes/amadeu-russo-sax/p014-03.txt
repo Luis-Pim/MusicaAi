@@ -1,0 +1,18 @@
+# id: AR-INTERVALOS_5-P014-EX-003
+titulo: Intervalos de 5ª · nº 3
+secao: Intervalos e exercícios relativos
+tipo: exercicio
+pagina: 14
+instrumento: saxalto
+compasso: 3/4
+tonalidade: C
+clave: sol
+andamento: 80 seminima
+
+R/8 G4/8 C4/8 D4/8 E4/8 F4/8 | D4/8 E4/8 F4/2 | R/8 A4/8 D4/8 E4/8 F4/8 G4/8 | E4/8 F4/8 G4/2 | R/8 B4/8 E4/8 F4/8 G4/8 A4/8 | F4/8 G4/8 A4/2 | R/8 C5/8 F4/8 G4/8 A4/8 B4/8 | G4/8 A4/8 B4/2 |
+R/8 D5/8 G4/8 A4/8 B4/8 C5/8 | A4/8 B4/8 C5/2 | R/8 E5/8 A4/8 B4/8 C5/8 D5/8 | B4/8 C5/8 D5/2 | R/8 F5/8 B4/8 C5/8 D5/8 E5/8 | C5/8 D5/8 E5/2 | R/8 G5/8 C5/8 D5/8 E5/8 F5/8 | D5/8 E5/8 F5/2 |
+R/8 A5/8 D5/8 E5/8 F5/8 G5/8 | E5/8 F5/8 G5/2 | R/8 B5/8 E5/8 F5/8 G5/8 A5/8 | F5/8 G5/8 A5/2 | R/8 C6/8 F5/8 G5/8 A5/8 B5/8 | G5/8 A5/8 B5/2 | R/8 D6/8 G5/8 A5/8 B5/8 C6/8 | A5/8 B5/8 C6/2 |
+R/8 G5/8 D6/8 C6/8 B5/8 A5/8 | C6/8 B5/8 A5/2 | R/8 F5/8 C6/8 B5/8 A5/8 G5/8 | B5/8 A5/8 G5/2 | R/8 E5/8 B5/8 A5/8 G5/8 F5/8 | A5/8 G5/8 F5/2 | R/8 D5/8 A5/8 G5/8 F5/8 E5/8 | G5/8 F5/8 E5/2 |
+R/8 C5/8 G5/8 F5/8 E5/8 D5/8 | F5/8 E5/8 D5/2 | R/8 B4/8 F5/8 E5/8 D5/8 C5/8 | E5/8 D5/8 C5/2 | R/8 A4/8 E5/8 D5/8 C5/8 B4/8 | D5/8 C5/8 B4/2 | R/8 G4/8 D5/8 C5/8 B4/8 A4/8 | C5/8 B4/8 A4/2 |
+R/8 F4/8 C5/8 B4/8 A4/8 G4/8 | B4/8 A4/8 G4/2 | R/8 E4/8 B4/8 A4/8 G4/8 F4/8 | A4/8 G4/8 F4/2 | R/8 D4/8 A4/8 G4/8 F4/8 E4/8 | G4/8 F4/8 E4/2 | R/8 C4/8 G4/8 F4/8 E4/8 D4/8 | F4/8 E4/8 D4/2 |
+R/8 B3/8 F4/8 E4/8 D4/8 C4/8 | E4/8 D4/8 C4/2 |.

@@ -1,0 +1,13 @@
+# id: AR-INTERVALOS_3-P012-EM-004
+titulo: Estudo melódico 9 · intervalos de 3ª, nº 4
+secao: Intervalos e exercícios relativos
+tipo: estudo
+pagina: 12
+instrumento: saxalto
+compasso: 4/4
+tonalidade: C
+clave: sol
+andamento: 80 seminima
+
+C5/2 B4/4 D5/4 | C5/4 B4/4 A4/4 G4/4 | A4/2 B4/4 C5/4 | D5/4 E5/4 C5/4 D5/4 | B4/2 C5/4 D5/4 | E5/4 F5/4 D5/4 E5/4 | C5/4 D5/4 B4/4 C5/4 | A4/4 B4/4 C5/4 E5/4 | D5/2. R/4 ||
+C5/2 B4/4 D5/4 | C5/4 B4/4 A4/4 G4/4 | A4/2 B4/4 C5/4 | D5/4 E5/4 C5/4 D5/4 | B4/2 C5/4 B4/4 | A4/4 C5/4 B4/4 D5/4 | C5/4 D5/4 E5/4 F5/4 | D5/2 B4/2 | C5/1 |.

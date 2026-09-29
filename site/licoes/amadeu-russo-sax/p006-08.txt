@@ -1,0 +1,13 @@
+# id: AR-PRIMEIROS_ESTUDOS-P006-EM-008
+titulo: Estudo melódico 4 · nº 8
+secao: Pequenos estudos melódicos sobre a primeira série de notas
+tipo: estudo
+pagina: 6
+instrumento: saxalto
+compasso: 4/4
+tonalidade: C
+clave: sol
+andamento: 80 seminima
+
+G4/4 B4/4 A4/4 C5/4 | B4/4 G4/4 A4/2 | B4/4' G4/4' C5/4' B4/4' | C5/1 |
+C5/4' A4/4' B4/4' G4/4' | A4/4' B4/4' C5/2 | B4/4' A4/4' G4/4' A4/4' | B4/4' G4/4' C5/2 |.

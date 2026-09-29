@@ -1,0 +1,13 @@
+# id: AR-PRIMEIROS_ESTUDOS-P007-EX-012
+titulo: Nº 12
+secao: Exercícios para a emissão da segunda série de cinco notas
+tipo: exercicio
+pagina: 7
+instrumento: saxalto
+compasso: 3/4
+tonalidade: C
+clave: sol
+andamento: 80 seminima
+
+G4/4 A4/4 G4/4 | F4/2 G4/4 | A4/4 G4/4 F4/4 | E4/2 F4/4 | G4/4 F4/4 E4/4 | D4/2 E4/4 | F4/4 E4/4 D4/4 | E4/2. |
+G4/4 A4/4 B4/4 | C5/2 B4/4 | A4/4 G4/4 E4/4 | F4/2 E4/4 | D4/4 E4/4 F4/4 | G4/4 A4/4 G4/4 | A4/2 B4/4 | C5/2. |.

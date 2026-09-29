@@ -1,0 +1,16 @@
+# id: AR-PRIMEIROS_ESTUDOS-P008-EX-017
+titulo: Nº 17
+secao: Exercícios para a emissão da segunda série de cinco notas
+tipo: exercicio
+pagina: 8
+instrumento: saxalto
+compasso: 4/4
+tonalidade: C
+clave: sol
+andamento: 60 seminima
+observacao: estudar lentamente e depois apressar o movimento pouco a pouco até o possível
+
+|: G4/4 F4/4 G4/4 F4/4 | G4/4 F4/4 G4/4 F4/4 :| |: F4/4 E4/4 F4/4 E4/4 | F4/4 E4/4 F4/4 E4/4 :| |: E4/4 D4/4 E4/4 D4/4 | E4/4 D4/4 E4/4 D4/4 :| |: D4/4 C4/4 D4/4 C4/4 | D4/4 C4/4 D4/4 C4/4 :|
+|: C4/4 B3/4 C4/4 B3/4 | C4/4 B3/4 C4/4 B3/4 :| C4/2. R/4 || |: B3/4 C4/4 B3/4 C4/4 | B3/4 C4/4 B3/4 C4/4 :| |: C4/4 D4/4 C4/4 D4/4 | C4/4 D4/4 C4/4 D4/4 :|
+|: D4/4 E4/4 D4/4 E4/4 | D4/4 E4/4 D4/4 E4/4 :| |: E4/4 F4/4 E4/4 F4/4 | E4/4 F4/4 E4/4 F4/4 :| |: F4/4 G4/4 F4/4 G4/4 | F4/4 G4/4 F4/4 G4/4 :|
+|: G4/4 A4/4 G4/4 A4/4 | G4/4 A4/4 G4/4 A4/4 :| |: A4/4 B4/4 A4/4 B4/4 | A4/4 B4/4 A4/4 B4/4 :| |: B4/4 C5/4 B4/4 C5/4 | B4/4 C5/4 B4/4 C5/4 :| C5/2. R/4 |.

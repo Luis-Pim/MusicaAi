@@ -1,0 +1,11 @@
+<script src="pdf.min.js"></script><script src="pdf.worker.min.js"></script>
+<script>
+window.renderPage = async (n, scale) => {
+  window.doc = window.doc || await pdfjsLib.getDocument('metodo.pdf').promise;
+  const p = await doc.getPage(n); const vp = p.getViewport({ scale });
+  const c = document.createElement('canvas'); c.width = vp.width; c.height = vp.height;
+  const x = c.getContext('2d'); x.fillStyle = '#fff'; x.fillRect(0, 0, c.width, c.height);
+  await p.render({ canvasContext: x, viewport: vp }).promise;
+  return c.toDataURL('image/png');
+};
+</script>

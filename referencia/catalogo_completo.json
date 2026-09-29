@@ -1,0 +1,3182 @@
+{
+  "obra": "Método completo de saxofone — Amadeu Russo",
+  "formato": "catalogo-transcricao-v1",
+  "pagina": "número impresso no método; null quando ausente",
+  "paginas_pdf": "índice da página física do PDF, começando em 1",
+  "instrumento": "saxofone genérico; escolha de sax alto/tenor/soprano no app",
+  "notas": "null significa SEM transcrição; não importar para execução",
+  "fonte": "PDF enviado pelo usuário",
+  "registros": [
+    {
+      "id": "AR-PRIMEIROS_ESTUDOS-P005-EX-001",
+      "titulo": "Nº 1",
+      "secao": "Primeiros estudos",
+      "tipo": "exercicio",
+      "numero_original": 1,
+      "pagina": 5,
+      "paginas_pdf": [
+        13
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": "C",
+      "compasso": "4/4",
+      "andamento": "não indicado",
+      "notas": "G4/1 | A4/1 | G4/1 | A4/1 | B4/1 | A4/1 | B4/1 | A4/1 | B4/1 |\nC5/1 | B4/1 | C5/1 | B4/1 | A4/1 | B4/1 | A4/1 | G4/1 | A4/1 | G4/1 ||",
+      "status": "notas_transcritas_e_compassos_conferidos",
+      "catalogo": "primeiros_estudos",
+      "articulacoes": "Fermata sobre cada uma das 19 notas; o formato textual básico não codifica duração variável de fermata.",
+      "compassos_transcritos": 19
+    },
+    {
+      "id": "AR-PRIMEIROS_ESTUDOS-P005-EX-002",
+      "titulo": "Nº 2",
+      "secao": "Primeiros estudos",
+      "tipo": "exercicio",
+      "numero_original": 2,
+      "pagina": 5,
+      "paginas_pdf": [
+        13
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": "C",
+      "compasso": "4/4",
+      "andamento": "não indicado",
+      "notas": "G4/2 A4/2 | G4/2 B4/2 | A4/2 B4/2 | A4/2 C5/2 | B4/2 C5/2 | B4/2 C5/2 |\nA4/2 B4/2 | A4/2 B4/2 | G4/2 A4/2 | G4/2 A4/2 | A4/2 B4/2 | B4/2 A4/2 | G4/1 ||",
+      "status": "notas_transcritas_e_compassos_conferidos",
+      "catalogo": "primeiros_estudos",
+      "articulacoes": "Ligaduras de expressão nas duplas de notas conforme a partitura; não confundir com ligadura de prolongamento.",
+      "compassos_transcritos": 13
+    },
+    {
+      "id": "AR-PRIMEIROS_ESTUDOS-P005-EX-003",
+      "titulo": "Nº 3",
+      "secao": "Primeiros estudos",
+      "tipo": "exercicio",
+      "numero_original": 3,
+      "pagina": 5,
+      "paginas_pdf": [
+        13
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": "C",
+      "compasso": "4/4",
+      "andamento": "não indicado",
+      "notas": "G4/4 A4/4 G4/4 A4/4 | G4/4 A4/4 G4/2 | A4/4 B4/4 A4/4 B4/4 | A4/4 B4/4 A4/2 |\nB4/4 C5/4 B4/4 C5/4 | B4/4 C5/4 B4/2 | C5/4 B4/4 C5/4 B4/4 | C5/4 B4/4 C5/2 |\nB4/4 A4/4 B4/4 A4/4 | B4/4 A4/4 B4/2 | A4/4 G4/4 A4/4 G4/4 | A4/4 B4/4 C5/2 ||",
+      "status": "notas_transcritas_e_compassos_conferidos",
+      "catalogo": "primeiros_estudos",
+      "articulacoes": "Ligaduras de expressão por frases de dois compassos: 1–2, 3–4, 5–6, 7–8, 9–10 e 11–12.",
+      "compassos_transcritos": 12
+    },
+    {
+      "id": "AR-PRIMEIROS_ESTUDOS-P005-EX-004",
+      "titulo": "Nº 4",
+      "secao": "Primeiros estudos",
+      "tipo": "exercicio",
+      "numero_original": 4,
+      "pagina": 5,
+      "paginas_pdf": [
+        13
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": "C",
+      "compasso": "4/4",
+      "andamento": "não indicado",
+      "notas": "G4/4 A4/4 B4/4 A4/4 | B4/4 C5/4 B4/4 A4/4 | G4/4 A4/4 B4/4 C5/4 | B4/4 A4/4 G4/2 ||\nB4/4 G4/4 A4/4 B4/4 | C5/4 A4/4 B4/4 A4/4 | G4/4 B4/4 G4/4 B4/4 |\nA4/4 G4/4 A4/4 B4/4 | G4/1 ||\nC5/4 A4/4 B4/4 C5/4 | B4/4 G4/4 A4/4 C5/4 | A4/4 C5/4 A4/4 C5/4 | B4/4 G4/4 B4/4 G4/4 |\nA4/4 C5/4 B4/4 A4/4 | G4/1 ||\nC5/4 G4/4 A4/4 B4/4 | C5/4 G4/4 A4/4 B4/4 | C5/4 A4/4 B4/4 G4/4 | C5/4 B4/4 A4/4 G4/4 |\nA4/4 C5/4 B4/4 G4/4 | C5/4 G4/4 B4/4 G4/4 | C5/4 G4/4 C5/4 B4/4 | C5/1 ||",
+      "status": "rascunho_conferir_alturas",
+      "catalogo": "primeiros_estudos",
+      "articulacoes": "Leitura da página 5: ligaduras de expressão e divisões internas presentes no original; revisar com partitura lado a lado antes de publicação comercial.",
+      "compassos_transcritos": 23
+    },
+    {
+      "id": "AR-PRIMEIROS_ESTUDOS-P006-EM-005",
+      "titulo": "Nº 5",
+      "secao": "Pequenos estudos melódicos sobre a primeira série de notas",
+      "tipo": "estudo_melodico",
+      "numero_original": 5,
+      "pagina": 6,
+      "paginas_pdf": [
+        14
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "primeiros_estudos",
+      "indice_melodico": 1
+    },
+    {
+      "id": "AR-PRIMEIROS_ESTUDOS-P006-EM-006",
+      "titulo": "Nº 6",
+      "secao": "Pequenos estudos melódicos sobre a primeira série de notas",
+      "tipo": "estudo_melodico",
+      "numero_original": 6,
+      "pagina": 6,
+      "paginas_pdf": [
+        14
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "primeiros_estudos",
+      "indice_melodico": 2
+    },
+    {
+      "id": "AR-PRIMEIROS_ESTUDOS-P006-EM-007",
+      "titulo": "Nº 7",
+      "secao": "Pequenos estudos melódicos sobre a primeira série de notas",
+      "tipo": "estudo_melodico",
+      "numero_original": 7,
+      "pagina": 6,
+      "paginas_pdf": [
+        14
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "primeiros_estudos",
+      "indice_melodico": 3
+    },
+    {
+      "id": "AR-PRIMEIROS_ESTUDOS-P006-EM-008",
+      "titulo": "Nº 8",
+      "secao": "Pequenos estudos melódicos sobre a primeira série de notas",
+      "tipo": "estudo_melodico",
+      "numero_original": 8,
+      "pagina": 6,
+      "paginas_pdf": [
+        14
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "primeiros_estudos",
+      "indice_melodico": 4
+    },
+    {
+      "id": "AR-PRIMEIROS_ESTUDOS-P006-EM-009",
+      "titulo": "Nº 9",
+      "secao": "Pequenos estudos melódicos sobre a primeira série de notas",
+      "tipo": "estudo_melodico",
+      "numero_original": 9,
+      "pagina": 6,
+      "paginas_pdf": [
+        14
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "primeiros_estudos",
+      "indice_melodico": 5
+    },
+    {
+      "id": "AR-PRIMEIROS_ESTUDOS-P006-EX-010",
+      "titulo": "Nº 10",
+      "secao": "Exercícios para a emissão da segunda série de cinco notas",
+      "tipo": "exercicio",
+      "numero_original": 10,
+      "pagina": 6,
+      "paginas_pdf": [
+        14
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "primeiros_estudos"
+    },
+    {
+      "id": "AR-PRIMEIROS_ESTUDOS-P007-EX-011",
+      "titulo": "Nº 11",
+      "secao": "Exercícios para a emissão da segunda série de cinco notas",
+      "tipo": "exercicio",
+      "numero_original": 11,
+      "pagina": 7,
+      "paginas_pdf": [
+        15
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "primeiros_estudos"
+    },
+    {
+      "id": "AR-PRIMEIROS_ESTUDOS-P007-EX-012",
+      "titulo": "Nº 12",
+      "secao": "Exercícios para a emissão da segunda série de cinco notas",
+      "tipo": "exercicio",
+      "numero_original": 12,
+      "pagina": 7,
+      "paginas_pdf": [
+        15
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "primeiros_estudos"
+    },
+    {
+      "id": "AR-PRIMEIROS_ESTUDOS-P007-EX-013",
+      "titulo": "Nº 13",
+      "secao": "Exercícios para a emissão da segunda série de cinco notas",
+      "tipo": "exercicio",
+      "numero_original": 13,
+      "pagina": 7,
+      "paginas_pdf": [
+        15
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "primeiros_estudos"
+    },
+    {
+      "id": "AR-PRIMEIROS_ESTUDOS-P007-EX-014",
+      "titulo": "Nº 14",
+      "secao": "Exercícios para a emissão da segunda série de cinco notas",
+      "tipo": "exercicio",
+      "numero_original": 14,
+      "pagina": 7,
+      "paginas_pdf": [
+        15
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "primeiros_estudos"
+    },
+    {
+      "id": "AR-PRIMEIROS_ESTUDOS-P007-EX-015",
+      "titulo": "Nº 15",
+      "secao": "Exercícios para a emissão da segunda série de cinco notas",
+      "tipo": "exercicio",
+      "numero_original": 15,
+      "pagina": 7,
+      "paginas_pdf": [
+        15
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "primeiros_estudos"
+    },
+    {
+      "id": "AR-PRIMEIROS_ESTUDOS-P007-EX-016",
+      "titulo": "Nº 16",
+      "secao": "Exercícios para a emissão da segunda série de cinco notas",
+      "tipo": "exercicio",
+      "numero_original": 16,
+      "pagina": 7,
+      "paginas_pdf": [
+        15
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "primeiros_estudos"
+    },
+    {
+      "id": "AR-PRIMEIROS_ESTUDOS-P008-EX-017",
+      "titulo": "Nº 17",
+      "secao": "Exercícios para a emissão da segunda série de cinco notas",
+      "tipo": "exercicio",
+      "numero_original": 17,
+      "pagina": 8,
+      "paginas_pdf": [
+        16
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "primeiros_estudos"
+    },
+    {
+      "id": "AR-PRIMEIROS_ESTUDOS-P008-EX-018",
+      "titulo": "Nº 18",
+      "secao": "Exercícios para a emissão da segunda série de cinco notas",
+      "tipo": "exercicio",
+      "numero_original": 18,
+      "pagina": 8,
+      "paginas_pdf": [
+        16
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "primeiros_estudos"
+    },
+    {
+      "id": "AR-PRIMEIROS_ESTUDOS-P008-EX-019",
+      "titulo": "Nº 19",
+      "secao": "Exercícios para a emissão da segunda série de cinco notas",
+      "tipo": "exercicio",
+      "numero_original": 19,
+      "pagina": 8,
+      "paginas_pdf": [
+        16
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "primeiros_estudos"
+    },
+    {
+      "id": "AR-PRIMEIROS_ESTUDOS-P008-EX-020",
+      "titulo": "Nº 20",
+      "secao": "Exercícios para a emissão da segunda série de cinco notas",
+      "tipo": "exercicio",
+      "numero_original": 20,
+      "pagina": 8,
+      "paginas_pdf": [
+        16
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "primeiros_estudos"
+    },
+    {
+      "id": "AR-PRIMEIROS_ESTUDOS-P009-EM-021",
+      "titulo": "Nº 21",
+      "secao": "Pequenos estudos melódicos",
+      "tipo": "estudo_melodico",
+      "numero_original": 21,
+      "pagina": 9,
+      "paginas_pdf": [
+        17
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "primeiros_estudos",
+      "indice_melodico": 6
+    },
+    {
+      "id": "AR-PRIMEIROS_ESTUDOS-P009-EM-022",
+      "titulo": "Nº 22",
+      "secao": "Pequenos estudos melódicos",
+      "tipo": "estudo_melodico",
+      "numero_original": 22,
+      "pagina": 9,
+      "paginas_pdf": [
+        17
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "primeiros_estudos",
+      "indice_melodico": 7
+    },
+    {
+      "id": "AR-PRIMEIROS_ESTUDOS-P009-EM-023",
+      "titulo": "Nº 23",
+      "secao": "Pequenos estudos melódicos",
+      "tipo": "estudo_melodico",
+      "numero_original": 23,
+      "pagina": 9,
+      "paginas_pdf": [
+        17
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "primeiros_estudos",
+      "indice_melodico": 8
+    },
+    {
+      "id": "AR-PRIMEIROS_ESTUDOS-P009-EX-024",
+      "titulo": "Nº 24",
+      "secao": "Exercícios para a emissão dos sons do registro agudo",
+      "tipo": "exercicio",
+      "numero_original": 24,
+      "pagina": 9,
+      "paginas_pdf": [
+        17,
+        18
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "primeiros_estudos"
+    },
+    {
+      "id": "AR-PRIMEIROS_ESTUDOS-P010-EX-025",
+      "titulo": "Nº 25",
+      "secao": "Exercícios para a emissão dos sons do registro agudo",
+      "tipo": "exercicio",
+      "numero_original": 25,
+      "pagina": 10,
+      "paginas_pdf": [
+        18
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "primeiros_estudos"
+    },
+    {
+      "id": "AR-INTERVALOS_2-P011-EX-001",
+      "titulo": "Intervalos de 2ª — exercício sem número",
+      "secao": "Intervalos de 2ª",
+      "tipo": "exercicio",
+      "numero_original": null,
+      "pagina": 11,
+      "paginas_pdf": [
+        19
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "intervalos_2"
+    },
+    {
+      "id": "AR-INTERVALOS_3-P011-EX-001",
+      "titulo": "Nº 1",
+      "secao": "Intervalos de 3ª",
+      "tipo": "exercicio",
+      "numero_original": 1,
+      "pagina": 11,
+      "paginas_pdf": [
+        19,
+        20
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "intervalos_3"
+    },
+    {
+      "id": "AR-INTERVALOS_3-P012-EX-002",
+      "titulo": "Nº 2",
+      "secao": "Intervalos de 3ª",
+      "tipo": "exercicio",
+      "numero_original": 2,
+      "pagina": 12,
+      "paginas_pdf": [
+        20
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "intervalos_3"
+    },
+    {
+      "id": "AR-INTERVALOS_3-P012-EX-003",
+      "titulo": "Nº 3",
+      "secao": "Intervalos de 3ª",
+      "tipo": "exercicio",
+      "numero_original": 3,
+      "pagina": 12,
+      "paginas_pdf": [
+        20
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "intervalos_3"
+    },
+    {
+      "id": "AR-INTERVALOS_3-P012-EM-004",
+      "titulo": "Estudo melódico",
+      "secao": "Intervalos de 3ª",
+      "tipo": "estudo_melodico",
+      "numero_original": 4,
+      "pagina": 12,
+      "paginas_pdf": [
+        20
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "intervalos_3",
+      "indice_melodico": 9
+    },
+    {
+      "id": "AR-INTERVALOS_4-P012-EX-001",
+      "titulo": "Nº 1",
+      "secao": "Intervalos de 4ª",
+      "tipo": "exercicio",
+      "numero_original": 1,
+      "pagina": 12,
+      "paginas_pdf": [
+        20
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "intervalos_4"
+    },
+    {
+      "id": "AR-INTERVALOS_4-P013-EX-002",
+      "titulo": "Nº 2",
+      "secao": "Intervalos de 4ª",
+      "tipo": "exercicio",
+      "numero_original": 2,
+      "pagina": 13,
+      "paginas_pdf": [
+        21
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "intervalos_4"
+    },
+    {
+      "id": "AR-INTERVALOS_4-P013-EX-003",
+      "titulo": "Nº 3",
+      "secao": "Intervalos de 4ª",
+      "tipo": "exercicio",
+      "numero_original": 3,
+      "pagina": 13,
+      "paginas_pdf": [
+        21
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "intervalos_4"
+    },
+    {
+      "id": "AR-INTERVALOS_4-P013-EM-004",
+      "titulo": "Estudo melódico",
+      "secao": "Intervalos de 4ª",
+      "tipo": "estudo_melodico",
+      "numero_original": 4,
+      "pagina": 13,
+      "paginas_pdf": [
+        21
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "intervalos_4",
+      "indice_melodico": 10
+    },
+    {
+      "id": "AR-INTERVALOS_5-P014-EX-001",
+      "titulo": "Nº 1",
+      "secao": "Intervalos de 5ª",
+      "tipo": "exercicio",
+      "numero_original": 1,
+      "pagina": 14,
+      "paginas_pdf": [
+        22
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "intervalos_5"
+    },
+    {
+      "id": "AR-INTERVALOS_5-P014-EX-002",
+      "titulo": "Nº 2",
+      "secao": "Intervalos de 5ª",
+      "tipo": "exercicio",
+      "numero_original": 2,
+      "pagina": 14,
+      "paginas_pdf": [
+        22
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "intervalos_5"
+    },
+    {
+      "id": "AR-INTERVALOS_5-P014-EX-003",
+      "titulo": "Nº 3",
+      "secao": "Intervalos de 5ª",
+      "tipo": "exercicio",
+      "numero_original": 3,
+      "pagina": 14,
+      "paginas_pdf": [
+        22,
+        23
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "intervalos_5"
+    },
+    {
+      "id": "AR-INTERVALOS_5-P015-EM-004",
+      "titulo": "Estudo melódico",
+      "secao": "Intervalos de 5ª",
+      "tipo": "estudo_melodico",
+      "numero_original": 4,
+      "pagina": 15,
+      "paginas_pdf": [
+        23
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "intervalos_5",
+      "indice_melodico": 11
+    },
+    {
+      "id": "AR-INTERVALOS_6-P015-EX-001",
+      "titulo": "Nº 1",
+      "secao": "Intervalos de 6ª",
+      "tipo": "exercicio",
+      "numero_original": 1,
+      "pagina": 15,
+      "paginas_pdf": [
+        23
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "intervalos_6"
+    },
+    {
+      "id": "AR-INTERVALOS_6-P015-EX-002",
+      "titulo": "Nº 2",
+      "secao": "Intervalos de 6ª",
+      "tipo": "exercicio",
+      "numero_original": 2,
+      "pagina": 15,
+      "paginas_pdf": [
+        23,
+        24
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "intervalos_6"
+    },
+    {
+      "id": "AR-INTERVALOS_6-P016-EM-001",
+      "titulo": "Estudo melódico — Allegretto",
+      "secao": "Intervalos de 6ª",
+      "tipo": "estudo_melodico",
+      "numero_original": null,
+      "pagina": 16,
+      "paginas_pdf": [
+        24
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "intervalos_6",
+      "indice_melodico": 12
+    },
+    {
+      "id": "AR-INTERVALOS_7-P017-EX-001",
+      "titulo": "Nº 1",
+      "secao": "Intervalos de 7ª",
+      "tipo": "exercicio",
+      "numero_original": 1,
+      "pagina": 17,
+      "paginas_pdf": [
+        25
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "intervalos_7"
+    },
+    {
+      "id": "AR-INTERVALOS_7-P017-EX-002",
+      "titulo": "Nº 2",
+      "secao": "Intervalos de 7ª",
+      "tipo": "exercicio",
+      "numero_original": 2,
+      "pagina": 17,
+      "paginas_pdf": [
+        25
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "intervalos_7"
+    },
+    {
+      "id": "AR-INTERVALOS_7-P017-EX-003",
+      "titulo": "Nº 3",
+      "secao": "Intervalos de 7ª",
+      "tipo": "exercicio",
+      "numero_original": 3,
+      "pagina": 17,
+      "paginas_pdf": [
+        25,
+        26
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "intervalos_7"
+    },
+    {
+      "id": "AR-INTERVALOS_7-P018-EX-004",
+      "titulo": "Nº 4",
+      "secao": "Intervalos de 7ª",
+      "tipo": "exercicio",
+      "numero_original": 4,
+      "pagina": 18,
+      "paginas_pdf": [
+        26
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "intervalos_7"
+    },
+    {
+      "id": "AR-INTERVALOS_8-P018-EX-001",
+      "titulo": "Nº 1",
+      "secao": "Intervalos de 8ª",
+      "tipo": "exercicio",
+      "numero_original": 1,
+      "pagina": 18,
+      "paginas_pdf": [
+        26
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "intervalos_8"
+    },
+    {
+      "id": "AR-INTERVALOS_8-P019-EX-002",
+      "titulo": "Nº 2",
+      "secao": "Intervalos de 8ª",
+      "tipo": "exercicio",
+      "numero_original": 2,
+      "pagina": 19,
+      "paginas_pdf": [
+        27
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "intervalos_8"
+    },
+    {
+      "id": "AR-INTERVALOS_8-P019-EX-003",
+      "titulo": "Nº 3",
+      "secao": "Intervalos de 8ª",
+      "tipo": "exercicio",
+      "numero_original": 3,
+      "pagina": 19,
+      "paginas_pdf": [
+        27,
+        28
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "intervalos_8"
+    },
+    {
+      "id": "AR-INTERVALOS_8-P020-EX-004",
+      "titulo": "Nº 4",
+      "secao": "Intervalos de 8ª",
+      "tipo": "exercicio",
+      "numero_original": 4,
+      "pagina": 20,
+      "paginas_pdf": [
+        28
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "intervalos_8"
+    },
+    {
+      "id": "AR-INTERVALOS_MISTOS-P020-MX-001",
+      "titulo": "Exercícios sobre os intervalos mistos",
+      "secao": "Exercícios sobre os intervalos mistos",
+      "tipo": "exercicio_misto",
+      "numero_original": null,
+      "pagina": 20,
+      "paginas_pdf": [
+        28,
+        29
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "intervalos_mistos"
+    },
+    {
+      "id": "AR-PROGRESSIVOS-P021-EX-001",
+      "titulo": "Nº 1",
+      "secao": "Exercícios progressivos",
+      "tipo": "exercicio",
+      "numero_original": 1,
+      "pagina": 21,
+      "paginas_pdf": [
+        29
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "progressivos"
+    },
+    {
+      "id": "AR-PROGRESSIVOS-P021-EX-002",
+      "titulo": "Nº 2",
+      "secao": "Exercícios progressivos",
+      "tipo": "exercicio",
+      "numero_original": 2,
+      "pagina": 21,
+      "paginas_pdf": [
+        29
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "progressivos"
+    },
+    {
+      "id": "AR-PROGRESSIVOS-P022-EX-003",
+      "titulo": "Nº 3",
+      "secao": "Exercícios progressivos",
+      "tipo": "exercicio",
+      "numero_original": 3,
+      "pagina": 22,
+      "paginas_pdf": [
+        30
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "progressivos"
+    },
+    {
+      "id": "AR-PROGRESSIVOS-P022-EX-004",
+      "titulo": "Nº 4",
+      "secao": "Exercícios progressivos",
+      "tipo": "exercicio",
+      "numero_original": 4,
+      "pagina": 22,
+      "paginas_pdf": [
+        30
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "progressivos"
+    },
+    {
+      "id": "AR-PROGRESSIVOS-P022-EX-005",
+      "titulo": "Nº 5",
+      "secao": "Exercícios progressivos",
+      "tipo": "exercicio",
+      "numero_original": 5,
+      "pagina": 22,
+      "paginas_pdf": [
+        30
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "progressivos"
+    },
+    {
+      "id": "AR-PROGRESSIVOS-P022-EX-006",
+      "titulo": "Nº 6",
+      "secao": "Exercícios progressivos",
+      "tipo": "exercicio",
+      "numero_original": 6,
+      "pagina": 22,
+      "paginas_pdf": [
+        30
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "progressivos"
+    },
+    {
+      "id": "AR-PROGRESSIVOS-P022-EX-007",
+      "titulo": "Nº 7",
+      "secao": "Exercícios progressivos",
+      "tipo": "exercicio",
+      "numero_original": 7,
+      "pagina": 22,
+      "paginas_pdf": [
+        30
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "progressivos"
+    },
+    {
+      "id": "AR-PROGRESSIVOS-P022-EX-008",
+      "titulo": "Nº 8",
+      "secao": "Exercícios progressivos",
+      "tipo": "exercicio",
+      "numero_original": 8,
+      "pagina": 22,
+      "paginas_pdf": [
+        30
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "progressivos"
+    },
+    {
+      "id": "AR-PROGRESSIVOS-P022-EX-009",
+      "titulo": "Nº 9",
+      "secao": "Exercícios progressivos",
+      "tipo": "exercicio",
+      "numero_original": 9,
+      "pagina": 22,
+      "paginas_pdf": [
+        30
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "progressivos"
+    },
+    {
+      "id": "AR-PROGRESSIVOS-P023-EX-010",
+      "titulo": "Nº 10",
+      "secao": "Exercícios progressivos",
+      "tipo": "exercicio",
+      "numero_original": 10,
+      "pagina": 23,
+      "paginas_pdf": [
+        31
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "progressivos"
+    },
+    {
+      "id": "AR-PROGRESSIVOS-P023-EX-011",
+      "titulo": "Nº 11",
+      "secao": "Exercícios progressivos",
+      "tipo": "exercicio",
+      "numero_original": 11,
+      "pagina": 23,
+      "paginas_pdf": [
+        31
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "progressivos"
+    },
+    {
+      "id": "AR-PROGRESSIVOS-P023-EX-012",
+      "titulo": "Nº 12",
+      "secao": "Exercícios progressivos",
+      "tipo": "exercicio",
+      "numero_original": 12,
+      "pagina": 23,
+      "paginas_pdf": [
+        31
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "progressivos"
+    },
+    {
+      "id": "AR-PROGRESSIVOS-P023-EX-013",
+      "titulo": "Nº 13",
+      "secao": "Exercícios progressivos",
+      "tipo": "exercicio",
+      "numero_original": 13,
+      "pagina": 23,
+      "paginas_pdf": [
+        31
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "progressivos"
+    },
+    {
+      "id": "AR-PROGRESSIVOS-P023-EX-014",
+      "titulo": "Nº 14",
+      "secao": "Exercícios progressivos",
+      "tipo": "exercicio",
+      "numero_original": 14,
+      "pagina": 23,
+      "paginas_pdf": [
+        31
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "progressivos"
+    },
+    {
+      "id": "AR-CROMATICA_INICIAL-P024-SC-001",
+      "titulo": "Exercícios para aprender a escala cromática",
+      "secao": "Exercícios para aprender a escala cromática",
+      "tipo": "escala",
+      "numero_original": null,
+      "pagina": 24,
+      "paginas_pdf": [
+        32,
+        33
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "cromatica_inicial"
+    },
+    {
+      "id": "AR-PROGRESSIVOS-P024-EX-015",
+      "titulo": "Nº 15",
+      "secao": "Exercícios progressivos",
+      "tipo": "exercicio",
+      "numero_original": 15,
+      "pagina": 24,
+      "paginas_pdf": [
+        32
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "progressivos"
+    },
+    {
+      "id": "AR-CROMATICA_INICIAL-P025-SC-001",
+      "titulo": "Escala cromática",
+      "secao": "Escala cromática",
+      "tipo": "escala",
+      "numero_original": null,
+      "pagina": 25,
+      "paginas_pdf": [
+        33
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "cromatica_inicial",
+      "observacoes": "Seção distinta identificada por título próprio."
+    },
+    {
+      "id": "AR-ORNAMENTOS-P026-ES-001",
+      "titulo": "Estudo sobre a apogiatura — Nº 1",
+      "secao": "Ornamentos — apogiatura",
+      "tipo": "estudo",
+      "numero_original": 1,
+      "pagina": 26,
+      "paginas_pdf": [
+        34
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "ornamentos"
+    },
+    {
+      "id": "AR-ORNAMENTOS-P026-ES-002",
+      "titulo": "Estudo sobre a apogiatura — Nº 2",
+      "secao": "Ornamentos — apogiatura",
+      "tipo": "estudo",
+      "numero_original": 2,
+      "pagina": 26,
+      "paginas_pdf": [
+        34
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "ornamentos"
+    },
+    {
+      "id": "AR-ORNAMENTOS-P027-ES-001",
+      "titulo": "Estudo sobre a apogiatura dupla",
+      "secao": "Ornamentos — apogiatura dupla",
+      "tipo": "estudo",
+      "numero_original": null,
+      "pagina": 27,
+      "paginas_pdf": [
+        35
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "ornamentos"
+    },
+    {
+      "id": "AR-ESCALAS_D_MAIOR-P030-SC-001",
+      "titulo": "Nº 1",
+      "secao": "Escala em Dó maior",
+      "tipo": "escala",
+      "numero_original": 1,
+      "pagina": 30,
+      "paginas_pdf": [
+        36
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "escalas_Dó_maior"
+    },
+    {
+      "id": "AR-ESCALAS_D_MAIOR-P030-SC-002",
+      "titulo": "Nº 2",
+      "secao": "Escala em Dó maior",
+      "tipo": "escala",
+      "numero_original": 2,
+      "pagina": 30,
+      "paginas_pdf": [
+        36
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "escalas_Dó_maior"
+    },
+    {
+      "id": "AR-ESCALAS_D_MAIOR-P030-SC-003",
+      "titulo": "Nº 3",
+      "secao": "Escala em Dó maior",
+      "tipo": "escala",
+      "numero_original": 3,
+      "pagina": 30,
+      "paginas_pdf": [
+        36
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "escalas_Dó_maior"
+    },
+    {
+      "id": "AR-ARPEJOS_D_MAIOR-P031-AR-001",
+      "titulo": "Nº 1",
+      "secao": "Arpejos em Dó maior",
+      "tipo": "arpejo",
+      "numero_original": 1,
+      "pagina": 31,
+      "paginas_pdf": [
+        37
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "arpejos_Dó_maior"
+    },
+    {
+      "id": "AR-ARPEJOS_D_MAIOR-P031-AR-002",
+      "titulo": "Nº 2",
+      "secao": "Arpejos em Dó maior",
+      "tipo": "arpejo",
+      "numero_original": 2,
+      "pagina": 31,
+      "paginas_pdf": [
+        37
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "arpejos_Dó_maior"
+    },
+    {
+      "id": "AR-ARPEJOS_D_MAIOR-P031-AR-003",
+      "titulo": "Nº 3",
+      "secao": "Arpejos em Dó maior",
+      "tipo": "arpejo",
+      "numero_original": 3,
+      "pagina": 31,
+      "paginas_pdf": [
+        37
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "arpejos_Dó_maior"
+    },
+    {
+      "id": "AR-ARPEJOS_D_MAIOR-P031-AR-004",
+      "titulo": "Nº 4",
+      "secao": "Arpejos sobre os acordes de 7ª",
+      "tipo": "arpejo",
+      "numero_original": 4,
+      "pagina": 31,
+      "paginas_pdf": [
+        37
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "arpejos_Dó_maior"
+    },
+    {
+      "id": "AR-ARPEJOS_D_MAIOR-P031-AR-005",
+      "titulo": "Nº 5",
+      "secao": "Arpejos sobre os acordes de 9ª",
+      "tipo": "arpejo",
+      "numero_original": 5,
+      "pagina": 31,
+      "paginas_pdf": [
+        37
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "arpejos_Dó_maior"
+    },
+    {
+      "id": "AR-MELODICOS_TONALIDADES-P032-EM-001",
+      "titulo": "Estudo melódico em Dó maior",
+      "secao": "Estudos melódicos por tonalidade",
+      "tipo": "estudo_melodico",
+      "numero_original": null,
+      "pagina": 32,
+      "paginas_pdf": [
+        38,
+        39
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "melodicos_tonalidades",
+      "indice_melodico": 13
+    },
+    {
+      "id": "AR-MISTOS-P032-MX-001",
+      "titulo": "Exercício misto",
+      "secao": "Exercício misto",
+      "tipo": "exercicio_misto",
+      "numero_original": null,
+      "pagina": 32,
+      "paginas_pdf": [
+        38
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "mistos"
+    },
+    {
+      "id": "AR-ESCALAS_L_MENOR-P033-SC-001",
+      "titulo": "Nº 1",
+      "secao": "Escala em Lá menor",
+      "tipo": "escala",
+      "numero_original": 1,
+      "pagina": 33,
+      "paginas_pdf": [
+        39
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "escalas_Lá_menor"
+    },
+    {
+      "id": "AR-ESTUDOS_TONALIDADES-P033-ES-001",
+      "titulo": "Estudo em Dó maior",
+      "secao": "Estudos por tonalidade",
+      "tipo": "estudo",
+      "numero_original": null,
+      "pagina": 33,
+      "paginas_pdf": [
+        39
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "estudos_tonalidades",
+      "observacoes": "O próprio método emprega o título Estudo em ..., distinto de Estudo melódico em ..."
+    },
+    {
+      "id": "AR-ARPEJOS_L_MENOR-P034-AR-001",
+      "titulo": "Nº 1",
+      "secao": "Arpejos em Lá menor",
+      "tipo": "arpejo",
+      "numero_original": 1,
+      "pagina": 34,
+      "paginas_pdf": [
+        40
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "arpejos_Lá_menor"
+    },
+    {
+      "id": "AR-ARPEJOS_L_MENOR-P034-AR-002",
+      "titulo": "Nº 2",
+      "secao": "Arpejos em Lá menor",
+      "tipo": "arpejo",
+      "numero_original": 2,
+      "pagina": 34,
+      "paginas_pdf": [
+        40
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "arpejos_Lá_menor"
+    },
+    {
+      "id": "AR-ARPEJOS_L_MENOR-P034-AR-003",
+      "titulo": "Nº 3",
+      "secao": "Arpejos em Lá menor",
+      "tipo": "arpejo",
+      "numero_original": 3,
+      "pagina": 34,
+      "paginas_pdf": [
+        40
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "arpejos_Lá_menor"
+    },
+    {
+      "id": "AR-ARPEJOS_L_MENOR-P034-AR-004",
+      "titulo": "Nº 4",
+      "secao": "Arpejos sobre os acordes de 7ª",
+      "tipo": "arpejo",
+      "numero_original": 4,
+      "pagina": 34,
+      "paginas_pdf": [
+        40
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "arpejos_Lá_menor"
+    },
+    {
+      "id": "AR-ARPEJOS_L_MENOR-P034-AR-005",
+      "titulo": "Nº 5",
+      "secao": "Arpejos sobre os acordes de 9ª",
+      "tipo": "arpejo",
+      "numero_original": 5,
+      "pagina": 34,
+      "paginas_pdf": [
+        40
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "arpejos_Lá_menor"
+    },
+    {
+      "id": "AR-ESCALAS_L_MENOR-P034-SC-002",
+      "titulo": "Nº 2",
+      "secao": "Escala em Lá menor",
+      "tipo": "escala",
+      "numero_original": 2,
+      "pagina": 34,
+      "paginas_pdf": [
+        40
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "escalas_Lá_menor"
+    },
+    {
+      "id": "AR-ESCALAS_L_MENOR-P034-SC-003",
+      "titulo": "Nº 3",
+      "secao": "Escala em Lá menor",
+      "tipo": "escala",
+      "numero_original": 3,
+      "pagina": 34,
+      "paginas_pdf": [
+        40
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "escalas_Lá_menor"
+    },
+    {
+      "id": "AR-MELODICOS_TONALIDADES-P034-EM-001",
+      "titulo": "Estudo melódico em Lá menor",
+      "secao": "Estudos melódicos por tonalidade",
+      "tipo": "estudo_melodico",
+      "numero_original": null,
+      "pagina": 34,
+      "paginas_pdf": [
+        40,
+        41
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "melodicos_tonalidades",
+      "indice_melodico": 14
+    },
+    {
+      "id": "AR-ESTUDOS_TONALIDADES-P035-ES-001",
+      "titulo": "Estudo em Lá menor",
+      "secao": "Estudos por tonalidade",
+      "tipo": "estudo",
+      "numero_original": null,
+      "pagina": 35,
+      "paginas_pdf": [
+        41
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "estudos_tonalidades",
+      "observacoes": "O próprio método emprega o título Estudo em ..., distinto de Estudo melódico em ..."
+    },
+    {
+      "id": "AR-ESTUDOS_TONALIDADES-P035-ES-002",
+      "titulo": "Estudo em Sol maior",
+      "secao": "Estudos por tonalidade",
+      "tipo": "estudo",
+      "numero_original": null,
+      "pagina": 35,
+      "paginas_pdf": [
+        41,
+        42
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "estudos_tonalidades",
+      "observacoes": "O próprio método emprega o título Estudo em ..., distinto de Estudo melódico em ..."
+    },
+    {
+      "id": "AR-ARPEJOS_SOL_MAIOR-P036-AR-001",
+      "titulo": "Nº 1",
+      "secao": "Arpejos em Sol maior",
+      "tipo": "arpejo",
+      "numero_original": 1,
+      "pagina": 36,
+      "paginas_pdf": [
+        42
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "arpejos_Sol_maior"
+    },
+    {
+      "id": "AR-ARPEJOS_SOL_MAIOR-P036-AR-002",
+      "titulo": "Nº 2",
+      "secao": "Arpejos em Sol maior",
+      "tipo": "arpejo",
+      "numero_original": 2,
+      "pagina": 36,
+      "paginas_pdf": [
+        42
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "arpejos_Sol_maior"
+    },
+    {
+      "id": "AR-ARPEJOS_SOL_MAIOR-P036-AR-003",
+      "titulo": "Nº 3",
+      "secao": "Arpejos em Sol maior",
+      "tipo": "arpejo",
+      "numero_original": 3,
+      "pagina": 36,
+      "paginas_pdf": [
+        42
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "arpejos_Sol_maior"
+    },
+    {
+      "id": "AR-ARPEJOS_SOL_MAIOR-P036-AR-004",
+      "titulo": "Nº 4",
+      "secao": "Arpejos sobre os acordes de 7ª",
+      "tipo": "arpejo",
+      "numero_original": 4,
+      "pagina": 36,
+      "paginas_pdf": [
+        42
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "arpejos_Sol_maior"
+    },
+    {
+      "id": "AR-ARPEJOS_SOL_MAIOR-P036-AR-005",
+      "titulo": "Nº 5",
+      "secao": "Arpejos sobre os acordes de 9ª",
+      "tipo": "arpejo",
+      "numero_original": 5,
+      "pagina": 36,
+      "paginas_pdf": [
+        42
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "arpejos_Sol_maior"
+    },
+    {
+      "id": "AR-ESTUDOS_TONALIDADES-P037-ES-001",
+      "titulo": "Estudo em Sol maior — segundo estudo",
+      "secao": "Estudos por tonalidade",
+      "tipo": "estudo",
+      "numero_original": null,
+      "pagina": 37,
+      "paginas_pdf": [
+        43,
+        44
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "estudos_tonalidades"
+    },
+    {
+      "id": "AR-MELODICOS_TONALIDADES-P037-EM-001",
+      "titulo": "Estudo melódico em Sol maior",
+      "secao": "Estudos melódicos por tonalidade",
+      "tipo": "estudo_melodico",
+      "numero_original": null,
+      "pagina": 37,
+      "paginas_pdf": [
+        43
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "melodicos_tonalidades",
+      "indice_melodico": 15
+    },
+    {
+      "id": "AR-ESCALAS_MI_MENOR-P038-SC-001",
+      "titulo": "Nº 1",
+      "secao": "Escala em Mi menor",
+      "tipo": "escala",
+      "numero_original": 1,
+      "pagina": 38,
+      "paginas_pdf": [
+        44
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "escalas_Mi_menor"
+    },
+    {
+      "id": "AR-ESCALAS_MI_MENOR-P038-SC-002",
+      "titulo": "Nº 2",
+      "secao": "Escala em Mi menor",
+      "tipo": "escala",
+      "numero_original": 2,
+      "pagina": 38,
+      "paginas_pdf": [
+        44
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "escalas_Mi_menor"
+    },
+    {
+      "id": "AR-ESCALAS_MI_MENOR-P038-SC-003",
+      "titulo": "Nº 3",
+      "secao": "Escala em Mi menor",
+      "tipo": "escala",
+      "numero_original": 3,
+      "pagina": 38,
+      "paginas_pdf": [
+        44
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "escalas_Mi_menor"
+    },
+    {
+      "id": "AR-ARPEJOS_MI_MENOR-P039-AR-001",
+      "titulo": "Nº 1",
+      "secao": "Arpejos em Mi menor",
+      "tipo": "arpejo",
+      "numero_original": 1,
+      "pagina": 39,
+      "paginas_pdf": [
+        45
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "arpejos_Mi_menor"
+    },
+    {
+      "id": "AR-ARPEJOS_MI_MENOR-P039-AR-002",
+      "titulo": "Nº 2",
+      "secao": "Arpejos em Mi menor",
+      "tipo": "arpejo",
+      "numero_original": 2,
+      "pagina": 39,
+      "paginas_pdf": [
+        45
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "arpejos_Mi_menor"
+    },
+    {
+      "id": "AR-ARPEJOS_MI_MENOR-P039-AR-003",
+      "titulo": "Nº 3",
+      "secao": "Arpejos em Mi menor",
+      "tipo": "arpejo",
+      "numero_original": 3,
+      "pagina": 39,
+      "paginas_pdf": [
+        45
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "arpejos_Mi_menor"
+    },
+    {
+      "id": "AR-ARPEJOS_MI_MENOR-P039-AR-004",
+      "titulo": "Nº 4",
+      "secao": "Arpejos sobre os acordes de 7ª",
+      "tipo": "arpejo",
+      "numero_original": 4,
+      "pagina": 39,
+      "paginas_pdf": [
+        45
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "arpejos_Mi_menor"
+    },
+    {
+      "id": "AR-ARPEJOS_MI_MENOR-P039-AR-005",
+      "titulo": "Nº 5",
+      "secao": "Arpejos sobre os acordes de 9ª",
+      "tipo": "arpejo",
+      "numero_original": 5,
+      "pagina": 39,
+      "paginas_pdf": [
+        45
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "arpejos_Mi_menor"
+    },
+    {
+      "id": "AR-ESTUDOS_TONALIDADES-P040-ES-001",
+      "titulo": "Estudo em Mi menor",
+      "secao": "Estudos por tonalidade",
+      "tipo": "estudo",
+      "numero_original": null,
+      "pagina": 40,
+      "paginas_pdf": [
+        46
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "estudos_tonalidades",
+      "observacoes": "O próprio método emprega o título Estudo em ..., distinto de Estudo melódico em ..."
+    },
+    {
+      "id": "AR-MELODICOS_TONALIDADES-P040-EM-001",
+      "titulo": "Estudo melódico em Mi menor",
+      "secao": "Estudos melódicos por tonalidade",
+      "tipo": "estudo_melodico",
+      "numero_original": null,
+      "pagina": 40,
+      "paginas_pdf": [
+        46
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "melodicos_tonalidades",
+      "indice_melodico": 16
+    },
+    {
+      "id": "AR-ARPEJOS_F_MAIOR-P041-AR-001",
+      "titulo": "Nº 1",
+      "secao": "Arpejos em Fá maior",
+      "tipo": "arpejo",
+      "numero_original": 1,
+      "pagina": 41,
+      "paginas_pdf": [
+        47
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "arpejos_Fá_maior"
+    },
+    {
+      "id": "AR-ARPEJOS_F_MAIOR-P041-AR-002",
+      "titulo": "Nº 2",
+      "secao": "Arpejos em Fá maior",
+      "tipo": "arpejo",
+      "numero_original": 2,
+      "pagina": 41,
+      "paginas_pdf": [
+        47
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "arpejos_Fá_maior"
+    },
+    {
+      "id": "AR-ARPEJOS_F_MAIOR-P041-AR-003",
+      "titulo": "Nº 3",
+      "secao": "Arpejos em Fá maior",
+      "tipo": "arpejo",
+      "numero_original": 3,
+      "pagina": 41,
+      "paginas_pdf": [
+        47
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "arpejos_Fá_maior"
+    },
+    {
+      "id": "AR-ESCALAS_F_MAIOR-P041-SC-001",
+      "titulo": "Nº 1",
+      "secao": "Escala em Fá maior",
+      "tipo": "escala",
+      "numero_original": 1,
+      "pagina": 41,
+      "paginas_pdf": [
+        47
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "escalas_Fá_maior"
+    },
+    {
+      "id": "AR-ESCALAS_F_MAIOR-P041-SC-002",
+      "titulo": "Nº 2",
+      "secao": "Escala em Fá maior",
+      "tipo": "escala",
+      "numero_original": 2,
+      "pagina": 41,
+      "paginas_pdf": [
+        47
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "escalas_Fá_maior"
+    },
+    {
+      "id": "AR-ESCALAS_F_MAIOR-P041-SC-003",
+      "titulo": "Nº 3",
+      "secao": "Escala em Fá maior",
+      "tipo": "escala",
+      "numero_original": 3,
+      "pagina": 41,
+      "paginas_pdf": [
+        47
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "escalas_Fá_maior"
+    },
+    {
+      "id": "AR-ARPEJOS_F_MAIOR-P042-AR-004",
+      "titulo": "Nº 4",
+      "secao": "Arpejos sobre os acordes de 7ª",
+      "tipo": "arpejo",
+      "numero_original": 4,
+      "pagina": 42,
+      "paginas_pdf": [
+        48
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "arpejos_Fá_maior"
+    },
+    {
+      "id": "AR-ARPEJOS_F_MAIOR-P042-AR-005",
+      "titulo": "Nº 5",
+      "secao": "Arpejos sobre os acordes de 9ª",
+      "tipo": "arpejo",
+      "numero_original": 5,
+      "pagina": 42,
+      "paginas_pdf": [
+        48
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "arpejos_Fá_maior"
+    },
+    {
+      "id": "AR-MELODICOS_TONALIDADES-P042-EM-001",
+      "titulo": "Estudo melódico em Fá maior",
+      "secao": "Estudos melódicos por tonalidade",
+      "tipo": "estudo_melodico",
+      "numero_original": null,
+      "pagina": 42,
+      "paginas_pdf": [
+        48
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "melodicos_tonalidades",
+      "indice_melodico": 17
+    },
+    {
+      "id": "AR-ESCALAS_R_MENOR-P043-SC-001",
+      "titulo": "Nº 1",
+      "secao": "Escala em Ré menor",
+      "tipo": "escala",
+      "numero_original": 1,
+      "pagina": 43,
+      "paginas_pdf": [
+        49,
+        50
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "escalas_Ré_menor"
+    },
+    {
+      "id": "AR-ESTUDOS_TONALIDADES-P043-ES-001",
+      "titulo": "Estudo em Fá maior",
+      "secao": "Estudos por tonalidade",
+      "tipo": "estudo",
+      "numero_original": null,
+      "pagina": 43,
+      "paginas_pdf": [
+        49
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "estudos_tonalidades",
+      "observacoes": "O próprio método emprega o título Estudo em ..., distinto de Estudo melódico em ..."
+    },
+    {
+      "id": "AR-ARPEJOS_R_MENOR-P044-AR-001",
+      "titulo": "Nº 1",
+      "secao": "Arpejos em Ré menor",
+      "tipo": "arpejo",
+      "numero_original": 1,
+      "pagina": 44,
+      "paginas_pdf": [
+        50
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "arpejos_Ré_menor"
+    },
+    {
+      "id": "AR-ESCALAS_R_MENOR-P044-SC-002",
+      "titulo": "Nº 2",
+      "secao": "Escala em Ré menor",
+      "tipo": "escala",
+      "numero_original": 2,
+      "pagina": 44,
+      "paginas_pdf": [
+        50
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "escalas_Ré_menor"
+    },
+    {
+      "id": "AR-ESCALAS_R_MENOR-P044-SC-003",
+      "titulo": "Nº 3",
+      "secao": "Escala em Ré menor",
+      "tipo": "escala",
+      "numero_original": 3,
+      "pagina": 44,
+      "paginas_pdf": [
+        50
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "escalas_Ré_menor"
+    },
+    {
+      "id": "AR-ARPEJOS_R_MENOR-P045-AR-002",
+      "titulo": "Nº 2",
+      "secao": "Arpejos em Ré menor",
+      "tipo": "arpejo",
+      "numero_original": 2,
+      "pagina": 45,
+      "paginas_pdf": [
+        51
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "arpejos_Ré_menor"
+    },
+    {
+      "id": "AR-ARPEJOS_R_MENOR-P045-AR-003",
+      "titulo": "Nº 3",
+      "secao": "Arpejos em Ré menor",
+      "tipo": "arpejo",
+      "numero_original": 3,
+      "pagina": 45,
+      "paginas_pdf": [
+        51
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "arpejos_Ré_menor"
+    },
+    {
+      "id": "AR-ARPEJOS_R_MENOR-P045-AR-004",
+      "titulo": "Nº 4",
+      "secao": "Arpejos sobre os acordes de 7ª",
+      "tipo": "arpejo",
+      "numero_original": 4,
+      "pagina": 45,
+      "paginas_pdf": [
+        51
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "arpejos_Ré_menor"
+    },
+    {
+      "id": "AR-ARPEJOS_R_MENOR-P045-AR-005",
+      "titulo": "Nº 5",
+      "secao": "Arpejos sobre os acordes de 9ª",
+      "tipo": "arpejo",
+      "numero_original": 5,
+      "pagina": 45,
+      "paginas_pdf": [
+        51
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "arpejos_Ré_menor"
+    },
+    {
+      "id": "AR-MELODICOS_TONALIDADES-P045-EM-001",
+      "titulo": "Estudo melódico em Ré menor",
+      "secao": "Estudos melódicos por tonalidade",
+      "tipo": "estudo_melodico",
+      "numero_original": null,
+      "pagina": 45,
+      "paginas_pdf": [
+        51,
+        52
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "melodicos_tonalidades",
+      "indice_melodico": 18
+    },
+    {
+      "id": "AR-ESTUDOS_TONALIDADES-P046-ES-001",
+      "titulo": "Estudo em Ré menor",
+      "secao": "Estudos por tonalidade",
+      "tipo": "estudo",
+      "numero_original": null,
+      "pagina": 46,
+      "paginas_pdf": [
+        52,
+        53
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "estudos_tonalidades",
+      "observacoes": "O próprio método emprega o título Estudo em ..., distinto de Estudo melódico em ..."
+    },
+    {
+      "id": "AR-ESCALAS_R_MAIOR-P047-SC-001",
+      "titulo": "Nº 1",
+      "secao": "Escala em Ré maior",
+      "tipo": "escala",
+      "numero_original": 1,
+      "pagina": 47,
+      "paginas_pdf": [
+        53
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "escalas_Ré_maior"
+    },
+    {
+      "id": "AR-ESCALAS_R_MAIOR-P047-SC-002",
+      "titulo": "Nº 2",
+      "secao": "Escala em Ré maior",
+      "tipo": "escala",
+      "numero_original": 2,
+      "pagina": 47,
+      "paginas_pdf": [
+        53
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "escalas_Ré_maior"
+    },
+    {
+      "id": "AR-ESCALAS_R_MAIOR-P047-SC-003",
+      "titulo": "Nº 3",
+      "secao": "Escala em Ré maior",
+      "tipo": "escala",
+      "numero_original": 3,
+      "pagina": 47,
+      "paginas_pdf": [
+        53
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "escalas_Ré_maior"
+    },
+    {
+      "id": "AR-ARPEJOS_R_MAIOR-P048-AR-001",
+      "titulo": "Nº 1",
+      "secao": "Arpejos em Ré maior",
+      "tipo": "arpejo",
+      "numero_original": 1,
+      "pagina": 48,
+      "paginas_pdf": [
+        54
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "arpejos_Ré_maior"
+    },
+    {
+      "id": "AR-ARPEJOS_R_MAIOR-P048-AR-002",
+      "titulo": "Nº 2",
+      "secao": "Arpejos em Ré maior",
+      "tipo": "arpejo",
+      "numero_original": 2,
+      "pagina": 48,
+      "paginas_pdf": [
+        54
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "arpejos_Ré_maior"
+    },
+    {
+      "id": "AR-ARPEJOS_R_MAIOR-P048-AR-003",
+      "titulo": "Nº 3",
+      "secao": "Arpejos em Ré maior",
+      "tipo": "arpejo",
+      "numero_original": 3,
+      "pagina": 48,
+      "paginas_pdf": [
+        54
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "arpejos_Ré_maior"
+    },
+    {
+      "id": "AR-ARPEJOS_R_MAIOR-P048-AR-004",
+      "titulo": "Nº 4",
+      "secao": "Arpejos sobre os acordes de 7ª",
+      "tipo": "arpejo",
+      "numero_original": 4,
+      "pagina": 48,
+      "paginas_pdf": [
+        54
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "arpejos_Ré_maior"
+    },
+    {
+      "id": "AR-ARPEJOS_R_MAIOR-P048-AR-005",
+      "titulo": "Nº 5",
+      "secao": "Arpejos sobre os acordes de 9ª",
+      "tipo": "arpejo",
+      "numero_original": 5,
+      "pagina": 48,
+      "paginas_pdf": [
+        54
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "arpejos_Ré_maior"
+    },
+    {
+      "id": "AR-ESTUDOS_TONALIDADES-P049-ES-001",
+      "titulo": "Estudo em Ré maior",
+      "secao": "Estudos por tonalidade",
+      "tipo": "estudo",
+      "numero_original": null,
+      "pagina": 49,
+      "paginas_pdf": [
+        55,
+        56
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "estudos_tonalidades",
+      "observacoes": "O próprio método emprega o título Estudo em ..., distinto de Estudo melódico em ..."
+    },
+    {
+      "id": "AR-MELODICOS_TONALIDADES-P049-EM-001",
+      "titulo": "Estudo melódico em Ré maior",
+      "secao": "Estudos melódicos por tonalidade",
+      "tipo": "estudo_melodico",
+      "numero_original": null,
+      "pagina": 49,
+      "paginas_pdf": [
+        55
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "melodicos_tonalidades",
+      "indice_melodico": 19
+    },
+    {
+      "id": "AR-ESCALAS_SI_MENOR-P050-SC-001",
+      "titulo": "Nº 1",
+      "secao": "Escala em Si menor",
+      "tipo": "escala",
+      "numero_original": 1,
+      "pagina": 50,
+      "paginas_pdf": [
+        56
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "escalas_Si_menor"
+    },
+    {
+      "id": "AR-ARPEJOS_SI_MENOR-P051-AR-001",
+      "titulo": "Nº 1",
+      "secao": "Arpejos em Si menor",
+      "tipo": "arpejo",
+      "numero_original": 1,
+      "pagina": 51,
+      "paginas_pdf": [
+        57
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "arpejos_Si_menor"
+    },
+    {
+      "id": "AR-ARPEJOS_SI_MENOR-P051-AR-002",
+      "titulo": "Nº 2",
+      "secao": "Arpejos em Si menor",
+      "tipo": "arpejo",
+      "numero_original": 2,
+      "pagina": 51,
+      "paginas_pdf": [
+        57
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "arpejos_Si_menor"
+    },
+    {
+      "id": "AR-ARPEJOS_SI_MENOR-P051-AR-003",
+      "titulo": "Nº 3",
+      "secao": "Arpejos em Si menor",
+      "tipo": "arpejo",
+      "numero_original": 3,
+      "pagina": 51,
+      "paginas_pdf": [
+        57
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "arpejos_Si_menor"
+    },
+    {
+      "id": "AR-ESCALAS_SI_MENOR-P051-SC-002",
+      "titulo": "Nº 2",
+      "secao": "Escala em Si menor",
+      "tipo": "escala",
+      "numero_original": 2,
+      "pagina": 51,
+      "paginas_pdf": [
+        57
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "escalas_Si_menor"
+    },
+    {
+      "id": "AR-ESCALAS_SI_MENOR-P051-SC-003",
+      "titulo": "Nº 3",
+      "secao": "Escala em Si menor",
+      "tipo": "escala",
+      "numero_original": 3,
+      "pagina": 51,
+      "paginas_pdf": [
+        57
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "escalas_Si_menor"
+    },
+    {
+      "id": "AR-CROMATICA_FINAL-P054-SC-001",
+      "titulo": "Escala cromática",
+      "secao": "Escala cromática",
+      "tipo": "escala",
+      "numero_original": null,
+      "pagina": 54,
+      "paginas_pdf": [
+        58,
+        59
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "cromatica_final"
+    },
+    {
+      "id": "AR-LACUNAS-P054-TI-001",
+      "titulo": "Conclusão de estudo sem início disponível",
+      "secao": "Trecho anterior à escala cromática",
+      "tipo": "trecho_incompleto",
+      "numero_original": null,
+      "pagina": 54,
+      "paginas_pdf": [
+        58
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "lacunas",
+      "observacoes": "O arquivo salta da página impressa 51 para a 54: não é possível identificar o começo da obra na página 54."
+    },
+    {
+      "id": "AR-GRUPPETTO-P056-XP-001",
+      "titulo": "Gruppetto de três notas",
+      "secao": "Ornamentos — gruppetto",
+      "tipo": "exemplo",
+      "numero_original": 1,
+      "pagina": 56,
+      "paginas_pdf": [
+        60
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "gruppetto"
+    },
+    {
+      "id": "AR-GRUPPETTO-P056-XP-002",
+      "titulo": "Gruppetto de quatro notas",
+      "secao": "Ornamentos — gruppetto",
+      "tipo": "exemplo",
+      "numero_original": 2,
+      "pagina": 56,
+      "paginas_pdf": [
+        60
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "gruppetto"
+    },
+    {
+      "id": "AR-GRUPPETTO-P056-XP-003",
+      "titulo": "Alteração do auxiliar superior/inferior",
+      "secao": "Ornamentos — gruppetto",
+      "tipo": "exemplo",
+      "numero_original": 3,
+      "pagina": 56,
+      "paginas_pdf": [
+        60
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "gruppetto"
+    },
+    {
+      "id": "AR-GRUPPETTO-P056-XP-004",
+      "titulo": "Gruppetto após nota pontuada",
+      "secao": "Ornamentos — gruppetto",
+      "tipo": "exemplo",
+      "numero_original": 4,
+      "pagina": 56,
+      "paginas_pdf": [
+        60
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "gruppetto"
+    },
+    {
+      "id": "AR-GRUPPETTO-P056-XP-005",
+      "titulo": "Alteração simultânea",
+      "secao": "Ornamentos — gruppetto",
+      "tipo": "exemplo",
+      "numero_original": 5,
+      "pagina": 56,
+      "paginas_pdf": [
+        60
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "gruppetto"
+    },
+    {
+      "id": "AR-ANEXO_DEDILHADO-PDF061-RF-001",
+      "titulo": "Quadro de dedilhados (primeira folha)",
+      "secao": "Quadro de dedilhados",
+      "tipo": "referencia",
+      "numero_original": null,
+      "pagina": null,
+      "paginas_pdf": [
+        61
+      ],
+      "instrumento": "saxofone",
+      "clave": null,
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "anexo_dedilhado"
+    },
+    {
+      "id": "AR-ANEXO_DEDILHADO-PDF062-RF-001",
+      "titulo": "Quadro de dedilhados (segunda folha)",
+      "secao": "Quadro de dedilhados",
+      "tipo": "referencia",
+      "numero_original": null,
+      "pagina": null,
+      "paginas_pdf": [
+        62
+      ],
+      "instrumento": "saxofone",
+      "clave": null,
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "anexo_dedilhado"
+    },
+    {
+      "id": "AR-ANEXO_EXPRESSAO_ESCALAS-PDF063-ES-001",
+      "titulo": "Nº 1 — C maior",
+      "secao": "4 estudos de expressão — baseados em escalas maiores",
+      "tipo": "estudo",
+      "numero_original": 1,
+      "pagina": null,
+      "paginas_pdf": [
+        63
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "anexo_expressao_escalas"
+    },
+    {
+      "id": "AR-ANEXO_EXPRESSAO_ESCALAS-PDF063-ES-002",
+      "titulo": "Nº 2 — A menor",
+      "secao": "4 estudos de expressão — baseados em escalas maiores",
+      "tipo": "estudo",
+      "numero_original": 2,
+      "pagina": null,
+      "paginas_pdf": [
+        63
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "anexo_expressao_escalas"
+    },
+    {
+      "id": "AR-ANEXO_EXPRESSAO_ESCALAS-PDF064-ES-003",
+      "titulo": "Nº 3 — G maior",
+      "secao": "4 estudos de expressão — baseados em escalas maiores",
+      "tipo": "estudo",
+      "numero_original": 3,
+      "pagina": null,
+      "paginas_pdf": [
+        64
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "anexo_expressao_escalas"
+    },
+    {
+      "id": "AR-ANEXO_EXPRESSAO_ESCALAS-PDF064-ES-004",
+      "titulo": "Nº 4 — E menor",
+      "secao": "4 estudos de expressão — baseados em escalas maiores",
+      "tipo": "estudo",
+      "numero_original": 4,
+      "pagina": null,
+      "paginas_pdf": [
+        64
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "anexo_expressao_escalas"
+    },
+    {
+      "id": "AR-ANEXO_EXPRESSAO_ARPEJOS-PDF065-ES-001",
+      "titulo": "Nº 1 — C maior",
+      "secao": "4 estudos de expressão — baseados em arpejos de escalas maiores",
+      "tipo": "estudo",
+      "numero_original": 1,
+      "pagina": null,
+      "paginas_pdf": [
+        65
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "anexo_expressao_arpejos"
+    },
+    {
+      "id": "AR-ANEXO_EXPRESSAO_ARPEJOS-PDF066-ES-002",
+      "titulo": "Nº 2 — A menor",
+      "secao": "4 estudos de expressão — baseados em arpejos de escalas maiores",
+      "tipo": "estudo",
+      "numero_original": 2,
+      "pagina": null,
+      "paginas_pdf": [
+        66
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "anexo_expressao_arpejos"
+    },
+    {
+      "id": "AR-ANEXO_EXPRESSAO_ARPEJOS-PDF067-ES-003",
+      "titulo": "Nº 3 — F maior",
+      "secao": "4 estudos de expressão — baseados em arpejos de escalas maiores",
+      "tipo": "estudo",
+      "numero_original": 3,
+      "pagina": null,
+      "paginas_pdf": [
+        67
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "anexo_expressao_arpejos"
+    },
+    {
+      "id": "AR-ANEXO_EXPRESSAO_ARPEJOS-PDF068-ES-004",
+      "titulo": "Nº 4 — D menor",
+      "secao": "4 estudos de expressão — baseados em arpejos de escalas maiores",
+      "tipo": "estudo",
+      "numero_original": 4,
+      "pagina": null,
+      "paginas_pdf": [
+        68
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "anexo_expressao_arpejos"
+    },
+    {
+      "id": "AR-ANEXO_ESTUDOS_MELODICOS-PDF069-EM-001",
+      "titulo": "Nº 1 — E menor",
+      "secao": "2 estudos melódicos — suplemento",
+      "tipo": "estudo_melodico",
+      "numero_original": 1,
+      "pagina": null,
+      "paginas_pdf": [
+        69
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "anexo_estudos_melodicos",
+      "indice_melodico": 20
+    },
+    {
+      "id": "AR-ANEXO_ESTUDOS_MELODICOS-PDF070-EM-002",
+      "titulo": "Nº 2 — B menor",
+      "secao": "2 estudos melódicos — suplemento",
+      "tipo": "estudo_melodico",
+      "numero_original": 2,
+      "pagina": null,
+      "paginas_pdf": [
+        70
+      ],
+      "instrumento": "saxofone",
+      "clave": "sol",
+      "tonalidade": null,
+      "compasso": null,
+      "andamento": null,
+      "notas": null,
+      "status": "pendente_transcricao",
+      "catalogo": "anexo_estudos_melodicos",
+      "indice_melodico": 21
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+# id: AR-CROMATICA_INICIAL-P024-SC-001
+titulo: Exercícios para aprender a escala cromática
+secao: Exercícios para aprender a escala cromática
+tipo: exercicio
+pagina: 24
+instrumento: saxalto
+compasso: 4/4
+tonalidade: C
+clave: sol
+andamento: 72 seminima
+# cada par de compassos se repete (ritornelo) antes da semibreve
+
+|: G4/4 F#4/4 G4/4 F4/4 | G4/4 Gb4/4 F4/4 F#4/4 :| G4/1 || |: G4/4 Ab4/4 G4/4 A4/4 | G4/4 G#4/4 A4/4 Ab4/4 :| G4/1 ||
+|: A4/4 G#4/4 A4/4 G4/4 | A4/4 Ab4/4 G4/4 G#4/4 :| A4/1 || |: A4/4 Bb4/4 A4/4 B4/4 | A4/4 A#4/4 B4/4 Bb4/4 :| A4/1 ||
+|: F4/4 E4/4 F4/4 E4/4 | F4/4 E4/4 D#4/4 E4/4 :| F4/1 || |: F4/4 Gb4/4 F4/4 G4/4 | F4/4 F#4/4 G4/4 Gb4/4 :| F4/1 ||
+|: E4/4 D#4/4 E4/4 D4/4 | E4/4 Eb4/4 D4/4 D#4/4 :| E4/1 || |: E4/4 F4/4 E4/4 F4/4 | E4/4 F4/4 Gb4/4 F4/4 :| E4/1 ||
+|: B4/4 A#4/4 B4/4 A4/4 | B4/4 Bb4/4 A4/4 A#4/4 :| B4/1 || |: B4/4 C5/4 B4/4 C5/4 | B4/4 C5/4 Db5/4 C5/4 :| B4/1 ||
+|: C5/4 B4/4 C5/4 B4/4 | C5/4 B4/4 A#4/4 B4/4 :| C5/1 || |: C5/4 Db5/4 C5/4 D5/4 | C5/4 C#5/4 D5/4 Db5/4 :| C5/1 ||
+|: D5/4 C#5/4 D5/4 C5/4 | D5/4 Db5/4 C5/4 C#5/4 :| D5/1 || |: D5/4 Eb5/4 D5/4 E5/4 | D5/4 D#5/4 E5/4 Eb5/4 :| D5/1 |.

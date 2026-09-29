@@ -1,0 +1,13 @@
+# id: AR-PRIMEIROS_ESTUDOS-P005-EX-002
+titulo: Nº 2
+secao: Primeiros estudos
+tipo: exercicio
+pagina: 5
+instrumento: saxalto
+compasso: 4/4
+tonalidade: C
+clave: sol
+andamento: 60 seminima
+
+G4/2 A4/2 | G4/2 B4/2 | A4/2 B4/2 | A4/2 C5/2 | B4/2 C5/2 | B4/2 C5/2 |
+A4/2 B4/2 | A4/2 B4/2 | G4/2 A4/2 | G4/2 A4/2 | A4/2 B4/2 | B4/2 A4/2 | G4/1 |.

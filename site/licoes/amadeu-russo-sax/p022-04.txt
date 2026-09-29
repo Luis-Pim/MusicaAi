@@ -1,0 +1,14 @@
+# id: AR-PROGRESSIVOS-P022-EX-004
+titulo: Exercícios progressivos · nº 4
+secao: Exercícios progressivos
+tipo: exercicio
+pagina: 22
+instrumento: saxalto
+compasso: 3/4
+tonalidade: C
+clave: sol
+andamento: 80 seminima
+# rascunho: lido de imagem reduzida; conferir alturas com o livro
+
+G4/4. E4/8 G4/8 C5/8 | E5/8. G5/16 E5/8. C5/16 D5/8. E5/16 | A4/4. F4/8 A4/8 D5/8 | F5/8. A5/16 F5/8. D5/16 C5/8. D5/16 |
+B4/4. G4/8 B4/8 D5/8 | G5/8. A5/16 G5/8. D5/16 E5/8. F5/16 | E5/8. G5/16 E5/8. C5/16 D5/8. E5/16 | D5/8. A5/16 F5/8. D5/16 A4/8. B4/16 | C5/2 R/4 |.

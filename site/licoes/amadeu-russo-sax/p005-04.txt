@@ -1,0 +1,14 @@
+# id: AR-PRIMEIROS_ESTUDOS-P005-EX-004
+titulo: Nº 4
+secao: Primeiros estudos
+tipo: exercicio
+pagina: 5
+instrumento: saxalto
+compasso: 4/4
+tonalidade: C
+clave: sol
+andamento: 72 seminima
+
+G4/4 A4/4 B4/4 A4/4 | B4/4 C5/4 B4/4 A4/4 | G4/4 A4/4 B4/4 C5/4 | B4/4 A4/4 G4/2 || B4/4 G4/4 A4/4 B4/4 | C5/4 A4/4 B4/4 A4/4 | G4/4 B4/4 G4/4 B4/4 |
+A4/4 G4/4 A4/4 B4/4 | G4/1 || C5/4 A4/4 B4/4 C5/4 | B4/4 G4/4 A4/4 C5/4 | A4/4 C5/4 A4/4 C5/4 | B4/4 G4/4 B4/4 G4/4 | A4/4 C5/4 B4/4 A4/4 | G4/1 ||
+C5/4 G4/4 A4/4 B4/4 | C5/4 G4/4 A4/4 B4/4 | C5/4 A4/4 B4/4 G4/4 | C5/4 B4/4 A4/4 G4/4 | A4/4 C5/4 B4/4 G4/4 | C5/4 A4/4 B4/4 G4/4 | C5/4 G4/4 C5/4 B4/4 | C5/1 |.
