@@ -44,7 +44,7 @@ A numeração dos estudos melódicos segue `indice_melodico` do catálogo.
 |---|---|---|
 | 05:01 | 05:12 | 18–21 (11 lições) |
 | 05:19 | 05:31 | 22–30 (25 lições, 7 em rascunho) |
-| 13:32 | 13:55 | revisão dos 7 rascunhos da p. 22 |
+| 13:32 | 13:40 | revisão dos 7 rascunhos da p. 22 |
 
 ## Para o professor conferir
 - Livro p. 16: exercício de 6ª em 3/4 sem número (o catálogo não o lista separado; recebeu id próprio `AR-INTERVALOS_6-P016-EX-003`).
