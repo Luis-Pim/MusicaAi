@@ -1,0 +1,24 @@
+# id: AR-ESTUDOS_TONALIDADES-P037-ES-001
+titulo: Estudo em Sol maior · segundo estudo
+secao: Estudos por tonalidade
+tipo: estudo
+pagina: 37
+instrumento: saxalto
+compasso: 2/4
+tonalidade: G
+clave: sol
+andamento: 100 seminima
+# indicação escrita: Allegretto (semínima = 100); continua na p. 38 do livro
+# o sinal "v" (acento curto) foi escrito como acento (>) e o "^" como marcato.
+
+!p < G4/8' A4/16 B4/16 G4/8' D4/8' | B4/8' C5/16 D5/16 B4/8' G4/8' = | !f G5/8' E5/8' F#5/8' D5/8' | E5/16 D5/16 C5/16 B4/16 A4/4 | A4/8' B4/16 C5/16 A4/8' E4/8' | C5/8' D5/16 E5/16 C5/8' A4/8' |
+F#5/8' D5/8' E5/8' C5/8' | B4/16 C5/16 C#5/16 D5/16 G4/4 | !p G4/8' A4/16 Bb4/16 G4/8' A4/8' | Bb4/8' C5/16 D5/16 Bb4/8' C5/8' | D5/8 F5/8' Eb5/8' D5/8 | C5/4. R/8 |
+< C5/8' D5/16 Eb5/16 C5/8' Eb5/8^ | D5/8^ Eb5/16 F5/16 D5/8' F5/8^ = | !f Eb5/8' D5/8' Eb5/8' C5/8' | B4/4. R/8 | !p D5/8 Eb5/16 F5/16 D5/8' Eb5/16 F5/16 | D5/16 C5/16 Bb4/16 C5/16 D5/4 |
+D5/8' E5/16 F#5/16 D5/8' E5/16 F#5/16 | D5/16 C5/16 B4/16 C5/16 D5/16' C5/16' B4/16' A4/16' | !p G4/8 A4/16 B4/16 G4/16' D4/16' G4/16' A4/16' | B4/8 C5/16 D5/16 B4/16' G4/16' B4/16' D5/16' |
+G5/16> F#5/16 G5/16' F#5/16' E5/16 D#5/16' E5/16' D5/16' | C5/16> B4/16 C5/16' B4/16' A4/4 | !mf < A4/8 B4/16 C5/16 A4/16' E4/16' A4/16' B4/16' | C5/8 D5/16 E5/16 C5/16' A4/16' C5/16' E5/16' = |
+F#5/16' E5/16' F#5/16' E5/16' D5/16' E5/16' D5/16' C5/16' | B4/16 D5/16 C5/16 A4/16 !f G4/8' D4/8> | G4/8> !p F#4/16' F#4/16' G4/8 !f B4/8> | G4/8> !p F#4/16' F#4/16' G4/8' !f G#4/8> |
+A4/8> !p G#4/16' G#4/16' A4/8 !f C5/8> | A4/8> !p G#4/16' G#4/16' A4/8' !f A#4/8> | !p < B4/8> A#4/16' A#4/16' B4/8' D5/8^ | B4/8> A#4/16' A#4/16' B4/8' D5/8^ | C5/8^ B4/16' B4/16' C5/8' E5/8^ |
+C5/8^ B4/16' B4/16' C5/8' E5/8^ | D5/8^ C#5/16' C#5/16' D5/8' F#5/8^ | E5/8^ D#5/16' D#5/16' E5/8' G5/8^ | F#5/8^ E#5/16' E#5/16' F#5/8' A5/8^ = |
+!f G5/8^ A5/16 B5/16 G5/8 F#5/8> | E5/8 F#5/16 G5/16 E5/8' D5/8 | C5/8 D5/16 E5/16 C5/8' B4/8 | A4/16 B4/16 C5/16 B4/16 A4/8' G4/8 | > F#4/16 G4/16 A4/16 G4/16 F#4/8' E4/8 = | D4/8' D#4/8' E4/8' F#4/8' |
+!p G4/8 D4/8' B3/8' D4/8' | G4/8 F#4/8' G4/8' A4/8' | B4/8 G4/8' D4/8' G4/8' | B4/8 A#4/8' B4/8' C5/8' | D5/8 B4/8 G4/8 A4/8 | < B4/8 C5/8' C#5/8' D5/8' = |
+G5/2~ | !f > G5/2~ | G5/8 = R/8 R/4 |.
