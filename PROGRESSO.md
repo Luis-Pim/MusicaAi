@@ -36,6 +36,7 @@ Nos arquivos de lição, `pagina:` é a página **impressa no livro**; o nome do
 | 56–57 | 50–51 | escalas e arpejos em Si menor (nº 1–3, 1–3) | no repositório |
 | 34 | 26 | estudos sobre a apogiatura nº 1–2 | no repositório (lidos com detector de cabeças `nh.mjs`) |
 | 35 | 27 | estudo sobre a apogiatura dupla | no repositório |
+| 38–39 | 32–33 | exercício misto; estudo melódico 13 (Dó maior) | no repositório |
 | 39–40 | 33–34 | escalas em Lá menor nº 1–3; arpejos em Lá menor nº 1–2 | no repositório (arpejos nº 3–5 pendentes: leitura incerta) |
 
 ## Catálogo de referência

@@ -1,0 +1,18 @@
+# id: AR-MELODICOS_TONALIDADES-P032-EM-001
+titulo: Estudo melódico 13 · Dó maior
+secao: Estudos melódicos por tonalidade
+tipo: estudo
+pagina: 32
+instrumento: saxalto
+compasso: 4/4
+tonalidade: C
+clave: sol
+andamento: 80 seminima
+# indicação escrita: Moderato; continua na p. 33 do livro
+
+!p C5/2 < B4/8 C5/8 D5/8 C5/8 | !f A5/4. > G5/8 F5/4 E5/4 = | D5/2 < C#5/8 D5/8 E5/8 D5/8 = | > B5/4. A5/8 G5/4 F5/4 = |
+E5/2 < F#5/8 G5/8 A5/8 G5/8 = | C6/4. B5/8 A5/4 E5/8 D#5/16 E5/16 | G5/2 F5/8 A4/8 B4/8 C5/8 |
+E5/4 rit !p {3 A4/8 B4/8 C5/8 } E5/4 {3 C5/8 D5/8 E5/8 } | G5/2. !mf G4/4 |
+atempo !p C5/2 < B4/8 C5/8 D5/8 C5/8 | !f A5/8 > G5/8 F5/8 E5/8 D5/8 C5/8 B4/8 C5/8 = | D5/2 < C#5/8 D5/8 E5/8 D5/8 = | > B5/8 A5/8 G5/8 F5/8 E5/8 D5/8 C5/8 D5/8 = |
+> E5/2 < F#5/8 G5/8 A5/8 G5/8 = | !f C6/8' B5/8' A5/8' G5/8' A5/4 E5/8 D#5/16 E5/16 | G5/8 E5/8 D#5/8 E5/8 F5/4 !p {3 A4/8 B4/8 C5/8 } |
+E5/4 rit !p {3 A4/8 B4/8 C5/8 } E5/4 {3 D5/8 C5/8 B4/8 } | D5/2 C5/4 R/4 |.
