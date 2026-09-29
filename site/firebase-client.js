@@ -7,11 +7,17 @@ export async function connect(config) {
     connectAuthEmulator(auth,'http://127.0.0.1:9099',{disableWarnings:true}); connectFirestoreEmulator(db,'127.0.0.1',8080);
   }
   await setPersistence(auth,browserSessionPersistence);
-  let unsubscribeProfile;
+  let unsubscribeProfile, sessionCallback;
   const readList = async q => (await getDocs(q)).docs.map(d=>({id:d.id,...d.data()}));
   const api={
-    onSession(callback) { return onAuthStateChanged(auth,u=>{unsubscribeProfile?.();callback(u);}); },
-    login:(email,password)=>signInWithEmailAndPassword(auth,email,password),
+    onSession(callback) { sessionCallback=callback; return onAuthStateChanged(auth,u=>{unsubscribeProfile?.();callback(u);}); },
+    async login(email,password) {
+      const previousUid=auth.currentUser?.uid;
+      const result=await signInWithEmailAndPassword(auth,email,password);
+      // onAuthStateChanged não dispara quando o UID continua igual após confirmar o e-mail.
+      if(previousUid===result.user.uid){unsubscribeProfile?.();await sessionCallback?.(result.user);}
+      return result;
+    },
     async register(email,password) { const result=await createUserWithEmailAndPassword(auth,email,password);await sendEmailVerification(result.user); },
     resetPassword:email=>sendPasswordResetEmail(auth,email),
     resendVerification:()=>sendEmailVerification(auth.currentUser),

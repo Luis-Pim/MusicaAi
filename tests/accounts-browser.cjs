@@ -43,7 +43,9 @@ async function authRequest(method,body){const r=await fetch(`http://127.0.0.1:90
  const invited=records.users.find(u=>u.email==='convidado@example.com');assert(invited);
  assert(await page.locator('#study-app').isHidden());
  await authRequest(`projects/${project}/accounts:update`,{localId:invited.localId,emailVerified:true});
- await page.evaluate(()=>PVAccount.api.logout());await page.locator('#login-mode').click();await page.locator('#login-password').fill('new-password');await page.locator('#login-submit').click();await page.waitForFunction(()=>PVAccount.profile?.name==='Novo aluno');
+ // A mesma aba mantém a sessão criada no cadastro: não fazer logout antes de entrar.
+ assert.equal(await page.locator('#login-submit').textContent(),'Entrar');
+ await page.locator('#login-password').fill('new-password');await page.locator('#login-submit').click();await page.waitForFunction(()=>PVAccount.profile?.name==='Novo aluno');
  assert.equal(await page.evaluate(()=>PVAccount.profile.role),'aluno');
  assert.deepEqual(errors,[]);console.log('Login real no emulador: quatro perfis, grupos, convites, orientação, histórico persistente, isolamento e remoção de acesso OK');
  }finally{await browser.close();await new Promise(resolve=>server.close(resolve));await env.cleanup();}

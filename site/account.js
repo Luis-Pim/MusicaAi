@@ -40,18 +40,22 @@
       if (mode === 'activate') {
         if (password.length < 8) throw Error('Use uma senha com pelo menos 8 caracteres.');
         await api.register(email,password);
+        setMode('login');
         notice('Conta criada. Confirme seu e-mail pelo link recebido e depois entre para ativar seu convite.');
       } else await api.login(email,password);
       $('login-password').value = '';
     } catch (e) { notice(friendly(e)); }
     finally { button.disabled = false; }
   });
-  $('login-mode').addEventListener('click', () => {
-    mode = mode === 'login' ? 'activate' : 'login';
+  function setMode(value) {
+    mode = value;
     $('login-submit').textContent = mode === 'login' ? 'Entrar' : 'Criar minha senha';
     $('login-mode').textContent = mode === 'login' ? 'Recebi um convite · Ativar conta' : 'Já tenho conta · Entrar';
     $('login-password').autocomplete = mode === 'login' ? 'current-password' : 'new-password';
     $('login-password').minLength = mode === 'login' ? 1 : 8;
+  }
+  $('login-mode').addEventListener('click', () => {
+    setMode(mode === 'login' ? 'activate' : 'login');
     notice(mode === 'activate' ? 'Use o e-mail informado no convite. O acesso será liberado depois da confirmação do e-mail.' : '');
   });
   $('login-reset').addEventListener('click', async () => {
