@@ -1,0 +1,20 @@
+# id: AR-ESTUDOS_TONALIDADES-P033-ES-001
+titulo: Estudo em Dó maior
+secao: Estudos por tonalidade
+tipo: estudo
+pagina: 33
+instrumento: saxalto
+compasso: 4/4
+tonalidade: C
+clave: sol
+andamento: 72 seminima
+# indicação escrita: Andante
+
+!p < G4/4. F#4/8 G4/4. F4/8 = | G4/8 B4/8' D5/8' B4/8' G4/8 A4/8 G4/8' F#4/8' | < G4/4. F#4/8 G4/4. F4/8 = | G4/8 C5/8' E5/8' C5/8' > G4/8 A4/8 G4/8' F#4/8' = |
+!p < accel G4/4. A4/8 B4/8 A4/8 B4/8 C5/8 | D5/4. C#5/8 D5/8 C5/8 D5/8 E5/8 = | F5/8> G5/8 F5/8' E5/8' D5/8> E5/8 D5/8' C5/8' | atempo B4/8> C5/8 B4/8' A4/8' G4/8' G#4/8' A4/8' B4/8' |
+C5/4 C5/8 G4/16 A4/16 B4/8 C5/8 D5/8 E5/8 | G5/8 F#5/8 F5/8' E5/8' F5/8 E5/8 D5/8' A4/8' | D5/4 D5/8 B4/16 C5/16 D5/8 E5/8 F5/8 G5/8 | A5/8 G5/8 F#5/8 G5/8 A5/8 G5/8 F#5/8 F5/8 |
+E5/4 E5/8 C5/16 B4/16 C5/8 D5/8 E5/8 F5/8 | G5/8 E5/8 D5/8 C5/8 E5/8 C5/8 E5/8 G5/8 | A5/4 A5/8 D5/16 E5/16 F5/8 E5/8 F5/8 A5/8 | > G5/8 C6/8 G5/8' F5/8' E5/8' G5/8 E5/8' D5/8' = |
+!p C5/8' G4/8 A4/8 B4/8 C5/8 G4/8 E5/8 C5/8 | G5/8 E5/8 C5/8 E5/8' F5/8' E5/8 D5/8 E5/8 | F5/8 G4/8 B4/8 C5/8 D5/8 B4/8 F5/8 D5/8 | G5/8 F5/8 D5/8 B4/8' A4/8' B4/8 C5/8 D5/8 |
+< E5/8 G4/8' A4/8' G4/8' C5/8' G4/8' E5/8' D5/8' | C#5/8' A4/8' Bb4/8' A4/8' D5/8' A4/8' F5/8' E5/8' = | !f D5/8' A4/8' G#4/8' A4/8' C5/8' B4/8' D5/8' C5/8' | E5/8' G5/8' E5/8' C5/8' D5/8' F5/8' D5/8' B4/8'> |
+!p C5/8> E5/8 D#5/8 E5/8 D5/8 E5/8 C5/8 E5/8 | < B4/8 E5/8 D#5/8 E5/8 B4/8 D5/8 C5/8 B4/8 = | !f A4/8 !p E5/8 D#5/8 E5/8 D5/8 E5/8 C5/8 E5/8 | B4/8 E5/8 D#5/8 E5/8 D5/8 G4/8' A4/8' B4/8' |
+!f < C5/8' G4/8 E4/8 G4/8' C5/8' G4/8> C5/8 D5/8> | E5/8> C5/8 G4/8 C5/8' E5/8' C5/8> E5/8 F5/8> = | !f G5/8 F#5/8> G5/8 E5/8' C5/8' B4/8> C5/8 E5/8' | !p < G4/8' F#4/8 G4/8 G#4/8 A4/8 C5/8 B4/8 D5/8 = | > C5/2. R/4 |.
