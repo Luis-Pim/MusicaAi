@@ -92,6 +92,11 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .check { display: inline-flex; gap: 6px; align-items: center; font-size: 14px; cursor: pointer; }
 textarea.note-in { width: 100%; min-height: 58px; resize: vertical; border: 1px solid var(--line); border-radius: 8px; background: var(--surface-2); padding: 8px 10px; }
 
+.planb { border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; background: var(--surface-2); }
+.planb > summary { cursor: pointer; font-weight: 700; }
+.planb-body { display: flex; flex-direction: column; gap: 10px; margin-top: 10px; }
+.planb-steps { margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 6px; font-size: 14px; }
+.planb textarea { background: var(--surface); }
 .status { font-size: 14px; border-radius: 8px; padding: 10px 12px; background: var(--surface-2); border: 1px solid var(--line); }
 .status[data-kind="bad"] { background: var(--bad-soft); border-color: transparent; color: var(--bad); }
 .status[data-kind="warn"] { background: var(--warn-soft); border-color: transparent; color: var(--warn); }
@@ -228,6 +233,21 @@ input[type="number"] { width: 72px; font-variant-numeric: tabular-nums; }
         <button class="btn" id="cancel" type="button" hidden>Parar</button>
       </div>
       <div class="status" id="rec-status" role="status">Envie uma página para começar. Enquanto isso, a lição de exemplo ao lado já pode ser tocada.</div>
+
+      <details class="planb" id="planb">
+        <summary>Leitura pelo chat do Claude</summary>
+        <div class="planb-body">
+          <p class="hint">Use quando a leitura automática não estiver disponível neste app ou navegador.</p>
+          <ol class="planb-steps">
+            <li><button class="btn small" id="copy-prompt" type="button">Copiar instruções de leitura</button></li>
+            <li>Abra uma conversa nova no Claude, cole as instruções e anexe a foto ou o PDF da lição.</li>
+            <li>Copie a resposta inteira do Claude e cole abaixo.</li>
+          </ol>
+          <textarea class="note-in" id="prompt-out" readonly hidden aria-label="Instruções de leitura"></textarea>
+          <textarea class="note-in" id="paste-in" placeholder="Cole aqui a resposta do Claude" aria-label="Resposta do Claude"></textarea>
+          <div class="row"><button class="btn primary" id="load-answer" type="button">Carregar lição</button></div>
+        </div>
+      </details>
     </section>
 
     <section class="panel" aria-labelledby="h-score">
@@ -255,7 +275,12 @@ input[type="number"] { width: 72px; font-variant-numeric: tabular-nums; }
           <ul class="issues" id="issues"></ul>
           <div class="row">
             <button class="btn small" id="fix-ai" type="button" hidden>Pedir correção ao Claude</button>
-            <button class="btn small" id="load-example" type="button">Voltar ao exemplo</button>
+            <label class="label" for="ready">Lições prontas</label>
+            <select id="ready">
+              <option value="">Escolher…</option>
+              <option value="valsa">Valsa em Sol (exemplo)</option>
+              <option value="estudo">Estudo em Dó maior (transcrito da sua foto)</option>
+            </select>
           </div>
           <details>
             <summary class="label" style="cursor:pointer">Como escrever</summary>
@@ -387,6 +412,31 @@ function midiOf(step, alter, oct) { return 12 * (oct + 1) + STEP_SEMI[step] + al
 /* ============================================================
    Leitura do texto da lição
    ============================================================ */
+const ESTUDO_DO = `titulo: Estudo em Dó maior
+compasso: 4/4
+tonalidade: C
+clave: sol
+andamento: 76 seminima
+# indicação escrita: Andante
+
+!p G4/4. F#4/8 G4/4. F4/8 | G4/8 B4/8' D5/8' B4/8' G4/8 A4/8 G4/8' F#4/8' |
+G4/4. F#4/8 G4/4. F4/8 | G4/8 C5/8' E5/8' C5/8' G4/8 A4/8> G4/8' F#4/8' |
+!p cresc accel G4/4. A4/8 B4/8 A4/8 B4/8 C5/8 | D5/4. C#5/8 D5/8 C5/8 D5/8 E5/8 |
+F5/8> G5/8 F5/8' E5/8' D5/8> E5/8 D5/8' C5/8' = | atempo B4/8> C5/8 B4/8' A4/8' G4/8' G#4/8' A4/8' B4/8' |
+C5/4~ C5/8 G4/16 A4/16 B4/8 C5/8 D5/8 E5/8 | G5/8 F#5/8' Fn5/8' E5/8' F5/8 E5/8 D5/8' A4/8' |
+D5/4~ D5/8 B4/16 C5/16 D5/8 E5/8 F5/8 G5/8 | A5/8 G5/8 F#5/8 G5/8 A5/8 G5/8 G5/8 Fn5/8 |
+E5/4~ E5/8 C5/16 B4/16 C5/8 D5/8 E5/8 F5/8 | G5/8 E5/8 D5/8 C5/8 E5/8 C5/8 E5/8 G5/8 |
+A5/4~ A5/8 B4/16 C5/16 F5/8 E5/8 F5/8 A5/8 | G5/8 C6/8' G5/8 F5/8' > E5/8' G5/8 E5/8 D5/8' = |
+!p C5/8' G4/8 A4/8 B4/8 C5/8 G4/8 E5/8 C5/8 | G5/8 E5/8 C5/8 E5/8' F5/8' E5/8 D5/8 E5/8 |
+F5/8 G4/8 B4/8 C5/8 D5/8 B4/8 F5/8 D5/8 | G5/8 F5/8 D5/8 B4/8' A4/8' B4/8 D5/8 E5/8 |
+cresc E5/8 G4/8' A4/8' G4/8' C5/8' G4/8 E5/8' D5/8' | C#5/8' A4/8' Bb4/8' A4/8' D5/8' A4/8 F5/8' E5/8' |
+!f D5/8' A4/8' G#4/8' A4/8' C5/8' B4/8 D5/8' C5/8' | B4/8' G5/8' E5/8' A4/8' C5/8' E5/8' D5/8' G4/8> |
+!p C5/8> E5/8 D#5/8 E5/8 Dn5/8 E5/8 C5/8 E5/8 | < B4/8 E5/8 D#5/8 E5/8 B4/8 Dn5/8 C5/8 B4/8 |
+!f A4/8 !p E5/8 D#5/8 E5/8 Dn5/8 E5/8 C5/8 E5/8 | B4/8 E5/8 D#5/8 E5/8 > Dn5/8 B4/8' C5/8' D5/8' = |
+!f cresc C5/8' G4/8 E4/8 G4/8' C5/8'> G4/8 C5/8> D5/8 | E5/8> C5/8 G4/8 C5/8' E5/8'> C5/8 E5/8 F5/8> |
+!f G5/8 F#5/8 G5/8> E5/8' C5/8' B4/8> C5/8 E5/8' | !p < E4/8' F#4/8 G4/8 G#4/8 A4/8 C5/8 B4/8 D5/8 |
+> C5/2. R/4 = |.
+`;
 const EXAMPLE = `titulo: Valsa em Sol
 compasso: 3/4
 tonalidade: G
@@ -1198,8 +1248,11 @@ srcEl.addEventListener("input", () => {
   clearTimeout(editTimer);
   editTimer = setTimeout(() => applyText(srcEl.value, { fromEditor: true, keepTempo: true }), 450);
 });
-document.getElementById("load-example").addEventListener("click", () => {
-  state.isExample = true; state.extra = null; srcEl.value = EXAMPLE; applyText(EXAMPLE);
+document.getElementById("ready").addEventListener("change", e => {
+  const v = e.target.value; if (!v) return;
+  const text = v === "estudo" ? ESTUDO_DO : EXAMPLE;
+  state.isExample = v === "valsa"; state.extra = null; srcEl.value = text; applyText(text);
+  e.target.value = "";
 });
 document.getElementById("more-toggle").addEventListener("click", e => {
   const t = document.querySelector(".transport"); const open = t.classList.toggle("open");
@@ -1390,7 +1443,7 @@ const ERR_COPY = {
   refused: "O Claude não quis processar essa imagem. Tente recortar só a partitura.",
   empty_completion: "A leitura voltou vazia. Recorte só a lição e tente de novo.",
   invalid_json: "A resposta veio num formato inesperado. Toque em Reconhecer de novo.",
-  images_unavailable: "Este app ou navegador não consegue enviar imagens ao Claude. Abra a página pelo claude.ai no Chrome, Edge ou Safari.",
+  images_unavailable: "Este app ou navegador não deixa a página enviar imagens ao Claude. Use a leitura pelo chat do Claude, logo abaixo: leva menos de um minuto.",
   upstream_error: "Falha de conexão durante a leitura. Tente de novo."
 };
 
@@ -1454,9 +1507,9 @@ function lessonFromJson(j) {
 
 recBtn.addEventListener("click", async () => {
   if (!sampleFn) {
-    setStatus(sampleState === "loading"
-      ? "Ainda conectando ao Claude. Espere alguns segundos e toque de novo."
-      : "A leitura automática não está disponível aqui. Abra a página pelo claude.ai num navegador (Chrome, Edge ou Safari) e toque em Reconhecer de novo. Enquanto isso, dá para digitar a lição no editor.", "warn");
+    if (sampleState === "loading") { setStatus("Ainda conectando ao Claude. Espere alguns segundos e toque de novo.", "warn"); return; }
+    setStatus("A leitura automática não está disponível aqui. Use a leitura pelo chat do Claude, logo abaixo.", "warn");
+    openPlanB();
     return;
   }
   const chosen = pages.filter(p => p.use);
@@ -1493,13 +1546,58 @@ recBtn.addEventListener("click", async () => {
     if (e && e.code === "cancelled") setStatus("Leitura interrompida.");
     else {
       setStatus(ERR_COPY[e?.code] || ERR_COPY.upstream_error, "bad");
-      if (e?.code === "not_granted" || e?.code === "sampling_disabled") { sampleFn = null; }
+      if (e?.code === "not_granted" || e?.code === "sampling_disabled") { sampleFn = null; sampleState = "none"; }
+      if (["images_unavailable", "not_granted", "sampling_disabled", "capability_disabled", "capability_removed"].includes(e?.code)) openPlanB();
     }
   } finally {
     recCtl = null; cancelBtn.hidden = true; refreshRecognizeBtn();
   }
 });
 cancelBtn.addEventListener("click", () => recCtl?.abort());
+
+function openPlanB() {
+  const d = document.getElementById("planb"); d.open = true;
+  d.scrollIntoView({ block: "nearest", behavior: "smooth" });
+}
+document.getElementById("copy-prompt").addEventListener("click", async e => {
+  const btn = e.currentTarget;
+  const hint = document.getElementById("hint-in").value.trim();
+  const text = recognitionPrompt(1, hint);
+  const out = document.getElementById("prompt-out");
+  out.value = text;
+  try {
+    await navigator.clipboard.writeText(text);
+    btn.textContent = "Instruções copiadas";
+    setTimeout(() => { btn.textContent = "Copiar instruções de leitura"; }, 2500);
+  } catch (err) {
+    out.hidden = false; out.focus(); out.select();
+    btn.textContent = "Selecione o texto abaixo e copie";
+  }
+});
+function parseAnswer(raw) {
+  const t = raw.trim().replace(/^```[a-z]*\s*/i, "").replace(/```\s*$/, "");
+  const a = t.indexOf("{"), b = t.lastIndexOf("}");
+  if (a >= 0 && b > a) {
+    try { const j = JSON.parse(t.slice(a, b + 1)); if (j && j.corpo) return { json: j }; } catch (e) { /* segue */ }
+  }
+  if (/\|/.test(t) && /[A-G][#bn]?\d\/\d/.test(t)) return { text: t + "\n" };
+  return null;
+}
+document.getElementById("load-answer").addEventListener("click", () => {
+  const raw = document.getElementById("paste-in").value;
+  const r = parseAnswer(raw);
+  if (!r) { setStatus("Não reconheci a resposta colada. Copie a resposta inteira do Claude, incluindo as chaves { }.", "bad"); return; }
+  state.isExample = false;
+  if (r.json) {
+    const j = r.json;
+    state.extra = { marcacoes: Array.isArray(j.marcacoes) ? j.marcacoes.slice(0, 20) : [], avisos: Array.isArray(j.avisos) ? j.avisos.slice(0, 10) : [] };
+    srcEl.value = lessonFromJson(j);
+  } else { state.extra = null; srcEl.value = r.text; }
+  applyText(srcEl.value);
+  const errs = state.model.errors.length, warns = state.model.warnings.length;
+  setStatus(errs ? `Lição carregada, mas ${errs} trecho(s) não foram entendidos. Confira no editor.` : warns ? `Lição carregada: ${state.model.measures.length} compassos, com ${warns} aviso(s) para conferir.` : `Lição carregada: ${state.model.measures.length} compassos. Confira com a página e toque ▶.`, errs || warns ? "warn" : "good");
+  document.getElementById("score").scrollIntoView({ block: "start", behavior: "smooth" });
+});
 
 document.getElementById("fix-ai").addEventListener("click", async () => {
   if (!sampleFn || !state.model) return;
