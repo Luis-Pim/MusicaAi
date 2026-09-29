@@ -31,6 +31,9 @@ Nos arquivos de lição, `pagina:` é a página **impressa no livro**; o nome do
 | 42 | 36 | escalas em Sol maior nº 2–3; arpejos em Sol maior nº 1–5 | no repositório |
 | 47 | 41 | escalas e arpejos nº 1–3 em Fá maior | no repositório (7ª/9ª na p. 42 pendentes) |
 | 53–54 | 47–48 | escalas nº 1–3 e arpejos nº 1–5 em Ré maior | no repositório |
+| 44–45 | 38–39 | escalas e arpejos em Mi menor (nº 1–3, 1–5) | no repositório |
+| 49–51 | 43–45 | escalas e arpejos em Ré menor (nº 1–3, 1–5) | no repositório |
+| 56–57 | 50–51 | escalas e arpejos em Si menor (nº 1–3, 1–3) | no repositório |
 | 39–40 | 33–34 | escalas em Lá menor nº 1–3; arpejos em Lá menor nº 1–2 | no repositório (arpejos nº 3–5 pendentes: leitura incerta) |
 
 ## Catálogo de referência
@@ -76,3 +79,4 @@ Detalhes:
 - O catálogo não lista as escalas em Sol maior (livro p. 35–36); receberam ids próprios `AR-ESCALAS_SOL_MAIOR-P036-SC-00x`. A escala nº 1 fica no PDF 41 (não transcrita ainda).
 - Escalas em Mi menor nº 1–3 (livro p. 38): geradas como menor melódica (sobe Dó♯/Ré♯, desce natural); conferir o fim das descidas (Ré♯ final) no livro.
 - Escalas em Ré menor nº 1–3 (livro p. 43–44): menor melódica gerada pelo padrão; na nº 3 a descida foi montada como Si♭5→Dó♯4 contínua; conferir as quebras de compasso.
+- Escalas menores (Mi, Ré, Si): geradas como menor melódica; arpejos com a sensível (menor harmônica). Conferir os finais das descidas e as quebras de compasso no livro.

@@ -5,7 +5,7 @@
    "nome": "Amadeu Russo – Método Completo de Saxofone",
    "instrumento": "saxalto",
    "ordem": 1,
-   "total": 118,
+   "total": 124,
    "secoes": [
     {
      "titulo": "Primeiros estudos",
@@ -882,6 +882,52 @@
        "titulo": "Arpejos sobre os acordes de 9ª · nº 5",
        "tipo": "exercicio",
        "pagina": "48"
+      }
+     ]
+    },
+    {
+     "titulo": "Escala em Si menor",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p050-01.txt",
+       "titulo": "Escala em Si menor · nº 1",
+       "tipo": "exercicio",
+       "pagina": "50"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p051-01.txt",
+       "titulo": "Escala em Si menor · nº 2",
+       "tipo": "exercicio",
+       "pagina": "51"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p051-02.txt",
+       "titulo": "Escala em Si menor · nº 3",
+       "tipo": "exercicio",
+       "pagina": "51"
+      }
+     ]
+    },
+    {
+     "titulo": "Arpejos em Si menor",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p051-03.txt",
+       "titulo": "Arpejos em Si menor · nº 1",
+       "tipo": "exercicio",
+       "pagina": "51"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p051-04.txt",
+       "titulo": "Arpejos em Si menor · nº 2",
+       "tipo": "exercicio",
+       "pagina": "51"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p051-05.txt",
+       "titulo": "Arpejos em Si menor · nº 3",
+       "tipo": "exercicio",
+       "pagina": "51"
       }
      ]
     }
