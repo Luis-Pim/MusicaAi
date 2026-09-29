@@ -40,6 +40,7 @@ Nos arquivos de lição, `pagina:` é a página **impressa no livro**; o nome do
 | 39 | 33 | estudo em Dó maior (p033-02) | no repositório |
 | 40–41 | 34–35 | estudo melódico 14 (Lá menor, p034-08); estudo em Lá menor (p035-01) | no repositório |
 | 41 | 35 | estudo em Sol maior = escala nº 1 (p035-02) | no repositório |
+| 43 | 37 | estudo melódico 15 (Sol maior, p037-01) | no repositório |
 | 39–40 | 33–34 | escalas em Lá menor nº 1–3; arpejos em Lá menor nº 1–2 | no repositório (arpejos nº 3–5 pendentes: leitura incerta) |
 
 ## Catálogo de referência
@@ -59,6 +60,7 @@ Detalhes:
 
 - Seguir em ordem a partir do PDF 33 (livro 25). Revisar o rascunho do progressivos nº 15 (PDF 32, linhas 3–6) até o PDF 59 (livro 55).
 - Páginas de escalas, intervalos e arpejos: gerar as notas pelo padrão com `scripts/omr/gen.py` e conferir com a imagem e com `heads.mjs`.
+- Posição das pautas: `node findstaves.mjs <pdf>` (T=0.4) dá os centros reais; a estimativa pela miniatura da página erra até 0,03.
 - Leitura de melodias (novo, mais preciso): renderizar a página em escala 8 (`node render.mjs N N 8`), depois `bash staff.sh <pdf> <y-centro> <nome>` recorta a pauta e lista as cabeças de nota com a altura calculada pelas linhas reais (`nh.mjs`); cabeças marcadas com `~` são apogiaturas/ruído e devem ser conferidas na imagem (`stack2.mjs` junta os 4 quartos).
 - Apogiaturas: o site não tem sintaxe própria; escrever `[G4]A4` (dupla: `[B4,D5]C5/4`) no rascunho e converter com `python3 grace.py` (vira `G4/32 A4/16.>`, somando a colcheia).
 - Leitura antiga: `bash q.sh <pdf> <pauta>` gera 4 recortes ampliados 3x por pauta (usar sempre em trechos sem padrão).
@@ -74,6 +76,7 @@ Detalhes:
 | 13:40 | 13:55 | 31–32 (7 lições, 1 em rascunho) |
 
 ## Para o professor conferir
+- Estudo melódico 15 (Sol maior), compassos 7 e 45: as duas últimas semicolcheias foram lidas Fá♯–Mi (a imagem cortava o fim da pauta).
 - Estudo melódico 14 (Lá menor), compasso 15: as três colcheias depois do Mi pontuado foram lidas Fá–Sol♯–Fá (a última ficou entre Fá e Sol♯ na imagem). Compasso 12: apogiatura dupla lida Mi–Fá.
 - Mordentes (estudos em Lá menor): escritos como nota–vizinha em fusas antes da nota; o site não tem sinal de mordente.
 - Estudos sobre a apogiatura (livro p. 26): as apogiaturas foram escritas como fusa antes da nota (a nota principal perde uma fusa). No nº 1, o último compasso tem colcheia, colcheia, semínima e pausa de colcheia (sobra 1/8); a pausa foi omitida. No nº 2, compassos 12 e 15: o Fá depois do Fá♯ no mesmo compasso foi lido como Fá♯ (sem bequadro no livro).
