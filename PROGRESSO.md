@@ -24,6 +24,7 @@ Nos arquivos de lição, `pagina:` é a página **impressa no livro**; o nome do
 | 27–28 | 19–20 | 8ª nº 2–4 | no repositório |
 | 28–29 | 20–21 | intervalos mistos; progressivos nº 1–2 | no repositório |
 | 30 | 22 | progressivos nº 3–9 | revisado com ampliação 3x (18 notas corrigidas) |
+| 31 | 23 | progressivos nº 10–14 | no repositório |
 
 ## Catálogo de referência
 
@@ -33,7 +34,7 @@ A numeração dos estudos melódicos segue `indice_melodico` do catálogo.
 
 ## Próximo passo
 
-- Seguir em ordem a partir do PDF 31 (livro 23): progressivos nº 10 até o PDF 59 (livro 55).
+- Seguir em ordem a partir do PDF 32 (livro 24): escala cromática e progressivos nº 15 até o PDF 59 (livro 55).
 - Páginas de escalas, intervalos e arpejos: gerar as notas pelo padrão com `scripts/omr/gen.py` e conferir com a imagem e com `heads.mjs`.
 - Leitura de melodias: `bash q.sh <pdf> <pauta>` gera 4 recortes ampliados 3x por pauta (usar sempre em trechos sem padrão).
 - Atenção: as linhas rotuladas de `staves.mjs` às vezes se desviam perto da barra final; nesses trechos, ler pelas linhas reais da pauta.
