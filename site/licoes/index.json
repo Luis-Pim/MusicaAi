@@ -5,7 +5,7 @@
    "nome": "Amadeu Russo – Método Completo de Saxofone",
    "instrumento": "saxalto",
    "ordem": 1,
-   "total": 47,
+   "total": 48,
    "secoes": [
     {
      "titulo": "Primeiros estudos",
@@ -316,6 +316,12 @@
        "titulo": "Intervalos de 8ª · nº 1",
        "tipo": "exercicio",
        "pagina": "18"
+      },
+      {
+       "arquivo": "amadeu-russo-sax/p019-01.txt",
+       "titulo": "Intervalos de 8ª · nº 2",
+       "tipo": "exercicio",
+       "pagina": "19"
       }
      ]
     }

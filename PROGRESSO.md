@@ -43,3 +43,4 @@ A numeração dos estudos melódicos segue `indice_melodico` do catálogo.
 ## Para o professor conferir
 - Livro p. 16: exercício de 6ª em 3/4 sem número (o catálogo não o lista separado; recebeu id próprio `AR-INTERVALOS_6-P016-EX-003`).
 - Estudo melódico 12 (Allegretto), compasso 15: conferir as três colcheias (lidas Si–Lá–Ré).
+- Intervalos de 8ª nº 2, compasso 10 (antes do Dó6 longo): a leitura dava 7/8; usei Ré6 semínima pontuada. Conferir no livro.
