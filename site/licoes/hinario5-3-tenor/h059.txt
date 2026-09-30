@@ -1,0 +1,15 @@
+# id: CCB-H5-H59-3
+titulo: Hino 59 · Faz-me mais perseverante
+secao: Hinos 51–100
+tipo: exercicio
+compasso: 3/4
+tonalidade: F
+clave: fa
+andamento: 60 seminima
+# Hinário 5 CCB, 3ª voz (tenor). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+
+A3/8. C4/16 | C4/4. Bb3/8 A3/8. Bb3/16 | C4/2 C4/8. C4/16 | G3/4. G3/8 G3/8. C4/16 |
+Bb3/2 A3/8. Bb3/16 | C4/4. C4/8 Bb3/8. F3/16 | F3/2 G#3/8. G#3/16 | A3/4. C4/8 C4/8. Bb3/16 |
+A3/2 C4/8. A3/16 | C4/4. G3/8 G3/8. Bb3/16 | A3/2 C4/8. A3/16 | Bb3/4. G3/8 Bb3/8. Bb3/16 |
+A3/2 C4/8. D4/16 | C4/4. C4/8 Bb3/8. A3/16 | G3/2 G#3/8. G#3/16 | A3/4. C4/8 C4/8. Bb3/16 |
+A3/2 |.

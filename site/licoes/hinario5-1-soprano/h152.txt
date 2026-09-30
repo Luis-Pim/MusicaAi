@@ -1,0 +1,16 @@
+# id: CCB-H5-H152-1
+titulo: Hino 152 · Venho à casa do Senhor
+secao: Hinos 151–200
+tipo: exercicio
+compasso: 4/4
+tonalidade: Ab
+clave: sol
+andamento: 72 seminima
+# Hinário 5 CCB, 1ª voz (soprano). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# autor: Bentley Deforest Ackley
+
+C4/8. Db4/16 | Eb4/8. Eb4/16 D4/8. Eb4/16 F4/8. Eb4/16 D4/8. Eb4/16 | C5/2. C5/8 Db5/8 | C5/4 Bb4/4 Eb4/4 C5/4 |
+Bb4/4 Ab4/2 C4/8. Db4/16 | Eb4/8. Eb4/16 D4/8. Eb4/16 F4/8. Eb4/16 D4/8. Eb4/16 | C5/2. C5/8 Db5/8 | C5/4 Bb4/4 F4/4 G4/4 |
+Ab4/2. Eb4/8 Ab4/8 | C5/4 C5/4 Db5/4 C5/4 | F4/2. G4/8 Ab4/8 | Bb4/4 G4/4 Ab4/4 Bb4/4 |
+C5/2. C5/8 Db5/8 | Eb5/4 C5/4 Db5/4 C5/4 | Bb4/4 Ab4/4 G4/4 F4/4 | Eb4/4 C5/4 C5/4. Bb4/8 |
+Ab4/2. |.

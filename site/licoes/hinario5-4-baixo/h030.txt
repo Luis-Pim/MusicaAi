@@ -1,0 +1,14 @@
+# id: CCB-H5-H30-4
+titulo: Hino 30 · Confiarei sempre no Senhor
+secao: Hinos 1–50
+tipo: exercicio
+compasso: 6/8
+tonalidade: F
+clave: fa
+andamento: 50 seminima
+# Hinário 5 CCB, 4ª voz (baixo). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+
+F3/8 F3/8 F3/8 F3/8 F3/8 F3/8 | F3/4. F3/4. | E3/8 E3/8 E3/8 F3/8 F3/8 F3/8 | C3/2. |
+F3/8 F3/8 F3/8 F3/8 F3/8 F3/8 | F3/4. F3/4. | E3/8 F3/8 D3/8 G3/8 G3/8 B2/8 | C3/2. |
+C3/8 C3/8 C3/8 C3/8 C3/8 E3/8 | F3/4. F3/4. | C3/8 C3/8 C3/8 C3/8 C3/8 E3/8 | F3/2. |
+F3/8 F3/8 F3/8 F3/8 F3/8 F3/8 | F3/4. F3/4. | C3/8 C3/8 C3/8 C3/4 C3/8 | F2/2.@ |.

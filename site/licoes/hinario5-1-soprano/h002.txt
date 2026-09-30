@@ -1,0 +1,16 @@
+# id: CCB-H5-H2-1
+titulo: Hino 2 · De Deus tu és eleita
+secao: Hinos 1–50
+tipo: exercicio
+compasso: 4/4
+tonalidade: Eb
+clave: sol
+andamento: 60 seminima
+# Hinário 5 CCB, 1ª voz (soprano). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# autor: Samuel Sebastian Wesley
+
+G4/4 | G4/4 G4/4 Ab4/4 G4/4 | G4/2 F4/4 Eb4/4 | Eb4/4 C5/4 Bb4/4 Ab4/4 |
+G4/2. Ab4/4 | Bb4/4 Eb5/4 Eb5/4 D5/4 | D5/2 C5/4 Bb4/4 | Ab4/4 Bb4/4 G4/4 Eb4/4 |
+F4/2. F4/4 | G4/4 Ab4/4 Bb4/4 C5/4 | C5/2 Bb4/4 Eb5/4 | Eb5/4. D5/8 C5/4 G4/4 |
+Ab4/2. F4/4 | G4/4 G4/4 Ab4/4 G4/4 | G4/2 F4/4 Eb4/4 | Eb4/4 F4/4 Eb4/4 D4/4 |
+Eb4/2. |.

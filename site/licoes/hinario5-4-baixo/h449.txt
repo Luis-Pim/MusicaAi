@@ -1,0 +1,18 @@
+# id: CCB-H5-H449-4
+titulo: Hino 449 · O meu nome no céu escreveste, Senhor
+secao: Hinos de jovens e menores (431–480)
+tipo: exercicio
+compasso: 3/4
+tonalidade: Ab
+clave: fa
+andamento: 66 seminima
+# Hinário 5 CCB, 4ª voz (baixo). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# autor: Frank Marion Davis
+
+Ab2/8. Ab2/16 | Ab2/4 C3/4 Bb2/4 | Ab2/4 Ab2/4 C3/8. C3/16 | Db3/4 F3/4 Db3/4 |
+Ab2/2 Ab2/8. Ab2/16 | Ab2/4 Ab2/4 Ab2/4 | Ab2/4 Ab2/4 Ab2/8. Ab2/16 | Bb2/4 Bb2/4 Bb2/4 |
+Eb3/4 Db3/4 C3/8. Bb2/16 | Ab2/4 C3/4 Bb2/4 | Ab2/4 Ab2/4 C3/8. C3/16 | Db3/4 F3/4 Db3/4 |
+Ab2/2 Ab2/8. Ab2/16 | Ab2/4 Ab2/4 C3/4 | Db3/4 Db3/4 C3/8. Db3/16 | Eb3/4 Eb3/4 Eb3/4 |
+Ab2/2 Eb3/8. Eb3/16 | Ab2/4 C3/4 Eb3/4 | Ab3/2 Ab2/8. Ab2/16 | Ab2/4 Ab2/4 C3/4 |
+Eb3/2 Eb3/8. Eb3/16 | Ab2/4 Ab2/4 C3/4 | Db3/4 Db3/4 C3/8. Db3/16 | Eb3/4 Eb3/4 Eb3/4 |
+Ab2/2@ |.

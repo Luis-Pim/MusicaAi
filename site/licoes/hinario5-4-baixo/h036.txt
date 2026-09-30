@@ -1,0 +1,16 @@
+# id: CCB-H5-H36-4
+titulo: Hino 36 · A fiel proteção
+secao: Hinos 1–50
+tipo: exercicio
+compasso: 6/4
+tonalidade: G
+clave: fa
+andamento: 84 seminima
+# Hinário 5 CCB, 4ª voz (baixo). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# autor: Joseph Lincoln Hall
+
+G2/8 G2/8 | G2/4 G2/4 G2/4 G2/2 A2/8 B2/8 | C3/4 C3/4 C3/4 C3/2 C3/8 C3/8 | G2/4 G2/4 G2/4 A2/4 A2/4 C#3/4 |
+D3/2.~ D3/2 D3/8 D3/8 | G2/4 G2/4 G2/4 G2/2 A2/8 B2/8 | C3/4 C3/4 C3/4 C3/2 C3/8 C3/8 | G2/4 G2/4 G2/4 A2/4 A2/4 D3/4 |
+G2/2.~ G2/2 G3/8 G3/8 | D3/4 D3/4 D3/4 D3/2 D3/8 D3/8 | G3/4 G3/4 G3/4 G3/2 G2/8 G2/8 | A2/4 A2/4 A2/4 A2/4 A2/4 A2/4 |
+D3/2.~ D3/2 D3/8 D3/8 | G2/4 C3/4 D3/4 G2/2 A2/8 B2/8 | C3/4 C3/4 C3/4 C3/2 C3/8 C3/8 | D3/4 E3/4 D3/4 C#3/4 A2/4 D3/4 |
+G2/2.~ G2/2 |.

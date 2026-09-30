@@ -1,0 +1,18 @@
+# id: CCB-H5-H13-4
+titulo: Hino 13 · Confiemos em Deus
+secao: Hinos 1–50
+tipo: exercicio
+compasso: 4/4
+tonalidade: Ab
+clave: fa
+andamento: 72 seminima
+# Hinário 5 CCB, 4ª voz (baixo). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# autor: Stephen Vincent Benet
+
+Ab2/8. Ab2/16 | Ab2/4 Ab2/4 Bb2/4 C3/4 | Eb3/4 Eb3/2 Eb3/8. Eb3/16 | Eb3/4 Eb3/4 Eb3/4 Eb3/4 |
+Ab3/2. Ab2/8. Ab2/16 | C3/4 C3/4 C3/4 E3/4 | F3/4 F3/2 F3/8. F3/16 | Bb2/4 Bb2/4 Bb2/4 Bb2/4 |
+Eb3/4 Db3/4 C3/4 Bb2/4 | Ab2/2 Ab2/4 Ab2/4 | Ab2/2. Ab2/8. Ab2/16 | Ab2/4 Ab2/4 Ab2/4 Ab2/4 |
+Eb3/2. Eb3/8. Eb3/16 | Eb3/2 Eb3/4 Eb3/4 | Eb3/2. Eb3/8. Eb3/16 | Eb3/4 G3/4 Eb3/4 Eb3/4 |
+Ab2/2. Ab2/8. Ab2/16 | Ab2/4 Ab2/4 Ab2/4 C3/4 | Db3/2. C3/8. C3/16 | Bb2/4 Bb2/4 Bb2/4 D3/4 |
+Eb3/2. G3/8. G3/16 | Ab3/4 Ab3/4 Ab2/4 C3/4 | Db3/2 R/8 Db3/8 Db3/8 Db3/8 | Eb3/2 Eb3/4 Eb3/4 |
+Ab2/2. |.

@@ -1,0 +1,16 @@
+# id: CCB-H5-H297-4
+titulo: Hino 297 · Senhor, conforta meu coração
+secao: Hinos 251–300
+tipo: exercicio
+compasso: 6/8
+tonalidade: G
+clave: fa
+andamento: 50 seminima
+# Hinário 5 CCB, 4ª voz (baixo). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# autor: William James Kirkpatrick
+
+D3/8 | G2/4 G2/8 G2/4 G2/8 | C3/4 C3/8 C3/4 B2/8 | A2/4 A2/8 A3/8 G3/8 E3/8 |
+D3/4 D3/8 D3/4 F#2/8 | G2/4 G2/8 G2/4 G2/8 | C3/4 C3/8 A2/4@ C3/8 | D3/4 D3/8 D3/8. D3/16 D3/8 |
+G2/4.~ G2/4 R/8 | G3/4 G3/8 G3/8 G3/8 G3/8 | G3/4 G3/8 G3/4. | G3/4 G3/8 G3/8 G3/8 G3/8 |
+D3/4 G3/8 D3/4 C3/8 | B2/4 G2/8 G3/4 G3/8 | C3/4 B2/8 A2/4.@ | B2/4 C3/8 D3/8 E3/8 Eb3/8 |
+D3/4 D3/8 G2/4@ |.

@@ -1,0 +1,15 @@
+# id: CCB-H5-H428-1
+titulo: Hino 428 · O dia de Cristo bem perto está
+secao: Hinos 401–430
+tipo: exercicio
+compasso: 3/4
+tonalidade: F
+clave: sol
+andamento: 56 seminima
+# Hinário 5 CCB, 1ª voz (soprano). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+
+C4/4 | F4/4 F4/4 G4/4 | A4/4 Bb4/4. A4/8 | G4/4 G4/4 A4/4 |
+F4/2 C4/4 | F4/4 F4/4 G4/4 | A4/4 Bb4/4. A4/8 | G4/4 G4/4 A4/4 |
+F4/2 C5/4 | D5/4 C5/4 Bb4/4 | A4/4 G4/4 A4/4 | Bb4/4 A4/4 Bb4/4 |
+C5/2 C4/4 | F4/4 F4/4 G4/4 | A4/4 Bb4/4. A4/8 | G4/4 G4/4 A4/4 |
+F4/2@ |.

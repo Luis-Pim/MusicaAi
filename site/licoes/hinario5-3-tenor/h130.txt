@@ -1,0 +1,17 @@
+# id: CCB-H5-H130-3
+titulo: Hino 130 · A minha alma
+secao: Hinos 101–150
+tipo: exercicio
+compasso: 6/8
+tonalidade: C
+clave: fa
+andamento: 56 seminima
+# Hinário 5 CCB, 3ª voz (tenor). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# autor: Ballington Booth
+
+C4/4. A3/4 B3/8 | C4/4. G3/4 A3/8 | G3/4 F3/8 G3/4 A3/8 | B3/4.~ B3/4 E3/8 |
+G3/4. G3/4 A3/8 | G3/4. B3/4 C4/8 | D4/4. G3/4 F3/8 | E3/4 F3/8 G3/8 A3/8 B3/8 |
+C4/4. B3/8 C4/8 D4/8 | C4/4. B3/4 B3/8 | C4/4 B3/8 C4/4 G3/8 | G3/4. C4/4 B3/8 |
+C4/4 A3/8 F3/4 F3/8 | E3/4.~ E3/4 R/8 | G3/4. G3/4. | A3/4. D4/4. |
+D4/4. D4/4 B3/8 | C4/4.~ C4/4 D3/8 | G3/4 B3/8 C4/4 Bb3/8 | A3/4. D4/4 C4/8 |
+D4/4 B3/8 A3/4 B3/8 | C4/2. |.

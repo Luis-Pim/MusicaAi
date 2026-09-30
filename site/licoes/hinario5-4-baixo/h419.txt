@@ -1,0 +1,16 @@
+# id: CCB-H5-H419-4
+titulo: Hino 419 · "Fazei isto em memória de Mim"
+secao: Hinos 401–430
+tipo: exercicio
+compasso: 2/2
+tonalidade: G
+clave: fa
+andamento: 69 seminima
+# Hinário 5 CCB, 4ª voz (baixo). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+
+G3/2 E3/4 D3/4 | G3/4 B3/4 F#3/4 D3/4 | G3/2 G3/2 | G3/2 D3/4 F#3/4 |
+G3/4 E3/4 A3/4 A2/4 | D3/2. R/4 | G3/2 E3/4 D3/4 | G3/4 B3/4 F#3/4 D3/4 |
+G3/2 G3/2 | G3/2 D3/4 F#3/4 | G3/4 E3/4 A3/4 A2/4 | D3/2. R/4 |
+D3/2 C#3/2 | D3/4 F#3/4 E3/4 D3/4 | G3/2 G3/2 | G3/2 D3/4 G3/4 |
+E3/4 F#3/4 G3/4 A3/4 | D3/2. R/4 | B2/2 E3/4 D3/4 | G3/4 B3/4 F#3/4 D3/4 |
+G3/2 G3/2 | B2/2 E3/4 A2/4 | D3/8 C3/8 B2/8 A2/8 G2/2 | D2/2 G2/2@ |.

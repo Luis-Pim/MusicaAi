@@ -1,0 +1,15 @@
+# id: CCB-H5-H217-3
+titulo: Hino 217 · Vamos, unidos, a Deus louvar
+secao: Hinos 201–250
+tipo: exercicio
+compasso: 6/8
+tonalidade: Db
+clave: fa
+andamento: 56 seminima
+# Hinário 5 CCB, 3ª voz (tenor). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# autor: Howard E. Smith
+
+Ab3/8 Gb3/8 F3/8 Ab3/4. | Ab3/4 Gb3/8 Gb3/4. | Eb3/8 Ab3/8 C4/8 Ab3/4. | Db4/4 Ab3/8 Ab3/4. |
+Bb3/8 A3/8 Bb3/8 Db4/8 Bb3/8 Ab3/8 | Ab3/4 C4/8 A3/4. | Bb3/4. Db4/4 Db4/8 | C4/4.~ C4/4 Eb3/8 |
+Ab3/4. Ab3/4. | Bb3/4. Ab3/4. | Gb3/4. Gb3/4. | Ab3/8 Bb3/8 C4/8 Ab3/4 Eb3/8 |
+Ab3/8 G3/8 Ab3/8 Cb4/8 Bb3/8 Cb4/8 | Bb3/4. Bb3/4 Bbb3/8 | Ab3/8 Db4/8 F4/8 Eb4/8 F4/8 Eb4/8 | Db4/8 C4/8 Bb3/8 Ab3/4.@ |.

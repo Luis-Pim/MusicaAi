@@ -1,0 +1,14 @@
+# id: CCB-H5-H136-1
+titulo: Hino 136 · Benignidade eterna é a de Deus
+secao: Hinos 101–150
+tipo: exercicio
+compasso: 6/8
+tonalidade: D
+clave: sol
+andamento: 56 seminima
+# Hinário 5 CCB, 1ª voz (soprano). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+
+D4/8 F#4/8 A4/8 D5/8 B4/8 D5/8 | C#5/4. G4/4. | C#5/8 B4/8 A4/8 G4/8 A4/8 G4/8 | F#4/4.~ F#4/4 R/8 |
+D4/8 F#4/8 A4/8 D5/8 B4/8 D5/8 | C#5/4. E5/4. | E5/8 D5/8 C#5/8 B4/8 F#4/8 G#4/8 | A4/4.~ A4/4 R/8 |
+A4/8 F#4/8 F#4/8 F#4/8 E4/8 F#4/8 | G4/8 A4/8 G4/8 F#4/4 A4/8 | C#5/4. B4/4 C#5/8 | B4/4. A4/4. |
+A4/8 F#4/8 F#4/8 F#4/8 E4/8 F#4/8 | G4/8 A4/8 G4/8 F#4/4 A4/8 | C#5/4. B4/4 A4/8 | D5/4. D5/4.@ |.

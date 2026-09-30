@@ -1,0 +1,15 @@
+# id: CCB-H5-H385-2
+titulo: Hino 385 · "Vinde após Mim"
+secao: Hinos 351–400
+tipo: exercicio
+compasso: 3/4
+tonalidade: D
+clave: sol
+andamento: 66 seminima
+# Hinário 5 CCB, 2ª voz (contralto). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# autor: Samuel McBurney
+
+D4/4 D4/4 D4/4 | D4/2 F#4/4 | G4/2 G4/4 | F#4/2. |
+D#4/4 F#4/4 D#4/4 | E4/2 E4/4 | E4/2 C#4/4 | D4/2. |
+D4/4 D4/4 D4/4 | C4/2 C4/4 | D4/2 D4/4 | E4/2. |
+E4/4 E4/4 E4/4 | D4/2 D4/4 | D4/2 C#4/4 | D4/2.@ |.

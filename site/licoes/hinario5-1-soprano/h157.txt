@@ -1,0 +1,17 @@
+# id: CCB-H5-H157-1
+titulo: Hino 157 · Ouve a voz que te convida...
+secao: Hinos 151–200
+tipo: exercicio
+compasso: 3/4
+tonalidade: Ab
+clave: sol
+andamento: 60 seminima
+# Hinário 5 CCB, 1ª voz (soprano). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# autor: William Howard Doane
+
+Eb4/8. Eb4/16 | Eb4/2 {3 C4/8 Db4/8 Eb4/8 } | F4/4 Eb4/4 Eb4/8. Ab4/16 | G4/8. Ab4/16 G4/4 F4/4 |
+Eb4/2 Eb4/8. Eb4/16 | Eb4/2 {3 C4/8 Db4/8 Eb4/8 } | F4/4 Eb4/4 Eb4/8. Ab4/16 | G4/8. Ab4/16 G4/4 Bb4/4 |
+Ab4/2 {3 Eb4/8 F4/8 Eb4/8 } | Bb4/2~ {3 Bb4/8 C5/8 Bb4/8 } | Ab4/4 Ab4/4 Ab4/8 Bb4/8 | C5/2 C4/4 |
+F4/2 Eb4/8. Eb4/16 | Eb4/2 {3 C4/8 Db4/8 Eb4/8 } | F4/4 Eb4/4 C5/8. C5/16 | C5/2 {3 Ab4/8 Bb4/8 C5/8 } |
+Db5/4 C5/4 Bb4/8 Ab4/8 | Ab4/4. G4/8 Ab4/8. F4/16 | Eb4/2 Eb4/8 Eb4/8 | Eb4/4. Eb4/8 Eb4/8. Eb4/16 |
+Eb4/2 |.

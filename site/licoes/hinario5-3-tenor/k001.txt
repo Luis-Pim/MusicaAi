@@ -1,0 +1,15 @@
+# id: CCB-H5-C1-3
+titulo: Coro 1 · Aleluia! Aleluia!
+secao: Coros
+tipo: exercicio
+compasso: 4/4
+tonalidade: A
+clave: fa
+andamento: 60 seminima
+# Hinário 5 CCB, 3ª voz (tenor). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+
+E3/8. F#3/16 | A3/4 A3/8. A3/16 C#4/4 C#4/8. A3/16 | A3/4 A3/8. A3/16 B3/4 B3/4 | A3/4. C#4/8 D4/4. D4/8 |
+C#4/2. E3/8. F#3/16 | A3/4 A3/8. A3/16 C#4/4 A3/8. A3/16 | A3/4 A3/8. A#3/16 B3/4 B3/4 | A3/4. C#4/8 D4/4. D4/8 |
+C#4/2. R/4 | E3/4. G#3/8 A3/4. A3/8 | G#3/4 G#3/8. A3/16 B3/4 D4/4 | D4/4. C#4/8 D4/4. D4/8 |
+C#4/4 C#4/8. B3/16 A3/4 C#4/4 | E3/4. G#3/8 A3/4. A3/8 | F#3/4 B3/8. A#3/16 B3/4 D4/4 | A3/2 B3/4. D4/8 |
+C#4/4 D4/4 C#4/4@ |.

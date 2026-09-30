@@ -1,0 +1,15 @@
+# id: CCB-H5-H72-1
+titulo: Hino 72 · Nome glorioso, o de Jesus!
+secao: Hinos 51–100
+tipo: exercicio
+compasso: 4/4
+tonalidade: Ab
+clave: sol
+andamento: 69 seminima
+# Hinário 5 CCB, 1ª voz (soprano). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# autor: John Hart Stockton
+
+C5/4 C5/8. Bb4/16 Ab4/4 Ab4/8. G4/16 | F4/4 Ab4/4 Eb4/2 | C5/4 C5/8. C5/16 Eb5/4 Eb5/8. C5/16 | Ab4/4 C5/4 Bb4/2 |
+C5/4 C5/8. Bb4/16 Ab4/4 Ab4/8. G4/16 | F4/4 Ab4/4 Eb4/4. C5/8 | C5/4. Ab4/8 C5/4 Bb4/4 | Ab4/2. R/8 Ab4/8 |
+Ab4/4. Ab4/8 Ab4/4 F4/4 | Eb4/4. F4/8 Ab4/4 R/8 C5/8 | C5/4. C5/8 C5/4 Ab4/4 | Bb4/4. C5/8 Bb4/4 R/4 |
+C5/4 C5/8. Bb4/16 Ab4/4 Ab4/8. G4/16 | F4/4 Ab4/4 Eb4/4. C5/8 | C5/4. Ab4/8 C5/4 Bb4/4 | Ab4/2. R/4 |.

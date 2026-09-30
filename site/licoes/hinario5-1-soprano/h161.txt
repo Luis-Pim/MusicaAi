@@ -1,0 +1,16 @@
+# id: CCB-H5-H161-1
+titulo: Hino 161 · Cristo quer salvar
+secao: Hinos 151–200
+tipo: exercicio
+compasso: 4/4
+tonalidade: Ab
+clave: sol
+andamento: 69 seminima
+# Hinário 5 CCB, 1ª voz (soprano). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# autor: Margaret Jankins Harris
+
+Eb4/8 | Eb4/4 C5/4 C5/4. Ab4/8 | Bb4/8 Ab4/8 G4/8 F4/8 Eb4/4. Eb4/8 | Eb4/8 Db5/8 Db5/8. Db5/16 Db5/4. Eb4/8 |
+Eb4/8 C5/8 C5/8. C5/16 C5/4. Eb4/8 | Eb4/4 C5/4 C5/4. Ab4/8 | Bb4/8 Ab4/8 G4/8 F4/8 Eb4/4. Eb4/8 | F4/4 Db5/4 G4/4. Ab4/8 |
+Ab4/2. R/8 Eb4/8 | Eb4/8 Db5/8 Db5/8. Db5/16 Db5/4. Eb4/8 | Eb4/8 C5/8 C5/8. C5/16 C5/4. C5/8 | C5/8 Bb4/8 Bb4/8 Bb4/8 C5/4 D5/4 |
+Eb5/2. R/4 | Eb4/4 C5/4 C5/4. Ab4/8 | Bb4/8 Ab4/8 G4/8 F4/8 Eb4/4. Eb4/8 | F4/4 Db5/4 G4/4. Ab4/8 |
+Ab4/2. R/8 |.

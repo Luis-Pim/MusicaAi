@@ -1,0 +1,18 @@
+# id: CCB-H5-H145-1
+titulo: Hino 145 · Pródigo filho, vai!
+secao: Hinos 101–150
+tipo: exercicio
+compasso: 6/8
+tonalidade: Db
+clave: sol
+andamento: 54 seminima
+# Hinário 5 CCB, 1ª voz (soprano). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# autor: Peter Philip Bihorn
+
+F4/8 F4/8 Db4/8 Gb4/4 F4/8 | F4/4. Eb4/4. | Eb4/8 Eb4/8 C4/8 F4/4 Eb4/8 | Eb4/4. Db4/4. |
+F4/8 F4/8 Db4/8 Gb4/4 F4/8 | D4/4. Eb4/4. | Gb4/8 Gb4/8 Gb4/8 F4/4 Eb4/8 | Db4/2. |
+Db5/8 C5/8 Db5/8 Ab4/4 Db5/8 | C5/4. Gb4/4. | C5/8 B4/8 C5/8 Gb4/4 C5/8 | Bb4/4. F4/4. |
+F4/8 E4/8 F4/8 Bb4/4 F4/8 | F4/4. Eb4/4. | Bb4/8 A4/8 Bb4/8 Eb5/4 Db5/8 | C5/4. Bb4/4. |
+C5/2. | Db5/8 C5/8 Db5/8 Ab4/4 Db5/8 | C5/4. Gb4/4. | C5/8 B4/8 C5/8 Gb4/4 C5/8 |
+Bb4/4. F4/4. | F4/8 E4/8 F4/8 Gb4/4 F4/8 | Bb4/4. Eb4/4. | Gb4/8 Gb4/8 Gb4/8 F4/4 Eb4/8 |
+Db4/2. |.

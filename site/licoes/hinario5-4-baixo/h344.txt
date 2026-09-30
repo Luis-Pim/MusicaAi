@@ -1,0 +1,15 @@
+# id: CCB-H5-H344-4
+titulo: Hino 344 · Vou encontrar meu Deus
+secao: Hinos 301–350
+tipo: exercicio
+compasso: 6/4
+tonalidade: Ab
+clave: fa
+andamento: 96 seminima
+# Hinário 5 CCB, 4ª voz (baixo). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# autor: Leila Naylor Morris
+
+Ab2/2 Db3/4 Eb3/2 Eb3/4 | Ab2/4 C3/4. Eb3/8 Ab3/2. | Eb3/4 Eb3/4 Eb3/4 G2/4 G2/4 Bb2/4 | Ab2/4 Ab2/4. Ab2/8 Ab2/2. |
+Db3/4 Db3/4 Db3/4 Db3/4 Db3/4 Db3/4 | Ab2/4 Ab2/4 Ab2/4 C3/2. | Db3/4 Db3/4 Db3/4 Eb3/2 Eb3/4 | Ab2/1~ Ab2/2 |
+Ab2/2 Ab2/4 Ab2/2 Ab2/4 | Ab2/4 C3/4 Eb3/4 Ab3/2. | Bb3/4. C4/8 Bb3/4 Bb2/4 Bb2/4 Bb2/4 | Bb2/4 Bb2/4 Bb2/4 Eb3/2. |
+Ab2/2. Ab2/2 Ab2/4 | Db3/2. Db3/2. | Eb3/4 Eb3/4 Eb3/4 Eb3/2 Eb3/4 | Ab2/1~ Ab2/2 |.

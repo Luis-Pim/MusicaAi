@@ -1,0 +1,16 @@
+# id: CCB-H5-H233-4
+titulo: Hino 233 · Avante, santos e fiéis de Deus
+secao: Hinos 201–250
+tipo: exercicio
+compasso: 4/4
+tonalidade: C
+clave: fa
+andamento: 69 seminima
+# Hinário 5 CCB, 4ª voz (baixo). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# autor: Leila Naylor Morris
+
+C3/4 | D3/4. D3/8 G2/4 A2/8 B2/8 | C3/4. C3/8 C3/8. R/16 R/4 | R/8. G2/16 G2/8. G2/16 G2/8. R/16 R/4 |
+R/8. C3/16 C3/8. C3/16 C3/4 C3/4 | C3/4. C3/8 C3/4 C3/4 | C3/4. C3/8 C3/4 C3/4 | D3/4 D3/4 D3/4 D3/4 |
+G2/2. R/4 | {3 C3/8 C3/8 C3/8 } C3/8. C3/16 C3/4 R/4 | {3 C3/8 C3/8 C3/8 } C3/8. C3/16 C3/4 C3/8. C3/16 | D3/8. D3/16 D3/8. C3/16 B2/4 G2/8. G2/16 |
+C3/8. C3/16 C3/8. C3/16 C3/4 R/4 | {3 C3/8 C3/8 C3/8 } C3/8. C3/16 C3/4 R/4 | {3 F3/8 F3/8 F3/8 } A3/8. F3/16 C3/4 C3/8. C3/16 | C3/4. C3/8 G2/4 G2/4 |
+C3/2. |.

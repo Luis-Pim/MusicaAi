@@ -1,0 +1,13 @@
+# id: CCB-H5-H38-3
+titulo: Hino 38 · Ó Senhor, és minha Vida
+secao: Hinos 1–50
+tipo: exercicio
+compasso: 4/4
+tonalidade: Eb
+clave: fa
+andamento: 56 seminima
+# Hinário 5 CCB, 3ª voz (tenor). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# autor: George Mursell Garrett
+
+Bb3/4 Ab3/4 Ab3/4. C4/8 | Bb3/4 Bb3/4 Bb3/4 Bb3/4 | G3/4 C4/4 A3/4. D4/8 | D4/4 D4/4 D4/2 |
+Eb4/4 Bb3/4 G3/4. C4/8 | C4/4 C4/4 Bb3/4 Ab3/4 | G3/4 Ab3/4 Bb3/4. Bb3/8 | C4/4 Bb3/4 G3/2@ |.

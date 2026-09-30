@@ -1,0 +1,16 @@
+# id: CCB-H5-H418-1
+titulo: Hino 418 · Só Jesus Cristo, santo Cordeiro
+secao: Hinos 401–430
+tipo: exercicio
+compasso: 9/8
+tonalidade: D
+clave: sol
+andamento: 56 seminima
+# Hinário 5 CCB, 1ª voz (soprano). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# autor: William James Kirkpatrick
+
+D4/8 F#4/8 A4/8 | A4/4. A4/4. B4/8 C#5/8 D5/8 | A4/4. F#4/4. D4/8 F#4/8 A4/8 | A4/4. F#4/4. F#4/8 G4/8 F#4/8 |
+E4/2. D4/8 F#4/8 A4/8 | A4/4. A4/4. B4/8 C#5/8 D5/8 | A4/4. F#4/4. A4/8 G4/8 F#4/8 | E4/4. D5/4. D5/8 C#5/8 B4/8 |
+A4/2.@ A4/8 G#4/8 A4/8 | B4/4. G4/4. D5/8 C#5/8 B4/8 | B4/4. A4/4. A4/8 G4/8 F#4/8 | G4/4. G4/4. B4/8 A4/8 G4/8 |
+F#4/2. A4/8 G#4/8 A4/8 | B4/4. G4/4. D5/8 C#5/8 B4/8 | B4/4. A4/4. D4/8 F#4/8 A4/8 | A4/4. F#4/4. F#4/8 D4/8 E4/8 |
+D4/2. |.

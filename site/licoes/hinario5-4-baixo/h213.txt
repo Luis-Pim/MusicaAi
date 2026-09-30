@@ -1,0 +1,15 @@
+# id: CCB-H5-H213-4
+titulo: Hino 213 · Quando vier do céu
+secao: Hinos 201–250
+tipo: exercicio
+compasso: 6/8
+tonalidade: Eb
+clave: fa
+andamento: 52 seminima
+# Hinário 5 CCB, 4ª voz (baixo). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# autor: Theodore Edson Perkins
+
+Eb3/4. Eb3/4 Eb3/8 | Eb3/4 Bb2/8 Eb3/4. | Bb2/4. C3/4 Bb2/8 | Eb3/4 Eb3/8 Eb3/4. |
+Eb3/4. Eb3/4 Eb3/8 | Bb2/4 B2/8 C3/4 Ab2/8 | Bb2/4 Bb2/8 Bb2/4 Bb2/8 | Eb3/2. |
+Bb2/4. Bb2/4 Bb2/8 | Eb3/4 F3/8 G3/4. | Ab3/4. Ab2/4 Ab2/8 | Eb3/4 Eb3/8 Bb2/4 Ab2/8 |
+G2/4. Ab2/4 Bb2/8 | Bb2/4 B2/8 C3/4 Ab2/8 | Bb2/4 Bb2/8 Bb2/4 Bb2/8 | Eb2/2 R/4 |.

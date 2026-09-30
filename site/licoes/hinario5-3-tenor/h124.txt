@@ -1,0 +1,15 @@
+# id: CCB-H5-H124-3
+titulo: Hino 124 · Vivo na graça
+secao: Hinos 101–150
+tipo: exercicio
+compasso: 6/4
+tonalidade: G
+clave: fa
+andamento: 80 seminima
+# Hinário 5 CCB, 3ª voz (tenor). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# autor: May Whittle Moody
+
+B3/4 B3/4 C4/4 D4/4 D4/4 D#4/4 | E4/4 E4/4 E4/4 D4/2. | D4/4 C4/4 B3/4 C4/4 D4/4 C4/4 | B3/4 Bb3/4. Bb3/8 A3/2 C4/4 |
+B3/4 B3/4 C4/4 D4/4 D4/4 D4/4 | C4/4 C4/4 A#3/4 B3/2. | B3/4 A3/4 G3/4 A3/4 A3/4. A3/8 | A3/4 D4/4. C4/8 B3/2. |
+D4/4 D4/4 D4/4 D4/4 C4/4 B3/4 | A3/4. D4/8 D4/4 D4/2. | D4/4 A3/4 B3/4 D4/4 C4/4 B3/4 | A3/4. A3/8 C#4/4 D4/2 C4/4 |
+B3/4 B3/4 C4/4 D4/4 D4/4 D4/4 | B3/4 B3/4. E4/8 E4/2. | A3/4 D4/4 C4/4 A3/4 A3/4. A3/8 | A3/4 D4/4. C4/8 B3/2.@ |.

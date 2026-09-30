@@ -1,0 +1,14 @@
+# id: CCB-H5-H101-2
+titulo: Hino 101 · Cantemos, juntos, louvores a Deus
+secao: Hinos 101–150
+tipo: exercicio
+compasso: 4/4
+tonalidade: G
+clave: sol
+andamento: 60 seminima
+# Hinário 5 CCB, 2ª voz (contralto). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# autor: Robert Alexander Schumann
+
+D4/4 | D4/4 D#4/4 E4/4 E4/4 | C4/4 C4/4 D4/4 D4/4 | C4/4 C4/4 D4/4 E4/4 |
+D4/4 C#4/4 D4/4 D4/4 | D4/4 D#4/4 E4/4 E4/4 | C4/4 C4/4 D4/4 D4/4 | C4/4 C4/4 D4/4 E4/4 |
+D4/4 D4/4 D4/4@ |.

@@ -1,0 +1,15 @@
+# id: CCB-H5-H364-3
+titulo: Hino 364 · Os tempos já chegados são...
+secao: Hinos 351–400
+tipo: exercicio
+compasso: 4/4
+tonalidade: C
+clave: fa
+andamento: 63 seminima
+# Hinário 5 CCB, 3ª voz (tenor). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+
+C4/4 | C4/4. C4/8 C4/8 B3/8 C4/8. B3/16 | C4/2. C4/4 | C4/4. A3/8 A3/8 G3/8 F3/8. A3/16 |
+G3/2. F3/4 | E3/4. F3/8 G3/8 F3/8 G3/8 R/16 B3/16 | C4/4 G3/4 E3/4 E3/4 | F3/4 A3/4 F3/4 F3/4 |
+E3/2. G3/4 | G3/4 G#3/4 A3/4 A3/4 | B3/4 A3/4 B3/4. E3/8 | E3/4 G3/4 G3/8 A3/8 G3/8 F#3/8 |
+G3/4 B3/4 D4/4 B3/4 | G3/4 B3/4 E4/4 A3/4 | B3/8 A3/8 B3/8 C4/8 D4/4. D4/8 | C4/4 C4/4 C4/4 B3/4 |
+C4/2. |.

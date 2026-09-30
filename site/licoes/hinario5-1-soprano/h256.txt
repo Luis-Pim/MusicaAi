@@ -1,0 +1,14 @@
+# id: CCB-H5-H256-1
+titulo: Hino 256 · Sem Deus Pai, vivi no mundo
+secao: Hinos 251–300
+tipo: exercicio
+compasso: 6/4
+tonalidade: G
+clave: sol
+andamento: 100 seminima
+# Hinário 5 CCB, 1ª voz (soprano). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# autor: William Batchelder Bradbury
+
+B4/2 C5/4 D5/2 G4/4 | C5/2 B4/4 B4/2 A4/4 | A4/2 B4/4 C5/2 A4/4 | G4/2 F#4/4 G4/2. |
+B4/2 C5/4 D5/2 G4/4 | C5/2 B4/4 B4/2 A4/4 | A4/2 B4/4 C5/2 A4/4 | G4/2 F#4/4 G4/2. |
+D5/2 B4/4 D5/2. | B4/2 G4/4 B4/2. | B4/2 C5/4 D5/2 G4/4 | B4/2 A4/4 G4/2.@ |.

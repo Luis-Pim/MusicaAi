@@ -1,0 +1,14 @@
+# id: CCB-H5-H150-4
+titulo: Hino 150 · Jesus Cristo, meu Senhor
+secao: Hinos 101–150
+tipo: exercicio
+compasso: 4/4
+tonalidade: Ab
+clave: fa
+andamento: 54 seminima
+# Hinário 5 CCB, 4ª voz (baixo). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# autor: George Edstrom
+
+Ab3/4 | Ab3/8 Ab3/8 Eb3/2 Eb3/4 | Ab3/2. Ab3/4 | Ab3/8 F3/8 Eb3/2 Eb3/4 |
+Ab3/2. Eb3/4 | Db3/4 Db3/4 Db3/8 Db3/8 Db3/8 Db3/8 | Ab2/2. F2/4 | Bb2/4 Bb2/4 Eb3/4 Eb2/4 |
+Ab2/2. |.

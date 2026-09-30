@@ -1,0 +1,16 @@
+# id: CCB-H5-H206-4
+titulo: Hino 206 · Tu és o Amigo
+secao: Hinos 201–250
+tipo: exercicio
+compasso: 6/8
+tonalidade: Eb
+clave: fa
+andamento: 50 seminima
+# Hinário 5 CCB, 4ª voz (baixo). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# autor: Louis D. Eichhorn
+
+Bb2/8 | D3/8 C3/8 Bb2/8 Eb3/4 Eb3/8 | C3/4 E3/8 F3/4 F3/8 | F3/4. D3/4 Bb2/8 |
+Eb3/4.~ Eb3/4 Bb2/8 | D3/8 C3/8 Bb2/8 Eb3/4 Db3/8 | C3/4 E3/8 F3/4 F3/8 | Eb3/4. F3/4 F3/8 |
+Bb2/4. D3/4. | Eb3/8 Eb3/8 Eb3/8 G3/4 Bb3/8 | Eb3/2. | Bb2/8 D3/8 F3/8 Bb3/4. |
+Eb3/8 Bb2/8 Eb3/8 Eb3/4. | Eb3/8 Eb3/8 Eb3/8 F3/8 Bb3/8 Ab3/8 | G3/8 G3/8 Bb3/8 Ab3/4. | G3/8 F3/8 Eb3/8 Ab2/8 Bb2/8 Bb2/8 |
+Eb3/4.~ Eb3/4@ |.

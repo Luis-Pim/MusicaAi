@@ -1,0 +1,17 @@
+# id: CCB-H5-H82-1
+titulo: Hino 82 · Oh! Que grande amor!
+secao: Hinos 51–100
+tipo: exercicio
+compasso: 2/4
+tonalidade: Ab
+clave: sol
+andamento: 54 seminima
+# Hinário 5 CCB, 1ª voz (soprano). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+
+Eb4/8 C4/8 | F4/4 Eb4/8 C4/8 | G4/4 Ab4/8 F4/8 | Db5/4 C5/8 Bb4/8 |
+F4/2~ | F4/8 Eb4/8 G4/8 F4/8 | Eb4/2 | C5/4 Db5/4 |
+Eb5/4 Db5/4 | C5/4 Db5/4 | C5/4 Bb4/4 | F4/2~ |
+F4/8 Eb4/8 C5/8 Bb4/8 | F4/4 Bb4/8 Bb4/8 | Ab4/2~ | Ab4/4 C5/8 Bb4/8 |
+F4/4. F4/8 | F4/4 C5/8 Bb4/8 | Eb4/4. Eb4/8 | Eb4/4 Bb4/8 Ab4/8 |
+Db4/4 Ab4/8 G4/8 | C4/2 | G4/8 F4/8 Eb4/8 F4/8 | Eb4/4 Db5/4 |
+C5/4 Bb4/4 | Ab4/2~ | Ab4/4 |.

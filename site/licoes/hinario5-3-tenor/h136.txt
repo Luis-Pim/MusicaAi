@@ -1,0 +1,14 @@
+# id: CCB-H5-H136-3
+titulo: Hino 136 · Benignidade eterna é a de Deus
+secao: Hinos 101–150
+tipo: exercicio
+compasso: 6/8
+tonalidade: D
+clave: fa
+andamento: 56 seminima
+# Hinário 5 CCB, 3ª voz (tenor). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+
+F#3/8 A3/8 D4/8 A3/4. | A3/4. A3/4. | A3/4. C#4/4. | A3/4.~ A3/4 A2/8 |
+F#3/8 A3/8 D4/8 A3/4. | A3/8 G#3/8 A3/8 A#3/4. | B3/4 A3/8 G#3/8 A3/8 B3/8 | A3/4.~ A3/4 R/8 |
+F#3/8 A3/8 A3/8 A3/4. | A3/8 F#3/8 E3/8 D3/4 F#3/8 | A3/4. C#4/4 E4/8 | D4/4. D4/4. |
+A3/4. A3/4. | A3/8 F#3/8 E3/8 D3/4 F#3/8 | A3/4. A3/4 A3/8 | A3/4. A3/4.@ |.

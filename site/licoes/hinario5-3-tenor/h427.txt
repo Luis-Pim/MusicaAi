@@ -1,0 +1,15 @@
+# id: CCB-H5-H427-3
+titulo: Hino 427 · Os que no Senhor dormiram
+secao: Hinos 401–430
+tipo: exercicio
+compasso: 4/4
+tonalidade: Eb
+clave: fa
+andamento: 44 seminima
+# Hinário 5 CCB, 3ª voz (tenor). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# autor: Robert Lowry
+
+Bb3/4 Bb3/4 Bb3/8. Bb3/16 Bb3/8. Bb3/16 | G3/4. Ab3/8 Bb3/2 | C4/4 C4/4 Bb3/8. Ab3/16 F3/8. Bb3/16 | Bb3/1 |
+Bb3/4 Bb3/4 Bb3/8. Bb3/16 Bb3/8. Bb3/16 | G3/4. Ab3/8 Bb3/4 Bb3/8 Bb3/8 | Ab3/4 Bb3/4 Bb3/4 Bb3/8 Ab3/8 | G3/2. R/4 |
+Ab3/4 Ab3/4 C4/8. Ab3/16 C4/8. D4/16 | Eb4/2 Bb3/2 | Ab3/4 C4/4 Bb3/8. Bb3/16 Bb3/8. Bb3/16 | Bb3/2 F3/2 |
+Ab3/4 Ab3/4 C4/8. Ab3/16 C4/8. D4/16 | Eb4/2 Bb3/4 Bb3/8 Bb3/8 | Ab3/4 Bb3/4 Bb3/4 Bb3/8 Ab3/8 | G3/1 |.

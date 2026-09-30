@@ -1,0 +1,16 @@
+# id: CCB-H5-H391-1
+titulo: Hino 391 · Um peregrino sou aqui
+secao: Hinos 351–400
+tipo: exercicio
+compasso: 3/4
+tonalidade: Ab
+clave: sol
+andamento: 58 seminima
+# Hinário 5 CCB, 1ª voz (soprano). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# autor: Charles Hutchinson Gabriel
+
+Eb4/8 Eb4/8 Ab4/8 | C5/4. C5/8 Bb4/8 Ab4/8 | F4/4. Bb4/8 Ab4/8 F4/8 | Eb4/4. Ab4/8 C5/8 Ab4/8 |
+Bb4/4. Eb4/8 Eb4/8 Ab4/8 | C5/4. C5/8 Bb4/8 Ab4/8 | F4/4. Bb4/8 Ab4/8 F4/8 | Eb4/8 Ab4/8 C5/4 Bb4/4 |
+Ab4/4. Eb4/8 Ab4/8 C5/8 | Eb5/4. Eb5/8 Db5/8 C5/8 | Db5/4. Eb4/8 G4/8 Bb4/8 | Db5/4. Db5/8 C5/8 Bb4/8 |
+C5/4. Eb5/8 Eb5/8 C5/8 | Ab4/4. C5/8 Bb4/8 Ab4/8 | F4/4. Bb4/8 Ab4/8 F4/8 | Eb4/8 Ab4/8 C5/4 Bb4/4 |
+Ab4/4.@ |.

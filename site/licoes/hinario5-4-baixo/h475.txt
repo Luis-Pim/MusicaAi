@@ -1,0 +1,19 @@
+# id: CCB-H5-H475-4
+titulo: Hino 475 · Se eu for aqui provado
+secao: Hinos de jovens e menores (431–480)
+tipo: exercicio
+compasso: 4/4
+tonalidade: Eb
+clave: fa
+andamento: 60 seminima
+# Hinário 5 CCB, 4ª voz (baixo). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# autor: Henry Maxwell Wright
+# as repetições (ritornelos e 1ª/2ª casas) foram escritas por extenso.
+
+Eb3/8 | Eb3/8 Eb3/8 Eb3/8 Eb3/8 Eb3/8 Eb3/8 Eb3/8 Eb3/8 | Bb2/8 Bb2/8 Bb2/8 Bb2/8 Bb2/4. Bb2/8 | Bb2/8 Bb2/8 Bb2/8 Bb2/8 Bb2/8 Bb2/8 D3/8 F3/8 |
+Eb3/8 Eb3/8 Eb3/8 Eb3/8 Eb3/4. Eb3/8 | Eb3/8 Eb3/8 Eb3/8 Eb3/8 Eb3/4. Eb3/8 | Ab2/8 Ab2/8 Ab2/8 Ab2/8 Ab2/4. Ab2/8 | Bb2/8 Bb2/8 Bb2/8 Bb2/8 Bb2/8 Bb2/8 Bb2/8 Bb2/8 |
+Eb3/4 Eb3/4 Eb3/4.@ Eb3/8 | Eb3/8 Eb3/8 Eb3/8 Eb3/8 Eb3/8 Eb3/8 Eb3/8 Eb3/8 | Bb2/8 Bb2/8 Bb2/8 Bb2/8 Bb2/4. Bb2/8 | Bb2/8 Bb2/8 Bb2/8 Bb2/8 Bb2/8 Bb2/8 D3/8 F3/8 |
+Eb3/8 Eb3/8 Eb3/8 Eb3/8 Eb3/4. Eb3/8 | Eb3/8 Eb3/8 Eb3/8 Eb3/8 Eb3/4. Eb3/8 | Ab2/8 Ab2/8 Ab2/8 Ab2/8 Ab2/4. Ab2/8 | Bb2/8 Bb2/8 Bb2/8 Bb2/8 Bb2/8 Bb2/8 Bb2/8 Bb2/8 |
+Eb3/4 Eb3/4 Eb3/4. Eb3/8 | Eb3/8 Eb3/8 Eb3/8 Eb3/8 Eb3/8 Eb3/8 Eb3/8 Eb3/8 | Bb2/4 Bb2/4 Bb2/4. Bb2/8 | Bb2/8 Bb2/8 Bb2/8 Bb2/8 Bb2/8 Bb2/8 D3/8 D3/8 |
+Eb3/4 Eb3/4 Eb3/4. Eb3/8 | Eb3/8 Eb3/8 Eb3/8 Eb3/8 Eb3/4. Eb3/8 | Ab2/8 Ab2/8 Ab2/8 Ab2/8 Ab2/4. Ab2/8 | Bb2/8 Bb2/8 Bb2/8 Bb2/8 Bb2/8 Bb2/8 Bb2/8 Bb2/8 |
+Eb3/4 Eb3/4 Eb3/4.@ |.

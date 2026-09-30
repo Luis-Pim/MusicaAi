@@ -1,0 +1,16 @@
+# id: CCB-H5-H392-3
+titulo: Hino 392 · Com Jesus, a Esperança
+secao: Hinos 351–400
+tipo: exercicio
+compasso: 4/4
+tonalidade: Ab
+clave: fa
+andamento: 63 seminima
+# Hinário 5 CCB, 3ª voz (tenor). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# autor: Charles Brenton Widmeyer
+
+Ab3/8. Ab3/16 | Eb3/8. Eb3/16 Eb3/8. Eb3/16 F3/8. F3/16 G3/8. G3/16 | Ab3/8. Ab3/16 Ab3/8. F3/16 Eb3/4 Ab3/8. Ab3/16 | Ab3/8. Ab3/16 Ab3/8. Ab3/16 Eb3/8. Eb3/16 Eb3/8. Eb3/16 |
+G3/2. G3/8. G3/16 | Ab3/8. Ab3/16 Ab3/8. Ab3/16 Ab3/8. Ab3/16 Ab3/8. Ab3/16 | Ab3/8. Ab3/16 Ab3/8. Ab3/16 Ab3/4 Ab3/8. Ab3/16 | Ab3/4. Db4/8 C4/4 Bb3/4 |
+Ab3/2. Ab3/8. Ab3/16 | Ab3/8. Ab3/16 Ab3/8. Ab3/16 Ab3/8. Ab3/16 Ab3/8. Ab3/16 | Ab3/8. F3/16 Eb3/8. Eb3/16 Ab3/4 Ab3/8. Ab3/16 | Ab3/8. F3/16 G3/2 G3/8. G3/16 |
+G3/8. Ab3/16 Ab3/2 Ab3/8. Ab3/16 | Ab3/8. Ab3/16 Ab3/8. Ab3/16 Ab3/8. Ab3/16 Ab3/8. Ab3/16 | Ab3/8. F3/16 Eb3/8. Eb3/16 Ab3/4 Eb3/8. Ab3/16 | C4/4 Ab3/8. Ab3/16 Ab3/8. Ab3/16 Ab3/8. G3/16 |
+Ab3/2. |.
