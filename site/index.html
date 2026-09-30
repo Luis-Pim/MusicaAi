@@ -349,12 +349,13 @@ dialog.tuner::backdrop { background: #081323aa; }
     <section class="panel library" aria-labelledby="h-lib" id="library" hidden>
       <h2 id="h-lib">Biblioteca de lições</h2>
       <div class="lib-controls">
-        <label class="label" for="lib-method">Método</label>
-        <select id="lib-method"></select>
         <div class="tabs" role="tablist" aria-label="Tipo de lição">
           <button class="tab" role="tab" type="button" data-tipo="exercicio" aria-selected="true">Exercícios</button>
           <button class="tab" role="tab" type="button" data-tipo="estudo" aria-selected="false">Estudos melódicos</button>
+          <button class="tab" role="tab" type="button" data-tipo="hinos" aria-selected="false">Hinos</button>
         </div>
+        <label class="label" for="lib-method" id="lib-method-label">Método</label>
+        <select id="lib-method"></select>
         <input type="search" id="lib-search" placeholder="Buscar: página, número ou nome" aria-label="Buscar lição">
       </div>
       <div class="lib-list" id="lib-list"></div>
@@ -1838,25 +1839,34 @@ async function loadLibrary() {
     lib.data = await r.json();
   } catch (e) { return; }
   if (!lib.data?.metodos?.length) return;
-  const sel = document.getElementById("lib-method");
-  sel.innerHTML = "";
-  lib.data.metodos.forEach(m => { const o = document.createElement("option"); o.value = m.id; o.textContent = m.nome; sel.append(o); });
   lib.method = store.get("lib-method", lib.data.metodos[0].id);
-  if (!lib.data.metodos.some(m => m.id === lib.method)) lib.method = lib.data.metodos[0].id;
-  sel.value = lib.method;
   lib.tipo = store.get("lib-tipo", "exercicio");
+  if (!["exercicio", "estudo", "hinos"].includes(lib.tipo)) lib.tipo = "exercicio";
+  if (lib.data.metodos.find(m => m.id === lib.method)?.categoria === "hinos") lib.tipo = "hinos";
   document.getElementById("library").hidden = false;
   renderLibrary();
 }
 function renderLibrary() {
-  const m = lib.data.metodos.find(x => x.id === lib.method);
+  const hymns = lib.tipo === "hinos";
+  const methods = lib.data.metodos.filter(m => (m.categoria === "hinos") === hymns);
+  const key = hymns ? "lib-hymn-voice" : "lib-study-method";
+  if (!methods.some(m => m.id === lib.method)) lib.method = store.get(key, methods[0]?.id);
+  if (!methods.some(m => m.id === lib.method)) lib.method = methods[0]?.id;
+  const sel = document.getElementById("lib-method");
+  sel.replaceChildren(...methods.map(m => { const o = document.createElement("option"); o.value = m.id; o.textContent = m.nome; return o; }));
+  sel.value = lib.method || "";
+  sel.disabled = !methods.length;
+  document.getElementById("lib-method-label").textContent = hymns ? "Voz do Hinário 5 CCB" : "Método";
+  document.getElementById("lib-search").placeholder = hymns ? "Buscar hino: número ou nome" : "Buscar: página, número ou nome";
+  store.set(key, lib.method); store.set("lib-method", lib.method); store.set("lib-tipo", lib.tipo);
+  const m = methods.find(x => x.id === lib.method);
   document.querySelectorAll(".tab").forEach(t => t.setAttribute("aria-selected", String(t.dataset.tipo === lib.tipo)));
   const q = stripAccents(document.getElementById("lib-search").value.trim().toLowerCase());
   const box = document.getElementById("lib-list");
   box.innerHTML = "";
   let count = 0;
-  m.secoes.forEach(sec => {
-    const items = sec.licoes.filter(l => l.tipo === lib.tipo && (!q || stripAccents(`${l.titulo} ${sec.titulo} p ${l.pagina} pag ${l.pagina}`.toLowerCase()).includes(q)));
+  (m?.secoes || []).forEach(sec => {
+    const items = sec.licoes.filter(l => (hymns || l.tipo === lib.tipo) && (!q || stripAccents(`${l.titulo} ${sec.titulo} p ${l.pagina} pag ${l.pagina}`.toLowerCase()).includes(q)));
     if (!items.length) return;
     const d = document.createElement("div"); d.className = "lib-sec";
     const h = document.createElement("h3"); h.textContent = sec.titulo; d.append(h);
@@ -1872,7 +1882,7 @@ function renderLibrary() {
     });
     d.append(ul); box.append(d);
   });
-  if (!count) box.innerHTML = `<p class="hint">${q ? "Nenhuma lição encontrada." : lib.tipo === "estudo" ? "Nenhum estudo melódico cadastrado ainda neste método." : "Nenhum exercício cadastrado ainda neste método."}</p>`;
+  if (!count) box.innerHTML = `<p class="hint">${q ? "Nenhuma lição encontrada." : hymns ? "Nenhum hino cadastrado ainda." : lib.tipo === "estudo" ? "Nenhum estudo melódico cadastrado ainda neste método." : "Nenhum exercício cadastrado ainda neste método."}</p>`;
 }
 async function openLesson(l) {
   try {
@@ -1889,7 +1899,7 @@ async function openLesson(l) {
   }
 }
 document.getElementById("lib-method").addEventListener("change", e => { lib.method = e.target.value; store.set("lib-method", lib.method); renderLibrary(); });
-document.querySelectorAll(".tab").forEach(t => t.addEventListener("click", () => { lib.tipo = t.dataset.tipo; store.set("lib-tipo", lib.tipo); renderLibrary(); }));
+document.querySelectorAll(".tab").forEach(t => t.addEventListener("click", () => { lib.tipo = t.dataset.tipo; document.getElementById("lib-search").value = ""; store.set("lib-tipo", lib.tipo); renderLibrary(); }));
 document.getElementById("lib-search").addEventListener("input", () => lib.data && renderLibrary());
 
 /* ============================================================

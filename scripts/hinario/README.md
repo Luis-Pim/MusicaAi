@@ -3,7 +3,7 @@
 As lições em `site/licoes/hinario5-*` são geradas automaticamente a partir dos arquivos do MuseScore do projeto
 [ccb-hinario-5-do](https://github.com/eneiasramos/ccb-hinario-5-do) (Enéias Ramos de Melo), usado com autorização.
 
-Cada hino vira 4 lições, uma por voz (métodos separados na biblioteca):
+Cada hino vira 4 lições, uma por voz (seletor de voz na aba Hinos da biblioteca):
 
 | Método | Voz | Clave |
 |---|---|---|
