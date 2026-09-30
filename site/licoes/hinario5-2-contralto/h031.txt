@@ -1,0 +1,21 @@
+# id: CCB-H5-H31-2
+titulo: Hino 31 · Forte Rocha
+secao: Hinos 1–50
+tipo: exercicio
+compasso: 2/2
+tonalidade: D
+clave: sol
+andamento: 120 seminima
+# Hinário 5 CCB, 2ª voz (contralto). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# autor: Martin Luther
+
+F#4/2 D4/2 | F#4/2 E4/2 | A4/2 D4/2 | E4/2 D4/2 |
+C#4/1 | F#4/2 F#4/2 | D4/2 D4/2 | D4/2 E4/4 D4/4 |
+D4/2 C#4/2 | D4/1 | F#4/2 D4/2 | F#4/2 E4/2 |
+A4/2 D4/2 | E4/2 D4/2 | C#4/1 | F#4/2 F#4/2 |
+D4/2 D4/2 | D4/2 E4/4 D4/4 | D4/2 C#4/2 | D4/2 D4/2 |
+F#4/2 E4/2 | F#4/4 E4/4 E4/4 D4/4 | C#4/2 D4/2 | E4/2 F#4/2 |
+D4/2 E4/2 | F#4/2 F#4/2 | F#4/2 F#4/2 | F#4/2 E4/4 D4/4 |
+C#4/1 | D4/2 G4/2 | F#4/2 F#4/2 | E4/1 |
+C#4/1 | D4/2 F#4/2 | D4/2 D4/2 | D4/2 E4/4 D4/4 |
+D4/2 C#4/2 | A3/1@ |.

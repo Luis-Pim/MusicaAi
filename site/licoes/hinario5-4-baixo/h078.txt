@@ -1,0 +1,16 @@
+# id: CCB-H5-H78-4
+titulo: Hino 78 · Glória a Jesus! Glória a Jesus!
+secao: Hinos 51–100
+tipo: exercicio
+compasso: 6/8
+tonalidade: G
+clave: fa
+andamento: 56 seminima
+# Hinário 5 CCB, 4ª voz (baixo). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# autor: Philip Paul Bliss
+
+G3/4 G3/8 G3/8 G3/8 G3/8 | D3/4 D3/8 D3/4. | D3/8 D3/8 D3/8 D3/4 D3/8 | G2/4. G2/4. |
+G2/4 G2/8 G2/8 G2/8 G2/8 | D3/4 D3/8 D3/4. | D3/8 D3/8 D3/8 D3/4 D3/8 | G2/2. |
+G3/4 G3/8 G3/8 E3/8 D3/8 | C3/4. G3/4. | G3/4 G3/8 F3/8 E3/8 D3/8 | C#3/4. D3/4. |
+D3/8 D3/8 D3/8 D3/4. | G3/8 G3/8 G3/8 G3/4. | G2/8 A2/8 B2/8 C3/4 D3/8 | G2/4. G3/4. |
+F3/8 E3/8 E3/8 Eb3/4. | D3/8 D3/8 D3/8 G3/4. | C3/8 C3/8 D3/8 D3/4 D3/8 | G2/2. |.

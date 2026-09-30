@@ -1,0 +1,16 @@
+# id: CCB-H5-H406-4
+titulo: Hino 406 · A voz de Cristo te convida: Vem!
+secao: Hinos 401–430
+tipo: exercicio
+compasso: 4/4
+tonalidade: G
+clave: fa
+andamento: 72 seminima
+# Hinário 5 CCB, 4ª voz (baixo). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# autor: Judson Wheeler Van DeVenter
+
+G2/4 | G2/4. G2/8 G2/8 G2/8 G2/8 G2/8 | C3/4 E3/4 G3/4 G3/4 | G3/4. G3/8 G3/4 G3/4 |
+D3/2. C3/4 | B2/4. B2/8 G2/8 G2/8 A2/8 B2/8 | C3/4 E3/4 G3/4 F#3/4 | E3/4. E3/8 D3/4 D3/4 |
+G3/2. R/4 | G3/4. G3/8 G3/8 G3/8 G3/8 G3/8 | C3/4 E3/4 G3/2 | G3/4. C3/8 D3/8 D3/8 C3/8 B2/8 |
+A2/4 C#3/4 D3/4 C3/4 | B2/4. C3/8 D3/8 G3/8 F#3/8 G3/8 | C3/4 E3/4 G3/4. D3/8 | D3/4. D3/8 D3/4 D2/4 |
+G2/2. |.

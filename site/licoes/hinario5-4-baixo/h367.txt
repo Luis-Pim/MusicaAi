@@ -1,0 +1,15 @@
+# id: CCB-H5-H367-4
+titulo: Hino 367 · Ao que vive para sempre...
+secao: Hinos 351–400
+tipo: exercicio
+compasso: 3/4
+tonalidade: D
+clave: fa
+andamento: 60 seminima
+# Hinário 5 CCB, 4ª voz (baixo). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# autor: Thomas Hastings
+
+D3/8. D3/16 | D3/4 D3/4 D3/8. D3/16 | G2/4 D3/4 F#2/8. F#2/16 | G2/8. G2/16 A2/4 A2/4 |
+D3/2 D3/8. D3/16 | D3/4 D3/4 D3/8. F#3/16 | G3/4 D3/4 F#3/8. F#3/16 | G3/8. G3/16 A3/4 A2/4 |
+D3/2 D3/8. D3/16 | D3/4 D3/4 D3/8. D3/16 | G2/8. G2/16 A2/4 A2/4 | D3/2 D3/8. D3/16 |
+D3/4 D3/4@ F#2/8. F#2/16 | G2/8. G2/16 A2/4 A2/4 | D2/2@ |.

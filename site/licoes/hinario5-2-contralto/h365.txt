@@ -1,0 +1,16 @@
+# id: CCB-H5-H365-2
+titulo: Hino 365 · Contrito, venho a Ti
+secao: Hinos 351–400
+tipo: exercicio
+compasso: 3/4
+tonalidade: Ab
+clave: sol
+andamento: 56 seminima
+# Hinário 5 CCB, 2ª voz (contralto). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# autor: Robert Lowry
+
+C4/4 | Eb4/4. F4/8 Eb4/8 Db4/8 | C4/2 Eb4/4 | Db4/2 Db4/4 |
+C4/2 Eb4/4 | Eb4/4. Eb4/8 Eb4/8 Eb4/8 | Eb4/2 Eb4/4 | Eb4/4. D4/8 Eb4/8 D4/8 |
+Eb4/2 Eb4/4 | Eb4/4. Eb4/8 Ab4/8 Ab4/8 | Ab4/4 G4/2 | G4/4. Ab4/8 Ab4/8 G4/8 |
+G4/4 F4/4 Gb4/4 | F4/4. F4/8 F4/8 Db4/8 | Eb4/4 C4/4 F4/4 | Eb4/4. C4/8 Db4/4 |
+C4/2@ |.

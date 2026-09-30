@@ -1,0 +1,14 @@
+# id: CCB-H5-H271-4
+titulo: Hino 271 · Graças dou a Ti, ó bom Deus
+secao: Hinos 251–300
+tipo: exercicio
+compasso: 3/4
+tonalidade: G
+clave: fa
+andamento: 80 seminima
+# Hinário 5 CCB, 4ª voz (baixo). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+
+G2/2 G2/4 | G2/2 G2/4 | C3/4 C3/4 C3/4 | G2/2. |
+G2/2 G2/4 | G2/2 B2/4 | A2/4 A2/4 A2/4 | D3/2. |
+G2/2 G2/4 | G2/2 G2/4 | C3/4 C3/4 C3/4 | G2/4 B2/4 D3/4 |
+G3/4 F3/4 D3/4 | C3/4 B2/4 A2/4 | D3/2 D3/4 | G2/2. |.

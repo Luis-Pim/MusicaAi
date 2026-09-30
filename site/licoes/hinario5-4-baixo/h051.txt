@@ -1,0 +1,15 @@
+# id: CCB-H5-H51-4
+titulo: Hino 51 · A Palavra do Senhor é Pão celestial
+secao: Hinos 51–100
+tipo: exercicio
+compasso: 4/4
+tonalidade: Bb
+clave: fa
+andamento: 66 seminima
+# Hinário 5 CCB, 4ª voz (baixo). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# autor: Grant Colfax Tullar
+
+Bb2/2 Bb2/2 | D3/4 Db3/4 C3/2 | F3/2 F2/2 | F2/4 A2/4 Bb2/2 |
+Bb2/4 D3/4 F3/4 F3/4 | C3/4 F3/4 Bb2/4 Bb2/4 | Bb2/2 F3/4 E3/4 | F3/4 F2/4 Bb2/2 |
+Bb3/2 D3/4 Bb2/4 | Bb2/2 C3/4 F2/4 | C3/2 F3/2 | F3/2 Bb2/8 C3/8 D3/8 F3/8 |
+Bb3/2 D3/4 Bb2/4 | Bb2/4 D3/4 Eb3/4 F3/4 | G3/4 E3/4 F3/2 | F2/2 Bb2/2 |.

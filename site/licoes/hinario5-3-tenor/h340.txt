@@ -1,0 +1,17 @@
+# id: CCB-H5-H340-3
+titulo: Hino 340 · No mundo sou peregrino
+secao: Hinos 301–350
+tipo: exercicio
+compasso: 6/4
+tonalidade: Db
+clave: fa
+andamento: 108 seminima
+# Hinário 5 CCB, 3ª voz (tenor). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# autor: B. B. Bosworth
+
+Db4/4 Db4/4 Db4/4 Ab3/4 Gb3/4 F3/4 | Ab3/2. Ab3/2. | Db4/4 Db4/4 Db4/4 Ab3/4 Gb3/4 F3/4 | Eb3/2.~ Eb3/2 R/4 |
+C4/4 Db4/4 Ab3/4 Gb3/4 F3/4 Eb3/4 | F3/4 E3/4 F3/4 Ab3/2 Db4/4 | Db4/4 Ab3/4 Ab3/4 C4/2 Ab3/4 | Ab3/2.~ Ab3/2 R/4 |
+Db4/4 Bb3/4 Ab3/4 Ab3/2 Ab3/4 | G3/2. Ab3/2. | Db4/4 Db4/4 Ab3/4 Ab3/2 Ab3/4 | Ab3/2.~ Ab3/2 R/4 |
+C4/4 C4/4 C4/4 Eb4/2 Ab3/4 | Ab3/2. Ab3/2. | C4/4 Eb4/4 Eb4/4 Eb4/2 Ab3/4 | Ab3/2.~ Ab3/2 R/4 |
+Db4/4 Db4/4 Ab3/4 Ab3/2 Ab3/4 | G3/2. Ab3/2. | Db4/4 Db4/4 Eb4/4 Db4/2 Db4/4 | Db4/2.~ Db4/2 R/4 |
+Db4/4 C4/4 Db4/4 Bb3/4 Ab3/4 Ab3/4 | Ab3/2. Ab3/2. | Gb3/4 Ab3/4 Ab3/4 C4/2 Ab3/4 | Ab3/2.~ Ab3/2 R/4 |.

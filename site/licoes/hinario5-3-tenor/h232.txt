@@ -1,0 +1,15 @@
+# id: CCB-H5-H232-3
+titulo: Hino 232 · Seguro estou...
+secao: Hinos 201–250
+tipo: exercicio
+compasso: 3/4
+tonalidade: G
+clave: fa
+andamento: 60 seminima
+# Hinário 5 CCB, 3ª voz (tenor). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+
+B3/8 B3/8 C4/8 | D4/4. C#4/8 D4/8 C4/8 | C4/4. B3/8 C4/8 D4/8 | B3/2 C4/4 |
+B3/4. B3/8 B3/8 E4/8 | D4/4. E4/8 D4/8 C4/8 | A3/4. D4/8 A3/8 C4/8 | D4/2 D#4/4 |
+E4/4 D4/4 B3/4 | C4/4. A3/8 B3/8 B3/8 | A3/2 C4/4 | D4/4. A3/8 A3/8 D4/8 |
+D4/4. B3/8 B3/8 C4/8 | D4/4. C#4/8 D4/8 C4/8 | C4/4. B3/8 C4/8 D4/8 | B3/4 C4/2 |
+B3/4.@ |.

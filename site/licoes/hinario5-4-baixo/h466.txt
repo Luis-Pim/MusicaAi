@@ -1,0 +1,14 @@
+# id: CCB-H5-H466-4
+titulo: Hino 466 · A criança consagrada
+secao: Hinos de jovens e menores (431–480)
+tipo: exercicio
+compasso: 3/4
+tonalidade: G
+clave: fa
+andamento: 63 seminima
+# Hinário 5 CCB, 4ª voz (baixo). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# autor: Edwin Othello Excell
+
+G3/8. G3/16 | G3/4 G3/4 G3/8. G3/16 | G3/4 G3/4 G3/8. G3/16 | F#3/4 F#3/4 G3/8. G3/16 |
+D3/2 G3/8. G3/16 | D3/4 D3/4 D3/8 D3/8 | G3/4 G3/4 B2/8. B2/16 | C3/4 D3/4 D3/8 D3/8 |
+G2/2 |.

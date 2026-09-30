@@ -1,0 +1,16 @@
+# id: CCB-H5-H341-4
+titulo: Hino 341 · Com fé espera no Senhor
+secao: Hinos 301–350
+tipo: exercicio
+compasso: 6/8
+tonalidade: D
+clave: fa
+andamento: 46 seminima
+# Hinário 5 CCB, 4ª voz (baixo). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# autor: William Batchelder Bradbury
+
+D3/8 | D3/4 D3/8 D3/4 D3/8 | G3/4 G3/8 G3/4 G3/8 | D3/4 D3/8 D3/4 D3/8 |
+A2/4 A2/8 A2/4 D3/8 | D3/4 C#3/8 D3/4 F#3/8 | G3/4 G3/8 G3/4 G3/8 | D3/4 D3/8 D3/4 D3/8 |
+A2/4 A2/8 D3/4 D3/8 | D3/4 E3/8 F#3/4 G3/8 | D3/4 D3/8 D3/4 D3/8 | D3/4 E3/8 F#3/4 G3/8 |
+F#3/4 D3/8 A2/4@ D3/8 | D3/4 C#3/8 D3/4 D#3/8 | E3/4 C#3/8 B2/4@ G2/8 | A2/4 A#2/8 B2/4 Bb2/8 |
+A2/4 A2/8 D2/4@ |.

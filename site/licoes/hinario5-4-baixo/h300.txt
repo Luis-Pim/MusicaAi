@@ -1,0 +1,15 @@
+# id: CCB-H5-H300-4
+titulo: Hino 300 · Tudo o que nos falta
+secao: Hinos 251–300
+tipo: exercicio
+compasso: 4/4
+tonalidade: D
+clave: fa
+andamento: 63 seminima
+# Hinário 5 CCB, 4ª voz (baixo). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# autor: William James Kirkpatrick
+
+D3/8. D3/16 D3/8. D3/16 D3/2 | D3/8. D3/16 D3/8. D3/16 A2/2 | A2/8. A2/16 A2/8. A2/16 A2/2 | D3/8. D3/16 D3/8. D3/16 D3/2 |
+D3/8. D3/16 D3/8. D3/16 D3/2 | G3/8. G3/16 G3/8. G3/16 G3/2 | G3/8. G3/16 G3/8. G3/16 D3/8. D3/16 F#3/8. G3/16 | A3/4 A2/4 D3/2 |
+D3/8. D3/16 D3/8. D3/16 D3/4 R/4 | D3/8. D3/16 D3/8. D3/16 D3/2 | D3/8. D3/16 D3/8. D3/16 D3/4 D3/8. B2/16 | A2/8. A2/16 A2/8. A2/16 A2/2 |
+D3/8. D3/16 D3/8. D3/16 D3/2 | G2/8. G2/16 G2/8. G2/16 G2/2 | A2/8. A2/16 A2/8. A2/16 A2/8. A2/16 A2/4 | D3/1 |.

@@ -1,0 +1,16 @@
+# id: CCB-H5-H277-4
+titulo: Hino 277 · Oh! Quanto é bom louvarmos
+secao: Hinos 251–300
+tipo: exercicio
+compasso: 6/8
+tonalidade: G
+clave: fa
+andamento: 60 seminima
+# Hinário 5 CCB, 4ª voz (baixo). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+
+G3/8 G3/8 G3/8 G3/4 G3/8 | G3/4. G3/4. | G2/8 G2/8 G2/8 F#2/4 G2/8 | A2/2. |
+D3/8 D3/8 D3/8 D3/4 D3/8 | G2/4. G2/4. | A2/8 A2/8 A2/8 A2/4 A2/8 | D3/2. |
+G2/8 G2/8 G2/8 G2/4 G2/8 | G3/4. G3/4. | F3/8 F3/8 F3/8 E3/4 G#2/8 | A2/2. |
+A2/8 C3/8 B2/8 A2/4 C3/8 | D3/4. E3/4. | A2/8 A2/8 A2/8 D3/4 D3/8 | G2/4.~ G2/4 G2/8 |
+G2/4 G2/8 C3/4 C3/8 | G2/4. G2/4 G2/8 | D3/4 D3/8 D3/4 D3/8 | G2/4.~ G2/4 G3/8 |
+G3/4 F3/8 E3/4 D3/8 | C3/4. B2/4 A2/8 | D3/8 C3/8 D3/8 E3/4 D3/8 | G2/2. |.

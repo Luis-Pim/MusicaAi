@@ -1,0 +1,18 @@
+# id: CCB-H5-H198-4
+titulo: Hino 198 · Nosso Pai celeste sabe e provê
+secao: Hinos 151–200
+tipo: exercicio
+compasso: 4/4
+tonalidade: D
+clave: fa
+andamento: 76 seminima
+# Hinário 5 CCB, 4ª voz (baixo). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# autor: Josie Wallace
+
+D3/8 D3/8 | D3/4 D3/4 D3/4 D3/4 | G3/4 G3/8 F#3/8 E3/4 G3/8 F#3/8 | E3/4 D3/4 C#3/4 A2/4 |
+D3/2. D3/8 D3/8 | D3/4 D3/4 B2/4 B2/4 | E2/4 E2/8 F#2/8 G2/4 G#2/4 | A2/4 A2/8 A2/8 A2/4 A2/4 |
+D3/2. R/4 | D3/2 A2/2 | D3/4 D3/2 A3/4 | D3/2 D3/4 D#3/4 |
+E3/2. R/4 | A2/2 E3/2 | A2/4 A2/2 A2/4 | A2/2~ A2/8 A2/8 B2/8 C#3/8 |
+D3/4 F#3/8 G3/8 F#3/4 E3/4 | D3/2 A2/2 | D3/4 D3/2 D3/4 | D3/2 D3/4 D3/4 |
+G3/2. R/4 | G2/4 G2/4 G#2/2 | A2/4 A2/4 B2/2 | E3/4. B2/8 A2/4 C#3/4 |
+D3/2.@ |.

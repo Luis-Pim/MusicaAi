@@ -1,0 +1,16 @@
+# id: CCB-H5-H20-2
+titulo: Hino 20 · Teu Espírito derrama
+secao: Hinos 1–50
+tipo: exercicio
+compasso: 4/4
+tonalidade: F
+clave: sol
+andamento: 72 seminima
+# Hinário 5 CCB, 2ª voz (contralto). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# autor: Charles Davis Tillman
+
+F4/8 F4/8 | F4/4 F4/4 F4/4 C4/4 | C4/2. F4/8 F4/8 | E4/4 E4/4 E4/4 E4/4 |
+F4/2. F4/8 F4/8 | F4/4 F4/4 F4/4 C4/4 | C4/2. F4/8 F4/8 | E4/4 E4/4 E4/4 E4/4 |
+F4/2. R/4 | F4/2 F4/4 F4/8 F4/8 | C4/4 D4/4 C4/2 | E4/2 E4/4 F4/8 E4/8 |
+F4/4 E4/4 F4/2 | F4/2 F4/4 F4/8 F4/8 | C4/4 D4/4 C4/4 F4/4 | F4/2 F4/4 E4/4 |
+F4/2. |.

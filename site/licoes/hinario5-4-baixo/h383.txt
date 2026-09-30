@@ -1,0 +1,14 @@
+# id: CCB-H5-H383-4
+titulo: Hino 383 · Cristo é a Estrela
+secao: Hinos 351–400
+tipo: exercicio
+compasso: 6/8
+tonalidade: F
+clave: fa
+andamento: 52 seminima
+# Hinário 5 CCB, 4ª voz (baixo). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+
+F3/8 F3/8 F3/8 F3/4 F3/8 | G3/4. C3/4. | C3/8 C3/8 C3/8 C3/4 C3/8 | F3/2. |
+F3/8 Bb3/8 G3/8 F3/4 F3/8 | G3/4. G3/4. | C3/8 C3/8 C3/8 E3/4 C3/8 | C3/4 C3/8 F3/4. |
+F3/4 F3/8 G3/4 C3/8 | F3/4. F3/4. | C3/8 C3/8 C3/8 C3/4 E3/8 | F3/2. |
+F3/8 F3/8 F3/8 F3/4 F3/8 | F3/4. A2/4. | C3/8 C3/8 C3/8 C3/4 C3/8 | F2/2. |.

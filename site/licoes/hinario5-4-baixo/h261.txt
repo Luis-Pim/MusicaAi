@@ -1,0 +1,19 @@
+# id: CCB-H5-H261-4
+titulo: Hino 261 · Vivo por Cristo
+secao: Hinos 251–300
+tipo: exercicio
+compasso: 2/2
+tonalidade: F
+clave: fa
+andamento: 100 seminima
+# Hinário 5 CCB, 4ª voz (baixo). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# autor: Carl Harold Lowden
+
+F3/2. F3/4 | E3/2. Eb3/4 | D3/2. C3/4 | F2/2. R/4 |
+C3/2. C3/4 | F3/2. F3/4 | G3/2. G3/4 | C3/2. R/4 |
+F3/2. F3/4 | E3/2. Eb3/4 | D3/2. Bb2/4 | A2/2. R/4 |
+Bb2/4 B2/2 B2/4 | C3/4 A2/2 Bb2/4 | C3/2 R/4 C3/4 | F2/2. F3/4 |
+F3/4 F3/4 C3/4 E3/4 | F3/2. G3/4 | G3/4 G3/4 D3/4 F#3/4 | G3/2. G3/4 |
+C3/4 C3/4 D3/4 E3/4 | F3/2. F2/4 | G2/4 G2/4 G2/4 G2/4 | C3/2. E3/4 |
+F3/4 F3/4 C3/4 E3/4 | F3/2. F3/4 | F3/4 F3/4 F2/4 A2/4 | Bb2/2. Bb2/4 |
+Bb2/4 Bb2/4 Bb2/4 Bb2/4 | C3/4 Eb3/4 D3/4@ D3/4 | G2/4 G2/4 C3/4 C3/4 | F2/1 |.

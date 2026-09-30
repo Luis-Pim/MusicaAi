@@ -1,0 +1,17 @@
+# id: CCB-H5-H436-3
+titulo: Hino 436 · Alegria sinto em servir Jesus
+secao: Hinos de jovens e menores (431–480)
+tipo: exercicio
+compasso: 4/4
+tonalidade: D
+clave: fa
+andamento: 69 seminima
+# Hinário 5 CCB, 3ª voz (tenor). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# autor: Leila Naylor Morris
+
+F#3/8 G3/8 | A3/4 A3/4 A3/8 G#3/8 A3/8 G3/8 | F#3/4 F#3/4 A3/4 A3/8 A3/8 | A3/4 A3/4 A3/8 A3/8 G3/8 G3/8 |
+F#3/4 G3/4 A3/4 A3/8 A3/8 | A3/4 A#3/4 B3/8 B3/8 B3/8 B3/8 | B3/4 A3/4 G3/4 R/4 | R/4 C#4/8. B3/16 A3/4 G3/4 |
+F#3/4 G3/4 F#3/4@ D4/8. D4/16 | B3/8 D4/8 C#4/8 B3/8 A3/2 | A3/4. B3/8 A3/4 C4/8. C4/16 | B3/8 A3/8 B3/8 C#4/8 G#3/4 B3/4 |
+A3/4 B3/4 A3/4 C#4/8. C#4/16 | D4/4 A3/8. A3/16 D4/4 A3/8. A3/16 | A3/4 A3/8. A3/16 A3/4 R/4 | R/4 A3/8. A3/16 C#4/4 A3/8. A3/16 |
+A3/4 F#3/8. B3/16 A3/4 A3/8. A3/16 | A3/4 D4/4 D4/4 C4/8. C4/16 | B3/4 A3/4 G3/4@ B3/8. B3/16 | A3/4 D4/8. D4/16 D4/4 A3/4 |
+A3/4 G#3/4 A3/4@ |.

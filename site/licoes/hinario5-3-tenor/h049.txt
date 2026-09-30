@@ -1,0 +1,15 @@
+# id: CCB-H5-H49-3
+titulo: Hino 49 · Venho adorar-Te, santo Criador
+secao: Hinos 1–50
+tipo: exercicio
+compasso: 6/4
+tonalidade: F
+clave: fa
+andamento: 108 seminima
+# Hinário 5 CCB, 3ª voz (tenor). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# autor: Melodia maori
+
+C4/2. Bb3/2 F3/4 | F3/2.~ F3/2 C4/4 | C4/2 Bb3/4 G3/2 Bb3/4 | A3/2. A3/2. |
+Bb3/2. Bb3/2 F3/4 | F3/2. A3/2. | G3/2 A3/4 G3/2 B3/4 | C4/1~ C4/2 |
+C4/2. Bb3/2 F3/4 | F3/2.~ F3/2 C4/4 | C4/2 Bb3/4 G3/2 Bb3/4 | A3/2. A3/2. |
+Bb3/2. Bb3/2 F3/4 | F3/2 A3/4 F3/2 A3/4 | G3/2. G3/2. | F3/1~ F3/2@ |.

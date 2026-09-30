@@ -1,0 +1,16 @@
+# id: CCB-H5-H327-2
+titulo: Hino 327 · Soldados somos do Senhor
+secao: Hinos 301–350
+tipo: exercicio
+compasso: 4/4
+tonalidade: G
+clave: sol
+andamento: 76 seminima
+# Hinário 5 CCB, 2ª voz (contralto). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# autor: William Burdine Blake
+
+D4/4 | D4/4 D4/4 G4/4 G4/4 | B4/4. A4/8 G4/4 D4/4 | D4/4. G4/8 F#4/4 F#4/4 |
+D4/2. D4/4 | D4/4 D4/4 G4/4 G4/4 | G4/4. F#4/8 G4/4 D4/4 | E4/4. G4/8 F#4/4 F#4/4 |
+D4/2. D4/8. D4/16 | F#4/2. D4/8. D4/16 | D4/2. D4/8. F#4/16 | G4/4. G4/8 G4/4 G4/4 |
+F#4/2. D4/4 | D4/8. D4/16 D4/8. F#4/16 G4/4 G4/4 | G4/8. G4/16 G4/8. E4/16 D4/4 F4/8. F4/16 | E4/4. A4/8 G4/4 F#4/4 |
+D4/2. |.

@@ -1,0 +1,16 @@
+# id: CCB-H5-H17-1
+titulo: Hino 17 · Ó Senhor, vem visitar-me
+secao: Hinos 1–50
+tipo: exercicio
+compasso: 3/4
+tonalidade: G
+clave: sol
+andamento: 60 seminima
+# Hinário 5 CCB, 1ª voz (soprano). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+
+D4/8 D4/8 | G4/4. F#4/8 A4/8 G4/8 | B4/4 B4/4 B4/8 C5/8 | A4/4. D4/8 A4/8 B4/8 |
+G4/2 D4/8 D4/8 | G4/4. F#4/8 A4/8 G4/8 | B4/4 B4/4 B4/8 B4/8 | A4/4. A4/8 B4/8 C#5/8 |
+D5/2 D5/8 D5/8 | E5/4. D5/8 C5/8 B4/8 | C5/4 C5/4 C5/8 C5/8 | D5/4. C5/8 B4/8 A4/8 |
+B4/2. | D5/4. C5/8 B4/8 A4/8 | G4/8 F#4/8 E4/4 D4/4 | D4/8 G4/8 G4/4. F#4/8 |
+A4/8 G4/8 B4/2 | D5/4 C5/2 | C5/4 B4/2 | B4/8 A4/8 G#4/8 A4/8 C5/8 B4/8 |
+G4/2@ |.

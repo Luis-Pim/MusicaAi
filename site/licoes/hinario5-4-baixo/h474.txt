@@ -1,0 +1,15 @@
+# id: CCB-H5-H474-4
+titulo: Hino 474 · Oh! Glória! Bendito é o Senhor!
+secao: Hinos de jovens e menores (431–480)
+tipo: exercicio
+compasso: 4/4
+tonalidade: Bb
+clave: fa
+andamento: 60 seminima
+# Hinário 5 CCB, 4ª voz (baixo). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# autor: Lewis Edgar Jones
+
+Bb2/4 Bb2/8 Bb2/8 Bb2/4 Bb2/8 Bb2/8 | Eb3/4 Eb3/8 Eb3/8 Bb2/4. D3/8 | F3/4 F3/8. F3/16 F3/2 | Bb2/4 Bb2/8. Bb2/16 Bb2/2 |
+Bb2/4 Bb2/8 C3/8 D3/4 Bb2/8 D3/8 | Eb3/4 Eb3/8 Eb3/8 Bb2/4. D3/8 | F3/4 F3/8. F3/16 F3/4 F3/8 F3/8 | Bb2/2. Bb2/8 Bb2/8 |
+Bb2/4 D3/8 F3/8 Bb3/2 | Eb3/8 Eb3/8 Eb3/8 Eb3/8 D3/4 R/4 | R/4 F3/8. F3/16 F3/4 R/4 | R/4 Bb2/8. Bb2/16 Bb2/4 Bb2/8 Bb2/8 |
+Bb2/4 D3/8 F3/8 Bb3/2 | Eb3/8 Eb3/8 G3/8 Eb3/8 Bb2/4 F3/8. F3/16 | F3/4. F3/8 F2/4 F2/4 | Bb2/2. R/4 |.

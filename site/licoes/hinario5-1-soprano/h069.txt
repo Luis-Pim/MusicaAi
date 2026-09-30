@@ -1,0 +1,16 @@
+# id: CCB-H5-H69-1
+titulo: Hino 69 · A família de Jesus
+secao: Hinos 51–100
+tipo: exercicio
+compasso: 4/4
+tonalidade: Db
+clave: sol
+andamento: 63 seminima
+# Hinário 5 CCB, 1ª voz (soprano). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# autor: Frederick Charles Maker
+
+Ab4/4 | Ab4/4. Ab4/8 G4/4 Bb4/4 | Ab4/2 F4/4 Db4/4 | Eb4/4. F4/8 Gb4/4 Gb4/4 |
+F4/2. F4/4 | Db5/4. Db5/8 Db5/4 C5/4 | Bb4/4 Ab4/4 Gb4/4 F4/4 | Eb4/4. Eb4/8 E4/4 E4/4 |
+F4/2. F4/4 | F4/4. Eb4/8 Db4/4 Eb4/4 | F4/4 Gb4/4 Ab4/4 Ab4/4 | Bb4/4. Bb4/8 Bb4/4 F4/4 |
+Gb4/2. Gb4/4 | C5/4. Bb4/8 Ab4/4 Gb4/4 | F4/4 F4/4 Ab4/4 Gb4/4 | F4/4. Db4/8 F4/4 Eb4/4 |
+Db4/2. |.

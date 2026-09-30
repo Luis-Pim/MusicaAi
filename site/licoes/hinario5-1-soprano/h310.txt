@@ -1,0 +1,14 @@
+# id: CCB-H5-H310-1
+titulo: Hino 310 · Nós Te louvamos, ó Rei dos reis
+secao: Hinos 301–350
+tipo: exercicio
+compasso: 2/4
+tonalidade: Bb
+clave: sol
+andamento: 58 seminima
+# Hinário 5 CCB, 1ª voz (soprano). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+
+F4/4 G4/8 A4/8 | Bb4/4 F4/4 | D5/4 C5/8 Bb4/8 | C5/2 |
+C5/4 B4/8 C5/8 | D5/4 C5/4 | C5/8 Bb4/8 A4/8 G4/8 | F4/2 |
+D5/4 C#5/8 D5/8 | Eb5/4 D5/4 | D5/4 C5/8 Bb4/8 | G4/2 |
+Bb4/4 A4/8 G4/8 | F4/4 Bb4/4 | D5/8 C5/8 Bb4/8 A4/8 | Bb4/2@ |.

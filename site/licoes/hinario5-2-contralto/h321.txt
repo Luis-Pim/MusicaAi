@@ -1,0 +1,14 @@
+# id: CCB-H5-H321-2
+titulo: Hino 321 · Bendito seja o Deus vivente
+secao: Hinos 301–350
+tipo: exercicio
+compasso: 4/4
+tonalidade: Ab
+clave: sol
+andamento: 58 seminima
+# Hinário 5 CCB, 2ª voz (contralto). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# autor: Albert Lister Peace
+
+Bb3/4 | C4/4. Eb4/8 Eb4/8 Eb4/8 D4/8 D4/8 | Eb4/2 Eb4/4 Eb4/4 | Eb4/4. Eb4/8 Eb4/8 Eb4/8 G4/8 Ab4/8 |
+Bb4/2 Bb4/4 Eb4/4 | Eb4/4. Eb4/8 E4/8 E4/8 E4/8 E4/8 | F4/2 F4/4 C4/4 | D4/4. D4/8 D4/8 D4/8 D4/8 D4/8 |
+C4/4. Eb4/8 Eb4/4 Eb4/4 | Ab4/2 G4/2 | Ab4/2. |.

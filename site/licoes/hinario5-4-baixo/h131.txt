@@ -1,0 +1,15 @@
+# id: CCB-H5-H131-4
+titulo: Hino 131 · Ó Senhor glorioso, Deus da perfeição
+secao: Hinos 101–150
+tipo: exercicio
+compasso: 4/4
+tonalidade: G
+clave: fa
+andamento: 63 seminima
+# Hinário 5 CCB, 4ª voz (baixo). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# autor: Frederick William Blunt
+
+G2/4 G2/4 G2/4 G2/4 | A2/2 A2/2 | F#3/4 F#3/4 D3/4 D3/4 | G3/1 |
+G2/4 G2/4 G2/4 G2/4 | A2/2 A2/2 | A2/4 A2/4 A2/4 A2/4 | D3/1 |
+G2/4 G2/4 G2/4 G2/4 | A2/2 A2/2 | A2/4 A2/4 C3/4 C3/4 | B2/1 |
+B2/4 B2/4 D3/4 D3/4 | C3/2 A2/2 | D3/4 D3/4 D3/4 D3/4 | G2/1 |.

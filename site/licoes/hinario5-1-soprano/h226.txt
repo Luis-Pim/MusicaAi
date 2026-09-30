@@ -1,0 +1,19 @@
+# id: CCB-H5-H226-1
+titulo: Hino 226 · A história do Evangelho
+secao: Hinos 201–250
+tipo: exercicio
+compasso: 4/4
+tonalidade: D
+clave: sol
+andamento: 69 seminima
+# Hinário 5 CCB, 1ª voz (soprano). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# autor: Joseph Lincoln Hall
+# as repetições (ritornelos e 1ª/2ª casas) foram escritas por extenso.
+
+D4/8 E4/8 | F#4/8 G4/8 E4/8 F#4/8 D4/8 F#4/8 A4/8 A4/8 | B4/8 D5/8 C#5/8 B4/8 A4/4 A4/8 A4/8 | A4/8 B4/8 A4/8 G4/8 F#4/8 A4/8 F#4/8 F#4/8 |
+E4/8 F#4/8 E4/8 D4/8 E4/4@ A4/8 G4/8 | F#4/8 G4/8 E4/8 F#4/8 D4/8 F#4/8 A4/8 A4/8 | B4/8 B4/8 C#5/8 D5/8 C#5/4 B4/8 C#5/8 | D5/8 D5/8 D5/8 D5/8 D5/8 A4/8@ D4/8 E4/8 |
+F#4/8 A4/8 E4/8 F#4/8 D4/4@ D4/8 E4/8 | F#4/8 G4/8 E4/8 F#4/8 D4/8 F#4/8 A4/8 A4/8 | B4/8 D5/8 C#5/8 B4/8 A4/4 A4/8 A4/8 | A4/8 B4/8 A4/8 G4/8 F#4/8 A4/8 F#4/8 F#4/8 |
+E4/8 F#4/8 E4/8 D4/8 E4/4@ A4/8 G4/8 | F#4/8 G4/8 E4/8 F#4/8 D4/8 F#4/8 A4/8 A4/8 | B4/8 B4/8 C#5/8 D5/8 C#5/4 B4/8 C#5/8 | D5/8 D5/8 D5/8 D5/8 D5/8 A4/8@ D4/8 E4/8 |
+F#4/8 A4/8 E4/8 F#4/8 D4/4@ A4/8 F#4/8 | F#4/8 E4/8 E4/8 E4/8 E4/8 E4/8 F#4/8 E4/8 | E4/8 D4/8 D4/8 F#4/8 A4/4 A4/8 F#4/8 | F#4/8 E4/8 E4/8 E4/8 E4/8 E4/8 F#4/8 E4/8 |
+D4/8 F#4/8 C#5/8 B4/8 A4/4 B4/8 C#5/8 | D5/8 D5/8 C#5/8 B4/8 A4/8 F#4/8@ A4/8 A4/8 | B4/8 B4/8 A4/8 F#4/8 E4/4 F#4/8 E4/8 | D4/8 F#4/8 G4/8 A4/8 B4/8 D5/8@ D4/8 E4/8 |
+F#4/8 A4/8 E4/8 F#4/8 D4/4@ |.

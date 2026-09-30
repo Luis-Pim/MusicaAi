@@ -1,0 +1,18 @@
+# id: CCB-H5-H446-4
+titulo: Hino 446 · Vós, ó jovens do Senhor
+secao: Hinos de jovens e menores (431–480)
+tipo: exercicio
+compasso: 4/4
+tonalidade: G
+clave: fa
+andamento: 66 seminima
+# Hinário 5 CCB, 4ª voz (baixo). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# autor: Charles Hutchinson Gabriel
+
+G2/8. G2/16 | G2/8. G2/16 G2/8. G2/16 G2/4 G2/8. G2/16 | C3/8. D3/16 E3/8. E3/16 G3/4 G2/8. G2/16 | G2/8. G2/16 G2/8. G2/16 G2/8. A2/16 B2/8. B2/16 |
+D3/2. D3/8. D3/16 | G2/8. A2/16 B2/8. D3/16 G3/4 B2/8. B2/16 | C3/8. D3/16 E3/8. E3/16 G3/4 G2/8. G2/16 | C3/8. C3/16 C3/8. C3/16 D3/8. D3/16 D3/8. D3/16 |
+G2/2. G3/8. G3/16 | G3/4 G3/4 G3/4 C3/8. C3/16 | G2/8. G2/16 B2/8. D3/16 G3/4 G3/8. G3/16 | G3/4 G3/4 G3/4 G2/8. G2/16 |
+D3/8. D3/16 F#3/8. A3/16 D3/4 D3/8. D3/16 | D3/8. D3/16 D3/8. D3/16 D3/4 D3/8. D3/16 | G2/8. G2/16 G2/8. G2/16 G2/4 G2/8. G2/16 | A2/4 A2/4 A2/4 A2/4 |
+D3/2. F#3/8. F#3/16 | G3/4 G3/4 G3/4 C3/8. C3/16 | G2/8. G2/16 B2/8. D3/16 G3/4 G3/8. G3/16 | G3/4 G3/4 G3/4 G2/8. G2/16 |
+D3/8. D3/16 F#3/8. E3/16 D3/4 D3/8. D3/16 | D3/8. D3/16 D3/8. D3/16 D3/4 D3/8. D3/16 | G2/8. G2/16 G2/8. G2/16 G2/4 G3/8. G3/16 | B2/4 C3/4 D3/4 D3/4 |
+G2/2. |.

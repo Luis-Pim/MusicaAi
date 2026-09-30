@@ -1,0 +1,16 @@
+# id: CCB-H5-H330-2
+titulo: Hino 330 · Ao findar a jornada
+secao: Hinos 301–350
+tipo: exercicio
+compasso: 4/4
+tonalidade: Ab
+clave: sol
+andamento: 80 seminima
+# Hinário 5 CCB, 2ª voz (contralto). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# autor: Elton Menno Roth
+
+C4/8. Db4/16 | Eb4/4 Eb4/8. Eb4/16 Db4/4 Db4/8. Db4/16 | C4/4 Db4/4 C4/4 Ab3/4 | C4/4 C4/8. C4/16 Eb4/4 Eb4/4 |
+Eb4/2. Db4/8. Db4/16 | Eb4/4 Eb4/8. Eb4/16 Eb4/4 Gb4/8. Gb4/16 | F4/4 F4/4 Db4/4 Eb4/4 | D4/4 D4/8. D4/16 D4/4 F4/4 |
+Eb4/4 D4/4 Db4/4@ C4/8. Db4/16 | Eb4/4 Eb4/8. D4/16 Eb4/4. F4/8 | Eb4/4 Eb4/8. Db4/16 C4/4 Gb4/8. Gb4/16 | F4/4 F4/8. F4/16 F4/4 Fb4/4 |
+Eb4/4 Db4/4 Eb4/4 Eb4/8. G4/16 | Ab4/4 Ab4/8. Ab4/16 Ab4/4. Ab4/8 | Ab4/4 Eb4/4 D4/4.@ D4/8 | Eb4/4 Eb4/8. C4/16 Db4/4 Db4/4 |
+C4/2. |.

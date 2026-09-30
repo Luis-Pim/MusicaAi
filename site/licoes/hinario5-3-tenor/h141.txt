@@ -1,0 +1,16 @@
+# id: CCB-H5-H141-3
+titulo: Hino 141 · Cristo, o Verbo
+secao: Hinos 101–150
+tipo: exercicio
+compasso: 6/8
+tonalidade: Eb
+clave: fa
+andamento: 50 seminima
+# Hinário 5 CCB, 3ª voz (tenor). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# autor: George A. Young
+
+G3/8 | Bb3/8. Bb3/16 Bb3/8 Bb3/8. Bb3/16 Bb3/8 | Eb4/8. Eb4/16 Eb4/8 Bb3/4 G3/8 | Bb3/8. Bb3/16 Bb3/8 Ab3/8 G3/8 Bb3/8 |
+Bb3/4.~ Bb3/4 G3/16 Ab3/16 | Bb3/8. Bb3/16 Bb3/8 Bb3/8. Bb3/16 Bb3/8 | Eb4/8. Eb4/16 Eb4/8 Bb3/4 G3/8 | Bb3/8. Bb3/16 Bb3/8 Ab3/8 Bb3/8 Ab3/8 |
+G3/4.~ G3/4 R/8 | G3/8 Bb3/8 Eb4/8 Eb4/8 Bb3/4 | Ab3/8 Eb4/8. Eb4/16 Eb4/4. | Eb4/8 Eb4/8. Eb4/16 Eb4/4 Bb3/8 |
+A3/8 A3/8 A3/8 Bb3/4 Ab3/8 | G3/8 Bb3/8 Eb4/8 Eb4/8 Bb3/8 Db4/8 | Eb4/8 C4/8. Eb4/16 Eb4/4. | Eb4/8. Eb4/16 Eb4/8 Eb4/8 Bb3/8 G3/8 |
+Ab3/8. G3/16 Ab3/8 G3/4@ |.

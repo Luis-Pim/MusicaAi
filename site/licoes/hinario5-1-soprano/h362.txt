@@ -1,0 +1,16 @@
+# id: CCB-H5-H362-1
+titulo: Hino 362 · Que bela herança!
+secao: Hinos 351–400
+tipo: exercicio
+compasso: 9/8
+tonalidade: Ab
+clave: sol
+andamento: 56 seminima
+# Hinário 5 CCB, 1ª voz (soprano). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# autor: James McGranahan
+
+Eb4/8 Ab4/8 Bb4/8 | C5/4. C5/4. C5/8 Bb4/8 Ab4/8 | Bb4/4. Bb4/4. Eb4/8 G4/8 Bb4/8 | Db5/4.~ Db5/4 Db5/8 Db5/8 C5/8 Bb4/8 |
+C5/2. Eb4/8 Ab4/8 Bb4/8 | C5/4. C5/4. C5/8 Bb4/8 Ab4/8 | Bb4/4. Bb4/4. Eb4/8 G4/8 Ab4/8 | Bb4/4.~ Bb4/4 Bb4/8 Bb4/8 Ab4/8 G4/8 |
+Ab4/2. Ab4/8 Bb4/8 C5/8 | Db5/4.~ Db5/4 Db5/8 F4/8 Ab4/8 Db5/8 | C5/4. C5/4. Eb4/8 Ab4/8 C5/8 | Bb4/4.~ Bb4/4 Bb4/8 Bb4/8 Ab4/8 Bb4/8 |
+C5/2. Ab4/8 Bb4/8 C5/8 | Db5/4.~ Db5/4 Db5/8 F4/8 Ab4/8 Db5/8 | C5/4. C5/4. Eb4/8 Ab4/8 C5/8 | Eb5/4.~ Eb5/4 Db5/8 C5/4 Bb4/8 |
+Ab4/2.~ Ab4/4.@ |.
