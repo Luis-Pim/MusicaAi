@@ -41,7 +41,14 @@ Nos arquivos de lição, `pagina:` é a página **impressa no livro**; o nome do
 | 40–41 | 34–35 | estudo melódico 14 (Lá menor, p034-08); estudo em Lá menor (p035-01) | no repositório |
 | 41 | 35 | estudo em Sol maior = escala nº 1 (p035-02) | no repositório |
 | 43–44 | 37–38 | estudo melódico 15 (Sol maior, p037-01); estudo em Sol maior — segundo estudo (p037-02) | no repositório |
-| 46 | 40 | estudo melódico 16 (Mi menor, p040-01) | no repositório (estudo em Mi menor da mesma página ainda pendente) |
+| 46 | 40 | estudo melódico 16 (Mi menor, p040-01); estudo em Mi menor (p040-02) | no repositório |
+| 48 | 42 | estudo melódico 17 (Fá maior, p042-03; D.C. al Fine escrito por extenso) | no repositório |
+| 49 | 43 | estudo em Fá maior (p043-02) | no repositório |
+| 51–52 | 45–46 | estudo melódico 18 (Ré menor, p045-05) | no repositório |
+| 52–53 | 46–47 | estudo em Ré menor (p046-01) | no repositório (leitura incerta nos compassos 5–15) |
+| 55 | 49 | estudo melódico 19 (Ré maior, p049-01; ritornelo e D.S. por extenso) | no repositório |
+| 55–56 | 49–50 | estudo em Ré maior (p049-02; D.C. al Coda por extenso) | no repositório |
+| 58–59 | 54–55 | escala cromática longa (p054-01) | no repositório (gerada pelo padrão cromático) |
 | 39–40 | 33–34 | escalas em Lá menor nº 1–3; arpejos em Lá menor nº 1–2 | no repositório (arpejos nº 3–5 pendentes: leitura incerta) |
 
 ## Catálogo de referência
@@ -54,7 +61,7 @@ A numeração dos estudos melódicos segue `indice_melodico` do catálogo.
 
 Estratégia combinada (priorizar técnica):
 1. ~~Escalas e arpejos até o livro p. 55~~ — concluído (exceto a "Escala cromática" longa da p. 54, que é um estudo variado de 2 páginas, e a escala em Sol maior nº 1, fora do catálogo).
-2. Agora: **estudos e estudos melódicos** a partir do livro p. 26 (apogiaturas), sempre com leitura ampliada (`q.sh`). Lista: `python3 scripts/status_catalogo.py`.
+2. ~~Estudos e estudos melódicos~~ — concluído: **146 de 146 lições do programa (até a p. 55)**.
 3. Revisar o rascunho do progressivos nº 15 (PDF 32, linhas 3–6).
 
 Detalhes:
@@ -77,6 +84,11 @@ Detalhes:
 | 13:40 | 13:55 | 31–32 (7 lições, 1 em rascunho) |
 
 ## Para o professor conferir
+- Escala cromática longa (livro p. 54–55): gerada pelo padrão (cada compasso sobe ou desce 12 semitons a partir da nota inicial lida no livro); conferir os finais de frase que no livro não são estritamente cromáticos (ex.: p. 54, compasso 19; p. 55, compasso 2).
+- Estudo em Ré maior (livro p. 49–50): compassos 19–20 lidos com Dó natural (tercina Dó–Ré–Dó); compasso 28 tem Fá dobrado sustenido (×); conferir as dinâmicas da Coda.
+- Estudo melódico 19 (Ré maior): as semibreves (compassos 7, 11, 23, 27, 31) foram lidas pela posição na pauta (Lá, Lá, Sol, Lá, Si); na 1ª vez do ritornelo, o Ré do Fine foi completado com pausas.
+- Estudo em Ré menor (livro p. 46–47): impressão pequena; ritmos dos compassos 5–15 (colcheia pontuada + semicolcheia + colcheia) e o compasso 42 (última nota lida Fá5) precisam ser conferidos.
+- Estudo melódico 17 (Fá maior): o "D.C. al Fine" foi escrito por extenso (a peça toca de novo do início até o Fine). Compasso 28, ritmo lido como Si colcheia pontuada + Sol semicolcheia; último compasso antes do D.C. lido Dó–Dó♭–Si♭ (tenutos).
 - Estudo melódico 15 (Sol maior), compassos 7 e 45: as duas últimas semicolcheias foram lidas Fá♯–Mi (a imagem cortava o fim da pauta).
 - Estudo melódico 14 (Lá menor), compasso 15: as três colcheias depois do Mi pontuado foram lidas Fá–Sol♯–Fá (a última ficou entre Fá e Sol♯ na imagem). Compasso 12: apogiatura dupla lida Mi–Fá.
 - Mordentes (estudos em Lá menor): escritos como nota–vizinha em fusas antes da nota; o site não tem sinal de mordente.

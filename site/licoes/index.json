@@ -5,7 +5,7 @@
    "nome": "Amadeu Russo – Método Completo de Saxofone",
    "instrumento": "saxalto",
    "ordem": 1,
-   "total": 141,
+   "total": 149,
    "secoes": [
     {
      "titulo": "Primeiros estudos",
@@ -859,6 +859,17 @@
      ]
     },
     {
+     "titulo": "Estudos por tonalidade",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p040-02.txt",
+       "titulo": "Estudo em Mi menor",
+       "tipo": "estudo",
+       "pagina": "40"
+      }
+     ]
+    },
+    {
      "titulo": "Escala em Fá maior",
      "licoes": [
       {
@@ -927,6 +938,17 @@
      ]
     },
     {
+     "titulo": "Estudos melódicos por tonalidade",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p042-03.txt",
+       "titulo": "Estudo melódico 17 · Fá maior",
+       "tipo": "estudo",
+       "pagina": "42"
+      }
+     ]
+    },
+    {
      "titulo": "Escala em Ré menor",
      "licoes": [
       {
@@ -934,7 +956,23 @@
        "titulo": "Escala em Ré menor · nº 1",
        "tipo": "exercicio",
        "pagina": "43"
-      },
+      }
+     ]
+    },
+    {
+     "titulo": "Estudos por tonalidade",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p043-02.txt",
+       "titulo": "Estudo em Fá maior",
+       "tipo": "estudo",
+       "pagina": "43"
+      }
+     ]
+    },
+    {
+     "titulo": "Escala em Ré menor",
+     "licoes": [
       {
        "arquivo": "amadeu-russo-sax/p044-01.txt",
        "titulo": "Escala em Ré menor · nº 2",
@@ -991,6 +1029,28 @@
        "titulo": "Arpejos sobre os acordes de 9ª · nº 5",
        "tipo": "exercicio",
        "pagina": "45"
+      }
+     ]
+    },
+    {
+     "titulo": "Estudos melódicos por tonalidade",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p045-05.txt",
+       "titulo": "Estudo melódico 18 · Ré menor",
+       "tipo": "estudo",
+       "pagina": "45"
+      }
+     ]
+    },
+    {
+     "titulo": "Estudos por tonalidade",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p046-01.txt",
+       "titulo": "Estudo em Ré menor",
+       "tipo": "estudo",
+       "pagina": "46"
       }
      ]
     },
@@ -1063,6 +1123,28 @@
      ]
     },
     {
+     "titulo": "Estudos melódicos por tonalidade",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p049-01.txt",
+       "titulo": "Estudo melódico 19 · Ré maior",
+       "tipo": "estudo",
+       "pagina": "49"
+      }
+     ]
+    },
+    {
+     "titulo": "Estudos por tonalidade",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p049-02.txt",
+       "titulo": "Estudo em Ré maior",
+       "tipo": "estudo",
+       "pagina": "49"
+      }
+     ]
+    },
+    {
      "titulo": "Escala em Si menor",
      "licoes": [
       {
@@ -1105,6 +1187,17 @@
        "titulo": "Arpejos em Si menor · nº 3",
        "tipo": "exercicio",
        "pagina": "51"
+      }
+     ]
+    },
+    {
+     "titulo": "Escala cromática",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p054-01.txt",
+       "titulo": "Escala cromática (estudo)",
+       "tipo": "exercicio",
+       "pagina": "54"
       }
      ]
     }

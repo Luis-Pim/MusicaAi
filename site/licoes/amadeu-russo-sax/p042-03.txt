@@ -1,0 +1,35 @@
+# id: AR-MELODICOS_TONALIDADES-P042-EM-001
+titulo: Estudo melódico 17 · Fá maior
+secao: Estudos melódicos por tonalidade
+tipo: estudo
+pagina: 42
+instrumento: saxalto
+compasso: 6/4
+tonalidade: F
+clave: sol
+andamento: 58 minima
+# indicação escrita: Largo (mínima = 58); "movendo" no penúltimo compasso (escrito como accel).
+# D.C. al Fine: a volta ao início foi escrita por extenso; a peça termina no Fine (compasso 23, Fá5).
+
+!p A4/1. | < A4/4 F4/4 G4/4 A4/4 Bb4/4 B4/4 = | D5/2. D5/4. C5/8 B4/8 D5/8 | > C5/2. C5/4 = R/4 !f C5/4 |
+A5/2. A5/2 G5/4 | F5/2 F4/4 A4/32 G4/8.. E4/4 F4/4 | C5/2. C5/4 C5/8 B4/8 Bb4/8 A4/8 | G4/2. G4/2 R/4 |
+!p D5/1. | < D5/4 Bb4/4 C5/4 D5/4 E5/4 G5/4 = | Bb5/2. Bb5/4. A5/8 G5/8 F5/8 | E5/2. E5/4. F5/8 E5/8 D5/8 |
+C5/4. E5/8 D5/8 C5/8 Bb4/4 Bb4/8 A4/8 Bb4/8 B4/8 | D5/2. D5/4. C5/8 B4/8 D5/8 | < C5/2. C5/8 C5/8' D5/8' E5/8' F5/8' G5/8' = |
+!mf < A5/2. A5/4 G5/4 A5/4 | G5/2 F#5/4 F#5/2 D5/4 | Bb5/2. Bb5/4 A5/4 Bb5/4 = | A5/2 G5/4 G5/2 D5/4 | D5/2. D5/8 C#5/8' D5/8' E5/8' F5/8' G5/8' |
+A5/2 F5/4 C5/4. A4/8 G#4/8 A4/8 | > D5/4. C#5/8 D5/8 D#5/8 E5/4. D#5/8 E5/8 C6/8 = | F5/2 R/4 !mf F4/4 A4/32 G4/8.. F4/4 |
+Eb5/8 D5/8' D5/8 C5/8' C5/8 B4/8' B4/8 D5/8' D5/8 C5/8' C5/8 B4/8' | E5/2> C5/4 F4/4 A4/32 G4/8.. F4/4 |
+D5/8 C5/8' C5/8 Bb4/8' Bb4/8 A4/8' A4/8 C5/8' C5/8 Bb4/8' Bb4/8 A4/8' | D5/2> Bb4/4 F4/4 A4/32 G4/8.. F4/4 |
+F5/8 Eb5/8 Eb5/8 D5/8 D5/8 C5/8 B4/8. G4/16 F#4/8 G4/8 Ab4/8 G4/8 | C5/4. B4/8 C5/8 D5/8 Eb5/4. C5/8 D5/8 E5/8 |
+F5/8 Bb5/8 A5/8 G5/8 F5/8 Eb5/8 D5/8 F5/8 Eb5/8 C5/8 G4/8@ A4/8 | Bb4/2. F4/4 A4/32 G4/8.. F4/4 |
+Eb5/8 D5/8' D5/8 C5/8' C5/8 B4/8' B4/8 D5/8' D5/8 C5/8' C5/8 B4/8' | E5/2 C5/4 F4/4 A4/32 G4/8.. F4/4 |
+D5/8 C5/8' C5/8 Bb4/8' Bb4/8 A4/8' A4/8 C5/8' C5/8 Bb4/8' Bb4/8 A4/8' | C5/2 Bb4/4 Bb4/4 A4/4 Bb4/4 |
+F5/8 D5/8' D5/8 B4/8 B4/8 Ab4/8 Ab4/8 G4/8 G4/8 F#4/8 G4/8 Bb4/8 | D5/4. C5/8 B4/8 C5/8 G5/4. Bb4/8 C5/8 C#5/8 |
+D5/8 G5/8 F5/8 D5/8 Bb4/8 G4/8 Eb5/4. Eb5/8 F5/32 Eb5/16. C5/8 | accel Bb4/4. C5/8 Bb4/8 C5/8 Bb4/4. C5/8 Bb4/8 C5/8 |
+rit Bb4/8 C5/8 Bb4/8 C5/8 Bb4/8 C5/8 Bb4/8 C5/8 Bb4/8 C5/8_ Cb5/8_ Bb4/8_ ||
+# D.C. al Fine (volta ao início até o Fine)
+atempo !p A4/1. | < A4/4 F4/4 G4/4 A4/4 Bb4/4 B4/4 = | D5/2. D5/4. C5/8 B4/8 D5/8 | > C5/2. C5/4 = R/4 !f C5/4 |
+A5/2. A5/2 G5/4 | F5/2 F4/4 A4/32 G4/8.. E4/4 F4/4 | C5/2. C5/4 C5/8 B4/8 Bb4/8 A4/8 | G4/2. G4/2 R/4 |
+!p D5/1. | < D5/4 Bb4/4 C5/4 D5/4 E5/4 G5/4 = | Bb5/2. Bb5/4. A5/8 G5/8 F5/8 | E5/2. E5/4. F5/8 E5/8 D5/8 |
+C5/4. E5/8 D5/8 C5/8 Bb4/4 Bb4/8 A4/8 Bb4/8 B4/8 | D5/2. D5/4. C5/8 B4/8 D5/8 | < C5/2. C5/8 C5/8' D5/8' E5/8' F5/8' G5/8' = |
+!mf < A5/2. A5/4 G5/4 A5/4 | G5/2 F#5/4 F#5/2 D5/4 | Bb5/2. Bb5/4 A5/4 Bb5/4 = | A5/2 G5/4 G5/2 D5/4 | D5/2. D5/8 C#5/8' D5/8' E5/8' F5/8' G5/8' |
+A5/2 F5/4 C5/4. A4/8 G#4/8 A4/8 | > D5/4. C#5/8 D5/8 D#5/8 E5/4. D#5/8 E5/8 C6/8 = | F5/2 R/4 R/2. |.
