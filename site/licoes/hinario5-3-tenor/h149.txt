@@ -7,6 +7,7 @@ tonalidade: G
 clave: fa
 andamento: 72 seminima
 # Hinário 5 CCB, 3ª voz (tenor). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# indicação do hinário: (semínima = 72 - 88) (usado o andamento mínimo)
 # autor: Herbert Henry Howard Booth
 # as repetições (ritornelos e 1ª/2ª casas) foram escritas por extenso.
 

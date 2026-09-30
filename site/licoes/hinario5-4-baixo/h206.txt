@@ -5,8 +5,9 @@ tipo: exercicio
 compasso: 6/8
 tonalidade: Eb
 clave: fa
-andamento: 50 seminima
+andamento: 100 colcheia
 # Hinário 5 CCB, 4ª voz (baixo). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# indicação do hinário: (colcheia = 100 - 138) (usado o andamento mínimo)
 # autor: Louis D. Eichhorn
 
 Bb2/8 | D3/8 C3/8 Bb2/8 Eb3/4 Eb3/8 | C3/4 E3/8 F3/4 F3/8 | F3/4. D3/4 Bb2/8 |

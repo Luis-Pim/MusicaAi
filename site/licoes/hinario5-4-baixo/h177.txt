@@ -5,8 +5,9 @@ tipo: exercicio
 compasso: 9/8
 tonalidade: Eb
 clave: fa
-andamento: 60 seminima
+andamento: 40 seminima pontuada
 # Hinário 5 CCB, 4ª voz (baixo). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# indicação do hinário: (semínima pontuada = 40 - 50) (usado o andamento mínimo)
 # autor: James McGranahan
 
 Eb3/4.~ Eb3/8 Eb3/8 Eb3/8 Bb2/8 Bb2/8 Bb2/8 | Eb3/4. Eb3/4. Eb3/8 Eb3/8 C3/8 | G2/4.~ G2/8 Ab2/8 Bb2/8 Bb2/8 Bb2/8 Bb2/8 | Eb3/2. D3/4. |

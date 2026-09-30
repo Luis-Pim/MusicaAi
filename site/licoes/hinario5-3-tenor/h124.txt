@@ -7,6 +7,7 @@ tonalidade: G
 clave: fa
 andamento: 80 seminima
 # Hinário 5 CCB, 3ª voz (tenor). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# indicação do hinário: (semínima = 80 - 96) (usado o andamento mínimo)
 # autor: May Whittle Moody
 
 B3/4 B3/4 C4/4 D4/4 D4/4 D#4/4 | E4/4 E4/4 E4/4 D4/2. | D4/4 C4/4 B3/4 C4/4 D4/4 C4/4 | B3/4 Bb3/4. Bb3/8 A3/2 C4/4 |

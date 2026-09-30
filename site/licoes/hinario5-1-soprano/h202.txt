@@ -7,6 +7,7 @@ tonalidade: D
 clave: sol
 andamento: 112 seminima
 # Hinário 5 CCB, 1ª voz (soprano). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# indicação do hinário: (semínima = 112 - 132) (usado o andamento mínimo)
 # autor: Daniel Brink Towner
 
 A4/4 | A4/4 F#4/4 G4/4 A4/4 B4/4 F#4/4 | A4/2 G#4/4 G4/2 G4/4 | G4/4 E4/4 F#4/4 G4/4 C#5/4 B4/4 |

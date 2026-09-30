@@ -35,6 +35,33 @@ def spell(pitch, tpc):
     return f"{step}{'#' * alter if alter > 0 else 'b' * -alter}{natural // 12 - 1}"
 
 
+FIGURA = [("unicodeNoteQuarterUp.*unicodeAugmentationDot", "seminima pontuada", F(3, 8)),
+          ("unicodeNoteHalfUp", "minima", F(1, 2)), ("unicodeNote8thUp", "colcheia", F(1, 8)),
+          ("unicodeNoteQuarterUp", "seminima", F(1, 4))]
+
+
+def tempo_mark(xml, playback):
+    """Indicação do hinário, ex. "(♪ = 132 - 144) Com humildade": usa o menor valor e a figura escrita."""
+    fig, valor = "seminima", F(1, 4)
+    for pat, nome, v in FIGURA:
+        if re.search(pat, xml):
+            fig, valor = nome, v
+            break
+    texto = texto_limpo(xml)
+    nums = [int(x) for x in re.findall(r"\d+", texto)]
+    palavras = re.sub(r"[()=\d\-–\s]+", " ", texto).strip()
+    if nums:
+        return (min(nums), fig, texto_limpo(xml), palavras)
+    bpm = round(float(playback) * 60) if playback else 60
+    return (bpm, "seminima", "", palavras)
+
+
+def texto_limpo(xml):
+    t = re.sub(r"<sym>unicodeNoteQuarterUp</sym>(<sym>space</sym>)?<sym>unicodeAugmentationDot</sym>", "semínima pontuada", xml)
+    t = t.replace("<sym>unicodeNoteQuarterUp</sym>", "semínima").replace("<sym>unicodeNote8thUp</sym>", "colcheia").replace("<sym>unicodeNoteHalfUp</sym>", "mínima")
+    return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", t)).strip()
+
+
 def split_value(v):
     """Valor (fração da semibreve) -> lista de figuras com pontos, ligadas."""
     out = []
@@ -93,7 +120,7 @@ def parse(path):
                 elif el.tag == "TimeSig" and si == 0 and rec["time"] is None:
                     rec["time"] = (int(el.findtext("sigN")), int(el.findtext("sigD")))
                 elif el.tag == "Tempo" and rec["tempo"] is None:
-                    rec["tempo"] = float(el.findtext("tempo")) * 60
+                    rec["tempo"] = tempo_mark(ET.tostring(el.find("text"), encoding="unicode") if el.find("text") is not None else "", el.findtext("tempo"))
                 elif el.tag == "Tuplet":
                     tuplets[el.get("id")] = (int(el.findtext("actualNotes")), int(el.findtext("normalNotes")))
                 elif el.tag == "Volta" and si == 0:
@@ -260,9 +287,11 @@ def lesson_text(num, label, meta, key, time, tempo, bars, voz, secao):
         f"compasso: {time[0]}/{time[1]}",
         f"tonalidade: {MAJOR.get(key, 'C')}",
         f"clave: {clave}",
-        f"andamento: {round(tempo) if tempo else 60} seminima",
+        f"andamento: {tempo[0]} {tempo[1]}" if tempo else "andamento: 60 seminima",
         f"# Hinário 5 CCB, {mnome.split('– ')[1]}. Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.",
     ]
+    if tempo and tempo[2]:
+        lines.append(f"# indicação do hinário: {tempo[2]} (usado o andamento mínimo)")
     if meta["compositor"]:
         lines.append(f"# autor: {meta['compositor']}")
     if any(b[2] for b in bars):

@@ -5,8 +5,9 @@ tipo: exercicio
 compasso: 4/4
 tonalidade: Ab
 clave: fa
-andamento: 80 seminima
+andamento: 63 seminima
 # Hinário 5 CCB, 3ª voz (tenor). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# indicação do hinário: (semínima = 63 - 80) (usado o andamento mínimo)
 # autor: Barney Elliott Warren
 
 Ab3/8. Ab3/16 | Ab3/8. Ab3/16 Ab3/8. Ab3/16 Ab3/4 G3/8. Ab3/16 | Ab3/8. Ab3/16 Ab3/8. Ab3/16 Ab3/4 R/4 | R/4 Bb3/8. C4/16 Bb3/4 R/4 |
