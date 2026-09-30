@@ -7,6 +7,7 @@ tonalidade: Ab
 clave: fa
 andamento: 60 seminima
 # Hinário 5 CCB, 3ª voz (tenor). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# indicação do hinário: (semínima = 60 - 72) (usado o andamento mínimo)
 # autor: William Howard Doane
 
 Ab3/8. Ab3/16 | Ab3/2 {3 Eb3/4 Ab3/8 } | Ab3/2 Ab3/8. C4/16 | Bb3/8. C4/16 Bb3/4 G3/4 |

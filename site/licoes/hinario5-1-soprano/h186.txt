@@ -7,6 +7,7 @@ tonalidade: Eb
 clave: sol
 andamento: 60 seminima
 # Hinário 5 CCB, 1ª voz (soprano). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# indicação do hinário: (semínima = 60 - 80) (usado o andamento mínimo)
 # autor: Charles Hutchinson Gabriel
 
 G4/4. F4/8 Eb4/8 F4/8 | G4/4 Bb4/2 | C5/4. Bb4/8 Eb4/8 F4/8 | G4/2. |

@@ -7,6 +7,7 @@ tonalidade: Eb
 clave: sol
 andamento: 63 seminima
 # Hinário 5 CCB, 2ª voz (contralto). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# indicação do hinário: (semínima = 63 - 80) (usado o andamento mínimo)
 
 Eb4/8 Eb4/8 Eb4/8 | Eb4/8. D4/16 Bb3/4. Bb3/8 Eb4/8 F4/8 | G4/8. F4/16 Eb4/4. Eb4/8 Eb4/8 Eb4/8 | Eb4/4 D4/4. C#4/8 D4/8 D4/8 |
 D4/4 Eb4/4. Eb4/8 Eb4/8 Eb4/8 | Eb4/8. D4/16 Bb3/4. Bb3/8 Eb4/8 F4/8 | G4/8. F4/16 Eb4/4. Bb3/8 Eb4/8 Eb4/8 | Eb4/4 Eb4/4 D4/4 Bb3/4 |

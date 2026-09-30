@@ -7,6 +7,7 @@ tonalidade: G
 clave: sol
 andamento: 63 seminima
 # Hinário 5 CCB, 2ª voz (contralto). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# indicação do hinário: (semínima = 63 - 80) (usado o andamento mínimo)
 # autor: William James Kirkpatrick
 
 B3/8. B3/16 | D4/4.. B3/16 D4/8. C4/16 | D4/2 D4/8. D4/16 | D4/2 D4/8. D4/16 |

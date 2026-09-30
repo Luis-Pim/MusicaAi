@@ -7,6 +7,7 @@ tonalidade: G
 clave: fa
 andamento: 80 seminima
 # Hinário 5 CCB, 4ª voz (baixo). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# indicação do hinário: (semínima = 80 - 100) (usado o andamento mínimo)
 # autor: Robert Harkness
 
 G2/4 | G2/4 B2/4 D3/4 G3/4 G3/4 G3/4 | D3/4 D3/4 D3/4 G2/2 R/8 G2/8 | G2/4 B2/4 G2/4 G3/4 G3/4 G3/4 |

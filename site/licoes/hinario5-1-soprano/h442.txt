@@ -7,6 +7,7 @@ tonalidade: Ab
 clave: sol
 andamento: 63 seminima
 # Hinário 5 CCB, 1ª voz (soprano). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# indicação do hinário: (semínima = 63 - 84) (usado o andamento mínimo)
 # autor: George Frederick Root
 
 Eb4/8. Eb4/16 F4/8. Eb4/16 C5/4 Ab4/4 | Bb4/8. Ab4/16 F4/8. G4/16 Ab4/2 | G4/8. Ab4/16 Bb4/8. Ab4/16 C5/8. Bb4/16 Db5/8. G4/16 | Ab4/2. R/4 |

@@ -5,8 +5,9 @@ tipo: exercicio
 compasso: 12/8
 tonalidade: Bb
 clave: sol
-andamento: 54 seminima
+andamento: 108 colcheia
 # Hinário 5 CCB, 2ª voz (contralto). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# indicação do hinário: (colcheia = 108 - 132) (usado o andamento mínimo)
 # autor: Philip Paul Bliss
 
 D4/4. D4/8 F4/8 Eb4/8 Eb4/4. D4/4. | C4/4. C4/8 Eb4/8 D4/8 Bb3/2. | D4/4. D4/8 F4/8 Eb4/8 Eb4/4. D4/4. | C4/4. C4/8 C4/8 C4/8 C4/2. |

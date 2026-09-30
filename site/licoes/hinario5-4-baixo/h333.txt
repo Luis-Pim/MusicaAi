@@ -7,6 +7,7 @@ tonalidade: C
 clave: fa
 andamento: 60 seminima
 # Hinário 5 CCB, 4ª voz (baixo). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# indicação do hinário: (semínima = 60 - 80) (usado o andamento mínimo)
 # autor: William Batchelder Bradbury
 
 C3/8 C3/8 | G3/4 G3/4 G2/8 D3/8 | C3/4 C3/4 E3/8 C3/8 | G3/4. E3/8 F3/8 D3/8 |

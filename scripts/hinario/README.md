@@ -30,6 +30,7 @@ node scripts/validate_lessons.mjs hinario5   # com `cd site && python3 -m http.s
 - A voz de cima de cada pauta (soprano, tenor) é a nota mais aguda de cada ataque; a de baixo (contralto, baixo), a mais grave.
 - Compassos partidos na troca de linha do hinário são unidos de novo.
 - Ritornelos e 1ª/2ª casas são escritos por extenso (a música toca uma vez com cada final).
+- Andamento: a indicação do hinário (ex.: "colcheia = 132 - 144") vira `andamento: 132 colcheia` — sempre o valor mínimo e a figura escrita; o texto original fica num comentário.
 - Fermatas e ligaduras de valor são mantidas; letra, dinâmicas e respirações não.
 - Ficam de fora (lista `EXCLUIR` no script) 19 hinos com mudança de fórmula de compasso no meio ou quiálteras
   irregulares: 94, 238, 275, 280, 296, 302, 320, 342, 346, 348, 350, 352, 359, 368, 415, 422, 459, 462, 464.

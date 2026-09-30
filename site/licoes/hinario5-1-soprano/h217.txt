@@ -5,8 +5,9 @@ tipo: exercicio
 compasso: 6/8
 tonalidade: Db
 clave: sol
-andamento: 56 seminima
+andamento: 112 colcheia
 # Hinário 5 CCB, 1ª voz (soprano). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# indicação do hinário: (colcheia = 112 - 144) (usado o andamento mínimo)
 # autor: Howard E. Smith
 
 F4/8 Eb4/8 Db4/8 F4/8 Gb4/8 Ab4/8 | Gb4/4 C5/8 C5/4. | Gb4/8 F4/8 Eb4/8 Gb4/8 Ab4/8 Bb4/8 | Ab4/4 Db5/8 Db5/4. |

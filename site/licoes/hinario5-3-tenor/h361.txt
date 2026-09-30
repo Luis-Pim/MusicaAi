@@ -7,6 +7,7 @@ tonalidade: Db
 clave: fa
 andamento: 108 seminima
 # Hinário 5 CCB, 3ª voz (tenor). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# indicação do hinário: (semínima = 108 - 126) (usado o andamento mínimo)
 # autor: Justin G. Burt
 
 Ab3/4 Ab3/4 C4/4 Db4/4 Bb3/4 Ab3/4 | Ab3/4 Bb3/4 C4/4 Db4/2. | C4/4 C4/4 Db4/4 C4/4 B3/4 C4/4 | C4/4 Db4/4 Ab3/4 Ab3/2. |

@@ -7,6 +7,7 @@ tonalidade: Eb
 clave: fa
 andamento: 60 seminima
 # Hinário 5 CCB, 3ª voz (tenor). Fonte: projeto ccb-hinario-5-do (Enéias Ramos de Melo), usado com autorização.
+# indicação do hinário: (semínima = 60 - 80) (usado o andamento mínimo)
 # autor: Samuel Sebastian Wesley
 
 Bb3/4 | Bb3/4 Bb3/4 C4/4 Bb3/4 | Bb3/2 Bb3/4 Bb3/4 | C4/4 Eb4/4 D4/4 Bb3/4 |
