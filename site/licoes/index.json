@@ -5,7 +5,7 @@
    "nome": "Amadeu Russo – Método Completo de Saxofone",
    "instrumento": "saxalto",
    "ordem": 1,
-   "total": 148,
+   "total": 149,
    "secoes": [
     {
      "titulo": "Primeiros estudos",
@@ -1187,6 +1187,17 @@
        "titulo": "Arpejos em Si menor · nº 3",
        "tipo": "exercicio",
        "pagina": "51"
+      }
+     ]
+    },
+    {
+     "titulo": "Escala cromática",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p054-01.txt",
+       "titulo": "Escala cromática (estudo)",
+       "tipo": "exercicio",
+       "pagina": "54"
       }
      ]
     }
