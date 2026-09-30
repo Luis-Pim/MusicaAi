@@ -78,6 +78,10 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .label { font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); font-weight: 700; }
 
 .library .lib-controls { display: flex; flex-direction: column; gap: 8px; }
+#hymn-original { min-width: 0; }
+#hymn-pages { overflow-x: auto; max-width: 100%; margin: 12px 0; }
+#hymn-pages canvas { display: block; width: 100%; height: auto; background: white; margin-bottom: 12px; }
+#hymn-pages.zoomed canvas { width: 1100px; max-width: none; }
 #lib-method { width: 100%; max-width: 100%; min-width: 0; text-overflow: ellipsis; }
 select { max-width: 100%; }
 .tabs { display: flex; gap: 4px; background: var(--surface-2); border: 1px solid var(--line); border-radius: 8px; padding: 3px; }
@@ -349,12 +353,13 @@ dialog.tuner::backdrop { background: #081323aa; }
     <section class="panel library" aria-labelledby="h-lib" id="library" hidden>
       <h2 id="h-lib">Biblioteca de lições</h2>
       <div class="lib-controls">
-        <label class="label" for="lib-method">Método</label>
-        <select id="lib-method"></select>
         <div class="tabs" role="tablist" aria-label="Tipo de lição">
           <button class="tab" role="tab" type="button" data-tipo="exercicio" aria-selected="true">Exercícios</button>
           <button class="tab" role="tab" type="button" data-tipo="estudo" aria-selected="false">Estudos melódicos</button>
+          <button class="tab" role="tab" type="button" data-tipo="hinos" aria-selected="false">Hinos</button>
         </div>
+        <label class="label" for="lib-method" id="lib-method-label">Método</label>
+        <select id="lib-method"></select>
         <input type="search" id="lib-search" placeholder="Buscar: página, número ou nome" aria-label="Buscar lição">
       </div>
       <div class="lib-list" id="lib-list"></div>
@@ -523,6 +528,7 @@ dialog.tuner::backdrop { background: #081323aa; }
 <script src="https://cdn.jsdelivr.net/npm/vexflow@4.2.5/build/cjs/vexflow.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.worker.min.js"></script>
+<script src="hymns.js"></script>
 <script>
 "use strict";
 /* ============================================================
@@ -1393,6 +1399,7 @@ const store = {
 };
 
 function applyText(text, { fromEditor = false, keepTempo = false } = {}) {
+  window.HymnScore?.clear();
   const model = parseLesson(text);
   alternateNotation = false;
   computeExpression(model);
@@ -1745,7 +1752,7 @@ recBtn.addEventListener("click", async () => {
     if (errs) setStatus(`Lição lida, mas ${errs} trecho(s) não foram entendidos. Confira no editor abaixo da partitura.`, "warn", avisos);
     else if (warns) setStatus(`Lição lida: ${state.model.measures.length} compassos. Há ${warns} aviso(s) de duração para conferir.`, "warn", avisos);
     else setStatus(`Lição lida: ${state.model.measures.length} compassos. Confira com a página e toque ▶.`, "good", avisos);
-    document.getElementById("score").scrollIntoView({ block: "start", behavior: "smooth" });
+    document.querySelector(".score-panel").scrollIntoView({ block: "start", behavior: "smooth" });
   } catch (e) {
     if (e && e.code === "cancelled") setStatus("Leitura interrompida.");
     else {
@@ -1838,25 +1845,43 @@ async function loadLibrary() {
     lib.data = await r.json();
   } catch (e) { return; }
   if (!lib.data?.metodos?.length) return;
-  const sel = document.getElementById("lib-method");
-  sel.innerHTML = "";
-  lib.data.metodos.forEach(m => { const o = document.createElement("option"); o.value = m.id; o.textContent = m.nome; sel.append(o); });
   lib.method = store.get("lib-method", lib.data.metodos[0].id);
-  if (!lib.data.metodos.some(m => m.id === lib.method)) lib.method = lib.data.metodos[0].id;
-  sel.value = lib.method;
   lib.tipo = store.get("lib-tipo", "exercicio");
+  if (!["exercicio", "estudo", "hinos"].includes(lib.tipo)) lib.tipo = "exercicio";
+  if (lib.data.metodos.find(m => m.id === lib.method)?.categoria === "hinos") lib.tipo = "hinos";
   document.getElementById("library").hidden = false;
   renderLibrary();
+  if (lib.current?.startsWith("hinario5-1-soprano/") && /^# id: CCB-H5-/m.test(srcEl.value)) {
+    const file = lib.current, text = srcEl.value;
+    try {
+      const response = await fetch("licoes/" + file);
+      if (response.ok && await response.text() === text && lib.current === file && srcEl.value === text) window.HymnScore?.show(file);
+    } catch (_) { /* A lição salva continua disponível sem a partitura original. */ }
+  }
 }
 function renderLibrary() {
-  const m = lib.data.metodos.find(x => x.id === lib.method);
+  const hymns = lib.tipo === "hinos";
+  const methods = lib.data.metodos.filter(m => hymns ? m.id === "hinario5-1-soprano" : m.categoria !== "hinos");
+  const key = hymns ? "lib-hymn-voice" : "lib-study-method";
+  if (!methods.some(m => m.id === lib.method)) lib.method = store.get(key, methods[0]?.id);
+  if (!methods.some(m => m.id === lib.method)) lib.method = methods[0]?.id;
+  const sel = document.getElementById("lib-method");
+  sel.replaceChildren(...methods.map(m => { const o = document.createElement("option"); o.value = m.id; o.textContent = m.nome; return o; }));
+  sel.value = lib.method || "";
+  sel.disabled = !methods.length;
+  sel.hidden = hymns;
+  document.getElementById("lib-method-label").hidden = hymns;
+  document.getElementById("lib-method-label").textContent = hymns ? "Voz do Hinário 5 CCB" : "Método";
+  document.getElementById("lib-search").placeholder = hymns ? "Buscar hino: número ou nome" : "Buscar: página, número ou nome";
+  store.set(key, lib.method); store.set("lib-method", lib.method); store.set("lib-tipo", lib.tipo);
+  const m = methods.find(x => x.id === lib.method);
   document.querySelectorAll(".tab").forEach(t => t.setAttribute("aria-selected", String(t.dataset.tipo === lib.tipo)));
   const q = stripAccents(document.getElementById("lib-search").value.trim().toLowerCase());
   const box = document.getElementById("lib-list");
   box.innerHTML = "";
   let count = 0;
-  m.secoes.forEach(sec => {
-    const items = sec.licoes.filter(l => l.tipo === lib.tipo && (!q || stripAccents(`${l.titulo} ${sec.titulo} p ${l.pagina} pag ${l.pagina}`.toLowerCase()).includes(q)));
+  (m?.secoes || []).forEach(sec => {
+    const items = sec.licoes.filter(l => (hymns || l.tipo === lib.tipo) && (!q || stripAccents(`${l.titulo} ${sec.titulo} p ${l.pagina} pag ${l.pagina}`.toLowerCase()).includes(q)));
     if (!items.length) return;
     const d = document.createElement("div"); d.className = "lib-sec";
     const h = document.createElement("h3"); h.textContent = sec.titulo; d.append(h);
@@ -1872,16 +1897,19 @@ function renderLibrary() {
     });
     d.append(ul); box.append(d);
   });
-  if (!count) box.innerHTML = `<p class="hint">${q ? "Nenhuma lição encontrada." : lib.tipo === "estudo" ? "Nenhum estudo melódico cadastrado ainda neste método." : "Nenhum exercício cadastrado ainda neste método."}</p>`;
+  if (!count) box.innerHTML = `<p class="hint">${q ? "Nenhuma lição encontrada." : hymns ? "Nenhum hino cadastrado ainda." : lib.tipo === "estudo" ? "Nenhum estudo melódico cadastrado ainda neste método." : "Nenhum exercício cadastrado ainda neste método."}</p>`;
 }
 async function openLesson(l) {
+  const request = lib.request = (lib.request || 0) + 1;
   try {
     const r = await fetch("licoes/" + l.arquivo, { cache: "no-cache" });
     if (!r.ok) throw new Error(r.status);
     const text = await r.text();
+    if (request !== lib.request) return;
     lib.current = l.arquivo; store.set("lib-current", l.arquivo);
     state.isExample = false; state.extra = null;
     srcEl.value = text; applyText(text);
+    window.HymnScore?.show(l.arquivo);
     renderLibrary();
     if (matchMedia("(max-width: 900px)").matches) document.getElementById("score").scrollIntoView({ block: "start", behavior: "smooth" });
   } catch (e) {
@@ -1889,7 +1917,7 @@ async function openLesson(l) {
   }
 }
 document.getElementById("lib-method").addEventListener("change", e => { lib.method = e.target.value; store.set("lib-method", lib.method); renderLibrary(); });
-document.querySelectorAll(".tab").forEach(t => t.addEventListener("click", () => { lib.tipo = t.dataset.tipo; store.set("lib-tipo", lib.tipo); renderLibrary(); }));
+document.querySelectorAll(".tab").forEach(t => t.addEventListener("click", () => { lib.tipo = t.dataset.tipo; document.getElementById("lib-search").value = ""; store.set("lib-tipo", lib.tipo); renderLibrary(); }));
 document.getElementById("lib-search").addEventListener("input", () => lib.data && renderLibrary());
 
 /* ============================================================

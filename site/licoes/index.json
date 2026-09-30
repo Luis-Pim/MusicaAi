@@ -4067,7 +4067,8 @@
       }
      ]
     }
-   ]
+   ],
+   "categoria": "hinos"
   },
   {
    "id": "hinario5-2-contralto",
@@ -6933,7 +6934,8 @@
       }
      ]
     }
-   ]
+   ],
+   "categoria": "hinos"
   },
   {
    "id": "hinario5-3-tenor",
@@ -9799,7 +9801,8 @@
       }
      ]
     }
-   ]
+   ],
+   "categoria": "hinos"
   },
   {
    "id": "hinario5-4-baixo",
@@ -12665,7 +12668,8 @@
       }
      ]
     }
-   ]
+   ],
+   "categoria": "hinos"
   }
  ]
 }
