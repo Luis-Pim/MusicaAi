@@ -3,7 +3,9 @@
 As lições em `site/licoes/hinario5-*` são geradas automaticamente a partir dos arquivos do MuseScore do projeto
 [ccb-hinario-5-do](https://github.com/eneiasramos/ccb-hinario-5-do) (Enéias Ramos de Melo), usado com autorização.
 
-Cada hino vira 4 lições, uma por voz (métodos separados na biblioteca):
+A aba Hinos mostra uma única entrada por hino/coro e abre o PDF original, com as quatro vozes e letras. Não há seleção de voz. O áudio e a avaliação usam a melodia principal (soprano), informada na tela; a transcrição dessa melodia pode ser aberta para praticar. O PDF permanece em Dó, sem transposição visual.
+
+Os arquivos de prática continuam separados internamente em quatro vozes:
 
 | Método | Voz | Clave |
 |---|---|---|
@@ -32,3 +34,13 @@ node scripts/validate_lessons.mjs hinario5   # com `cd site && python3 -m http.s
 - Fermatas e ligaduras de valor são mantidas; letra, dinâmicas e respirações não.
 - Ficam de fora (lista `EXCLUIR` no script) 19 hinos com mudança de fórmula de compasso no meio ou quiálteras
   irregulares: 94, 238, 275, 280, 296, 302, 320, 342, 346, 348, 350, 352, 359, 368, 415, 422, 459, 462, 464.
+
+## Partitura original
+
+Os PDFs em `site/hinario/` são cópias dos arquivos de `do/pdf` da mesma fonte. `site/hinario/index.json` relaciona cada hino/coro ao PDF. Páginas compartilhadas preservam o hino vizinho e exibem um aviso. O visualizador usa PDF.js, já utilizado pelo site, e oferece zoom e abertura do PDF.
+
+Para atualizar os PDFs a partir de uma cópia local da fonte:
+
+```
+python3 scripts/hinario/import_pdfs.py /tmp/h5/do/pdf
+```

@@ -381,7 +381,7 @@ def main():
     for ordem, voz in enumerate(VOZES, start=2):
         d = dst / voz[0]
         d.mkdir(parents=True, exist_ok=True)
-        (d / "metodo.json").write_text(json.dumps({"id": voz[0], "nome": voz[1], "instrumento": "", "ordem": ordem}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        (d / "metodo.json").write_text(json.dumps({"id": voz[0], "nome": voz[1], "instrumento": "", "ordem": ordem, "categoria": "hinos"}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         for kind, n, f in files:
             try:
                 meta, key, time, tempo, bars = convert(f, voz)
