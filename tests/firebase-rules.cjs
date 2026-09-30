@@ -21,3 +21,28 @@ test('Remoção de acesso bloqueia imediatamente leituras/gravações',async()=>
 test('Orientações são do instrutor responsável; aluno não falsifica orientação',async()=>{const f={authorId:'t1',authorName:'instrutor',text:'Estudar devagar',createdAt:serverTimestamp()};await assertSucceeds(setDoc(doc(db('t1'),'users','s1','feedback','one'),f));await assertFails(setDoc(doc(db('t2'),'users','s1','feedback','other'),{...f,authorId:'t2'}));await assertFails(setDoc(doc(db('s1'),'users','s1','feedback','fake'),{...f,authorId:'s1'}));await assertSucceeds(getDoc(doc(db('s1'),'users','s1','feedback','one')));});
 
 test('Admin ainda consegue bloquear aluno cujo instrutor foi desativado',async()=>{const d=db('admin');await assertSucceeds(updateDoc(doc(d,'users','t1'),{active:false}));await assertSucceeds(updateDoc(doc(d,'users','s1'),{active:false}));await assertSucceeds(updateDoc(doc(d,'users','t1'),{active:true}));await assertSucceeds(updateDoc(doc(d,'users','s1'),{active:true}));});
+
+test('Só Admin cria perfil de teste com autoria e dados válidos',async()=>{
+ const data=profile('aluno',{email:'test@example.com',createdAt:serverTimestamp(),accessMode:'admin-test',createdBy:'admin'});
+ await assertSucceeds(setDoc(doc(db('admin'),'users','teststudent'),data));
+ for(const actor of ['encarregado','t1','s1'])await assertFails(setDoc(doc(db(actor),'users','blocked-'+actor),{...data,createdBy:actor}));
+ await assertFails(setDoc(doc(db('admin'),'users','bad-audit'),{...data,createdBy:'t1'}));
+ await assertFails(setDoc(doc(db('admin'),'users','with-password'),{...data,password:'never-store-passwords'}));
+ await assertFails(setDoc(doc(db('rogue','rogue@example.com',false),'users','rogue'),{...data,email:'rogue@example.com',createdBy:'rogue',role:'admin'}));
+});
+test('Conta de teste não verificada entra só no próprio escopo e pode ser bloqueada',async()=>{
+ const d=db('teststudent','test@example.com',false);
+ await assertSucceeds(getDoc(doc(d,'users','teststudent')));
+ await assertSucceeds(setDoc(doc(d,'users','teststudent','attempts','one'),{createdAt:serverTimestamp(),payload:'{}'}));
+ await assertFails(getDoc(doc(d,'users','s1')));
+ await assertFails(updateDoc(doc(d,'users','teststudent'),{role:'admin'}));
+ await assertSucceeds(updateDoc(doc(db('admin'),'users','teststudent'),{active:false}));
+ await assertFails(getDoc(doc(d,'users','teststudent','attempts','one')));
+});
+test('Marcador de teste não pode ser adicionado/alterado nem inserido por convite',async()=>{
+ await assertFails(updateDoc(doc(db('admin'),'users','s1'),{accessMode:'admin-test',createdBy:'admin'}));
+ await assertFails(updateDoc(doc(db('encarregado'),'users','teststudent'),{createdBy:'encarregado'}));
+ const data=invite('aluno','bypass@example.com','t1','g1','t1');data.profile.accessMode='admin-test';data.profile.createdBy='t1';
+ await assertFails(setDoc(doc(db('t1'),'invites','bypass@example.com'),data));
+ await assertFails(getDoc(doc(db('s1','s1@example.com',false),'users','s1')));
+});

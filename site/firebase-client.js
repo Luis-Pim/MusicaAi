@@ -1,6 +1,6 @@
-import {initializeApp} from 'https://www.gstatic.com/firebasejs/12.19.0/firebase-app.js';
-import {getAuth, onAuthStateChanged, signInWithEmailAndPassword, createUserWithEmailAndPassword, sendEmailVerification, sendPasswordResetEmail, signOut, setPersistence, browserSessionPersistence, connectAuthEmulator} from 'https://www.gstatic.com/firebasejs/12.19.0/firebase-auth.js';
-import {getFirestore, collection, doc, getDoc, getDocs, setDoc, updateDoc, deleteDoc, query, where, limit, orderBy, serverTimestamp, runTransaction, onSnapshot, connectFirestoreEmulator} from 'https://www.gstatic.com/firebasejs/12.19.0/firebase-firestore.js';
+import {initializeApp, deleteApp} from 'https://www.gstatic.com/firebasejs/12.19.0/firebase-app.js';
+import {getAuth, onAuthStateChanged, signInWithEmailAndPassword, createUserWithEmailAndPassword, sendEmailVerification, sendPasswordResetEmail, signOut, setPersistence, browserSessionPersistence, inMemoryPersistence, deleteUser, connectAuthEmulator} from 'https://www.gstatic.com/firebasejs/12.19.0/firebase-auth.js';
+import {getFirestore, collection, doc, getDoc, getDocFromServer, getDocs, setDoc, updateDoc, deleteDoc, query, where, limit, orderBy, serverTimestamp, runTransaction, onSnapshot, connectFirestoreEmulator} from 'https://www.gstatic.com/firebasejs/12.19.0/firebase-firestore.js';
 export async function connect(config) {
   const app=initializeApp(config), auth=getAuth(app), db=getFirestore(app);
   if (['localhost','127.0.0.1'].includes(location.hostname) && window.PV_FIREBASE_EMULATORS) {
@@ -25,6 +25,7 @@ export async function connect(config) {
     async activateProfile(user) {
       const ref=doc(db,'users',user.uid), existing=await getDoc(ref);
       if(existing.exists()) return {uid:user.uid,...existing.data()};
+      if(!user.emailVerified) return null;
       const invitation=doc(db,'invites',user.email.toLowerCase());
       await runTransaction(db,async tx=>{
         const own=await tx.get(ref); if(own.exists()) return;
@@ -43,6 +44,33 @@ export async function connect(config) {
       const profile={name:data.name.trim(),email,role:data.role,active:true,instructorId:data.instructorId||'',groupId:data.groupId||'',createdAt:serverTimestamp()};
       // Transação evita sobrescrever um convite já existente/consumido.
       await runTransaction(db,async tx=>{const ref=doc(db,'invites',email),s=await tx.get(ref);if(s.exists())throw Error('Já existe um convite para este e-mail.');tx.set(ref,{profile,role:profile.role,instructorId:profile.instructorId,createdBy:actor.uid,createdAt:serverTimestamp(),consumedBy:''});});
+    },
+    async createTestAccount(data) {
+      const actorUid=auth.currentUser?.uid;
+      if(!actorUid)throw Error('Entre como Admin para criar contas de teste.');
+      const actor=(await getDocFromServer(doc(db,'users',actorUid))).data();
+      if(!actor?.active||actor.role!=='admin')throw Error('Somente o Admin pode criar contas de teste.');
+      const email=data.email.trim().toLowerCase(),name=data.name.trim();
+      if(!name||name.length>100||!email||!['admin','encarregado','instrutor','aluno'].includes(data.role)||data.password.length<8)throw Error('Preencha nome, e-mail, perfil e senha com pelo menos 8 caracteres.');
+      if((await getDocFromServer(doc(db,'invites',email))).exists())throw Error('Já existe um convite para este e-mail. Cancele o convite pendente ou use outro e-mail.');
+      const secondaryApp=initializeApp(config,'test-account-'+crypto.randomUUID()),secondaryAuth=getAuth(secondaryApp);
+      let created;
+      try {
+        if(['localhost','127.0.0.1'].includes(location.hostname)&&window.PV_FIREBASE_EMULATORS)connectAuthEmulator(secondaryAuth,'http://127.0.0.1:9099',{disableWarnings:true});
+        await setPersistence(secondaryAuth,inMemoryPersistence);
+        created=(await createUserWithEmailAndPassword(secondaryAuth,email,data.password)).user;
+        const profile={name,email,role:data.role,active:true,instructorId:data.role==='aluno'?data.instructorId||'':'',groupId:data.role==='aluno'?data.groupId||'':'',createdAt:serverTimestamp(),accessMode:'admin-test',createdBy:actorUid};
+        const ref=doc(db,'users',created.uid);
+        try { await setDoc(ref,profile); }
+        catch(error) {
+          // Auth e Firestore não compartilham transação: só desfazemos se o servidor confirmar ausência do perfil.
+          let saved;try { saved=await getDocFromServer(ref); } catch (_) { throw Error('Não foi possível confirmar o cadastro. Atualize o painel antes de tentar novamente.'); }
+          if(saved.exists()) { if(saved.data().createdBy===actorUid&&saved.data().accessMode==='admin-test')return created.uid; throw error; }
+          try { await deleteUser(created); } catch (_) { throw Error('O cadastro não foi concluído. Peça a remoção da conta incompleta no console Firebase antes de tentar novamente.'); }
+          throw error;
+        }
+        return created.uid;
+      } finally { await signOut(secondaryAuth).catch(()=>{});await deleteApp(secondaryApp); }
     },
     cancelInvite:email=>deleteDoc(doc(db,'invites',email)),
     updateUser:(uid,data)=>updateDoc(doc(db,'users',uid),data),

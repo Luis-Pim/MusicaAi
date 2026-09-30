@@ -20,7 +20,23 @@ async function authRequest(method,body){const r=await fetch(`http://127.0.0.1:90
  async function logout(){await page.locator('#management-close').click();await page.locator('#logout').click();await page.waitForFunction(()=>!window.PVAccount.profile);}
  await login('admin');await page.locator('#manage-open').click();await page.waitForFunction(()=>document.querySelectorAll('#management-role option').length===4);
  assert.equal(await page.locator('#management-users .management-person').count(),4);
- await logout();await login('encarregado');await page.locator('#manage-open').click();await page.waitForFunction(()=>document.querySelectorAll('#management-role option').length===2);assert.deepEqual(await page.locator('#management-role option').evaluateAll(es=>es.map(e=>e.value)),['instrutor','aluno']);
+ assert(await page.locator('#management-test-section').isVisible());
+ await page.locator('#management-test-section summary').click();
+ await page.locator('#management-test-form [name="name"]').fill('Aluno teste');
+ await page.locator('#management-test-form [name="email"]').fill('teststudent@example.com');
+ await page.locator('#management-test-form [name="password"]').fill('test-password');
+ await page.locator('#management-test-form button').click();
+ await page.waitForFunction(()=>document.querySelector('#management-status').textContent.includes('Conta de teste criada'));
+ assert.equal(await page.evaluate(()=>PVAccount.profile.uid),ids.admin);
+ assert.equal(await page.locator('#management-test-form [name="password"]').inputValue(),'');
+ const testUser=(await authRequest(`projects/${project}/accounts:lookup`,{email:['teststudent@example.com']})).users[0];
+ assert.equal(testUser.emailVerified||false,false);
+ await env.withSecurityRulesDisabled(async c=>{const data=(await require('firebase/firestore').getDoc(doc(c.firestore(),'users',testUser.localId))).data();assert.equal(data.accessMode,'admin-test');assert.equal(data.createdBy,ids.admin);assert(!JSON.stringify(data).includes('test-password'));assert(!('password' in data));});
+ // Falha na gravação do perfil desfaz a identidade recém-criada sem afetar o Admin.
+ const rejected=await page.evaluate(async()=>{try{await PVAccount.api.createTestAccount({name:'Rollback',email:'rollback@example.com',password:'test-password',role:'aluno',instructorId:'missing',groupId:''});return false;}catch(_){return true;}});assert(rejected);
+ const rolledBack=await authRequest(`projects/${project}/accounts:lookup`,{email:['rollback@example.com']});assert(!rolledBack.users?.length);
+
+ await logout();await login('encarregado');await page.locator('#manage-open').click();await page.waitForFunction(()=>document.querySelectorAll('#management-role option').length===2);assert.deepEqual(await page.locator('#management-role option').evaluateAll(es=>es.map(e=>e.value)),['instrutor','aluno']);assert(await page.locator('#management-test-section').isHidden());
  await logout();await login('instrutor');await page.locator('#manage-open').click();await page.waitForFunction(()=>document.querySelectorAll('#management-role option').length===1);assert.equal(await page.locator('#management-users .management-person').count(),1);
  await page.locator('details').filter({has:page.locator('#management-group-form')}).locator('summary').click();
  await page.locator('#management-group-form input').fill('Sax iniciantes');await page.locator('#management-group-form button').click();await page.waitForFunction(()=>document.querySelector('#management-status').textContent.includes('Grupo criado'));
@@ -47,6 +63,11 @@ async function authRequest(method,body){const r=await fetch(`http://127.0.0.1:90
  assert.equal(await page.locator('#login-submit').textContent(),'Entrar');
  await page.locator('#login-password').fill('new-password');await page.locator('#login-submit').click();await page.waitForFunction(()=>PVAccount.profile?.name==='Novo aluno');
  assert.equal(await page.evaluate(()=>PVAccount.profile.role),'aluno');
- assert.deepEqual(errors,[]);console.log('Login real no emulador: quatro perfis, grupos, convites, orientação, histórico persistente, isolamento e remoção de acesso OK');
+ await page.evaluate(()=>PVAccount.api.logout());await login('teststudent');
+ assert.equal(await page.evaluate(()=>PVAccount.profile.accessMode),'admin-test');
+ await page.evaluate(()=>PVAccount.saveAttempt({id:'test-result',version:1,title:'Teste sem confirmação',result:{rows:[]}}));
+ assert.equal((await page.evaluate(()=>PVAccount.listAttempts())).length,1);
+ await page.reload({waitUntil:'domcontentloaded'});await page.waitForFunction(()=>window.PVAccount?.profile?.name==='Aluno teste');
+ assert.deepEqual(errors,[]);console.log('Login real no emulador: quatro perfis, contas de teste sem confirmação, sessão do Admin preservada, rollback, convites, grupos e histórico OK');
  }finally{await browser.close();await new Promise(resolve=>server.close(resolve));await env.cleanup();}
 })().catch(e=>{console.error(e);process.exit(1)});

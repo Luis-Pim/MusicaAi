@@ -6,6 +6,16 @@
   <p id="management-status" role="status" aria-live="polite"></p>
   <div id="management-staff" hidden>
     <div class="management-cards" id="management-counts"></div>
+    <details id="management-test-section" hidden><summary>Criar conta de teste</summary><form id="management-test-form" class="management-form">
+      <label>Nome<input name="name" required maxlength="100" autocomplete="off"></label>
+      <label>E-mail de acesso<input name="email" type="email" required maxlength="254" autocomplete="off"></label>
+      <label>Senha inicial<input name="password" type="password" required minlength="8" maxlength="128" autocomplete="new-password"></label>
+      <label>Perfil<select name="role" id="management-test-role"></select></label>
+      <label id="management-test-instructor-wrap">Instrutor<select name="instructorId" id="management-test-instructor"></select></label>
+      <label id="management-test-group-wrap">Grupo<select name="groupId" id="management-test-group"></select></label>
+      <button class="btn primary" type="submit">Criar conta com senha</button>
+      <p class="hint">A pessoa entra diretamente com o e-mail e a senha definidos aqui, sem confirmar e-mail. Compartilhe os dados de acesso com ela. A senha não será exibida novamente nem salva no histórico.</p>
+    </form></details>
     <details><summary>Convidar uma pessoa</summary><form id="management-invite" class="management-form">
       <label>Nome<input name="name" required maxlength="100" autocomplete="name"></label>
       <label>E-mail<input name="email" type="email" required maxlength="254" autocomplete="email"></label>
@@ -29,20 +39,27 @@
   const text=(tag,value)=>{const el=document.createElement(tag);el.textContent=value;return el;};
   function message(value){$('status').textContent=value;}
   function action(label,fn){const b=text('button',label);b.type='button';b.className='btn small';b.addEventListener('click',()=>run(b,fn));return b;}
-  async function run(button,fn){button.disabled=true;message('');try{await fn();}catch(e){message(e.code?'Não foi possível concluir. Confira suas permissões e a conexão.':e.message);}finally{button.disabled=false;}}
+  async function run(button,fn){button.disabled=true;message('');try{await fn();}catch(e){message(e.code==='auth/email-already-in-use'?'Este e-mail já tem uma conta. Use outro e-mail ou recupere a senha da conta existente.':e.code==='auth/weak-password'?'Escolha uma senha mais forte, com pelo menos 8 caracteres.':e.code?'Não foi possível concluir. Confira suas permissões e a conexão.':e.message);}finally{button.disabled=false;}}
   function options(select,list,empty){select.replaceChildren();if(empty!==undefined){const o=text('option',empty);o.value='';select.append(o);}list.forEach(([value,label])=>{const o=text('option',label);o.value=value;select.append(o);});}
   function instructors(){return account.profile.role==='instrutor'?[account.profile]:users.filter(u=>u.role==='instrutor'&&u.active);}
   function refreshGroups(){const role=$('role').value,teacher=$('instructor').value;$('instructor-wrap').hidden=$('group-wrap').hidden=role!=='aluno';options($('group'),groups.filter(g=>g.instructorId===teacher).map(g=>[g.id,g.name]),'Sem grupo');}
+  function refreshTestGroups(){
+    const student=$('test-role').value==='aluno',teacher=$('test-instructor').value;
+    $('test-instructor-wrap').hidden=$('test-group-wrap').hidden=!student;
+    options($('test-group'),groups.filter(g=>g.instructorId===teacher).map(g=>[g.id,g.name]),'Sem grupo');
+  }
   async function refresh(){
     const version=++revision,p=account.profile;if(!p)return;
     $('title').textContent=p.role==='aluno'?'Minha evolução':'Pessoas e acompanhamento';
-    $('staff').hidden=p.role==='aluno';$('progress').hidden=true;
+    $('staff').hidden=p.role==='aluno';$('progress').hidden=true;$('test-section').hidden=p.role!=='admin';
     if(p.role==='aluno'){await progress(p);return;}
     const result=await Promise.all([account.api.users(p),account.api.groups(p),account.api.invites(p)]);
     if(version!==revision)return;
     [users,groups,invites]=result;
     options($('role'),policy.roles.filter(r=>policy.canCreate(p,r)).map(r=>[r,labels[r]]));
     const list=instructors().map(u=>[u.uid,u.name]);options($('instructor'),list,p.role==='instrutor'?undefined:'Sem instrutor');options($('group-instructor'),list);refreshGroups();
+    options($('test-role'),policy.roles.map(r=>[r,labels[r]]));$('test-role').value='aluno';
+    options($('test-instructor'),list,'Sem instrutor');refreshTestGroups();
     $('counts').replaceChildren(...[['Alunos',users.filter(u=>u.role==='aluno'&&u.active).length],['Grupos',groups.length],['Convites',invites.filter(i=>!i.consumedBy).length]].map(([label,n])=>{const el=document.createElement('div');el.append(text('strong',n),text('span',label));return el;}));
     $('groups').replaceChildren(...groups.map(g=>text('li',`${g.name} · ${instructors().find(u=>u.uid===g.instructorId)?.name||'Instrutor indisponível'}`)));
     renderUsers();$('invites').replaceChildren();
@@ -52,7 +69,7 @@
   function renderUsers(){
     const p=account.profile,term=$('search').value.toLocaleLowerCase();$('users').replaceChildren();
     users.filter(u=>`${u.name} ${u.email}`.toLocaleLowerCase().includes(term)).sort((a,b)=>a.name.localeCompare(b.name)).forEach(u=>{
-      const card=document.createElement('article');card.className='management-person';card.append(text('h4',u.name),text('p',`${labels[u.role]} · ${u.email} · ${u.active?'Ativo':'Acesso removido'}`));
+      const card=document.createElement('article');card.className='management-person';card.append(text('h4',u.name),text('p',`${labels[u.role]} · ${u.email} · ${u.active?'Ativo':'Acesso removido'}${u.accessMode==='admin-test'?' · Conta de teste':''}`));
       if(u.role==='aluno'){
         card.append(text('p',`Grupo: ${groups.find(g=>g.id===u.groupId)?.name||'Sem grupo'}`));
         card.append(action('Acompanhar evolução',()=>progress(u)));
@@ -85,6 +102,17 @@
     feedback.forEach(f=>$('feedback').append(text('li',`${f.authorName} · ${f.createdAt?.toDate().toLocaleString('pt-BR')||''}: ${f.text}`)));
     if(!feedback.length)$('feedback').append(text('li','Nenhuma orientação registrada.'));
   }
+  $('test-form').addEventListener('submit',e=>{
+    e.preventDefault();const form=e.currentTarget;
+    run(form.querySelector('button'),async()=>{
+      const data=Object.fromEntries(new FormData(form));
+      try { await account.api.createTestAccount(data); }
+      finally { form.elements.password.value='';data.password=''; }
+      form.reset();await refresh();message('Conta de teste criada. A pessoa já pode entrar com o e-mail e a senha definidos, sem confirmar o e-mail.');
+    });
+  });
+  $('test-role').addEventListener('change',refreshTestGroups);$('test-instructor').addEventListener('change',refreshTestGroups);
+  dialog.addEventListener('close',()=>{$('test-form').elements.password.value='';});
   $('invite').addEventListener('submit',e=>{e.preventDefault();const form=e.currentTarget;run(form.querySelector('button'),async()=>{const data=Object.fromEntries(new FormData(form));if(data.role!=='aluno'){data.instructorId='';data.groupId='';}await account.api.invite(account.profile,data);form.reset();await refresh();message('Convite criado. Compartilhe o endereço do site e peça à pessoa para ativar a conta com o e-mail cadastrado.');});});
   $('group-form').addEventListener('submit',e=>{e.preventDefault();const form=e.currentTarget;run(form.querySelector('button'),async()=>{const data=Object.fromEntries(new FormData(form));await account.api.createGroup(data.name,data.instructorId);form.reset();await refresh();message('Grupo criado. Você já pode vincular alunos.');});});
   $('feedback-form').addEventListener('submit',e=>{e.preventDefault();const form=e.currentTarget;run(form.querySelector('button'),async()=>{await account.api.addFeedback(selected.uid,account.profile,new FormData(form).get('text'));form.reset();await progress(selected);message('Orientação salva.');});});
