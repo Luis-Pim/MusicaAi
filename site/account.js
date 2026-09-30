@@ -79,14 +79,17 @@
       api.onSession(async user => {
         const request = ++session; show(null); $('login-resend').hidden = true;
         if (!user) return;
-        if (!user.emailVerified) { $('login-resend').hidden = false; notice('Confirme seu e-mail e entre novamente para continuar.'); return; }
         try {
           const p = await api.activateProfile(user);
           if (request !== session) return;
+          if (!user.emailVerified && p?.accessMode !== 'admin-test') { $('login-resend').hidden = false; notice('Confirme seu e-mail e entre novamente para continuar.'); return; }
           if (!p?.active) { notice('Seu acesso ainda não foi liberado ou foi desativado. Fale com o responsável.'); return; }
           notice(''); show(p);
           api.watchProfile(user.uid, next => { if (request === session) { if (next?.active) show(next); else { show(null); notice('Seu acesso foi desativado. Fale com o responsável.'); } } });
-        } catch (e) { if (request === session) notice(friendly(e)); }
+        } catch (e) { if (request === session) {
+          if (!user.emailVerified && e.code === 'permission-denied') { $('login-resend').hidden = false; notice('Confirme seu e-mail e entre novamente para continuar.'); }
+          else notice(friendly(e));
+        } }
       });
       $('login-submit').disabled = false;
     } catch (_) { notice('Não foi possível carregar o acesso. Confira a conexão e recarregue a página.'); }

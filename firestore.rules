@@ -1,7 +1,7 @@
 rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
-    function signed() { return request.auth != null && request.auth.token.email_verified == true; }
+    function signed() { return request.auth != null && (request.auth.token.email_verified == true || exists(/databases/$(database)/documents/users/$(request.auth.uid)) && profile(request.auth.uid).get('accessMode', 'verified') == 'admin-test'); }
     function profile(uid) { return get(/databases/$(database)/documents/users/$(uid)).data; }
     function active() { return signed() && profile(request.auth.uid).active == true; }
     function role() { return profile(request.auth.uid).role; }
@@ -21,12 +21,13 @@ service cloud.firestore {
     }
     function validProfile(d) {
       return d.keys().hasAll(['name','email','role','active','instructorId','groupId','createdAt']) &&
-        d.keys().hasOnly(['name','email','role','active','instructorId','groupId','createdAt']) &&
+        d.keys().hasOnly(['name','email','role','active','instructorId','groupId','createdAt','accessMode','createdBy']) &&
+        (!d.keys().hasAny(['accessMode','createdBy']) || d.accessMode == 'admin-test' && d.createdBy is string) &&
         d.name is string && d.name.size() > 0 && d.name.size() <= 100 &&
         d.email is string && d.email.size() <= 254 && d.role in ['admin','encarregado','instrutor','aluno'] &&
         d.active is bool && d.instructorId is string && d.groupId is string && d.createdAt is timestamp;
     }
-    function ownEmail(email) { return signed() && request.auth.token.email.lower() == email; }
+    function ownEmail(email) { return request.auth != null && request.auth.token.email_verified == true && request.auth.token.email.lower() == email; }
     match /invites/{email} {
       allow get: if ownEmail(email) || staff() || teacher() && (!exists(/databases/$(database)/documents/invites/$(email)) || resource.data.role == 'aluno' && resource.data.instructorId == request.auth.uid);
       allow list: if staff() || teacher() && resource.data.role == 'aluno' && resource.data.instructorId == request.auth.uid;
@@ -34,6 +35,7 @@ service cloud.firestore {
         request.resource.data.keys().hasOnly(['profile','role','instructorId','createdBy','createdAt','consumedBy']) &&
         request.resource.data.role == request.resource.data.profile.role &&
         request.resource.data.instructorId == request.resource.data.profile.instructorId &&
+        !request.resource.data.profile.keys().hasAny(['accessMode','createdBy']) &&
         request.resource.data.profile.email == email && request.resource.data.profile.active == true &&
         request.resource.data.createdBy == request.auth.uid && request.resource.data.createdAt == request.time &&
         request.resource.data.profile.createdAt == request.time && request.resource.data.consumedBy == '';
@@ -45,8 +47,13 @@ service cloud.firestore {
       allow delete: if canManage(resource.data);
     }
     match /users/{uid} {
-      allow get: if signed() && request.auth.uid == uid || canRead(resource.data, uid);
+      allow get: if request.auth != null && request.auth.uid == uid &&
+        (signed() || !exists(/databases/$(database)/documents/users/$(uid))) || canRead(resource.data, uid);
       allow list: if staff() || teacher() && resource.data.role == 'aluno' && resource.data.instructorId == request.auth.uid;
+      allow create: if active() && role() == 'admin' && uid != request.auth.uid &&
+        validProfile(request.resource.data) && validAssignment(request.resource.data) &&
+        request.resource.data.accessMode == 'admin-test' && request.resource.data.createdBy == request.auth.uid &&
+        request.resource.data.active == true && request.resource.data.createdAt == request.time;
       allow create: if ownEmail(request.resource.data.email) && request.auth.uid == uid && validProfile(request.resource.data) && validAssignment(request.resource.data) &&
         get(/databases/$(database)/documents/invites/$(request.resource.data.email)).data.consumedBy == '' &&
         request.resource.data == get(/databases/$(database)/documents/invites/$(request.resource.data.email)).data.profile &&
@@ -54,6 +61,8 @@ service cloud.firestore {
       allow update: if canManage(resource.data) && canManage(request.resource.data) && uid != request.auth.uid &&
         validProfile(request.resource.data) &&
         (request.resource.data.instructorId == resource.data.instructorId && request.resource.data.groupId == resource.data.groupId || validAssignment(request.resource.data)) &&
+        request.resource.data.get('accessMode', 'verified') == resource.data.get('accessMode', 'verified') &&
+        request.resource.data.get('createdBy', '') == resource.data.get('createdBy', '') &&
         request.resource.data.email == resource.data.email &&
         request.resource.data.createdAt == resource.data.createdAt && request.resource.data.role == resource.data.role;
       // O perfil deve ser bloqueado antes da limpeza definitiva de dados no console.

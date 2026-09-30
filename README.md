@@ -107,7 +107,7 @@ aws configure            # chave de um usuário IAM com permissão de S3 e Cloud
 ```
 
 O script imprime o endereço `https://xxxx.cloudfront.net` para enviar aos professores. Para atualizar depois, rode de novo.
-O endereço e os arquivos estáticos das lições são públicos. O acesso às contas e aos dados privados usa Firebase Authentication e regras Firestore. A senha demo foi removida. O primeiro acesso acontece por convite, senha própria e confirmação do e-mail.
+O endereço e os arquivos estáticos das lições são públicos. O acesso às contas e aos dados privados usa Firebase Authentication e regras Firestore. A senha demo foi removida. O primeiro acesso pode ocorrer por convite com confirmação de e-mail ou por conta de teste criada pelo Admin, com senha inicial e entrada direta.
 Use um bucket exclusivo deste projeto: a sincronização remove arquivos remotos que não existem mais em `site/`.
 Instaladores Python (`.whl`), arquivos ZIP e arquivos `.env` não são enviados.
 
@@ -163,3 +163,5 @@ O painel **Pessoas e grupos** permite convidar usuários e organizar alunos, con
 O responsável cria o convite e compartilha o endereço do site. A pessoa ativa a conta usando o e-mail convidado. “Remover acesso” bloqueia o perfil e preserva o histórico; a exclusão definitiva da identidade é feita no console Firebase.
 
 Configuração, bootstrap do Admin, limites do plano gratuito e matriz de permissões: [docs/FIREBASE.md](docs/FIREBASE.md).
+
+O Admin também tem a opção **Criar conta de teste**: define o e-mail, a senha e o perfil, sem confirmação de e-mail para essa conta. As permissões continuam valendo no banco; a exceção é exclusiva das contas provisionadas pelo Admin. As senhas não são armazenadas no Firestore nem ficam disponíveis para consulta.
