@@ -5,7 +5,7 @@
    "nome": "Amadeu Russo – Método Completo de Saxofone",
    "instrumento": "saxalto",
    "ordem": 1,
-   "total": 147,
+   "total": 148,
    "secoes": [
     {
      "titulo": "Primeiros estudos",
@@ -1128,6 +1128,17 @@
       {
        "arquivo": "amadeu-russo-sax/p049-01.txt",
        "titulo": "Estudo melódico 19 · Ré maior",
+       "tipo": "estudo",
+       "pagina": "49"
+      }
+     ]
+    },
+    {
+     "titulo": "Estudos por tonalidade",
+     "licoes": [
+      {
+       "arquivo": "amadeu-russo-sax/p049-02.txt",
+       "titulo": "Estudo em Ré maior",
        "tipo": "estudo",
        "pagina": "49"
       }

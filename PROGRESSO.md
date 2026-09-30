@@ -47,6 +47,7 @@ Nos arquivos de lição, `pagina:` é a página **impressa no livro**; o nome do
 | 51–52 | 45–46 | estudo melódico 18 (Ré menor, p045-05) | no repositório |
 | 52–53 | 46–47 | estudo em Ré menor (p046-01) | no repositório (leitura incerta nos compassos 5–15) |
 | 55 | 49 | estudo melódico 19 (Ré maior, p049-01; ritornelo e D.S. por extenso) | no repositório |
+| 55–56 | 49–50 | estudo em Ré maior (p049-02; D.C. al Coda por extenso) | no repositório |
 | 39–40 | 33–34 | escalas em Lá menor nº 1–3; arpejos em Lá menor nº 1–2 | no repositório (arpejos nº 3–5 pendentes: leitura incerta) |
 
 ## Catálogo de referência
@@ -82,6 +83,7 @@ Detalhes:
 | 13:40 | 13:55 | 31–32 (7 lições, 1 em rascunho) |
 
 ## Para o professor conferir
+- Estudo em Ré maior (livro p. 49–50): compassos 19–20 lidos com Dó natural (tercina Dó–Ré–Dó); compasso 28 tem Fá dobrado sustenido (×); conferir as dinâmicas da Coda.
 - Estudo melódico 19 (Ré maior): as semibreves (compassos 7, 11, 23, 27, 31) foram lidas pela posição na pauta (Lá, Lá, Sol, Lá, Si); na 1ª vez do ritornelo, o Ré do Fine foi completado com pausas.
 - Estudo em Ré menor (livro p. 46–47): impressão pequena; ritmos dos compassos 5–15 (colcheia pontuada + semicolcheia + colcheia) e o compasso 42 (última nota lida Fá5) precisam ser conferidos.
 - Estudo melódico 17 (Fá maior): o "D.C. al Fine" foi escrito por extenso (a peça toca de novo do início até o Fine). Compasso 28, ritmo lido como Si colcheia pontuada + Sol semicolcheia; último compasso antes do D.C. lido Dó–Dó♭–Si♭ (tenutos).
